@@ -1,10 +1,9 @@
 //ToDos
 
-Do routing of the different datastreams
-	Make datastreams start and stop with radio buttons.
+Do routing of the input and output datastreams using radio buttons and metros
 
-Start to design training data recording code
-	Record button which samples datastreams into a dict.
+Build the storeing of the datastreams in a dict
+	Make a visualisation of the dictionary contence
 
-Check that Rapidmax works
+
 
