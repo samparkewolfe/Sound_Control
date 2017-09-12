@@ -1,10 +1,17 @@
 //ToDos
 
-Do routing for instrument outputs and sensor controlling
-	Make on/off buttons for each sensor and synth
+Do routing for instrument outputs and sensor controlling.
+	Make on/off buttons for each sensor and synth.
+	Save CPU.
 
-Build the storing of the datastreams in a dict
-	Make a visualisation of the dictionary contense
+Better instruments.
 
+Order We Will Rock You!
 
+Make camera automatically choose webcam.
 
+Granulator parameters better.
+
+Visualisation of the training data.
+
+Saving and opening of training data.

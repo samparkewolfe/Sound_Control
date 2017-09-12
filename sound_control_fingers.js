@@ -16,7 +16,7 @@ function bang()
 		
 	while (l<5)
 	{
-		list_of_fingers.push([0., 0., 0.])
+		list_of_fingers.push([0.0, 0.0, 0.0])
 		l = l+1
 	}
 	
