@@ -1,9 +1,10 @@
 //ToDos
 
-Do routing of the input and output datastreams using radio buttons and metros
+Do routing for instrument outputs and sensor controlling
+	Make on/off buttons for each sensor and synth
 
-Build the storeing of the datastreams in a dict
-	Make a visualisation of the dictionary contence
+Build the storing of the datastreams in a dict
+	Make a visualisation of the dictionary contense
 
 
 
