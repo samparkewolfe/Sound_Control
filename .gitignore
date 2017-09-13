@@ -19,16 +19,21 @@
 *.rar
 *.tar
 *.zip
+
+# Binary Files #
+############
 *.h5
 *.wav
-*.out
 *.png
+*.ogg
+*.mp3
 
 # Logs and databases #
 ######################
 *.log
 *.sql
 *.sqlite
+*.out
 
 # OS generated files #
 ######################
