@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 729.0, 145.0 ],
+		"rect" : [ 440.0, 269.0, 729.0, 145.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 149.5, 512.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 363.0, 430.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -84,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.5, 560.0, 449.0, 22.0 ],
-					"presentation_rect" : [ 363.0, 478.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "script newobject bpatcher @varname model @name $1 @patching_position 620 0"
 				}
@@ -98,7 +96,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 105.5, 433.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 188.0, 314.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -125,7 +122,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.5, 481.0, 473.0, 22.0 ],
-					"presentation_rect" : [ 188.0, 362.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "script newobject bpatcher @varname instrument @name $1 @patching_position 310 0"
 				}
@@ -613,10 +609,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
