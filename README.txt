@@ -1,21 +1,31 @@
 //ToDos
 
-Do routing for instrument outputs and sensor controlling.
-	Make on/off buttons for each sensor and synth.
-	Save CPU.
+Do another UI flow chart of all possible outcomes
 
-Better instruments.
+Go through UI with Nielsen’s Heuristics.
 
-Order We Will Rock You!
 
-Make camera automatically choose webcam.
+Rename window 1
 
-Granulator parameters better.
+Clean up files into subdirectories
+
+Have main automatically delete (the patcher) when closed
+
+Have main automatically open when generated
+
+rename main
+
+
+Spruce up UI of main
+
+Make multiple sessions be able to be generated and run at once
 
 Visualisation of the training data.
 
+Better instruments.
+
+Order We Will Rock You?
+
+Make camera automatically choose webcam.
+
 Saving and opening of training data.
-
-Develop more methods of making music.
-
-Expand on making sure the interface is very easy.
