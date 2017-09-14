@@ -835,7 +835,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1843.666626, 1185.999878, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "7"
+					"text" : "1"
 				}
 
 			}
@@ -5329,10 +5329,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-75" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-135" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-279" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
-			"obj-240" : [ "multislider", "multislider", 0 ]
+			"obj-75" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-240" : [ "multislider", "multislider", 0 ],
+			"obj-135" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

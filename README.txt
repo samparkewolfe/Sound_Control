@@ -15,3 +15,7 @@ Granulator parameters better.
 Visualisation of the training data.
 
 Saving and opening of training data.
+
+Develop more methods of making music.
+
+Expand on making sure the interface is very easy.
