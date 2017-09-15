@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 840.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -547,6 +547,7 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "jit.pwindow",
+					"name" : "leap",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -981,6 +982,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "sound_control_fingers.js",
+				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "aka.leapmotion.mxo",
 				"type" : "iLaX"
 			}

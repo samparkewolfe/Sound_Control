@@ -545,6 +545,8 @@
 					"patching_rect" : [ 51.333252, 476.833313, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"enabled" : [ 1 ],
+						"pitchshift" : [ 1.070866 ],
+						"pitchshiftcent" : [ 119 ],
 						"quality" : "basic",
 						"reportlatency" : 0,
 						"usecents" : 0
