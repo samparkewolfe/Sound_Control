@@ -36,7 +36,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"title" : "new name",
+		"title" : "Sound_Control_Generate_Instrument.maxpat",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-47",
@@ -44,8 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 817.0, 300.0, 143.0, 22.0 ],
-					"presentation_rect" : [ 817.0, 300.0, 0.0, 0.0 ],
+					"patching_rect" : [ 817.0, 298.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "script size mixer 310 240"
 				}
@@ -59,22 +58,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 168.5, 584.0, 504.0, 22.0 ],
-					"presentation_rect" : [ 176.5, 612.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "script newobject bpatcher @varname mixer @name mixer.maxpat @patching_position 930 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.0, 240.0, 475.0, 22.0 ],
-					"style" : "",
-					"text" : "script newobject message @text open @presentation 1 @presentation_position 560 71"
 				}
 
 			}
@@ -150,9 +135,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.5, 457.0, 165.0, 22.0 ],
+					"patching_rect" : [ 105.5, 457.0, 142.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf instrument%ld.maxpat"
+					"text" : "sprintf sound%ld.maxpat"
 				}
 
 			}
@@ -163,9 +148,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.5, 481.0, 473.0, 22.0 ],
+					"patching_rect" : [ 105.5, 481.0, 449.0, 22.0 ],
 					"style" : "",
-					"text" : "script newobject bpatcher @varname instrument @name $1 @patching_position 310 0"
+					"text" : "script newobject bpatcher @varname sound @name $1 @patching_position 310 0"
 				}
 
 			}
@@ -258,9 +243,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 776.0, 250.0, 170.0, 22.0 ],
+					"patching_rect" : [ 776.0, 250.0, 147.0, 22.0 ],
 					"style" : "",
-					"text" : "script size instrument 310 240"
+					"text" : "script size sound 310 240"
 				}
 
 			}
@@ -322,9 +307,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 206.0, 522.0, 22.0 ],
+					"patching_rect" : [ 54.0, 233.0, 561.0, 22.0 ],
 					"style" : "",
-					"text" : "script newobject newobj @text main @fixwidth 1 @patching_position 560. 101. @presentation 1"
+					"text" : "script newobject newobj @text myinstrument @fixwidth 1 @patching_position 560. 71. @presentation 1"
 				}
 
 			}
@@ -444,47 +429,11 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-63",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 560.0, 71.0, 50.0, 22.0 ],
-					"style" : "",
-					"text" : "open"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-64",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 560.0, 101.0, 37.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 560.0, 101.0, 100.0, 22.0 ],
-					"style" : "",
-					"text" : "main"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -504,16 +453,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"order" : 0,
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"order" : 1,
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -727,50 +667,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-64::obj-2::obj-279" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
-			"obj-64::obj-7::obj-135" : [ "live.gain~", "live.gain~", 0 ]
+
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "main.maxpat",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/scr",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sensor1.maxpat",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/scr",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "instrument1.maxpat",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/scr",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "model1.maxpat",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/scr",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mixer.maxpat",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/scr",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rapidmax.mxo",
-				"type" : "iLaX"
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
