@@ -39,12 +39,82 @@
 		"title" : "Generate_Instrument.maxpat",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 801.0, 115.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 769.0, 169.0, 143.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "subpatch_construction.js",
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "js subpatch_construction"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "", "", "int" ],
+					"patching_rect" : [ 54.0, 195.0, 61.0, 22.0 ],
+					"style" : "",
+					"text" : "counter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 54.0, 219.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 54.0, 243.0, 139.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf myinstrument%ld"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-47",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 817.0, 284.0, 143.0, 22.0 ],
+					"patching_rect" : [ 882.0, 421.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "script size mixer 310 240"
 				}
@@ -57,7 +127,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.5, 570.0, 504.0, 22.0 ],
+					"patching_rect" : [ 168.5, 700.0, 504.0, 22.0 ],
 					"style" : "",
 					"text" : "script newobject bpatcher @varname mixer @name mixer.maxpat @patching_position 930 0"
 				}
@@ -83,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 149.5, 498.0, 29.5, 22.0 ],
+					"patching_rect" : [ 149.5, 628.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -96,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.5, 522.0, 142.0, 22.0 ],
+					"patching_rect" : [ 149.5, 652.0, 142.0, 22.0 ],
 					"style" : "",
 					"text" : "sprintf model%ld.maxpat"
 				}
@@ -109,7 +179,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.5, 546.0, 449.0, 22.0 ],
+					"patching_rect" : [ 149.5, 676.0, 449.0, 22.0 ],
 					"style" : "",
 					"text" : "script newobject bpatcher @varname model @name $1 @patching_position 620 0"
 				}
@@ -122,7 +192,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 105.5, 419.0, 29.5, 22.0 ],
+					"patching_rect" : [ 105.5, 549.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -135,7 +205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.5, 443.0, 142.0, 22.0 ],
+					"patching_rect" : [ 105.5, 573.0, 142.0, 22.0 ],
 					"style" : "",
 					"text" : "sprintf sound%ld.maxpat"
 				}
@@ -148,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.5, 467.0, 449.0, 22.0 ],
+					"patching_rect" : [ 105.5, 597.0, 449.0, 22.0 ],
 					"style" : "",
 					"text" : "script newobject bpatcher @varname sound @name $1 @patching_position 310 0"
 				}
@@ -161,7 +231,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 68.5, 336.0, 29.5, 22.0 ],
+					"patching_rect" : [ 68.5, 466.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -174,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.5, 360.0, 145.0, 22.0 ],
+					"patching_rect" : [ 68.5, 490.0, 145.0, 22.0 ],
 					"style" : "",
 					"text" : "sprintf sensor%ld.maxpat"
 				}
@@ -187,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.5, 384.0, 439.0, 22.0 ],
+					"patching_rect" : [ 68.5, 514.0, 439.0, 22.0 ],
 					"style" : "",
 					"text" : "script newobject bpatcher @varname sensor @name $1 @patching_position 0 0"
 				}
@@ -230,7 +300,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 799.0, 260.0, 147.0, 22.0 ],
+					"patching_rect" : [ 864.0, 397.0, 147.0, 22.0 ],
 					"style" : "",
 					"text" : "script size model 310 240"
 				}
@@ -243,7 +313,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 776.0, 236.0, 147.0, 22.0 ],
+					"patching_rect" : [ 841.0, 373.0, 147.0, 22.0 ],
 					"style" : "",
 					"text" : "script size sound 310 240"
 				}
@@ -256,7 +326,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 760.5, 212.0, 150.0, 22.0 ],
+					"patching_rect" : [ 825.5, 349.0, 150.0, 22.0 ],
 					"style" : "",
 					"text" : "script size sensor 310 240"
 				}
@@ -268,7 +338,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.5, 639.0, 119.0, 22.0 ],
+					"patching_rect" : [ 68.5, 769.0, 119.0, 22.0 ],
 					"style" : "",
 					"text" : "s main_patcher_info"
 				}
@@ -307,9 +377,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 219.0, 561.0, 22.0 ],
+					"patching_rect" : [ 54.0, 349.0, 757.0, 22.0 ],
 					"style" : "",
-					"text" : "script newobject newobj @text myinstrument @fixwidth 1 @patching_position 560. 71. @presentation 1"
+					"text" : "script newobject newobj @text myinstrument @varname $1 @patching_position 1020. 82. @presentation_position 560. 71. @presentation 1"
 				}
 
 			}
@@ -320,7 +390,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 54.0, 264.0, 69.0, 22.0 ],
+					"patching_rect" : [ 54.0, 394.0, 69.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"style" : "",
 					"text" : "thispatcher"
@@ -432,6 +502,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -453,7 +530,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -519,6 +596,27 @@
 					"destination" : [ "obj-59", 0 ],
 					"order" : 1,
 					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -666,7 +764,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "subpatch_construction.js",
+				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
