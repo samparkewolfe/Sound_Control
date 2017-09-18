@@ -1,34 +1,58 @@
 
 
-var sensorX = 0
-var sensorY = 0
-var soundX = 310
-var soundY = 0
-var modelX = 620
-var modelY = 0
-var mixerX = 930
-var mixerY = 0
+var sensor_coords = [0, 0, 319, 239];
+var sound_coords = [319, 0, 639, 239];
+var model_coords = [639, 0, 959, 239];
+var mixer_coords = [959, 0, 1279, 239];
 
-var sensor_int = 0
-var sound_int = 0
-var model_int = 0
+var sensor_int = 1
+var sound_int = 1
+var model_int = 1
+
+number_of_instruments = 0
 
 inlets = 4
 
 function msg_int(v)
 {
-	//switch:
-	
-	var subpatch = this.patcher.newdefault(900, 20 * v,"p", "myinstrument"+v);
-
-  	subpatch.subpatcher().newdefault(20,20,"toggle")
-	
-	outlet(0, v);
+	switch(inlet)
+	{
+    	case 1:
+			sensor_int = v
+        	break;
+    	case 2:
+			sound_int = v
+        	break;
+    	case 3:
+			model_int = v
+        	break;
+	}
 }
 
 function anything()
 {
 	var a = arrayfromargs(messagename, arguments);
-	post("received message " + a + "\n");
-	myval = a;
+	if(a == "bang")
+	{
+		build_subpatch()
+	}
+}
+
+function build_subpatch()
+{
+	number_of_instruments = number_of_instruments+1
+	
+	var subpatch = this.patcher.newdefault(900, 20 * number_of_instruments, "p", "myinstrument"+number_of_instruments);
+
+  	var sensor = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sensor"+sensor_int+".maxpat");
+	sensor.rect = sensor_coords;
+	
+  	var sound = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sound"+sound_int+".maxpat");
+	sound.rect = sound_coords;
+	
+  	var model = subpatch.subpatcher().newdefault(0,0,"bpatcher", "model"+model_int+".maxpat");
+	model.rect = model_coords;
+	
+	var mixer = subpatch.subpatcher().newdefault(0,0,"bpatcher", "mixer.maxpat");
+	mixer.rect = mixer_coords;
 }
