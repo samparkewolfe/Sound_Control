@@ -6,6 +6,8 @@
 *.exe
 *.o
 *.so
+*.app
+*.mxj
 
 # Packages #
 ############
