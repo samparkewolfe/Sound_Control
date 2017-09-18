@@ -3,7 +3,7 @@
 var sensor_coords = [0, 0, 319, 239];
 var sound_coords = [319, 0, 639, 239];
 var model_coords = [639, 0, 959, 239];
-var mixer_coords = [959, 0, 1279, 239];
+var mixer_coords = [959, 0, 1119, 239];
 
 var sensor_int = 1
 var sound_int = 1
@@ -44,6 +44,12 @@ function build_subpatch()
 	
 	var subpatch = this.patcher.newdefault(700, 20 * number_of_instruments, "p", "myinstrument"+number_of_instruments);
 	
+	
+	subpatch.subpatcher().wind.size = [1280, 240]
+	var mywind = subpatch.subpatcher().wind.size;
+		
+	post(mywind, "\n");
+		
   	var sensor = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sensor"+sensor_int+".maxpat");
 	sensor.rect = sensor_coords;
 	
@@ -56,8 +62,8 @@ function build_subpatch()
 	var mixer = subpatch.subpatcher().newdefault(0,0,"bpatcher", "mixer.maxpat");
 	mixer.rect = mixer_coords;
 	
-	var dispose_message = subpatch.subpatcher().newdefault(0, 240, "message", "@text",  "dispose");
-	var thispatcher_object = subpatch.subpatcher().newdefault(0, 280, "thispatcher");
+	var dispose_message = subpatch.subpatcher().newdefault(1119, 0, "message", "@text",  "dispose");
+	var thispatcher_object = subpatch.subpatcher().newdefault(1119, 39, "thispatcher");
 	subpatch.subpatcher().connect(dispose_message, 0, thispatcher_object, 0);
 	
 	subpatch.subpatcher().locked = 1;
