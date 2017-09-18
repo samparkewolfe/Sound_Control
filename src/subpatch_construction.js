@@ -55,4 +55,11 @@ function build_subpatch()
 	
 	var mixer = subpatch.subpatcher().newdefault(0,0,"bpatcher", "mixer.maxpat");
 	mixer.rect = mixer_coords;
+	
+	var dispose_message = subpatch.subpatcher().newdefault(0, 240, "message", "@text",  "dispose");
+	var thispatcher_object = subpatch.subpatcher().newdefault(0, 280, "thispatcher");
+	subpatch.subpatcher().connect(dispose_message, 0, thispatcher_object, 0);
+	
+	subpatch.subpatcher().locked = 1;
 }
+
