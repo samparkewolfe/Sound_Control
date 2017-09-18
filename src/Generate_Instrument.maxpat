@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 925.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 841.0, 181.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,65 +39,7 @@
 		"title" : "Generate_Instrument.maxpat",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-46",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 475.0, 116.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 597.0, 131.0, 0.0, 0.0 ],
-					"style" : "",
-					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 299.0, 116.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 417.0, 127.0, 0.0, 0.0 ],
-					"style" : "",
-					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 125.0, 116.0, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 221.0, 143.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "subpatch_construction.js",
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "js subpatch_construction"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -241,10 +183,72 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 54.0, 221.0, 143.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "subpatch_construction",
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "js subpatch_construction"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 125.0, 116.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 299.0, 116.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 475.0, 116.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "+ 1"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -252,6 +256,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
+					"hidden" : 1,
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -259,6 +264,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
+					"hidden" : 1,
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -266,6 +272,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 3 ],
+					"hidden" : 1,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -273,6 +280,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -280,6 +288,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -287,6 +296,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
+					"hidden" : 1,
 					"order" : 0,
 					"source" : [ "obj-60", 0 ]
 				}
@@ -295,6 +305,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"hidden" : 1,
 					"order" : 2,
 					"source" : [ "obj-60", 0 ]
 				}
@@ -303,6 +314,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"hidden" : 1,
 					"order" : 1,
 					"source" : [ "obj-60", 0 ]
 				}
@@ -311,11 +323,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
