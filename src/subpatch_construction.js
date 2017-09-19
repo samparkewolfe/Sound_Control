@@ -62,6 +62,11 @@ function build_subpatch()
 	var mixer = subpatch.subpatcher().newdefault(0,0,"bpatcher", "mixer.maxpat");
 	mixer.rect = mixer_coords;
 	
+	subpatch.subpatcher().connect(sensor, 0, model, 0);
+	subpatch.subpatcher().connect(sound, 0, mixer, 0);
+	subpatch.subpatcher().connect(sound, 1, model, 1);
+	subpatch.subpatcher().connect(model, 0, sound, 0);
+	
 	var dispose_message = subpatch.subpatcher().newdefault(1119, 0, "message", "@text",  "dispose");
 	var thispatcher_object = subpatch.subpatcher().newdefault(1119, 39, "thispatcher");
 	subpatch.subpatcher().connect(dispose_message, 0, thispatcher_object, 0);
