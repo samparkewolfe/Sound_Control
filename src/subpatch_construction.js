@@ -44,12 +44,8 @@ function build_subpatch()
 	
 	var subpatch = this.patcher.newdefault(700, 20 * number_of_instruments, "p", "myinstrument"+number_of_instruments);
 	
-	
 	subpatch.subpatcher().wind.size = [1280, 240]
-	var mywind = subpatch.subpatcher().wind.size;
-		
-	post(mywind, "\n");
-		
+			
   	var sensor = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sensor"+sensor_int+".maxpat");
 	sensor.rect = sensor_coords;
 	
@@ -73,4 +69,3 @@ function build_subpatch()
 	
 	subpatch.subpatcher().locked = 1;
 }
-
