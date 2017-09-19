@@ -1,7 +1,7 @@
 //ToDos
 
 
-Make sends and receives unique to each instrument to there is no data bleeding
+Make poly buffers have a unique name so multiple instruments don’t overwrite each other
 
 
 Do another UI flow chart of all possible outcomes
