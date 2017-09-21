@@ -1,10 +1,15 @@
 //ToDos
 
+Stop user from seeing the patcher objects for the different instruments
 
-Make poly buffers have a unique name so multiple instruments don’t overwrite each other
+Fix having multiple versions of the sensors and them not working.
+
+Make poly buffers have a unique name so multiple instruments don’t overwrite each other.
 
 
-Do another UI flow chart of all possible outcomes
+Extrapolate weaknesses from flow chart.
+	Come up with solution to user being able to change the sound files whilst keeping the same model.
+	Come up with holistic solution the user knowing the state of the model e.g. trained/not trained, with data, without training data.
 
 Go through UI with Nielsen’s Heuristics.
 
