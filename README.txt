@@ -1,10 +1,11 @@
 //ToDos
 
 Stop user from seeing the patcher objects for the different instruments
+	Find out way to stop user from closing window instead of deleting subpatch
 
 Fix having multiple versions of the sensors and them not working.
 
-Move Choosing the poly buffer contense to the generate window.
+Move Choosing the poly buffer contents to the “generate” window.
 	Thus making it static for the instrument. 
 	This will stop the user from making a mapping for some files
 		… then changing the files and having a mapping for
