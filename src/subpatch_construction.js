@@ -62,6 +62,7 @@ function build_subpatch()
 	subpatch.subpatcher().connect(sound, 0, mixer, 0);
 	subpatch.subpatcher().connect(sound, 1, model, 1);
 	subpatch.subpatcher().connect(model, 0, sound, 0);
+	subpatch.subpatcher().connect(model, 1, sound, 1);
 	
 	var dispose_message = subpatch.subpatcher().newdefault(1119, 0, "message", "@text",  "dispose");
 	var thispatcher_object = subpatch.subpatcher().newdefault(1119, 39, "thispatcher");
