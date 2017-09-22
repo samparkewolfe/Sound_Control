@@ -13,6 +13,8 @@ Move Choosing the poly buffer contents to the “generate” window.
 
 Go through UI with Nielsen’s Heuristics.
 
+Merge model type with instrument.
+
 
 Make size of all bpatchers 320, 240
 

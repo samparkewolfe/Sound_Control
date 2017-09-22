@@ -38,13 +38,31 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5.5, 367.0, 98.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "list_process.js",
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "js list_process.js"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 356.0, 30.0, 30.0 ],
+					"patching_rect" : [ 5.5, 445.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -57,7 +75,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 4.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.333359, 109.833374, 70.333359, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 70.333359, 20.0 ],
 					"style" : "",
 					"text" : "Camera"
 				}
@@ -514,7 +532,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 123.5, 205.166687, 145.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.333359, 156.833374, 145.0, 22.0 ],
+					"presentation_rect" : [ 0.0, 197.0, 145.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -530,7 +548,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.333252, 93.666748, 40.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.333359, 131.833374, 40.0, 23.0 ],
+					"presentation_rect" : [ 0.0, 172.0, 40.0, 23.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -580,8 +598,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-157", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -698,7 +723,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "list_process.js",
+				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
