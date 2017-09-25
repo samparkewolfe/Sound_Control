@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 870.0, 140.0 ],
+		"rect" : [ 34.0, 78.0, 1212.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 261.0, 824.166687, 226.0, 22.0 ],
+					"patching_rect" : [ 224.0, 812.166687, 226.0, 22.0 ],
 					"style" : "",
 					"text" : "s sound_control_camera_display_output"
 				}

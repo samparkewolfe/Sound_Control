@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 69.0, 78.0, 902.0, 592.0 ],
+		"rect" : [ 339.0, 78.0, 902.0, 592.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -478,7 +478,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.5, 157.166687, 57.0, 23.0 ],
+					"patching_rect" : [ 156.5, 162.166687, 57.0, 23.0 ],
 					"style" : "",
 					"text" : "input $1"
 				}
@@ -493,7 +493,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 156.5, 105.166687, 145.0, 22.0 ],
+					"patching_rect" : [ 156.5, 110.166687, 145.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -507,7 +507,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.5, 157.166687, 73.0, 23.0 ],
+					"patching_rect" : [ 5.5, 162.166687, 73.0, 23.0 ],
 					"style" : "",
 					"text" : "vdevice $1"
 				}
@@ -522,7 +522,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.5, 105.166687, 145.0, 22.0 ],
+					"patching_rect" : [ 5.5, 110.166687, 145.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 197.0, 145.0, 22.0 ],
 					"style" : ""
