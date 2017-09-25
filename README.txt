@@ -3,7 +3,9 @@
 Stop user from seeing the patcher objects for the different instruments
 	Find out way to stop user from closing window instead of deleting subpatch
 
-Fix having multiple versions of the sensors and them not working.
+
+Make the visualisation of leap unique for each instance of it.
+	Make the jitter objects unique.
 
 Move Choosing the poly buffer contents to the “generate” window.
 	Thus making it static for the instrument. 
