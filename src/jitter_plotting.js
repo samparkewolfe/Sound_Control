@@ -1,7 +1,7 @@
 
 var line_colour = [255, 0, 0];
 
-var Y_data_scale = 1;
+var Y_data_scale = 1.0;
 
 if (jsarguments.length>1)
 {

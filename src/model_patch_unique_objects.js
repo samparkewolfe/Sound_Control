@@ -23,6 +23,23 @@ function build_patch()
 	this.patcher.connect(prependmerge_obj, 0, coll_training_data_obj, 0);
 	this.patcher.connect(clear_obj, 0, coll_training_data_obj, 0);
 	
+	var write_obj = this.patcher.getnamed("write_message");
+	var read_obj = this.patcher.getnamed("read_message");
+	var dumb_x_obj = this.patcher.getnamed("dump_x");
+	var read_bang_obj = this.patcher.getnamed("read_bang");
+	//var X_js_visualiser_obj = this.patcher.getnamed("X_js_visualiser");
+	var fromsymbol_obj = this.patcher.getnamed("fromsymbol_obj");
+	var train_update_bang_obj = this.patcher.getnamed("train_update_bang");
+	var zliter_obj = this.patcher.getnamed("zliter_obj");
+
+	this.patcher.connect(write_obj, 0, coll_training_data_obj, 0);
+	this.patcher.connect(read_obj, 0, coll_training_data_obj, 0);
+	this.patcher.connect(dumb_x_obj, 0, coll_training_data_obj, 0);
+
+	this.patcher.connect(coll_training_data_obj, 0, zliter_obj, 0);
+	this.patcher.connect(coll_training_data_obj, 2, read_bang_obj, 0);
+	this.patcher.connect(coll_training_data_obj, 3, train_update_bang_obj, 0);
+
 	var message_training_data_obj = this.patcher.newdefault(241, 694, "message", "@text", "temp_training_data_"+randval);
 	var prepend_pull_from_coll_obj = this.patcher.newdefault(241, 724, "prepend", "pull_from_coll");
 	var dict_obj = this.patcher.newdefault(241, 754, "dict", "training_data_"+randval);
