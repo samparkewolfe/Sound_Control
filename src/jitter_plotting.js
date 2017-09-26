@@ -12,7 +12,7 @@ var training_data = []
 
 var number_of_training_data_dims = 0;
 
-var display_gap = 5
+var display_gap = 2
 
 function list()
 {
@@ -92,7 +92,10 @@ function draw_box(data, no_dims, box_it)
 		//Scale the data to the display range.
 		y_val = (y_val * box_height) + (box_it * box_height);
 		
-		new_box.setcell2d(x_val, y_val, line_colour[0], line_colour[1], line_colour[2]);
+		for(var thick = -1; thick < 3; thick++)
+		{
+			new_box.setcell2d(x_val, y_val+thick, line_colour[0], line_colour[1], line_colour[2]);
+		}
 	}
 	
 	return new_box;
