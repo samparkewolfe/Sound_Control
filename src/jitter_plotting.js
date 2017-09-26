@@ -1,10 +1,18 @@
 
 var line_colour = [255, 0, 0];
 
+var Y_data_scale = 1;
+
 if (jsarguments.length>1)
+{
+	//First three arguments are line colour
 	line_colour[0] = jsarguments[1];
 	line_colour[1] = jsarguments[2];
 	line_colour[2] = jsarguments[3];
+	
+	//4th argument is y range
+	Y_data_scale = jsarguments[4];
+}
 
 var mymatrix = new JitterMatrix(3, "char", 320, 240); 
 
@@ -84,7 +92,11 @@ function draw_box(data, no_dims, box_it)
 		var x_val = (data_it * datascale) + box_start_x;
 		
 		//Flip the data upside down to draw.
-		var y_val = 1.0 - data[data_it_bkwrds];
+		var y_val = data[data_it_bkwrds];
+		
+		y_val = y_val/Y_data_scale;
+		
+		y_val = 1.0 - y_val;
 		
 		//Scale the data down.
 		y_val = ((y_val * 0.5) + 0.25);
