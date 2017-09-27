@@ -38,7 +38,7 @@ function build_patch()
 
 	this.patcher.connect(coll_training_data_obj, 0, zliter_obj, 0);
 	this.patcher.connect(coll_training_data_obj, 2, read_bang_obj, 0);
-	this.patcher.connect(coll_training_data_obj, 3, train_update_bang_obj, 0);
+	this.patcher.connect(coll_training_data_obj, 2, train_update_bang_obj, 0);
 
 	var message_training_data_obj = this.patcher.newdefault(241, 694, "message", "@text", "temp_training_data_"+randval);
 	var prepend_pull_from_coll_obj = this.patcher.newdefault(241, 724, "prepend", "pull_from_coll");
