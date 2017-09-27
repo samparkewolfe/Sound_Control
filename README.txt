@@ -1,10 +1,11 @@
 
 //ToDos
 
+Update Flow chart with reading and writing.
 
 Visualisation of the training data.
-
-Saving and opening of training data.
+	Cap visualisations at 6 dims or something better
+	Make bottom visualisation fill out with newly loaded data.
 
 Find out way to stop user from closing window instead of deleting subpatch
 	Then stop user from seeing the patcher objects for the different instruments
@@ -16,13 +17,11 @@ Extract the whole hand information from leap.
 
 Visualise entire hand data in jitter.
 
-Make size of all bpatchers 320, 240
+Make size of all bpatchers 320, 240.
 
-Give final output bpatcher a background
+Give final output bpatcher a background.
 
 Merge model type with instrument.
-
-
 
 Move Choosing the poly buffer contents to the “generate” window.
 	Thus making it static for the instrument. 
