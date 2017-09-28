@@ -1,11 +1,9 @@
 
 //ToDos
 
-Update Flow chart with reading and writing.
+Find a better way to display the sensor data for <6.
 
-Visualisation of the training data.
-	Cap visualisations at 6 dims or something better
-	Make bottom visualisation fill out with newly loaded data.
+Update Flow chart with reading and writing.
 
 Find out way to stop user from closing window instead of deleting subpatch
 	Then stop user from seeing the patcher objects for the different instruments
