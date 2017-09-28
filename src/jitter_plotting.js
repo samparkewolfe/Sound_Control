@@ -30,10 +30,14 @@ function list()
 	if(training_data.length == 0)
 	{
 		number_of_training_data_dims = list.length;
-		initialise_training_data(list.length);
+		if(number_of_training_data_dims > 6)
+		{
+			number_of_training_data_dims = 6;
+		}
+		initialise_training_data(number_of_training_data_dims);
 	}
 	
-	for(var i = 0; i<list.length; i++)
+	for(var i = 0; i<number_of_training_data_dims; i++)
 	{
 		training_data[i].push(list[i]);
 	}

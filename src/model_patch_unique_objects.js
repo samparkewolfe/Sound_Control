@@ -31,6 +31,9 @@ function build_patch()
 	var fromsymbol_obj = this.patcher.getnamed("fromsymbol_obj");
 	var train_update_bang_obj = this.patcher.getnamed("train_update_bang");
 	var zliter_obj = this.patcher.getnamed("zliter_obj");
+	//message_set_dollar
+	var message_set_dollar_obj = this.patcher.getnamed("message_set_dollar");
+
 
 	this.patcher.connect(write_obj, 0, coll_training_data_obj, 0);
 	this.patcher.connect(read_obj, 0, coll_training_data_obj, 0);
@@ -39,6 +42,7 @@ function build_patch()
 	this.patcher.connect(coll_training_data_obj, 0, zliter_obj, 0);
 	this.patcher.connect(coll_training_data_obj, 2, read_bang_obj, 0);
 	this.patcher.connect(coll_training_data_obj, 2, train_update_bang_obj, 0);
+	this.patcher.connect(coll_training_data_obj, 1, message_set_dollar_obj, 0);
 
 	var message_training_data_obj = this.patcher.newdefault(241, 694, "message", "@text", "temp_training_data_"+randval);
 	var prepend_pull_from_coll_obj = this.patcher.newdefault(241, 724, "prepend", "pull_from_coll");
