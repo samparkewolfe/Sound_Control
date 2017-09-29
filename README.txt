@@ -1,4 +1,7 @@
 
+Generate Instrument size should be 750x100.
+
+
 //ToDos
 
 Find a better way to display the sensor data for <6.

@@ -9,7 +9,8 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 66.0, 78.0, 821.0, 131.0 ],
+		"rect" : [ 34.0, 78.0, 750.0, 599.0 ],
+		"openrect" : [ 0.0, 0.0, 750.0, 100.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,7 +29,7 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 0,
+		"enablehscroll" : 1,
 		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
@@ -329,7 +330,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 359.0, 73.0, 100.0, 22.0 ],
+					"patching_rect" : [ 359.0, 50.0, 100.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.0, 71.0, 100.0, 22.0 ],
 					"style" : ""
@@ -342,7 +343,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.0, 40.0, 150.0, 20.0 ],
+					"patching_rect" : [ 359.0, 28.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.0, 38.0, 150.0, 20.0 ],
 					"style" : "",
@@ -357,7 +358,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 519.0, 73.0, 24.0, 24.0 ],
+					"patching_rect" : [ 519.0, 50.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 463.0, 71.0, 24.0, 24.0 ],
 					"style" : ""
@@ -370,7 +371,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 519.0, 40.0, 150.0, 20.0 ],
+					"patching_rect" : [ 519.0, 28.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 463.0, 38.0, 150.0, 20.0 ],
 					"style" : "",
@@ -387,7 +388,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 183.0, 73.0, 100.0, 22.0 ],
+					"patching_rect" : [ 183.0, 50.0, 100.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 159.0, 71.0, 100.0, 22.0 ],
 					"style" : ""
@@ -400,7 +401,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 183.0, 40.0, 150.0, 20.0 ],
+					"patching_rect" : [ 183.0, 28.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 159.0, 38.0, 150.0, 20.0 ],
 					"style" : "",
@@ -417,7 +418,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 73.0, 100.0, 22.0 ],
+					"patching_rect" : [ 9.0, 50.0, 100.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 71.0, 100.0, 22.0 ],
 					"style" : ""
@@ -430,7 +431,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 40.0, 150.0, 20.0 ],
+					"patching_rect" : [ 9.0, 28.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 38.0, 150.0, 20.0 ],
 					"style" : "",
@@ -462,7 +463,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.0, 213.0, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "subpatch_construction.js",
+						"filename" : "subpatch_construction",
 						"parameter_enable" : 0
 					}
 ,
@@ -493,7 +494,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 183.0, 116.0, 29.5, 22.0 ],
+					"patching_rect" : [ 183.0, 104.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -507,9 +508,24 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 359.0, 116.0, 29.5, 22.0 ],
+					"patching_rect" : [ 359.0, 104.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 750.0, 100.0 ],
+					"proportion" : 0.39,
+					"style" : ""
 				}
 
 			}

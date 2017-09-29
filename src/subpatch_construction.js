@@ -40,11 +40,12 @@ function anything()
 
 function build_subpatch()
 {
-	number_of_instruments = number_of_instruments+1
 	
-	var subpatch = this.patcher.newdefault(700, 20 * number_of_instruments, "p", "myinstrument"+number_of_instruments);
+	var subpatch = this.patcher.newdefault(640., 5+(20*number_of_instruments), "p", "myinstrument"+number_of_instruments);
 	
 	subpatch.subpatcher().wind.size = [1280, 240]
+	
+	this.patcher.bringtofront(subpatch);
 			
   	var sensor = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sensor"+sensor_int+".maxpat");
 	sensor.rect = sensor_coords;
@@ -78,4 +79,6 @@ function build_subpatch()
 	thispatcher_object.hidden = true;
 
 	subpatch.subpatcher().locked = 1;
+	
+	number_of_instruments = number_of_instruments+1
 }
