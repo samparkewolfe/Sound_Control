@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 339.0, 78.0, 902.0, 592.0 ],
+		"rect" : [ 339.0, 78.0, 524.0, 592.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -108,7 +108,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 4.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 70.333359, 20.0 ],
+					"presentation_rect" : [ 0.0, 6.0, 70.333359, 20.0 ],
 					"style" : "",
 					"text" : "Camera"
 				}
@@ -166,7 +166,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 615.0, 92.666626, 240.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, -0.166626, 240.0, 240.0 ]
+					"presentation_rect" : [ 72.333359, 35.0, 190.0, 190.0 ]
 				}
 
 			}
@@ -524,7 +524,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5.5, 110.166687, 145.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 197.0, 145.0, 22.0 ],
+					"presentation_rect" : [ 72.333359, 5.0, 145.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -540,7 +540,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 334.333252, 105.166687, 40.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 172.0, 40.0, 23.0 ],
+					"presentation_rect" : [ 219.333359, 5.0, 40.0, 23.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -558,7 +558,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 154.0, 1351.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 310.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}

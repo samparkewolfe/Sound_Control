@@ -3,17 +3,14 @@
 
 Find a better way to display the sensor data for <6.
 
-Update Flow chart with reading and writing.
-
 Find out way to stop user from closing window instead of deleting subpatch
 	Then stop user from seeing the patcher objects for the different instruments
 
-Make the visualisation of leap unique for each instance of it.
-	Make the jitter objects unique.
 
 Extract the whole hand information from leap.
 
 Visualise entire hand data in jitter.
+
 
 Make size of all bpatchers 320, 240.
 

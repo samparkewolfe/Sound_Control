@@ -58,7 +58,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 74.0, 20.0 ],
 					"style" : "",
 					"text" : "Final Output"
 				}
@@ -72,7 +72,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 195.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 160.0, 45.0, 45.0 ],
+					"presentation_rect" : [ 24.5, 170.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -87,7 +87,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 0.0, 57.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 23.0, 32.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -102,6 +102,24 @@
 					}
 ,
 					"varname" : "live.gain~[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
+					"id" : "obj-181",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 170.666748, 1515.833252, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 160.0, 240.0 ],
+					"proportion" : 0.39,
+					"style" : ""
 				}
 
 			}
