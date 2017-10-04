@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 834.0, 684.0 ],
+		"rect" : [ 148.0, 120.0, 456.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -291,7 +291,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.5, 7.333344, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 78.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 78.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Motion"
 				}
@@ -363,7 +363,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1083.5, 24.333344, 240.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 0.0, 240.0, 240.0 ]
+					"presentation_rect" : [ 72.333359, 35.0, 190.0, 190.0 ]
 				}
 
 			}

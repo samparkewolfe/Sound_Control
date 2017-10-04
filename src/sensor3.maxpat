@@ -108,7 +108,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 4.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 6.0, 70.333359, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 70.333359, 20.0 ],
 					"style" : "",
 					"text" : "Camera"
 				}
