@@ -3,14 +3,6 @@ Generate Instrument size should be 750x100.
 
 //ToDos for SEN/D Conference
 
-Sample Player: Make the samples loops start from the beginning.
-
-Build OFF setting into granulator.
-
-Change there being two variables of the same name PLAY.
-
-Get Jan a controller/ something workable by the end of the week.
-
 Build in colour tracking/ object tracking into the camera sensor.
 	maybe TUIO marker.
 
@@ -32,6 +24,7 @@ Merge instrument and model type into
 	Granulator with filling in the inbetweeny bits
 
 
+Get Jan a controller/ something workable by the end of the week.
 
 
 

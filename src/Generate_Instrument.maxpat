@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 750.0, 599.0 ],
+		"rect" : [ 34.0, 78.0, 1212.0, 684.0 ],
 		"openrect" : [ 0.0, 0.0, 750.0, 100.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,7 +30,7 @@
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
-		"enablevscroll" : 0,
+		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -81,7 +81,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 955.0, 182.0, 22.0 ],
+					"patching_rect" : [ 194.0, 953.0, 182.0, 22.0 ],
 					"style" : "",
 					"text" : "s sound_control_camera_output"
 				}
