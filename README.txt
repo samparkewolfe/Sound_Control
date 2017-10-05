@@ -3,7 +3,7 @@ Generate Instrument size should be 750x100.
 
 //ToDos for SEN/D Conference
 
-Build in colour tracking/ object tracking into the camera sensor.
+Build in colour tracking/object tracking into the camera sensor.
 	maybe TUIO marker.
 
 Improve leap input into using whole hand/more durable reading from hand.
