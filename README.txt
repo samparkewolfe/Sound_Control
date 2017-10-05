@@ -9,12 +9,6 @@ Build in colour tracking/object tracking into the camera sensor.
 Improve leap input into using whole hand/more durable reading from hand.
 	And visualise it well.
 
-Stop the visualisation from slowing down the show
-Make Data visualisation better
-	Too much info for number of features being extracted from it
-	Replace with a written console log & some animations (spinning recording wheel)
-	Maybe tell user how many “recording sessions” are in the data.
-
 Collect up more Audio File sets
 	Single note loops
 	Orchestral instrument loops
@@ -30,7 +24,11 @@ Get Jan a controller/ something workable by the end of the week.
 
 //Todos for after maybe
 
-Make an Undo button for last bit of data recorded
+Bring in notion of “classes” or number of recording sessions in the training data.
+	Make an Undo button for last recording sessions.
+	Tell the user how many “classes” or number of recording sessions are in a file.
+
+Make the save file able to hold some meta data that can be printed when loaded.
 
 Build a simple weird synth to play with.
 
