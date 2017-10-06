@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 339.0, 78.0, 524.0, 592.0 ],
+		"rect" : [ 339.0, 78.0, 713.0, 592.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,9 +43,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.5, 326.0, 180.0, 22.0 ],
+					"patching_rect" : [ 5.5, 326.0, 220.0, 22.0 ],
 					"style" : "",
-					"text" : "r sound_control_camera_output"
+					"text" : "r sound_control_10_10_camera_output"
 				}
 
 			}
@@ -69,9 +69,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 44.0, 224.0, 22.0 ],
+					"patching_rect" : [ 615.0, 44.0, 264.0, 22.0 ],
 					"style" : "",
-					"text" : "r sound_control_camera_display_output"
+					"text" : "r sound_control_camera_10_10_display_output"
 				}
 
 			}
@@ -81,9 +81,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 247.0, 246.0, 22.0 ],
+					"patching_rect" : [ 5.5, 247.0, 286.0, 22.0 ],
 					"style" : "",
-					"text" : "s sound_control_camera_control_messages"
+					"text" : "s sound_control_camera_10_10_control_messages"
 				}
 
 			}
@@ -94,9 +94,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.5, 44.0, 223.0, 22.0 ],
+					"patching_rect" : [ 5.5, 44.0, 263.0, 22.0 ],
 					"style" : "",
-					"text" : "r sound_control_camera_control_output"
+					"text" : "r sound_control_camera_10_10_control_output"
 				}
 
 			}
