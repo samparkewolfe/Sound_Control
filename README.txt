@@ -7,8 +7,7 @@ Generate Instrument size should be 750x100.
 //ToDos for SEN/D Conference
 
 LEAP
-Improve leap input into using whole hand/more durable reading from hand.
-	And visualise it well.
+Find way of getting maximum info of hand out of leap without hitting char roof
 
 UI
 Merge instrument and model type into
