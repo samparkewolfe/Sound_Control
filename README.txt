@@ -1,14 +1,13 @@
 
 Generate Instrument size should be 750x100.
 
+
+
+
 //ToDos for SEN/D Conference
 
 Improve leap input into using whole hand/more durable reading from hand.
 	And visualise it well.
-
-Collect up more Audio File sets
-	Single note loops
-	Orchestral instrument loops
 
 Merge instrument and model type into
 	Sample Player with out filling in the inbetweeny bits
@@ -16,6 +15,10 @@ Merge instrument and model type into
 
 
 Get Jan a controller/ something workable by the end of the week.
+
+Get Micro Bit working with bluetooth.
+
+Maybe make loop instrument.
 
 
 

@@ -45,7 +45,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5.5, 326.0, 220.0, 22.0 ],
 					"style" : "",
-					"text" : "r sound_control_10_10_camera_output"
+					"text" : "r sound_control_camera_10_10_output"
 				}
 
 			}
