@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 148.0, 120.0, 456.0, 684.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -264,9 +264,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.5, 80.833344, 199.0, 22.0 ],
+					"patching_rect" : [ 7.5, 80.833344, 218.0, 22.0 ],
 					"style" : "",
-					"text" : "r sound_control_leapmotion_output"
+					"text" : "r sound_control_akaleapmotion_output"
 				}
 
 			}
@@ -357,7 +357,6 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "jit.pwindow",
-					"name" : "leap",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
