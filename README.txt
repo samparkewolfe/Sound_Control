@@ -6,9 +6,6 @@ Generate Instrument size should be 750x100.
 
 //ToDos for SEN/D Conference
 
-LEAP
-Find way of getting maximum info of hand out of leap without hitting char roof
-
 UI
 Merge instrument and model type into
 	Sample Player with out filling in the inbetweeny bits
@@ -20,6 +17,8 @@ Get Micro Bit working with bluetooth.
 LOOPER INSTRUMENT
 Maybe make loop instrument.
 
+LEAP
+Find way of getting maximum info of hand out of leap without hitting char roof
 
 
 //Todos for after maybe
