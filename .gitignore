@@ -26,6 +26,7 @@
 # Binary Files #
 ############
 *.h5
+*.json
 
 # Documents #
 ############
