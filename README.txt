@@ -1,6 +1,6 @@
 
-Generate Instrument size should be 750x100.
 
+Generate Instrument size should be 750x100.
 
 
 
