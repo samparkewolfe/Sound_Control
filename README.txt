@@ -6,20 +6,23 @@ Generate Instrument size should be 750x100.
 
 //ToDos for SEN/D Conference
 
+
+model prints it’s ready to run twice
+
+MICRO BIT.
+Get Micro Bit working with bluetooth.
+
 UI
 Merge instrument and model type into
 	Sample Player with out filling in the inbetweeny bits
 	Granulator with filling in the inbetweeny bits
 
-MICRO BIT.
-Get Micro Bit working with bluetooth.
-
 LOOPER INSTRUMENT
 Finish UI of it.
 
 LEAP
-Find way of getting maximum info of hand out of leap without hitting char roof
-
+Get some simpler features to extract from leap
+	E.g. palm position, 
 
 //Todos for after maybe
 
