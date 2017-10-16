@@ -15,7 +15,7 @@ MICRO BIT.
 Get Micro Bit working with bluetooth.
 
 LOOPER INSTRUMENT
-Maybe make loop instrument.
+Finish UI of it.
 
 LEAP
 Find way of getting maximum info of hand out of leap without hitting char roof
