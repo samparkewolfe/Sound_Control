@@ -6,8 +6,7 @@ Generate Instrument size should be 750x100.
 
 //ToDos for SEN/D Conference
 
-
-model prints it’s ready to run twice
+Write questions for Jan.
 
 MICRO BIT.
 Get Micro Bit working with bluetooth.
@@ -17,8 +16,6 @@ Merge instrument and model type into
 	Sample Player with out filling in the inbetweeny bits
 	Granulator with filling in the inbetweeny bits
 
-LOOPER INSTRUMENT
-Finish UI of it.
 
 LEAP
 Get some simpler features to extract from leap
