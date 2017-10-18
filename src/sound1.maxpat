@@ -430,7 +430,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 125.0, 464.333313, 54.0, 22.0 ],
+					"patching_rect" : [ 125.0, 464.333313, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -447,7 +447,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "groove~"
+					"text" : "groove~ @loop 1"
 				}
 
 			}
