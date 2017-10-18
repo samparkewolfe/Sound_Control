@@ -249,7 +249,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 110.0, 20.0, 200.0, 200.0 ],
 					"rowheight" : 20,
-					"rows" : 74,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
