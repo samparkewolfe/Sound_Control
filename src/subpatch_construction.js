@@ -1,9 +1,9 @@
 
 
-var sensor_coords = [0, 0, 319, 239];
-var sound_coords = [319, 0, 639, 239];
-var model_coords = [639, 0, 959, 239];
-var mixer_coords = [959, 0, 1119, 239];
+var sensor_coords = [0+80, 0, 319+80, 239];
+var sound_coords = [320+80, 0, 639+80, 239];
+var model_coords = [640+80, 0, 959+80, 239];
+
 
 var sensor_int = 1
 var sound_int = 1
@@ -43,7 +43,7 @@ function build_subpatch()
 	
 	var subpatch = this.patcher.newdefault(480 + 102*Math.floor(number_of_instruments/4), 5+(23*(number_of_instruments%4)), "p", "myinstrument"+number_of_instruments);
 	
-	subpatch.subpatcher().wind.size = [1280, 240]
+	subpatch.subpatcher().wind.size = [1040, 240]
 	
 	this.patcher.bringtofront(subpatch);
 			
@@ -56,22 +56,22 @@ function build_subpatch()
   	var model = subpatch.subpatcher().newdefault(0,0,"bpatcher", "model"+model_int+".maxpat");
 	model.rect = model_coords;
 	
-	var mixer = subpatch.subpatcher().newdefault(0,0,"bpatcher", "mixer.maxpat");
-	mixer.rect = mixer_coords;
-	
 	subpatch.subpatcher().hiddenconnect(sensor, 0, model, 0);
-	subpatch.subpatcher().hiddenconnect(sound, 0, mixer, 0);
 	subpatch.subpatcher().hiddenconnect(sound, 1, model, 1);
 	subpatch.subpatcher().hiddenconnect(model, 0, sound, 0);
 	subpatch.subpatcher().hiddenconnect(model, 1, sound, 1);
 	
+	
+	var dac_obj = subpatch.subpatcher().newdefault(319., 0., "dac~");
+	dac_obj.hidden = true;
+	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 0);
+	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 1);
 
-	
-	var close_window_comment = subpatch.subpatcher().newdefault( 1121., 79., "comment", "@text", "CLOSE_WINDOW");
-	
-	var close_window_bang = subpatch.subpatcher().newobject("button", 1145., 101., 57., 57.);
-	var dispose_message = subpatch.subpatcher().newdefault(1145., 191., "message", "@text", "dispose");
-	var thispatcher_object = subpatch.subpatcher().newdefault(1145., 218., "thispatcher");
+	var close_window1_comment = subpatch.subpatcher().newdefault( 13., 0., "comment", "@text", "CLOSE");
+	var close_window2_comment = subpatch.subpatcher().newdefault( 6.5, 13., "comment", "@text", "WINDOW");
+	var close_window_bang = subpatch.subpatcher().newobject("button", 19., 35., 37., 37.);
+	var dispose_message = subpatch.subpatcher().newdefault(0, 191., "message", "@text", "dispose");
+	var thispatcher_object = subpatch.subpatcher().newdefault(0, 218., "thispatcher");
 	subpatch.subpatcher().hiddenconnect(close_window_bang, 0, dispose_message, 0);
 	subpatch.subpatcher().hiddenconnect(dispose_message, 0, thispatcher_object, 0);
 
