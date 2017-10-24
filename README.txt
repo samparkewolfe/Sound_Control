@@ -1,46 +1,112 @@
 
-
+//Remembers
 Generate Instrument size should be 750x100.
 
 remember to build with scroll off.
 
 
-//ToDos for SEN/D Conference
 
-Write questions for Jan.
-
-MICRO BIT.
-Get Micro Bit working with bluetooth.
-
-UI
-Merge instrument and model type into
-	Sample Player with out filling in the inbetweeny bits
-	with filling in the inbetweeny bits
-
+//ToDos
 
 LEAP
 Get some simpler features to extract from leap
-	E.g. palm position, 
+	Palm position.
+	JUST finger tips.
+	hand width.
 
-//Todos for after maybe
-
-Bring in notion of “classes” or number of recording sessions in the training data.
-	Make an Undo button for last recording sessions.
+HOLISTIC
+Undo button for last recording sessions.
+	Bring in notion of “classes” or number of recording sessions in the training data.
 	Tell the user how many “classes” or number of recording sessions are in a file.
-
-Make the save file able to hold some meta data that can be printed when loaded.
-
-Build a simple weird synth to play with.
-
-Find out way to stop user from closing window instead of deleting subpatch
-	Then stop user from seeing the patcher objects for the different instruments
-
-Move Choosing the poly buffer contents to the “generate” window.
+Save file able to hold some meta data about the database that can be printed when loaded.
+Poly buffer contents to the “generate” window.
 	Thus making it static for the instrument. 
 	This will stop the user from making a mapping for some files
 		… then changing the files and having a mapping for
 		… the old files still going.
 
+UI
 Stop window resizing.
+Closing window instead of deleting subpatch OR
+	Organise subpatch objects.
 
-Go through UI with Nielsen’s Heuristics.
+Generate Instrument:
+	Reminder to plug in sensors
+
+CAMERA
+Stop mirroring of the camera.
+Get the leap out of the drop down menu.
+
+GRANULATOR
+	Speed to be slower.
+	Pitch to be lower.
+
+MODEL
+Buttons, buttons instead of X toggles.
+Hybrid regression-classifier for the granulator. 
+Automate the recording time.
+Still posts “Model is ready to run!” twice?.
+
+LOOPER
+Change the looper to controlling gain instead on off.
+	Then you can use regression to mix between them even if it’s just trained on.
+
+
+SAMPLE PLAYER
+Fix load mess for number of samples loaded.
+	Maybe give those backgrounds.
+0th index in the number box say silence instead of 0.
+	Use a menu.
+Looping default on.
+Rename “play” to “trigger playback” -> because of 
+
+
+NEW INSTRUMENTS
+Build a simple weird synth to play with.
+Piano sampler which you map areas of the piano to the sensor positions
+	Change Scale.
+	Linear Regression.
+
+
+
+//Nielsen’s Heuristics.
+
+
+
+
+
+//Look at these later:
+
+Sample Player:
+	Make the 0th say silence in the 
+	Make looping default on.
+	Rename “play” to “trigger playback”
+
+Cameras:
+	Get rid of leap in drop down menu
+	Flip camera
+
+Activate different strings on the leap have them as separate instrument.
+
+
+Colour Tracker:
+	Make it multi colours and then we can have an instrument which is a colour classifier.
+	Make the minus number clearer like “NOT HERE”
+
+Just grey out the section instrument that is deactivated.
+
+Rescale the  output of the looper
+
+Make poly~ buffer dynamic
+
+Have an auto save file to track the last colour selected in the app.
+
+
+Microphone input!!
+	Wind instruments
+
+
+Visual design critique 
+
+
+
