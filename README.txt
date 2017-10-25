@@ -11,7 +11,7 @@ remember to build with scroll off.
 LEAP
 Get some simpler features to extract from leap
 	Palm position. (DONE)
-	JUST finger tips.
+	JUST finger tips. (DONE)
 	hand width.
 
 HOLISTIC
