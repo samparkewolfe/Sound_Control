@@ -10,7 +10,7 @@ remember to build with scroll off.
 
 LEAP
 Get some simpler features to extract from leap
-	Palm position.
+	Palm position. (DONE)
 	JUST finger tips.
 	hand width.
 

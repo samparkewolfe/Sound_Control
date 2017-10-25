@@ -307,14 +307,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 539.0, 251.0, 22.0 ],
+					"patching_rect" : [ 648.0, 539.0, 263.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "sound_control_leap_motion_palm_position",
+						"filename" : "sound_control_leap_motion_palm_position.js",
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "js sound_control_leap_motion_palm_position"
+					"text" : "js sound_control_leap_motion_palm_position.js"
 				}
 
 			}
