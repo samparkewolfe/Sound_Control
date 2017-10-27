@@ -44,7 +44,7 @@ GRANULATOR
 MODEL
 Buttons, buttons instead of X toggles.
 Hybrid regression-classifier for the granulator. 
-Automate the recording time.
+Automate the recording time. (DONE)
 Still posts “Model is ready to run!” twice?.
 
 LOOPER
