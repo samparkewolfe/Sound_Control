@@ -31,10 +31,10 @@ Closing window instead of deleting subpatch OR
 	Organise subpatch objects.
 
 Generate Instrument:
-	Reminder to plug in sensors
+	Reminder to plug in sensors (DONE)
 
 CAMERA
-Stop mirroring of the camera.
+Stop mirroring of the camera. (DONE)
 Get the leap out of the drop down menu.
 
 GRANULATOR
