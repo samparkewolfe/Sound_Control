@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 798.0, 683.0 ],
+		"rect" : [ -278.0, -764.0, 798.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
 					"patching_rect" : [ 547.0, 309.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 572.0, 307.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "change"
 				}
@@ -57,9 +56,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 21.0, 262.0, 168.0, 22.0 ],
+					"patching_rect" : [ 21.0, 262.0, 199.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess No samples loaded"
+					"text" : "loadmess set \"No samples loaded.\""
 				}
 
 			}
@@ -73,7 +72,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 172.0, 136.0, 20.0 ],
 					"style" : "",
-					"text" : "Loaded 14 sample(s)."
+					"text" : "No samples loaded."
 				}
 
 			}
@@ -205,7 +204,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 147.499634, 60.0, 94.666504, 20.0 ],
+					"patching_rect" : [ 242.499634, 18.666733, 94.666504, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 158.499634, 61.0, 72.0, 20.0 ],
 					"style" : "",
