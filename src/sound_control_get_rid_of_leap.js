@@ -52,7 +52,7 @@ function msg_int(v)
 				v=v+1;
 			}
 		}
-		post("received int " + v + "\n");
+		//post("received int " + v + "\n");
 		outlet(1, v);
 	}
 }

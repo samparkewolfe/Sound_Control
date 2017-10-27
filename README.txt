@@ -37,6 +37,10 @@ CAMERA
 Stop mirroring of the camera. (DONE)
 Get the leap out of the drop down menu. (DONE):NOT TESTED ON MORE THAN 2 INPUT DEVICES!!
 
+COLOUR TRACKER
+	Make the minus number clearer like “NOT HERE”
+	Have an auto save file to track the last colour selected in the app. (DONE)
+
 GRANULATOR
 	Speed to be slower. (DONE)
 	Pitch to be lower. (DONE)
@@ -65,8 +69,10 @@ Build a simple weird synth to play with.
 Piano sampler which you map areas of the piano to the sensor positions
 	Change Scale.
 	Linear Regression.
-
-
+Microphone input!!
+	Wind instruments...
+Multi Colour Tracker:
+	Make it multi colours and then we can have an instrument which is a colour classifier.
 
 //Nielsen’s Heuristics.
 
@@ -77,20 +83,6 @@ Piano sampler which you map areas of the piano to the sensor positions
 //Look at these later:
 
 Sample Player:
-	Make the 0th say silence in the 
-	Make looping default on.
-	Rename “play” to “trigger playback”
-
-Cameras:
-	Get rid of leap in drop down menu
-	Flip camera
-
-Activate different strings on the leap have them as separate instrument.
-
-
-Colour Tracker:
-	Make it multi colours and then we can have an instrument which is a colour classifier.
-	Make the minus number clearer like “NOT HERE”
 
 Just grey out the section instrument that is deactivated.
 
@@ -98,11 +90,7 @@ Rescale the  output of the looper
 
 Make poly~ buffer dynamic
 
-Have an auto save file to track the last colour selected in the app.
 
-
-Microphone input!!
-	Wind instruments
 
 
 Visual design critique 

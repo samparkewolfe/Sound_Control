@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 508.5, 359.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -130,7 +143,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"items" : [ "--", "silence", "--", ",", 1, "BassDelight.mp3", ",", 2, "BassDelightSlap.mp3", ",", 3, "BassFever.mp3", ",", 4, "BassFunk.mp3", ",", 5, "ClavDance.mp3", ",", 6, "ClavDelight.mp3", ",", 7, "ClavFever.mp3", ",", 8, "DrumsBell.mp3", ",", 9, "DrumsMassive.mp3", ",", 10, "DrumsSticky.mp3", ",", 11, "DrumsTamborine.mp3", ",", 12, "GuitarDelight.mp3", ",", 13, "GuitarHit.mp3", ",", 14, "GuitarPickin.mp3", ",", 15, "GuitarRiser.mp3", ",", 16, "PianoDelight2.mp3", ",", 17, "PianoDelight3.mp3", ",", 18, "PianoDelight4.mp3", ",", 19, "PianoRiser.mp3" ],
+					"items" : [ "--", "silence", "--" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -179,7 +192,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 172.0, 136.0, 20.0 ],
 					"style" : "",
-					"text" : "Loaded 19 sample(s)."
+					"text" : "No samples loaded."
 				}
 
 			}
@@ -314,7 +327,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 62.0, 733.0, 72.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 0"
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -688,7 +701,7 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 128.0, 110.0, 71.666504, 33.0 ],
 					"style" : "",
-					"text" : "Start Sample",
+					"text" : "Trigger Sample",
 					"textjustification" : 1
 				}
 
@@ -1064,6 +1077,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
