@@ -42,10 +42,10 @@ GRANULATOR
 	Pitch to be lower. (DONE)
 
 MODEL
-Buttons, buttons instead of X toggles.
-Hybrid regression-classifier for the granulator. 
+Buttons, buttons instead of X toggles. 
+Hybrid regression-classifier for the granulator.
 Automate the recording time. (DONE)
-Still posts “Model is ready to run!” twice?.
+Still posts “Model is ready to run!” twice?. (DONE)
 
 LOOPER
 Change the looper to controlling gain instead on off.
