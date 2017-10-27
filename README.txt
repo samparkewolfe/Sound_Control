@@ -38,8 +38,8 @@ Stop mirroring of the camera. (DONE)
 Get the leap out of the drop down menu. (DONE):NOT TESTED ON MORE THAN 2 INPUT DEVICES!!
 
 GRANULATOR
-	Speed to be slower.
-	Pitch to be lower.
+	Speed to be slower. (DONE)
+	Pitch to be lower. (DONE)
 
 MODEL
 Buttons, buttons instead of X toggles.
