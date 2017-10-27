@@ -55,10 +55,9 @@ Change the looper to controlling gain instead on off.
 SAMPLE PLAYER
 Fix load mess for number of samples loaded. (DONE)
 	Maybe give those backgrounds.
-0th index in the number box say silence instead of 0.
-	Use a menu.
-Looping default on.
-Rename “play” to “trigger playback” -> because of 
+0th index in the number box say silence instead of 0, use a menu. (DONE)
+Looping default on. (DONE)
+Rename “play” to “trigger playback” (DONE)
 
 
 NEW INSTRUMENTS
