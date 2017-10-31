@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1209.0, 967.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -869,7 +869,7 @@
 					"patching_rect" : [ 51.333252, 512.833313, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"enabled" : [ 1 ],
-						"pitchshift" : [ 9.998188 ],
+						"pitchshift" : [ 10.0 ],
 						"pitchshiftcent" : [ 3986 ],
 						"quality" : "basic",
 						"reportlatency" : 0,
