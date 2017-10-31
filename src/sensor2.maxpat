@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 437.0, -1001.0, 713.0, 448.0 ],
+		"rect" : [ 437.0, 79.0, 713.0, 448.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 241.0, 476.0, 53.0, 35.0 ],
 					"style" : "",
-					"text" : "vdevice 1"
+					"text" : "vdevice 0"
 				}
 
 			}

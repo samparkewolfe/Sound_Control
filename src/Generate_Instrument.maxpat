@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -606.0, -1001.0, 750.0, 100.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 		"openrect" : [ 0.0, 0.0, 750.0, 100.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -257,14 +257,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.0, 808.0, 98.0, 22.0 ],
+					"patching_rect" : [ 194.0, 808.0, 157.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "list_process.js",
+						"filename" : "normalize_pixel_matrix.js",
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "js list_process.js"
+					"text" : "js normalize_pixel_matrix.js"
 				}
 
 			}
@@ -954,7 +954,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "list_process.js",
+				"name" : "normalize_pixel_matrix.js",
 				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
