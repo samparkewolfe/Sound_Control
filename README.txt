@@ -10,10 +10,9 @@ remember to build with scroll off.
 
 Get Phoenix Perry to look at the app.
 
+SAMPLE PLAYER
+Just grey out the section instrument that is deactivated.
 
-LEAP
-Get some simpler features to extract from leap
-	hand width.
 
 HOLISTIC
 Undo button for last recording sessions.
@@ -31,8 +30,6 @@ Stop window resizing.
 Closing window instead of deleting subpatch OR
 	Organise subpatch objects.
 
-Generate Instrument:
-
 CAMERA
 Get the leap out of the drop down menu. (DONE):NOT TESTED ON MORE THAN 2 INPUT DEVICES!!
 
@@ -42,10 +39,6 @@ COLOUR TRACKER
 MODEL
 Buttons, buttons instead of X toggles. 
 Hybrid regression-classifier for the granulator.
-
-LOOPER
-Change the looper to controlling gain instead on off.
-	Then you can use regression to mix between them even if it’s just trained on.
 
 
 NEW INSTRUMENTS
@@ -57,20 +50,15 @@ Microphone input!!
 	Wind instruments...
 Multi Colour Tracker:
 	Make it multi colours and then we can have an instrument which is a colour classifier.
+Mixer-Looper
+Change the looper to controlling gain instead on off.
+	Then you can use regression to mix between them even if it’s just trained on.
+
 
 //Nielsen’s Heuristics.
 
 
-
-
-
 //Look at these later:
-
-Sample Player:
-
-Just grey out the section instrument that is deactivated.
-
-Rescale the  output of the looper
 
 Make poly~ buffer dynamic
 
