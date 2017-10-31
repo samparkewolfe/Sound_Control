@@ -10,9 +10,6 @@ remember to build with scroll off.
 
 Get Phoenix Perry to look at the app.
 
-SAMPLE PLAYER
-Just grey out the section instrument that is deactivated.
-
 
 HOLISTIC
 Undo button for last recording sessions.
@@ -37,8 +34,7 @@ COLOUR TRACKER
 	Make the minus number clearer like “NOT HERE”
 
 MODEL
-Buttons, buttons instead of X toggles. 
-Hybrid regression-classifier for the granulator.
+Buttons, buttons instead of X toggles.
 
 
 NEW INSTRUMENTS
