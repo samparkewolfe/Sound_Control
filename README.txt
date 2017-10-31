@@ -5,7 +5,6 @@ Generate Instrument size should be 750x100.
 remember to build with scroll off.
 
 
-
 //ToDos
 
 Get Phoenix Perry to look at the app.
@@ -15,7 +14,9 @@ HOLISTIC
 Undo button for last recording sessions.
 	Bring in notion of “classes” or number of recording sessions in the training data.
 	Tell the user how many “classes” or number of recording sessions are in a file.
+
 Save file able to hold some meta data about the database that can be printed when loaded.
+
 Poly buffer contents to the “generate” window.
 	Thus making it static for the instrument. 
 	This will stop the user from making a mapping for some files
@@ -32,6 +33,7 @@ Get the leap out of the drop down menu. (DONE):NOT TESTED ON MORE THAN 2 INPUT D
 
 MODEL
 Buttons, buttons instead of X toggles.
+Make recorded data pulse shorter
 
 
 NEW INSTRUMENTS
