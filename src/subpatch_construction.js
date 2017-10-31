@@ -1,8 +1,8 @@
 
-
-var sensor_coords = [0+80, 0, 319+80, 239];
-var sound_coords = [320+80, 0, 639+80, 239];
-var model_coords = [640+80, 0, 959+80, 239];
+//80
+var sensor_coords = [0, 0, 319, 239];
+var sound_coords = [320, 0, 639, 239];
+var model_coords = [640, 0, 959, 239];
 
 
 var sensor_int = 1
@@ -11,6 +11,7 @@ var model_int = 1
 
 var instruments = [];
 
+no_instruments = 0;
 
 inlets = 4
 
@@ -42,7 +43,7 @@ function anything()
 function build_subpatch()
 {
 	
-	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(instruments.length/4), 5+(23*(instruments.length%4)), "p", "myinstrument"+instruments.length);
+	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", "myinstrument"+no_instruments);
 	
 	subpatch.subpatcher().wind.size = [1040, 240]
 	
@@ -68,6 +69,7 @@ function build_subpatch()
 	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 0);
 	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 1);
 
+	/*
 	var close_window1_comment = subpatch.subpatcher().newdefault( 13., 0., "comment", "@text", "CLOSE");
 	var close_window2_comment = subpatch.subpatcher().newdefault( 6.5, 13., "comment", "@text", "WINDOW");
 	var close_window_bang = subpatch.subpatcher().newobject("button", 19., 35., 37., 37.);
@@ -78,17 +80,23 @@ function build_subpatch()
 
 	dispose_message.hidden = true;
 	thispatcher_object.hidden = true;
+	*/
 
 	subpatch.subpatcher().locked = 1;
 	
+	outlet(0, "myinstrument "+no_instruments);
+	
+	no_instruments = no_instruments+1
 	instruments.push(subpatch);
-	
-	outlet(0, "myinstrument"+instruments.length);
-	
-	post(instruments.length, "\n");
 }
 
 function open_subpatch(v)
 {
 	instruments[v].subpatcher().message("front");
+}
+
+function take_away(v)
+{
+	this.patcher.remove(instruments[v]);
+	instruments.splice(v, 1);
 }
