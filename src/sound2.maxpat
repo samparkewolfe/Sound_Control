@@ -277,7 +277,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"hint" : "",
 					"id" : "obj-87",
@@ -287,7 +287,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 971.5, 480.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.000061, -0.166626, 320.0, 240.0 ],
+					"presentation_rect" : [ 128.999939, 106.0, 131.0, 94.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 621.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,24 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
+					"id" : "obj-87",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 952.0, 691.833252, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 128.0, 56.0, 125.999939, 55.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
@@ -130,7 +148,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"items" : [ "--", "silence", "--", ",", 1, "BassDelight.mp3", ",", 2, "BassDelightSlap.mp3", ",", 3, "BassFever.mp3", ",", 4, "BassFunk.mp3", ",", 5, "ClavDance.mp3", ",", 6, "ClavDelight.mp3", ",", 7, "ClavFever.mp3", ",", 8, "DrumsBell.mp3", ",", 9, "DrumsMassive.mp3", ",", 10, "DrumsSticky.mp3", ",", 11, "DrumsTamborine.mp3", ",", 12, "GuitarDelight.mp3", ",", 13, "GuitarHit.mp3", ",", 14, "GuitarPickin.mp3", ",", 15, "GuitarRiser.mp3", ",", 16, "PianoDelight2.mp3", ",", 17, "PianoDelight3.mp3", ",", 18, "PianoDelight4.mp3", ",", 19, "PianoRiser.mp3" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -179,7 +197,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 172.0, 136.0, 20.0 ],
 					"style" : "",
-					"text" : "Loaded 19 sample(s)."
+					"text" : "No samples loaded."
 				}
 
 			}
@@ -271,24 +289,6 @@
 					"patching_rect" : [ 952.0, 628.5, 115.0, 22.0 ],
 					"style" : "",
 					"text" : "bgfillcolor 1. 1. 1. 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
-					"id" : "obj-87",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 952.0, 691.833252, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
