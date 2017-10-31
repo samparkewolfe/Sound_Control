@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -24.0, -1001.0, 646.0, 967.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -143,7 +143,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"items" : [ "--", "silence", "--" ],
+					"items" : [ "--", "silence", "--", ",", 1, "DBD_175_175_A_VOCALS1.wav", ",", 2, "DBD_175_175_A_VOCALS2.wav", ",", 3, "DBD_175_175_ASHARP_VOCALS3.wav", ",", 4, "DBD_175_175_B_VOCALS4.wav", ",", 5, "DBD_175_175_B_VOCALS5.wav", ",", 6, "DBD_175_175_B_VOCALS6.wav", ",", 7, "DBD_175_175_B_VOCALS7.wav", ",", 8, "DBD_175_175_B_VOCALS8.wav", ",", 9, "DBD_175_175_C_VOCALS9.wav", ",", 10, "DBD_175_175_CSHARP_VOCALS10.wav", ",", 11, "DBD_175_175_FSHARP_VOCALS11.wav", ",", 12, "DBD_178_VOCAL HITS.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -192,7 +192,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 172.0, 136.0, 20.0 ],
 					"style" : "",
-					"text" : "No samples loaded."
+					"text" : "Loaded 12 sample(s)."
 				}
 
 			}
@@ -299,7 +299,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 952.0, 691.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 242.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -793,7 +793,7 @@
 				"box" : 				{
 					"id" : "obj-132",
 					"maxclass" : "number",
-					"maximum" : 19,
+					"maximum" : 12,
 					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -829,9 +829,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 127.0, 817.0, 381.0, 23.0 ],
+					"patching_rect" : [ 127.0, 817.0, 396.0, 23.0 ],
 					"style" : "",
-					"text" : "combine sound_control_sample_player_polybuffer. i @triggers 1"
+					"text" : "combine #0sound_control_sample_player_polybuffer. i @triggers 1"
 				}
 
 			}
@@ -857,13 +857,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 118.5, 167.0, 293.0, 22.0 ],
+					"patching_rect" : [ 118.5, 167.0, 306.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "polybuffer~ sound_control_sample_player_polybuffer"
+					"text" : "polybuffer~ #0sound_control_sample_player_polybuffer"
 				}
 
 			}
