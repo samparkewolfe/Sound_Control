@@ -9,19 +9,14 @@ remember to build with scroll off.
 
 Get Phoenix Perry to look at the app.
 
+LEAP
+Make visualisation indicate Z position better.
 
 HOLISTIC
 Undo button for last recording sessions.
 	Bring in notion of “classes” or number of recording sessions in the training data.
 	Tell the user how many “classes” or number of recording sessions are in a file.
-
 Save file able to hold some meta data about the database that can be printed when loaded.
-
-Poly buffer contents to the “generate” window.
-	Thus making it static for the instrument. 
-	This will stop the user from making a mapping for some files
-		… then changing the files and having a mapping for
-		… the old files still going.
 
 UI
 Stop window resizing.
@@ -57,6 +52,11 @@ Change the looper to controlling gain instead on off.
 
 Make poly~ buffer dynamic
 
+Poly buffer contents to the “generate” window.
+	Thus making it static for the instrument. 
+	This will stop the user from making a mapping for some files
+		… then changing the files and having a mapping for
+		… the old files still going.
 
 
 
