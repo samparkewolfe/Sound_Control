@@ -8,10 +8,11 @@ remember to build with scroll off.
 
 //ToDos
 
+Get Phoenix Perry to look at the app.
+
+
 LEAP
 Get some simpler features to extract from leap
-	Palm position. (DONE)
-	JUST finger tips. (DONE)
 	hand width.
 
 HOLISTIC
@@ -31,37 +32,20 @@ Closing window instead of deleting subpatch OR
 	Organise subpatch objects.
 
 Generate Instrument:
-	Reminder to plug in sensors (DONE)
 
 CAMERA
-Stop mirroring of the camera. (DONE)
 Get the leap out of the drop down menu. (DONE):NOT TESTED ON MORE THAN 2 INPUT DEVICES!!
 
 COLOUR TRACKER
 	Make the minus number clearer like “NOT HERE”
-	Have an auto save file to track the last colour selected in the app. (DONE)
-
-GRANULATOR
-	Speed to be slower. (DONE)
-	Pitch to be lower. (DONE)
 
 MODEL
 Buttons, buttons instead of X toggles. 
 Hybrid regression-classifier for the granulator.
-Automate the recording time. (DONE)
-Still posts “Model is ready to run!” twice?. (DONE)
 
 LOOPER
 Change the looper to controlling gain instead on off.
 	Then you can use regression to mix between them even if it’s just trained on.
-
-
-SAMPLE PLAYER
-Fix load mess for number of samples loaded. (DONE)
-	Maybe give those backgrounds.
-0th index in the number box say silence instead of 0, use a menu. (DONE)
-Looping default on. (DONE)
-Rename “play” to “trigger playback” (DONE)
 
 
 NEW INSTRUMENTS
@@ -93,7 +77,6 @@ Make poly~ buffer dynamic
 
 
 
-Visual design critique 
 
 
 
