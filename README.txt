@@ -30,9 +30,6 @@ Closing window instead of deleting subpatch OR
 CAMERA
 Get the leap out of the drop down menu. (DONE):NOT TESTED ON MORE THAN 2 INPUT DEVICES!!
 
-COLOUR TRACKER
-	Make the minus number clearer like “NOT HERE”
-
 MODEL
 Buttons, buttons instead of X toggles.
 
