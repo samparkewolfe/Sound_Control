@@ -9,7 +9,8 @@ var sensor_int = 1
 var sound_int = 1
 var model_int = 1
 
-number_of_instruments = 0
+var instruments = [];
+
 
 inlets = 4
 
@@ -41,7 +42,7 @@ function anything()
 function build_subpatch()
 {
 	
-	var subpatch = this.patcher.newdefault(480 + 102*Math.floor(number_of_instruments/4), 5+(23*(number_of_instruments%4)), "p", "myinstrument"+number_of_instruments);
+	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(instruments.length/4), 5+(23*(instruments.length%4)), "p", "myinstrument"+instruments.length);
 	
 	subpatch.subpatcher().wind.size = [1040, 240]
 	
@@ -80,5 +81,14 @@ function build_subpatch()
 
 	subpatch.subpatcher().locked = 1;
 	
-	number_of_instruments = number_of_instruments+1
+	instruments.push(subpatch);
+	
+	outlet(0, "myinstrument"+instruments.length);
+	
+	post(instruments.length, "\n");
+}
+
+function open_subpatch(v)
+{
+	instruments[v].subpatcher().message("front");
 }
