@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 886.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,7 +39,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"hint" : "",
 					"id" : "obj-87",
@@ -49,7 +49,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 970.5, 610.999817, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.999939, 106.0, 131.0, 94.0 ],
+					"presentation_rect" : [ 128.999939, 51.833374, 131.0, 148.166626 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
