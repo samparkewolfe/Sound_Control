@@ -1,65 +1,55 @@
-
-//Remembers
-Generate Instrument size should be 750x100.
-
-remember to build with scroll off.
-
-
 //ToDos
 
-Get Phoenix Perry to look at the app.
+REMEMBERS
+Generate Instrument size should be 750x100.
+Build with scrolls off.
+Ask Phoenix Perry to critique app design.
+
+HOLISTIC
+SAVE FILE.
+    Save the last files that were loaded into the instruments.
+Stop instrument from running when closed.
+    Get the closed window event
+Stop window resizing.
+Undo button for last recording sessions.
+    Bring in notion of “classes” or number of recording sessions in the training data.
+    Tell the user how many “classes” or number of recording sessions are in a file.
+
+GENERATE INSTRUMENT
+Make the select instrument window more separate.
+
+COLOUR TRACKER
+Make the coordinates box larger.
+Test umenu with more than two input devices
+
+MODEL
+Make recorded data pulse shorter
+Hold down the record button to record a longer period.
+Make sure the save colour works
+Delete the regression classification titles.
+
+SAMPLE PLAYER
+Initialise the silence message in the umenu.
+
+GRANULATOR
+Sliders default to the middle
+Play defaults to on.
+Make a hybrid model to classify granulators on off.
 
 LEAP
 Make visualisation indicate Z position better.
 
-HOLISTIC
-Undo button for last recording sessions.
-	Bring in notion of “classes” or number of recording sessions in the training data.
-	Tell the user how many “classes” or number of recording sessions are in a file.
-Save file able to hold some meta data about the database that can be printed when loaded.
-
-UI
-Stop window resizing.
-Closing window instead of deleting subpatch OR
-	Organise subpatch objects.
-
-CAMERA
-Get the leap out of the drop down menu. (DONE):NOT TESTED ON MORE THAN 2 INPUT DEVICES!!
-
-MODEL
-Buttons, buttons instead of X toggles.
-Make recorded data pulse shorter
-
-
 NEW INSTRUMENTS
 Build a simple weird synth to play with.
 Piano sampler which you map areas of the piano to the sensor positions
-	Change Scale.
-	Linear Regression.
+    Change Scale.
+    Linear Regression.
 Microphone input!!
-	Wind instruments...
+    Wind instruments...
 Multi Colour Tracker:
-	Make it multi colours and then we can have an instrument which is a colour classifier.
+    Make it multi colours and then we can have an instrument which is a colour classifier.
 Mixer-Looper
 Change the looper to controlling gain instead on off.
-	Then you can use regression to mix between them even if it’s just trained on.
-
-
-//Nielsen’s Heuristics.
-
-
-//Look at these later:
-
-Make poly~ buffer dynamic
-
-Poly buffer contents to the “generate” window.
-	Thus making it static for the instrument. 
-	This will stop the user from making a mapping for some files
-		… then changing the files and having a mapping for
-		… the old files still going.
-
-
-
-
+    Then you can use regression to mix between them even if it’s just trained on.
 
 
