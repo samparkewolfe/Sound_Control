@@ -8,8 +8,8 @@ Ask Phoenix Perry to critique app design.
 
 
 HOLISTIC
-Stop instrument from running when closed.
-    Get the closed window event.
+Stop instrument from running when closed. (DONE)
+    Get the closed window event. (DONE)
 SAVE FILE.
     Save the last files that were loaded into the instruments.
 Stop window resizing.
