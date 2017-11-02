@@ -277,7 +277,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"hint" : "",
 					"id" : "obj-87",
@@ -524,7 +524,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 890.0, 135.833435, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "Playing?"
+					"text" : "Running?"
 				}
 
 			}

@@ -30,7 +30,8 @@ Hold down the record button to record a longer period. (DONE)
 Delete the regression classification titles. (DONE)
 
 SAMPLE PLAYER
-Initialise the silence message in the umenu.
+Initialise the silence message in the umenu. (DONE)
+Update when run turns on. (DONE)
 
 GRANULATOR
 Sliders default to the middle
