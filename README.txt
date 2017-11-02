@@ -17,10 +17,10 @@ Undo button for last recording sessions.
 Get more sounds.
 
 GENERATE INSTRUMENT
-Make the select instrument window more separate.
+Make the select instrument window more separate. (DONE)
 
 COLOUR TRACKER
-Make the coordinates box larger.
+Make the coordinates box larger. (DONE)
 Test umenu with more than two input devices
 
 MODEL

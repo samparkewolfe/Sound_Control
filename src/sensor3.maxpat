@@ -86,9 +86,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 251.5, 1916.5, 66.714355, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 182.0, 71.400002, 20.0 ],
+					"presentation_rect" : [ 69.0, 182.0, 80.0, 20.0 ],
 					"style" : "",
-					"text" : "58.00 27.00"
+					"text" : "63.00 24.00"
 				}
 
 			}
@@ -1998,7 +1998,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.859536, 0.69483, 0.659536, 1.0 ],
 					"border" : 2,
 					"id" : "obj-59",
 					"maxclass" : "panel",
@@ -2016,7 +2016,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.501767, 0.501767, 0.501767, 1.0 ],
+					"bgcolor" : [ 0.740464, 0.575758, 0.540464, 1.0 ],
 					"border" : 2,
 					"id" : "obj-58",
 					"maxclass" : "panel",
@@ -2077,7 +2077,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
