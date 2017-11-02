@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 308.666779, 1252.666748, 30.0, 30.0 ],
-					"presentation_rect" : [ 320.666779, 1252.666748, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -58,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 308.666779, 1215.000244, 34.0, 22.0 ],
-					"presentation_rect" : [ 320.666779, 1215.000244, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -71,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 349.333527, 927.666626, 150.0, 20.0 ],
-					"presentation_rect" : [ 349.333527, 924.999939, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "train_update_bang"
 				}
@@ -99,7 +96,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 364.666779, 1094.000244, 24.0, 24.0 ],
-					"presentation_rect" : [ 364.666779, 1091.333618, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -112,7 +108,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "bang" ],
 					"patching_rect" : [ 323.666779, 1070.000244, 60.0, 22.0 ],
-					"presentation_rect" : [ 323.666779, 1067.333618, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "rapidmax"
 				}
@@ -125,7 +120,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 293.833496, 901.666626, 83.666748, 20.0 ],
-					"presentation_rect" : [ 293.833496, 898.999939, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Train/ Update"
 				}
@@ -139,7 +133,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 323.666779, 925.666626, 24.0, 24.0 ],
-					"presentation_rect" : [ 323.666779, 922.999939, 0.0, 0.0 ],
 					"style" : "",
 					"varname" : "train_update_bang[1]"
 				}
@@ -153,7 +146,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 323.666687, 974.0, 139.0, 22.0 ],
-					"presentation_rect" : [ 323.666687, 971.333313, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "#0training_data_classify"
 				}
@@ -185,7 +177,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 944.0, 659.166748, 97.0, 22.0 ],
-					"presentation_rect" : [ 944.0, 659.166748, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "prepend replace",
 					"varname" : "prepend_replace_obj[1]"
@@ -213,7 +204,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 944.0, 604.500061, 29.5, 22.0 ],
-					"presentation_rect" : [ 944.0, 604.500061, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "join"
 				}
@@ -229,7 +219,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 954.5, 245.999969, 30.0, 30.0 ],
-					"presentation_rect" : [ 928.333618, 243.999969, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -478,7 +467,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 110.0, 20.0, 200.0, 200.0 ],
 					"rowheight" : 20,
-					"rows" : 7,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
@@ -939,7 +928,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 72.0, 20.0 ],
 					"style" : "",
-					"text" : "Training"
+					"text" : "HYBRID"
 				}
 
 			}

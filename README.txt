@@ -28,7 +28,7 @@ MODEL
 Make recorded data pulse shorter. (DONE)
 Hold down the record button to record a longer period. (DONE)
 Delete the regression classification titles. (DONE)
-Make a hybrid model to classify granulators on off.
+Make a hybrid model to classify granulators on off. (DONE)
 
 SAMPLE PLAYER
 Initialise the silence message in the umenu. (DONE)
@@ -37,7 +37,7 @@ Update when run turns on. (DONE)
 GRANULATOR
 Sliders default to the middle. (DONE)
 Play defaults to on. (DONE)
-Hook up to hybrid model.
+Hook up to hybrid model. (DONE)
 
 LEAP
 Make visualisation indicate Z position better.

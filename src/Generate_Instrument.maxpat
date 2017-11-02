@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 640.0, 100.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 		"openrect" : [ 0.0, 0.0, 640.0, 100.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -280,7 +280,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 277.249969, 354.666656, 29.5, 22.0 ],
 					"style" : "",
-					"text" : "2"
+					"text" : "3"
 				}
 
 			}
@@ -715,7 +715,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.75, 396.666687, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "subpatch_construction",
+						"filename" : "subpatch_construction.js",
 						"parameter_enable" : 0
 					}
 ,

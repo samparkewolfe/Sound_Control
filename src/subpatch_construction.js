@@ -62,6 +62,8 @@ function build_subpatch()
 	subpatch.subpatcher().hiddenconnect(model, 0, sound, 0);
 	subpatch.subpatcher().hiddenconnect(model, 1, sound, 1);
 	
+	subpatch.subpatcher().hiddenconnect(sound, 2, model, 2);
+	subpatch.subpatcher().hiddenconnect(model, 2, sound, 2);
 	
 	var dac_obj = subpatch.subpatcher().newdefault(319., 0., "dac~");
 	dac_obj.hidden = true;
