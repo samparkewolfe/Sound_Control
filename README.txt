@@ -5,6 +5,8 @@ Generate Instrument size should be 750x100.
 Build with scrolls off.
 Ask Phoenix Perry to critique app design.
 
+
+
 HOLISTIC
 Stop instrument from running when closed.
     Get the closed window event.
@@ -18,27 +20,15 @@ Get more sounds.
 
 
 GENERATE INSTRUMENT
-Make the select instrument window more separate. (DONE)
 
 COLOUR TRACKER
-Make the coordinates box larger. (DONE)
-Make sure the save colour works. (DONE)
 Test umenu with more than two input devices
 
 MODEL
-Make recorded data pulse shorter. (DONE)
-Hold down the record button to record a longer period. (DONE)
-Delete the regression classification titles. (DONE)
-Make a hybrid model to classify granulators on off. (DONE)
 
 SAMPLE PLAYER
-Initialise the silence message in the umenu. (DONE)
-Update when run turns on. (DONE)
 
 GRANULATOR
-Sliders default to the middle. (DONE)
-Play defaults to on. (DONE)
-Hook up to hybrid model. (DONE)
 
 LEAP
 Make visualisation indicate Z position better.
