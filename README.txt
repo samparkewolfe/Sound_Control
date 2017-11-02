@@ -21,13 +21,13 @@ Make the select instrument window more separate. (DONE)
 
 COLOUR TRACKER
 Make the coordinates box larger. (DONE)
+Make sure the save colour works. (DONE)
 Test umenu with more than two input devices
 
 MODEL
-Make recorded data pulse shorter
-Hold down the record button to record a longer period.
-Make sure the save colour works
-Delete the regression classification titles.
+Make recorded data pulse shorter. (DONE)
+Hold down the record button to record a longer period. (DONE)
+Delete the regression classification titles. (DONE)
 
 SAMPLE PLAYER
 Initialise the silence message in the umenu.
