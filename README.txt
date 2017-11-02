@@ -9,11 +9,12 @@ HOLISTIC
 SAVE FILE.
     Save the last files that were loaded into the instruments.
 Stop instrument from running when closed.
-    Get the closed window event
+    Get the closed window event.
 Stop window resizing.
 Undo button for last recording sessions.
     Bring in notion of “classes” or number of recording sessions in the training data.
     Tell the user how many “classes” or number of recording sessions are in a file.
+Get more sounds.
 
 GENERATE INSTRUMENT
 Make the select instrument window more separate.
