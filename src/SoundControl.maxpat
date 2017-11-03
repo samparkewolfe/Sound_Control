@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 725.0, 683.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 100.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -519,7 +519,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "GameTrak", ",", "Dumb", "Camera", ",", "Colour", "Tracker", ",", "Leap", "Motion", "Palm", "Position", ",", "Leap", "Motion", "Finger", "Tips" ],
+					"items" : [ "GameTrak", ",", "Dumb", "Camera", ",", "Colour", "Tracker", ",", "Leap", "Motion", "Palm", "Position", ",", "Leap", "Motion", "Finger", "Tips", ",", "MicroBit" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -947,20 +947,16 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "normalize_pixel_matrix.js",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
