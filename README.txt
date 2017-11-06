@@ -16,12 +16,14 @@ Undo button for last recording sessions.
     Tell the user how many “classes” or number of recording sessions are in a file.
 Get more sounds.
 
-
+MICROBIT
+Implement (DONE)
 
 GENERATE INSTRUMENT
 
 COLOUR TRACKER
 Test umenu with more than two input devices
+Save last clicked colour (DONE)
 
 MODEL
 
