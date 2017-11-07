@@ -40,7 +40,7 @@ Get rid of settings which make silence.
 LEAP
 Make visualisation indicate Z position better.
 Take away fingertips.
-Implement Handwidth.
+Implement Hand width.
 
 
 NEW INSTRUMENTS
