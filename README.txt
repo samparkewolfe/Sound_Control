@@ -7,12 +7,8 @@ Ask Phoenix Perry to critique app design.
 
 
 HOLISTIC
-SAVE FILE.
+Save File.
 Stop window resizing.
-Undo button for last recording sessions.
-    Bring in notion of “classes” or number of recording sessions in the training data.
-    Tell the user how many “classes” or number of recording sessions are in a file.
-Get more sounds.
 
 
 MICROBIT
@@ -24,12 +20,9 @@ GENERATE INSTRUMENT
 
 
 COLOUR TRACKER
-Test umenu with more than two input devices (DONE)
 BUG: umenu doesn’t work with more than 2 input devices.
-Save last clicked colour (DONE)
-Fix it from being so fragile.
 Live.gain is not clear it is a slider.
-Min and Max don’t make any sense.
+Clearer UI for Min and Max.
 
 
 MODEL
@@ -72,12 +65,13 @@ Recorder
     Self evaluation
     Mmmmm meta..
     Combine this with a mic recorder?
-
-
-NEW OTHER
-Internal 
-    Then save them in the app
-    Then have an internal lookup menu to select from those apps.
+Internal Sound File Browser
+    Save copies of SoundFiles in Library.
+    Build internal menu to sounds in app.
+    Integrate this into the instruments.
+Undo button for last recording sessions.
+    Bring in notion of “classes” or number of recording sessions in the training data.
+    Tell the user how many “classes” or number of recording sessions are in a file.
 
 
 
