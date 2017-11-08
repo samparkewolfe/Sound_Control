@@ -1,22 +1,36 @@
 //ToDos
 
+
 REMEMBERS
 Build with scrolls off.
-Ask Phoenix Perry to critique app design.
-
+Build for specific output and input device.
+    Tell people that they can edit sound interface with source code.
 
 
 HOLISTIC
 Save File.
 Stop window resizing.
+Figure out about why you couldn’t convert files from .caf again.
+
+NEW SAMPLES
+Make some ourselves on garage band.
+    Deffo acoustic instruments (That’s all Jan knows).
+    Orchestral pop covers.
+    Group loops.
+        Sax Groups.
+    Discordant sounds.
+    Solo instrument loops.
+    Strings and Brass.
+    Same motif on lots of different instruments.
+    Samples which progress after each other (possible whole songs)
 
 
 MICROBIT
 Get compass
+Pack out UI with more info.
 
 
 GENERATE INSTRUMENT
-
 
 
 COLOUR TRACKER
@@ -54,7 +68,8 @@ Piano sampler which you map areas of the piano to the sensor positions.
     Change Scale.
     Linear Regression.
 Microphone input!!
-    Wind instruments...
+    Microphone RMS 
+    Headphones with a mic on them.
 Colour Detector
     Lets you set 3 colours to be tracked
     3 dimension input of just each colour is present to classifier.
@@ -65,10 +80,15 @@ Recorder
     Self evaluation
     Mmmmm meta..
     Combine this with a mic recorder?
+    Thought shower different interfaces for recording the instrument and recording the mic.
 Internal Sound File Browser
     Save copies of SoundFiles in Library.
     Build internal menu to sounds in app.
     Integrate this into the instruments.
+    How not to make internal sound finder polluted.
+    Take into account more than one kid using the same app.
+    Automatically name files and subdirectories.
+    Divide stuff up with sample content.
 Undo button for last recording sessions.
     Bring in notion of “classes” or number of recording sessions in the training data.
     Tell the user how many “classes” or number of recording sessions are in a file.
