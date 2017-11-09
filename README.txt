@@ -63,10 +63,8 @@ Build a Volume/Mixer Instrument
     Linear activation on the neural net?
     Several channels (only 3).
     Triangle UI to visualise mix.
-Build a simple weird synth to play with.
-Piano sampler which you map areas of the piano to the sensor positions.
-    Change Scale.
-    Linear Regression.
+FM Synth
+    Two slider synth to mess around with.
 Microphone input!!
     Microphone RMS 
     Headphones with a mic on them.
@@ -92,6 +90,8 @@ Internal Sound File Browser
 Undo button for last recording sessions.
     Bring in notion of “classes” or number of recording sessions in the training data.
     Tell the user how many “classes” or number of recording sessions are in a file.
-
+Piano sampler which you map areas of the piano to the sensor positions.
+    Change Scale.
+    Linear Regression.
 
 
