@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 858.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -519,7 +519,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-61",
 					"maxclass" : "panel",
@@ -1993,7 +1993,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
-							"parameter_shortname" : "live.gain~",
+							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
 							"parameter_mmax" : 6.0,
@@ -3636,7 +3636,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-75" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-75" : [ "live.gain~[1]", "Volume", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

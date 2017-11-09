@@ -44,8 +44,8 @@ Save the last files that were loaded into the instruments.
 
 
 GRANULATOR
-Get rid of settings which make silence.
-Live.gain is not clear it is a slider.
+Get rid of settings which make silence. (DONE)
+Live.gain is not clear it is a slider. (DONE)
 
 
 LEAP

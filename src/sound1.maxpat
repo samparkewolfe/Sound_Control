@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 57.0, -836.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -788,7 +788,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
-							"parameter_shortname" : "live.gain~",
+							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
 							"parameter_mmax" : 6.0,
@@ -1406,7 +1406,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-135" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-135" : [ "live.gain~", "Volume", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
