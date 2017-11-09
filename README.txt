@@ -50,8 +50,8 @@ Live.gain is not clear it is a slider. (DONE)
 
 LEAP
 Make visualisation indicate Z position better.
-Take away fingertips.
-Implement Hand width.
+Take away fingertips. (DONE)
+Implement Hand width. (DONE)
 
 
 NEW INSTRUMENTS
