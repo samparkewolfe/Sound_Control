@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 211.0, -1001.0, 444.0, 967.0 ],
+		"rect" : [ -178.0, -1001.0, 1852.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 735.0, 615.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "0. 0."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -115,14 +128,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 539.0, 265.0, 22.0 ],
+					"patching_rect" : [ 648.0, 539.0, 250.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "sound_control_leap_motion_distal_position.js",
+						"filename" : "sound_control_leap_motion_hand_width.js",
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "js sound_control_leap_motion_distal_position.js"
+					"text" : "js sound_control_leap_motion_hand_width.js"
 				}
 
 			}
@@ -458,7 +471,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 53.0, 335.0, 50.0, 21.0 ],
 									"style" : "",
-									"text" : "1504"
+									"text" : "554"
 								}
 
 							}
@@ -1162,7 +1175,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 236.0, 154.0, 497.0, 416.0 ],
+						"rect" : [ 463.0, 177.0, 497.0, 416.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -2139,6 +2152,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"order" : 0,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -2635,8 +2657,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "sound_control_leap_motion_distal_position.js",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"name" : "sound_control_leap_motion_hand_width.js",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
