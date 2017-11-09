@@ -2050,14 +2050,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-323",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.5, 7.333344, 150.0, 20.0 ],
+					"patching_rect" : [ 7.5, 7.333344, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 78.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 169.0, 20.0 ],
 					"style" : "",
-					"text" : "Leap Motion"
+					"text" : "Leap Motion - Palm Position"
 				}
 
 			}
@@ -2768,14 +2769,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sound_control_leap_motion_palm_position.js",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "flatten_leapmotion_hand_and_finger_data.js",
-				"bootpath" : "~/Google Drive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

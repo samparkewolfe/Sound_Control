@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 398.0, -853.0, 509.0, 384.0 ],
+		"rect" : [ -178.0, -1001.0, 1852.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -166,7 +166,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 611.0, 1075.0, 56.0, 22.0 ],
+					"patching_rect" : [ 611.0, 1075.0, 56.0, 196.0 ],
 					"style" : "",
 					"text" : "export \"/Users/samparkewolfe/Library/Application Support/SoundControl/soundcontrol_colourtracker_config.json\""
 				}
@@ -2106,7 +2106,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.94167, 0.863238, 0.357356, 1.0 ],
+					"bgcolor" : [ 0.94167, 0.863239, 0.357356, 1.0 ],
 					"border" : 2,
 					"id" : "obj-59",
 					"maxclass" : "panel",
@@ -2124,7 +2124,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.65833, 0.579899, 0.074017, 1.0 ],
+					"bgcolor" : [ 0.65833, 0.579899, 0.074016, 1.0 ],
 					"border" : 2,
 					"id" : "obj-58",
 					"maxclass" : "panel",
