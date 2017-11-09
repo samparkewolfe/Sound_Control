@@ -27,16 +27,12 @@ Make some ourselves on garage band.
 
 MICROBIT
 Get compass
-Pack out UI with more info.
-
-
-GENERATE INSTRUMENT
+Pack out UI with more info. (DONE)
 
 
 COLOUR TRACKER
 BUG: umenu doesn’t work with more than 2 input devices.
-Live.gain is not clear it is a slider.
-Clearer UI for Min and Max.
+Clearer UI for Min and Max. (DONE)
 
 
 MODEL
@@ -49,6 +45,7 @@ Save the last files that were loaded into the instruments.
 
 GRANULATOR
 Get rid of settings which make silence.
+Live.gain is not clear it is a slider.
 
 
 LEAP
@@ -64,7 +61,7 @@ Build a Volume/Mixer Instrument
     Several channels (only 3).
     Triangle UI to visualise mix.
 FM Synth
-    Two slider synth to mess around with.
+    Two slider synth to mess around with
 Microphone input!!
     Microphone RMS 
     Headphones with a mic on them.
