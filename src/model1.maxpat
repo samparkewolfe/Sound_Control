@@ -308,7 +308,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 110.0, 20.0, 200.0, 200.0 ],
 					"rowheight" : 20,
-					"rows" : 193,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
@@ -618,8 +618,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 597.750122, 615.166748, 37.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 198.0, 37.0, 22.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -645,8 +643,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 551.750122, 615.166748, 36.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 59.0, 198.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "save"
 				}

@@ -36,7 +36,7 @@ Clearer UI for Min and Max. (DONE)
 
 
 MODEL
-
+Take away save functionality. (DONE)
 
 
 SAMPLE PLAYER
