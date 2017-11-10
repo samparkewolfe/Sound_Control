@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -178.0, -1001.0, 919.0, 967.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 100.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 0,
-		"enablevscroll" : 0,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -125,9 +125,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1107.0, 957.0, 499.0, 22.0 ],
+					"patching_rect" : [ 1107.0, 957.0, 291.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf %s/Library/Application Support/SoundControl/soundcontrol_colourtracker_config.json"
+					"text" : "sprintf %s/Library/Application Support/SoundControl/"
 				}
 
 			}
@@ -164,14 +164,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1107.0, 1058.0, 264.0, 22.0 ],
+					"patching_rect" : [ 1107.0, 1058.0, 188.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict soundcontrol_colourtracker_config_location"
+					"text" : "dict soundcontrol_config_location"
 				}
 
 			}
@@ -302,7 +302,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 696.000122, 387.0, 22.0 ],
+					"patching_rect" : [ 1609.0, 642.000122, 387.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess ls ../../../Applications/SoundControl.app/Contents/Resources/"
 				}

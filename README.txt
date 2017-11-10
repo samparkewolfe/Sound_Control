@@ -7,6 +7,7 @@ Build for specific output and input device.
     Tell people that they can edit sound interface with source code.
 
 
+
 HOLISTIC
 Save File.
 Stop window resizing.
@@ -27,16 +28,13 @@ Make some ourselves on garage band.
 
 MICROBIT
 Get compass
-Pack out UI with more info. (DONE)
 
 
 COLOUR TRACKER
 BUG: umenu doesn’t work with more than 2 input devices.
-Clearer UI for Min and Max. (DONE)
 
 
 MODEL
-Take away save functionality. (DONE)
 
 
 SAMPLE PLAYER
@@ -44,14 +42,10 @@ Save the last files that were loaded into the instruments.
 
 
 GRANULATOR
-Get rid of settings which make silence. (DONE)
-Live.gain is not clear it is a slider. (DONE)
 
 
 LEAP
 Make visualisation indicate Z position better.
-Take away fingertips. (DONE)
-Implement Hand width. (DONE)
 
 
 NEW INSTRUMENTS
