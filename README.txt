@@ -38,7 +38,7 @@ MODEL
 
 
 SAMPLE PLAYER
-Save the last files that were loaded into the instruments.
+Save the last files that were loaded into the instruments. (DONE)
 
 
 GRANULATOR
