@@ -13,6 +13,7 @@ Save File.
 Stop window resizing.
 Figure out about why you couldn’t convert files from .caf again.
 
+
 NEW SAMPLES
 Make some ourselves on garage band.
     Deffo acoustic instruments (That’s all Jan knows).
@@ -38,7 +39,6 @@ MODEL
 
 
 SAMPLE PLAYER
-Save the last files that were loaded into the instruments. (DONE)
 
 
 GRANULATOR
@@ -49,11 +49,7 @@ Make visualisation indicate Z position better.
 
 
 NEW INSTRUMENTS
-Build a Volume/Mixer Instrument
-    Just to introduce kids to the idea of what’s going on.
-    Linear activation on the neural net?
-    Several channels (only 3).
-    Triangle UI to visualise mix.
+Volume/Mixer Instrument (DONE)
 FM Synth
     Two slider synth to mess around with
 Microphone input!!
