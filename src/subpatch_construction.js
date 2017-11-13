@@ -85,6 +85,8 @@ function build_subpatch()
 	thispatcher_object.hidden = true;
 
 	subpatch.subpatcher().locked = 1;
+	subpatch.subpatcher().wind.hasgrow = 0;
+	post("Hasgrow: ", subpatch.subpatcher().wind.hasgrow);
 	
 	outlet(0, "myinstrument "+no_instruments);
 	

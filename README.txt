@@ -10,7 +10,7 @@ Build for specific output and input device.
 
 HOLISTIC
 Save File.
-Stop window resizing.
+Stop window resizing. (DONE)
 Figure out about why you couldn’t convert files from .caf again.
 
 
