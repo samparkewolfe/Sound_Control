@@ -12,6 +12,7 @@ HOLISTIC
 Save File.
 Stop window resizing. (DONE)
 Figure out about why you couldn’t convert files from .caf again.
+Optimise all sensors.
 
 
 NEW SAMPLES
