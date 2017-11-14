@@ -2,7 +2,6 @@
 
 
 REMEMBERS
-Build with scrolls off.
 Build for specific output and input device.
     Tell people that they can edit sound interface with source code.
 
@@ -10,26 +9,12 @@ Build for specific output and input device.
 
 HOLISTIC
 Save File.
-Stop window resizing. (DONE)
 Figure out about why you couldn’t convert files from .caf again.
 Optimise all sensors.
 
 
-NEW SAMPLES
-Make some ourselves on garage band.
-    Deffo acoustic instruments (That’s all Jan knows).
-    Orchestral pop covers.
-    Group loops.
-        Sax Groups.
-    Discordant sounds.
-    Solo instrument loops.
-    Strings and Brass.
-    Same motif on lots of different instruments.
-    Samples which progress after each other (possible whole songs)
-
-
 MICROBIT
-Get compass
+Get compass.
 
 
 COLOUR TRACKER
@@ -47,6 +32,19 @@ GRANULATOR
 
 LEAP
 Make visualisation indicate Z position better.
+
+
+NEW SAMPLES
+Make some ourselves on garage band.
+    Deffo acoustic instruments (That’s all Jan knows).
+    Orchestral pop covers.
+    Group loops.
+        Sax Groups.
+    Discordant sounds.
+    Solo instrument loops.
+    Strings and Brass.
+    Same motif on lots of different instruments.
+    Samples which progress after each other (possible whole songs)
 
 
 NEW INSTRUMENTS
