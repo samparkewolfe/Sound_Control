@@ -82,9 +82,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1618.0, 277.0, 274.0, 22.0 ],
+					"patching_rect" : [ 1618.0, 277.0, 281.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf %ssoundcontrol_sampleplayer_config.json"
+					"text" : "sprintf %ssound_control_sampleplayer_config.json"
 				}
 
 			}
@@ -199,14 +199,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1561.666626, 204.0, 188.0, 22.0 ],
+					"patching_rect" : [ 1561.666626, 204.0, 195.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict soundcontrol_config_location"
+					"text" : "dict sound_control_config_location"
 				}
 
 			}
@@ -459,7 +459,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"items" : [ "--", "silence", "--", ",", 1, "BassDelight.mp3", ",", 2, "BassDelightSlap.mp3", ",", 3, "BassFever.mp3", ",", 4, "BassFunk.mp3", ",", 5, "ClavDance.mp3", ",", 6, "ClavDelight.mp3", ",", 7, "ClavFever.mp3", ",", 8, "DrumsBell.mp3", ",", 9, "DrumsMassive.mp3", ",", 10, "DrumsSticky.mp3", ",", 11, "DrumsTamborine.mp3", ",", 12, "GuitarDelight.mp3", ",", 13, "GuitarHit.mp3", ",", 14, "GuitarPickin.mp3", ",", 15, "GuitarRiser.mp3", ",", 16, "PianoDelight2.mp3", ",", 17, "PianoDelight3.mp3", ",", 18, "PianoDelight4.mp3", ",", 19, "PianoRiser.mp3" ],
+					"items" : [ "--", "silence", "--" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -508,7 +508,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 172.0, 136.0, 20.0 ],
 					"style" : "",
-					"text" : "Loaded 19 sample(s)."
+					"text" : "No samples loaded."
 				}
 
 			}

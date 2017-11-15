@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 765.0, 683.0 ],
+		"rect" : [ -178.0, -1001.0, 1852.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -261,7 +261,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 193.460968, 200.5, 101.0, 20.0 ],
 					"style" : "",
-					"text" : "GuitarPickin.mp3",
+					"text" : "No File",
 					"textjustification" : 1
 				}
 
@@ -318,9 +318,9 @@
 					"patching_rect" : [ 435.166687, 364.833344, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 109.5, 200.5, 81.0, 33.0 ],
+					"presentation_rect" : [ 109.5, 200.5, 45.0, 33.0 ],
 					"style" : "",
-					"text" : "DrumsMassive.mp3",
+					"text" : "No File",
 					"textjustification" : 1
 				}
 
@@ -377,9 +377,9 @@
 					"patching_rect" : [ 145.833344, 364.833344, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 25.939064, 200.5, 81.0, 33.0 ],
+					"presentation_rect" : [ 25.939064, 200.5, 45.0, 33.0 ],
 					"style" : "",
-					"text" : "ClavDelight.mp3",
+					"text" : "No File",
 					"textjustification" : 1
 				}
 
@@ -452,7 +452,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-212",
-					"knobcolor" : [ 0.7, 0.92, 0.92, 1.0 ],
+					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -482,7 +482,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-210",
-					"knobcolor" : [ 0.7, 0.92, 0.92, 1.0 ],
+					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -512,7 +512,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-206",
-					"knobcolor" : [ 0.7, 0.92, 0.92, 1.0 ],
+					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -795,9 +795,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2044.666626, 325.0, 232.0, 22.0 ],
+					"patching_rect" : [ 2044.666626, 325.0, 239.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf %ssoundcontrol_mixer_config.json"
+					"text" : "sprintf %ssound_control_mixer_config.json"
 				}
 
 			}
@@ -912,14 +912,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1988.333252, 252.0, 188.0, 22.0 ],
+					"patching_rect" : [ 1988.333252, 252.0, 195.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict soundcontrol_config_location"
+					"text" : "dict sound_control_config_location"
 				}
 
 			}
@@ -931,8 +931,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2005.0, 601.333313, 569.0, 22.0 ],
-					"style" : "",
-					"text" : "export \"/Users/samparkewolfe/Library/Application Support/SoundControl/soundcontrol_mixer_config.json\""
+					"style" : ""
 				}
 
 			}
@@ -944,8 +943,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3238.666748, 523.0, 609.0, 22.0 ],
-					"style" : "",
-					"text" : "import \"/Users/samparkewolfe/Library/Application Support/SoundControl/soundcontrol_mixer_config.json\""
+					"style" : ""
 				}
 
 			}

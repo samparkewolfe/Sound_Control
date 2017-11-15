@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -178.0, -1002.0, 1212.0, 683.0 ],
+		"rect" : [ -178.0, -1001.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,8 +46,6 @@
 					"patching_rect" : [ 164.833252, 620.833313, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"enabled" : [ 1 ],
-						"pitchshift" : [ 1.486077 ],
-						"pitchshiftcent" : [ 686 ],
 						"quality" : "basic",
 						"reportlatency" : 0,
 						"usecents" : 0
@@ -117,9 +115,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1618.0, 277.0, 257.0, 22.0 ],
+					"patching_rect" : [ 1618.0, 277.0, 263.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf %ssoundcontrol_granulator_config.json"
+					"text" : "sprintf %ssound_control_granulator_config.json"
 				}
 
 			}
@@ -234,14 +232,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1561.666626, 204.0, 188.0, 22.0 ],
+					"patching_rect" : [ 1561.666626, 204.0, 195.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict soundcontrol_config_location"
+					"text" : "dict sound_control_config_location"
 				}
 
 			}
@@ -253,8 +251,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1604.333374, 547.0, 594.0, 22.0 ],
-					"style" : "",
-					"text" : "export \"/Users/samparkewolfe/Library/Application Support/SoundControl/soundcontrol_granulator_config.json\""
+					"style" : ""
 				}
 
 			}
@@ -266,8 +263,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2085.333252, 473.0, 609.0, 22.0 ],
-					"style" : "",
-					"text" : "import \"/Users/samparkewolfe/Library/Application Support/SoundControl/soundcontrol_granulator_config.json\""
+					"style" : ""
 				}
 
 			}
@@ -1205,8 +1201,6 @@
 					"patching_rect" : [ 71.333252, 620.833313, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"enabled" : [ 1 ],
-						"pitchshift" : [ 1.486077 ],
-						"pitchshiftcent" : [ 686 ],
 						"quality" : "basic",
 						"reportlatency" : 0,
 						"usecents" : 0

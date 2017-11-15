@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ -178.0, -1001.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2104.0, 703.333252, 258.0, 22.0 ],
 					"style" : "",
-					"text" : "dictionary u593000758"
+					"text" : "dictionary u664000446"
 				}
 
 			}
@@ -303,9 +303,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1990.0, 309.0, 236.0, 22.0 ],
+					"patching_rect" : [ 1990.0, 309.0, 243.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf %ssoundcontrol_looper_config.json"
+					"text" : "sprintf %ssound_control_looper_config.json"
 				}
 
 			}
@@ -420,14 +420,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1933.666626, 236.0, 188.0, 22.0 ],
+					"patching_rect" : [ 1933.666626, 236.0, 195.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict soundcontrol_config_location"
+					"text" : "dict sound_control_config_location"
 				}
 
 			}
@@ -439,8 +439,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1950.333374, 585.333313, 594.0, 22.0 ],
-					"style" : "",
-					"text" : "export \"/Users/samparkewolfe/Library/Application Support/SoundControl/soundcontrol_looper_config.json\""
+					"style" : ""
 				}
 
 			}
@@ -452,8 +451,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3337.333252, 507.0, 609.0, 22.0 ],
-					"style" : "",
-					"text" : "import \"/Users/samparkewolfe/Library/Application Support/SoundControl/soundcontrol_looper_config.json\""
+					"style" : ""
 				}
 
 			}
@@ -2214,7 +2212,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.5, 0.0, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.2, 0.8, 0.2, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "textbutton",
