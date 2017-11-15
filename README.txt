@@ -7,9 +7,9 @@ Build for specific output and input device.
 
 
 
-HOLISTIC
+HOLISTICs
 Save File.
-Figure out about why you couldn’t convert files from .caf again.
+Figure out about why you couldn’t convert files from .caf again. (DONE)
 Optimise all sensors.
 
 
