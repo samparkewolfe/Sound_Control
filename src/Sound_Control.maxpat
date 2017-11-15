@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -178.0, -1001.0, 1852.0, 967.0 ],
+		"rect" : [ 24.0, -855.0, 420.0, 100.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 100.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1699,6 +1699,10 @@
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
