@@ -1,17 +1,19 @@
-//ToDos
-
-
 REMEMBERS
 Build for specific output and input device.
     Tell people that they can edit sound interface with source code.
 
 
-
 HOLISTICs
 Save File.
-Figure out about why you couldn’t convert files from .caf again. (DONE)
 Optimise all sensors.
-
+Collect apple loops which are in time.
+Change the subscription wording:
+We are currently looking for users to test a beta version of the software and provide us with feedback. If you consent to being added to our list of beta testers, and to receiving a follow-up email or two to get feedback about your experience, please click here to download the software.
+Get the licences of all the externals I have used
+    GPL LGPL
+    Header/Licence file to be distilled with them.
+        Choose licence relevant 
+Make tutorial videos
 
 MICROBIT
 Get compass.
@@ -79,5 +81,4 @@ Undo button for last recording sessions.
 Piano sampler which you map areas of the piano to the sensor positions.
     Change Scale.
     Linear Regression.
-
 
