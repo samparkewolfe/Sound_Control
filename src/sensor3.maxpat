@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 759.0, 1018.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "empty"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -56,9 +69,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 816.666687, 869.0, 272.0, 22.0 ],
+					"patching_rect" : [ 816.666687, 869.0, 279.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf %ssoundcontrol_colourtracker_config.json"
+					"text" : "sprintf %ssound_control_colourtracker_config.json"
 				}
 
 			}
@@ -82,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 683.0, 981.0, 65.0, 22.0 ],
+					"patching_rect" : [ 696.0, 913.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "closebang"
 				}
@@ -173,28 +186,26 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 735.0, 796.0, 188.0, 22.0 ],
+					"patching_rect" : [ 735.0, 796.0, 195.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict soundcontrol_config_location"
+					"text" : "dict sound_control_config_location"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-105",
-					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 803.0, 1065.0, 148.0, 89.0 ],
-					"style" : "",
-					"text" : "export \"/Users/samparkewolfe/Library/Application Support/SoundControl/soundcontrol_colourtracker_config.json\""
+					"patching_rect" : [ 803.0, 1065.0, 148.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -242,15 +253,14 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-85",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.5, 1916.5, 66.714355, 33.0 ],
+					"patching_rect" : [ 251.5, 1916.5, 66.714355, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 220.571411, 157.0, 85.0, 20.0 ],
 					"style" : "",
-					"text" : "51.00 33.00"
+					"text" : "Absent"
 				}
 
 			}
@@ -275,8 +285,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1612.5, 1062.0, 609.0, 22.0 ],
-					"style" : "",
-					"text" : "import \"/Users/samparkewolfe/Library/Application Support/SoundControl/soundcontrol_colourtracker_config.json\""
+					"style" : ""
 				}
 
 			}
@@ -3530,16 +3539,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-105", 1 ],
-					"order" : 1,
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 1 ],
-					"midpoints" : [ 1210.0, 1066.0 ],
+					"destination" : [ "obj-60", 0 ],
 					"order" : 0,
 					"source" : [ "obj-29", 0 ]
 				}
@@ -3548,7 +3548,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-95", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -3874,6 +3874,23 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 1 ],
+					"order" : 1,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 1 ],
+					"midpoints" : [ 1210.0, 1066.0 ],
+					"order" : 0,
+					"source" : [ "obj-60", 0 ]
 				}
 
 			}
