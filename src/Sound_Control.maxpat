@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 24.0, -855.0, 420.0, 100.0 ],
+		"rect" : [ -14.0, -902.0, 420.0, 100.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 100.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"title" : "SoundControl",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1095.0, 747.333374, 249.0, 22.0 ],
+					"style" : "",
+					"text" : "./../../Applications/Sound_Control/CBMicroBit"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -170,9 +183,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1229.5, 876.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1229.5, 876.0, 59.0, 22.0 ],
 					"style" : "",
-					"text" : "print"
+					"text" : "print pwd"
 				}
 
 			}
@@ -1479,6 +1492,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-102", 0 ],
 					"source" : [ "obj-59", 0 ]
 				}
@@ -1541,13 +1561,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"source" : [ "obj-73", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-76", 0 ]
 				}
@@ -1562,8 +1575,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"order" : 0,
+					"source" : [ "obj-80", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-80", 1 ]
 				}
 
@@ -1580,7 +1601,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"midpoints" : [ 790.5, 462.166656, 880.5, 462.166656 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-80", 1 ]
 				}
 
@@ -1699,10 +1720,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
