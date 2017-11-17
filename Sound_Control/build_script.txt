@@ -1,0 +1,1 @@
+open thispatcherfolder "Macintosh HD:/Users/samparkewolfe/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control_Beta/Sound_Control_release/src"
