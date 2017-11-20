@@ -17,9 +17,6 @@ https://github.com/Louismac/CBMicroBit
 ### RapidMax.mxo
 http://gitlab.doc.gold.ac.uk/spark041/RapidMax_release
 
-### Changelist.mxo
-http://www.jasch.ch/dl/default.htm
-
 ### Shell.mxo
 https://cycling74.com/forums/chess-for-max/replies/1#reply-596a3e15d5b2a4159a6c7d04 
 
