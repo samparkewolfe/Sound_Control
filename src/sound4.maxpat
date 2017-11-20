@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 856.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -311,10 +311,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 740.5, 364.833344, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 193.460968, 200.5, 101.0, 33.0 ],
+					"presentation_rect" : [ 193.060974, 200.5, 81.0, 20.0 ],
 					"style" : "",
-					"text" : "Chill Loop Guitar.caf",
+					"text" : "No File",
 					"textjustification" : 1
 				}
 
@@ -370,10 +369,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 435.166687, 364.833344, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 109.5, 200.5, 45.0, 60.0 ],
+					"presentation_rect" : [ 109.5, 200.5, 81.0, 20.0 ],
 					"style" : "",
-					"text" : "Before Dawn Vox.caf",
+					"text" : "No File",
 					"textjustification" : 1
 				}
 
@@ -429,10 +427,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 145.833344, 364.833344, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 25.939064, 200.5, 45.0, 60.0 ],
+					"presentation_rect" : [ 25.658596, 200.5, 81.560936, 20.0 ],
 					"style" : "",
-					"text" : "80s Back Beat 02.caf",
+					"text" : "No File",
 					"textjustification" : 1
 				}
 

@@ -217,9 +217,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1604.333374, 473.0, 148.0, 22.0 ],
+					"patching_rect" : [ 1604.333374, 473.0, 624.0, 22.0 ],
 					"style" : "",
-					"text" : "empty"
+					"text" : "export \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_sampleplayer_config.json\""
 				}
 
 			}
@@ -230,9 +230,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2085.333252, 473.0, 609.0, 22.0 ],
+					"patching_rect" : [ 2085.333252, 473.0, 625.0, 22.0 ],
 					"style" : "",
-					"text" : "empty"
+					"text" : "import \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_sampleplayer_config.json\""
 				}
 
 			}
@@ -459,7 +459,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"items" : [ "--", "silence", "--" ],
+					"items" : [ "--", "silence", "--", ",", 1, "BassDelight.mp3", ",", 2, "BassDelightSlap.mp3", ",", 3, "BassFever.mp3", ",", 4, "BassFunk.mp3", ",", 5, "ClavDance.mp3", ",", 6, "ClavDelight.mp3", ",", 7, "ClavFever.mp3", ",", 8, "DrumsBell.mp3", ",", 9, "DrumsMassive.mp3", ",", 10, "DrumsSticky.mp3", ",", 11, "DrumsTamborine.mp3", ",", 12, "GuitarDelight.mp3", ",", 13, "GuitarHit.mp3", ",", 14, "GuitarPickin.mp3", ",", 15, "GuitarRiser.mp3", ",", 16, "PianoDelight2.mp3", ",", 17, "PianoDelight3.mp3", ",", 18, "PianoDelight4.mp3", ",", 19, "PianoRiser.mp3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -508,7 +508,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 172.0, 136.0, 20.0 ],
 					"style" : "",
-					"text" : "No samples loaded."
+					"text" : "Loaded 19 sample(s)."
 				}
 
 			}
@@ -605,19 +605,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-86",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 278.0, 976.0, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-82",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -626,18 +613,6 @@
 					"patching_rect" : [ 62.0, 733.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 278.0, 1017.0, 37.0, 22.0 ],
-					"style" : "",
-					"text" : "dac~"
 				}
 
 			}
@@ -1763,15 +1738,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"order" : 1,
-					"source" : [ "obj-70", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"order" : 0,
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -1817,13 +1783,6 @@
 					"destination" : [ "obj-21", 0 ],
 					"order" : 0,
 					"source" : [ "obj-83", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
-					"source" : [ "obj-86", 0 ]
 				}
 
 			}
