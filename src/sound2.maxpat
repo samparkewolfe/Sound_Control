@@ -1429,7 +1429,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1604.333374, 547.0, 608.0, 22.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "export \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_granulator_config.json\""
 				}
 
 			}
@@ -1441,7 +1442,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2085.333252, 473.0, 609.0, 22.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "import \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_granulator_config.json\""
 				}
 
 			}
@@ -1765,7 +1767,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 9216.0, "ticks" ],
-						"originaltempo" : 114.000031,
+						"originaltempo" : 336.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1838,9 +1840,9 @@
 					"patching_rect" : [ 241.0, 316.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 17.5, 109.833374, 88.0, 33.0 ],
+					"presentation_rect" : [ 17.5, 109.833374, 89.0, 33.0 ],
 					"style" : "",
-					"text" : "Drop sound file"
+					"text" : "Almost Electro Beat.caf"
 				}
 
 			}
