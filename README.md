@@ -1,3 +1,5 @@
+![alt text](http://www.doc.gold.ac.uk/~spark041/Sound_Control/gif2.gif)
+
 # SoundControl
 
 We have created software that can be used by anyone to create new musical instruments using their choice of movements, sensed with a variety of off-the-shelf sensing devices (including webcam, Leap Motion, microbit, GameTrak). These instruments can be used to play and manipulate musical material, which can be either new material recorded by users or taken from third-party sample libraries.
