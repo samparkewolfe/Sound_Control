@@ -31,6 +31,6 @@ https://forge.ircam.fr/p/leapmotion/
 
 ## Known Bugs
 
-There is currently no way to change the the audio I/O for the app. To change this you will need to change the audio settings in max and rebuild.
+The app automatically sets it’s audio I/O to whatever the I/O settings of the Max.app are. If you want to change these you must close the Sound Control app, set the desired audio I/O settings in the Max.app and then reopen Sound Control. However you can then change the audio I/O settings for the Max.app and not change the Sound Control audio I/O settings after the Sound Control app has been opened.
 
 The colour tracker does not work with more than 2 input devices.
