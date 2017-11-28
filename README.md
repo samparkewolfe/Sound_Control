@@ -29,7 +29,7 @@ Build for specific output and input device.
 
 ## New Samples
 * Make some ourselves on garage band.
-** Deffo acoustic instruments (That’s all Jan knows).
+    * Deffo acoustic instruments (That’s all Jan knows).
 
     Orchestral pop covers.
 
