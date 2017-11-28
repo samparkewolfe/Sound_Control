@@ -1,4 +1,4 @@
-# Sound Control Dev Git
+# Sound Control Dev
 
 
 ## Remembers
@@ -7,7 +7,6 @@ Build for specific output and input device.
 
 ## Holistics
 Save File.
-
 Optimise all sensors.
 
 
