@@ -1,30 +1,30 @@
 # Sound Control Dev Git
 
-##REMEMBERS
+## REMEMBERS
 Build for specific output and input device.
     Tell people that they can edit sound interface with source code.
 
-##HOLISTICs
+## HOLISTICs
 Save File.
 Optimise all sensors.
 
-###MICROBIT
+### MICROBIT
 Get compass.
 
-###COLOUR TRACKER
+### COLOUR TRACKER
 BUG: umenu doesn’t work with more than 2 input devices.
 
-###MODELS
+### MODELS
 
-###SAMPLE PLAYER
+### SAMPLE PLAYER
 
-###GRANULATOR
+### GRANULATOR
 
-###LEAP
+### LEAP
 Make visualisation indicate Z position better.
 Implement leap finger angles.
 
-##NEW SAMPLES
+## NEW SAMPLES
 Make some ourselves on garage band.
     Deffo acoustic instruments (That’s all Jan knows).
     Orchestral pop covers.
@@ -36,7 +36,7 @@ Make some ourselves on garage band.
     Same motif on lots of different instruments.
     Samples which progress after each other (possible whole songs)
 
-##NEW INSTRUMENTS
+## NEW INSTRUMENTS
 Volume/Mixer Instrument (DONE)
 FM Synth
     Two slider synth to mess around with
