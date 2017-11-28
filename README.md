@@ -9,32 +9,27 @@ Build for specific output and input device.
 * Save File.
 * Optimise all sensors.
 
-
 #### Microbit
-- Get compass.
+* Get compass.
+
+#### Colour Tracker
+* Fix umenu that doesn’t work with more than 2 input devices.
+
+#### Models
+
+#### Sample Player
 
 
-#### COLOUR TRACKER
-Fix umenu that doesn’t work with more than 2 input devices.
+#### Granulator
 
 
-#### MODELS
-
-
-#### SAMPLE PLAYER
-
-
-#### GRANULATOR
-
-
-#### LEAP
-Make visualisation indicate Z position better.
-Implement leap finger angles.
+#### Leap
+* Make visualisation indicate Z position better.
+* Implement leap finger angles.
 
 ## New Samples
-Make some ourselves on garage band.
-
-    Deffo acoustic instruments (That’s all Jan knows).
+* Make some ourselves on garage band.
+** Deffo acoustic instruments (That’s all Jan knows).
 
     Orchestral pop covers.
 
