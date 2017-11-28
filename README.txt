@@ -1,42 +1,30 @@
-REMEMBERS
+#Sound Control Dev Git
+
+##REMEMBERS
 Build for specific output and input device.
     Tell people that they can edit sound interface with source code.
 
-
-HOLISTICs
+##HOLISTICs
 Save File.
 Optimise all sensors.
-Collect apple loops which are in time.
-Change the subscription wording:
-We are currently looking for users to test a beta version of the software and provide us with feedback. If you consent to being added to our list of beta testers, and to receiving a follow-up email or two to get feedback about your experience, please click here to download the software.
-Get the licences of all the externals I have used
-    GPL LGPL
-    Header/Licence file to be distilled with them.
-        Choose licence relevant 
-Make tutorial videos
 
-MICROBIT
+###MICROBIT
 Get compass.
 
-
-COLOUR TRACKER
+###COLOUR TRACKER
 BUG: umenu doesn’t work with more than 2 input devices.
 
+###MODELS
 
-MODEL
+###SAMPLE PLAYER
 
+###GRANULATOR
 
-SAMPLE PLAYER
-
-
-GRANULATOR
-
-
-LEAP
+###LEAP
 Make visualisation indicate Z position better.
+Implement leap finger angles.
 
-
-NEW SAMPLES
+##NEW SAMPLES
 Make some ourselves on garage band.
     Deffo acoustic instruments (That’s all Jan knows).
     Orchestral pop covers.
@@ -48,8 +36,7 @@ Make some ourselves on garage band.
     Same motif on lots of different instruments.
     Samples which progress after each other (possible whole songs)
 
-
-NEW INSTRUMENTS
+##NEW INSTRUMENTS
 Volume/Mixer Instrument (DONE)
 FM Synth
     Two slider synth to mess around with
