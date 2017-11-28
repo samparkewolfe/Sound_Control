@@ -1,14 +1,14 @@
 # Sound Control Dev Git
 
-## REMEMBERS
+## Remembers
 Build for specific output and input device.
     Tell people that they can edit sound interface with source code.
 
-## HOLISTICs
+## Holistics
 Save File.
 Optimise all sensors.
 
-### MICROBIT
+#### Microbit
 Get compass.
 
 ### COLOUR TRACKER
