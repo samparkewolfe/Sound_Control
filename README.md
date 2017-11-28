@@ -6,8 +6,8 @@ Build for specific output and input device.
 
 
 ## Holistics
-Save File.
-Optimise all sensors.
+* Save File.
+* Optimise all sensors.
 
 
 #### Microbit
