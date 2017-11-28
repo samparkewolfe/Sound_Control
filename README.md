@@ -11,7 +11,7 @@ Build for specific output and input device.
 
 
 #### Microbit
-Get compass.
+- Get compass.
 
 
 #### COLOUR TRACKER
