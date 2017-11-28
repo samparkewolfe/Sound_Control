@@ -1,10 +1,5 @@
 # Sound Control Dev
 
-
-## Remembers
-Build for specific output and input device.
-
-
 ## Holistics
 * Save File.
 * Optimise all sensors.
@@ -15,17 +10,16 @@ Build for specific output and input device.
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
 
+#### Leap
+* Make visualisation indicate Z position better.
+* Implement leap finger angles.
+
 #### Models
 
 #### Sample Player
 
 
 #### Granulator
-
-
-#### Leap
-* Make visualisation indicate Z position better.
-* Implement leap finger angles.
 
 ## New Samples
 * Make some ourselves on garage band.
