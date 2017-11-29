@@ -35,10 +35,6 @@
 
 
 ## New Instruments
-* Microphone input
-    * Microphone RMS 
-    * Headphones with a mic on them.
-
 * Colour Detector
     * Lets you set 3 colours to be tracked
     * 3 dimension input of just each colour is present to classifier.
