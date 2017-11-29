@@ -3,8 +3,6 @@
 ## Holistics
 * Save File.
 * Optimise all sensors.
-
-## Design
 * Change colour scheme of app
 * Change colour scheme/design of max GUI
 
