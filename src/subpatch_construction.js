@@ -69,11 +69,6 @@ function build_subpatch()
 	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 0);
 	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 1);
 	
-	
-	//var close_window1_comment = subpatch.subpatcher().newdefault( 13., 0., "comment", "@text", "CLOSE");
-	//var close_window2_comment = subpatch.subpatcher().newdefault( 6.5, 13., "comment", "@text", "WINDOW");
-	//var close_window_bang = subpatch.subpatcher().newobject("button", 19., 35., 37., 37.);
-	
 	var closebang_obj = subpatch.subpatcher().newdefault(19., 35.,"closebang");
 	var dispose_message = subpatch.subpatcher().newdefault(0, 191., "message", "@text", "dispose");
 	var thispatcher_object = subpatch.subpatcher().newdefault(0, 218., "thispatcher");
@@ -86,12 +81,10 @@ function build_subpatch()
 
 	subpatch.subpatcher().locked = 1;
 	subpatch.subpatcher().wind.hasgrow = 0;
-	post("Hasgrow: ", subpatch.subpatcher().wind.hasgrow);
 	
 	outlet(0, "myinstrument "+no_instruments);
 	
 	no_instruments = no_instruments+1
-	//instruments.push(subpatch);
 }
 
 function open_subpatch(v)
