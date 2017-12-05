@@ -6,6 +6,9 @@
 * Change colour scheme of app
 * Change colour scheme/design of max GUI
 
+#### Grab n Play
+* Make hybrid’s classifier not be over written by Grab n Play.
+
 #### Microbit
 * Get compass.
 
@@ -17,9 +20,6 @@
 * Implement leap finger angles.
 
 #### Models
-
-#### Grab n Play
-* Make hybrid’s classifier not be over written by Grab n Play.
 
 #### Sample Player
 
