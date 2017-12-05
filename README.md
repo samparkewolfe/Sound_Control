@@ -76,32 +76,31 @@
 	* Also be able to record normally into training dict after this. (Done)
 	* Ensure all instruments range from 0 127.
 	* Make a model 4, 5 and 6 which are class, reg, and hybrid with GnP functionality.
-	* Possibly: Instead of appending GnP data onto training data each time, combine the two dicts after generating GnP data so the old randomness isn’t left behind. This would mean there would be a consistent number of GnP elements in the final training set.
 
-		* 2 dicts, gnp_training_data, final_training_data.
-			* Both dicts have inputs and outputs.
+	* Workthrough
+		* 2 dicts, gnp_training_data, final_training_data. (Done)
 		* Record button is pressed.
-			* final_training_data stores inputs and outputs.
-			* gnp_training_data stores inputs.
-		* Record button is lifted
-			* Model is trained on bad final_training_data.
-		* “Make GnP Model” Button click.
-			* final_training_data is cleared.
-			* 5 random inputs are chosen from gnp_training_data and 5 random outputs are generated.
-			* Chosen inputs and random  outputs are written to final_training_data
-			* model is trained on final_training_data.
-		* Record button is pressed again.
-			* filled final_training_data is appended with inputs and outputs.
-			* gnp_training_data stores more inputs.
+			* final_training_data stores inputs and outputs. (Done)
+			* gnp_training_data stores inputs. (Done)
 		* Record button is lifted 
-			* Model trains on final_training_data.
+			* Model is trained on bad final_training_data. (Done)
+		* “Make GnP Model” Button click.
+			* final_training_data is cleared. (Done)
+			* 5 random inputs are chosen from gnp_training_data and 5 random outputs are generated. (Done)
+			* Chosen inputs and random  outputs are written to final_training_data. (Done)
+			* model is trained on final_training_data. (Done)
+		* Record button is pressed again.
+			* final_training_data is appended with more inputs and outputs. (Done)
+			* gnp_training_data stores more inputs. (Done)
+		* Record button is lifted 
+			* Model trains on modified final_training_data. (Done)
 		* “Make GnP Model” Button click again.
-			* final_training_data is cleared.
-			* 5 random inputs are chosen from gnp_training_data and 5 random outputs are generated.
-			* Chosen inputs and random  outputs are written to final_training_data
-			* model is trained on final_training_data.
+			* final_training_data is cleared. (Done)
+			* 5 random inputs are chosen from modified gnp_training_data and 5 random outputs are generated. (Done)
+			* Chosen inputs and random  outputs are written to final_training_data. (Done)
+			* model is trained on final_training_data. (Done)
 		* Clear is pressed.
-		* Training data is cleared and gnp_training_data is clear.
+			* Training data is cleared and gnp_training_data is cleared. (Done)
 
 
 
