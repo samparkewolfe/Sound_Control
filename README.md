@@ -23,7 +23,6 @@
 
 #### Sample Player
 
-
 #### Granulator
 
 ## New Samples
