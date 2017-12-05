@@ -66,3 +66,14 @@
 * Piano sampler which you map areas of the piano to the sensor positions.
     * Change Scale.
     * Linear Regression.
+
+* Grab n Play (New Model)
+    * Record sensor input into a new dict with a different record button.
+	* Record number of dimensions of instrument.
+	* Function which selects n number of samples from the new dict.
+		* And randomly generates a list of values between 0 128 for n-dimensions of instrument.
+	* Append training dict with output values and train.
+	* Also be able to record normally into training dict after this.
+
+
+
