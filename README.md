@@ -68,8 +68,8 @@
     * Linear Regression.
 
 * Grab n Play (New Model)
-	* Ensure all instruments range from 0 127.
-	* Make a model 4, 5 and 6 which are class, reg, and hybrid with GnP functionality.
+	* Ensure all instruments range from 0 127. (Done)
+	* Make a model 4, 5 and 6 which are class, reg, and hybrid with GnP functionality. (Done)
 	* Workthrough
 		* 2 dicts, gnp_training_data, final_training_data. (Done)
 		* Record button is pressed.
