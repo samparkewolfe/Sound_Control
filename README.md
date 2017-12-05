@@ -68,12 +68,15 @@
     * Linear Regression.
 
 * Grab n Play (New Model)
-    * Record sensor input into a new dict with a different record button.
-	* Record number of dimensions of instrument.
-	* Function which selects n number of samples from the new dict.
-		* And randomly generates a list of values between 0 128 for n-dimensions of instrument.
-	* Append training dict with output values and train.
-	* Also be able to record normally into training dict after this.
+    * Record sensor input into a new dict with a different record button. (Done)
+	* Record number of dimensions of instrument. (Done)
+	* Function which selects n number of samples from the new dict. (Done)
+		* And randomly generates a list of values between 0 128 for n-dimensions of instrument. (Done)
+	* Append training dict with output values and train. (Done)
+	* Also be able to record normally into training dict after this. (Done)
+	* Ensure all instruments range from 0 127.
+	* Make a model 4, 5 and 6 which are class, reg, and hybrid with GnP functionality.
+	* Possibly: Instead of appending GnP data onto training data each time, combine the two dicts after generating GnP data so the old randomness isn’t left behind. This would mean there would be a consistent number of GnP elements in the final training set.
 
 
 
