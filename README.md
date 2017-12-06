@@ -12,6 +12,7 @@
 	* “Quick” records Grab n Play data, builds a grab n play model when released and empty’s training data.
 	* “Precise” records supervised data, supervised data on top of Grab n Play data.
 	* Make the UI of these options look like alternatives.
+* Get rid of in-app console
 
 #### Microbit
 * Get compass.
@@ -72,6 +73,19 @@
 * Piano sampler which you map areas of the piano to the sensor positions.
     * Change Scale.
     * Linear Regression.
+
+
+* Press Quick
+	* Record inputs into grab_n_play buffer
+* Unclick Quick
+	* training_data is emptied
+	* training_data is filled with random elements
+	* new model is trained.
+* Press Precise
+	* Record more data into training_data
+	* Retrain model
+
+
 
 
 
