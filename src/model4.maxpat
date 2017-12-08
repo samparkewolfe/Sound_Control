@@ -72,7 +72,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1393.166626, 283.0, 56.0, 22.0 ],
-					"presentation_rect" : [ 1278.666748, 236.666672, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "pipe 110"
 				}
@@ -86,7 +85,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1393.166626, 252.999985, 34.0, 22.0 ],
-					"presentation_rect" : [ 1278.666748, 206.666672, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -100,7 +98,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1408.166626, 130.999985, 84.0, 22.0 ],
-					"presentation_rect" : [ 1293.666748, 84.666672, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "loadmess poll"
 				}
@@ -115,7 +112,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1408.166626, 205.999985, 24.0, 24.0 ],
-					"presentation_rect" : [ 1293.666748, 159.666672, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -128,7 +124,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 1408.166626, 174.999985, 73.0, 22.0 ],
-					"presentation_rect" : [ 1293.666748, 128.666672, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "mousestate"
 				}
@@ -157,7 +152,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1342.166626, 328.333313, 58.0, 22.0 ],
-					"presentation_rect" : [ 1471.666626, 272.666656, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "metro 55"
 				}
@@ -1374,7 +1368,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 71.333427, 1512.000366, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 154.666672, 51.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 148.666672, 51.0, 20.0 ],
 					"style" : "",
 					"text" : "Run",
 					"textjustification" : 1
@@ -1404,7 +1398,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 71.333427, 1537.000366, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 176.666672, 24.0, 24.0 ],
+					"presentation_rect" : [ 17.0, 170.666672, 24.0, 24.0 ],
 					"style" : "",
 					"varname" : "model_play_toggle"
 				}
