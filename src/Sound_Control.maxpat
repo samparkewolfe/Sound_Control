@@ -47,7 +47,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 431.083313, 251.666656, 29.5, 22.0 ],
 					"style" : "",
-					"text" : "5"
+					"text" : "6"
 				}
 
 			}
@@ -1800,6 +1800,10 @@
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
