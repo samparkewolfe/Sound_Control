@@ -38,6 +38,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-101",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1115.148926, 1465.0, 105.0, 22.0 ],
+					"style" : "",
+					"text" : "scale 0. 1. 0. 127."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 64.41658, 1112.0, 99.0, 22.0 ],
+					"style" : "",
+					"text" : "scale 0 128 0. 2."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
@@ -1458,8 +1484,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 303.98233, 515.333252, 594.0, 22.0 ],
-					"style" : "",
-					"text" : "export \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_looper_config.json\""
+					"style" : ""
 				}
 
 			}
@@ -1471,8 +1496,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1345.649048, 457.333221, 609.0, 22.0 ],
-					"style" : "",
-					"text" : "import \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_looper_config.json\""
+					"style" : ""
 				}
 
 			}
@@ -2522,7 +2546,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1115.148926, 1509.166504, 30.0, 30.0 ],
+					"patching_rect" : [ 1115.148926, 1554.166504, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -2534,7 +2558,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1240.64917, 1428.0, 121.0, 22.0 ],
+					"patching_rect" : [ 1289.64917, 1428.0, 121.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 100 @active 1"
 				}
@@ -2547,7 +2571,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1115.148926, 1466.166504, 107.0, 22.0 ],
+					"patching_rect" : [ 1115.148926, 1511.166504, 107.0, 22.0 ],
 					"style" : "",
 					"text" : "$1 $2 $3 $4 $5 $6"
 				}
@@ -2562,7 +2586,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.41658, 1131.0, 30.0, 30.0 ],
+					"patching_rect" : [ 64.41658, 1047.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -2754,6 +2778,13 @@
 					"destination" : [ "obj-47", 0 ],
 					"order" : 1,
 					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-101", 0 ]
 				}
 
 			}
@@ -3399,7 +3430,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-186", 0 ]
 				}
 
@@ -3422,7 +3453,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-272", 0 ],
+					"destination" : [ "obj-57", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -3831,6 +3862,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-272", 0 ],
+					"source" : [ "obj-57", 0 ]
 				}
 
 			}
