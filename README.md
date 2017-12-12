@@ -9,15 +9,15 @@
 #### Grab n Play
 * Get rid of in-app console (Done)
 
-#### Microbit
-* Get compass.
-
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
 
 #### Leap
 * Make visualisation indicate Z position better.
 * Implement leap finger angles.
+
+#### Microbit
+* Get compass.
 
 #### Models
 
