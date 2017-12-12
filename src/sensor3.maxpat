@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 889.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -313,7 +313,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 803.0, 1065.0, 622.0, 22.0 ],
+					"patching_rect" : [ 803.0, 1103.0, 622.0, 22.0 ],
 					"style" : "",
 					"text" : "export \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_colourtracker_config.json\""
 				}
@@ -420,7 +420,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1395.5, 1035.0, 49.0, 22.0 ],
+					"patching_rect" : [ 1428.5, 1031.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "* 1000."
 				}
@@ -474,7 +474,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1395.5, 1062.0, 127.0, 22.0 ],
+					"patching_rect" : [ 1428.5, 1065.0, 127.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend set tolerance"
 				}
@@ -976,7 +976,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 157.0, 134.0, 20.0 ],
 					"style" : "",
-					"text" : "Click for colour to track!"
+					"text" : "Click to track a colour!"
 				}
 
 			}
@@ -1002,7 +1002,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 817.5, 1552.5, 160.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.571411, 35.0, 160.0, 120.0 ]
+					"presentation_rect" : [ 160.0, 35.0, 150.0, 112.0 ]
 				}
 
 			}
@@ -2253,7 +2253,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.084, 0.084, 0.084, 1.0 ],
 					"border" : 2,
 					"id" : "obj-59",
 					"maxclass" : "panel",
@@ -2271,7 +2271,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.750372, 0.566058, 0.511156, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"border" : 2,
 					"id" : "obj-58",
 					"maxclass" : "panel",
@@ -3399,7 +3399,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 64.0, 486.0, 160.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 35.0, 160.0, 120.0 ]
+					"presentation_rect" : [ 10.0, 35.0, 150.0, 112.0 ]
 				}
 
 			}
@@ -3458,7 +3458,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 339.071411, 211.166687, 145.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.428589, 10.0, 145.0, 22.0 ],
+					"presentation_rect" : [ 98.428589, 9.0, 145.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -3481,7 +3481,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.92549, 0.364706, 0.341176, 1.0 ],
+					"bgcolor" : [ 0.925781, 0.820312, 0.875 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -3492,6 +3492,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
 					"proportion" : 0.39,
+					"rounded" : 0,
 					"style" : ""
 				}
 

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1728,20 +1728,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 131.0, 210.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 133.666687, 202.0, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "Hint: speed at 0 is OFF."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1949,9 +1935,10 @@
 					"patching_rect" : [ 241.0, 316.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 17.5, 109.833374, 87.0, 33.0 ],
+					"presentation_rect" : [ 23.0, 103.333374, 87.0, 33.0 ],
 					"style" : "",
-					"text" : "Drop sound file"
+					"text" : "Drop sound file",
+					"textjustification" : 1
 				}
 
 			}
@@ -2367,7 +2354,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.953125, 0.617188, 0.296875 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -2378,6 +2365,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -0.000061, -0.166626, 320.000061, 240.166626 ],
 					"proportion" : 0.39,
+					"rounded" : 0,
 					"style" : ""
 				}
 

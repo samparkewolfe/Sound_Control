@@ -1,8 +1,8 @@
 
 //80
-var sensor_coords = [0, 0, 319, 239];
-var sound_coords = [320, 0, 639, 239];
-var model_coords = [640, 0, 959, 239];
+var sensor_coords = [0, 0, 320, 240];
+var sound_coords = [320, 0, 640, 240];
+var model_coords = [640, 0, 960, 240];
 
 var sensor_int = 1
 var sound_int = 1

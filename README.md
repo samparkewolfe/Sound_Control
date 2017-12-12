@@ -3,8 +3,10 @@
 ## Holistics
 * Save File.
 * Optimise all sensors.
-* Change colour scheme of app
-* Change colour scheme/design of max GUI
+* Change colour scheme of app (Done)
+* Add borders to app.
+	* Make whole UI nicer.
+* Fix gaps between bpatchers. (Done)
 
 #### Grab n Play
 * Get rid of in-app console (Done)
@@ -15,9 +17,14 @@
 #### Leap
 * Make visualisation indicate Z position better.
 * Implement leap finger angles.
+* Fix two hand issue
+	* When you train on one hand and train on the other it’s not very clear what happens.
 
 #### Microbit
 * Get compass.
+
+#### Mixer
+* UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
 
 #### Models
 
