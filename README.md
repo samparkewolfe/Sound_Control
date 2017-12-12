@@ -3,13 +3,7 @@
 ## Holistics
 * Save File.
 * Optimise all sensors.
-* Change colour scheme of app (Done)
-* Add borders to app.
-	* Make whole UI nicer.
-* Fix gaps between bpatchers. (Done)
-
-#### Grab n Play
-* Get rid of in-app console (Done)
+* Make whole UI nicer.
 
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
@@ -25,6 +19,8 @@
 
 #### Mixer
 * UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
+
+#### Grab n Play
 
 #### Models
 
