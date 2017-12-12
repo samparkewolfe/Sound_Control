@@ -7,12 +7,7 @@
 * Change colour scheme/design of max GUI
 
 #### Grab n Play
-* Make hybrid’s classifier automatically be output 1. (Done)
-* Change Grab n Play model into “Quick” and “Precise” (Done)
-	* “Quick” records Grab n Play data, builds a grab n play model when released and empty’s training data. (Done)
-	* “Precise” records supervised data, supervised data on top of Grab n Play data. (Done)
-	* Make the UI of these options look like alternatives. (Done)
-* Get rid of in-app console
+* Get rid of in-app console (Done)
 
 #### Microbit
 * Get compass.
