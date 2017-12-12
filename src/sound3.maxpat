@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 896.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1690,9 +1690,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 797.499878, 1215.0, 191.0, 22.0 ],
+					"patching_rect" : [ 797.499878, 1215.0, 271.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess bgoncolor 0.2 0.8 0.2 1."
+					"text" : "loadmess bgoncolor 0.652344 0.90625 0.738281"
 				}
 
 			}
@@ -1885,9 +1885,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 876.148987, 1104.333374, 97.0, 22.0 ],
+					"patching_rect" : [ 876.148987, 1104.333374, 210.0, 22.0 ],
 					"style" : "",
-					"text" : "bgcolor 1. 0.5 0."
+					"text" : "bgcolor 0.503906 0.515625 0.472656"
 				}
 
 			}
@@ -1898,9 +1898,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 592.815552, 1104.333374, 97.0, 22.0 ],
+					"patching_rect" : [ 592.815552, 1104.333374, 210.0, 22.0 ],
 					"style" : "",
-					"text" : "bgcolor 1. 0.5 0."
+					"text" : "bgcolor 0.503906 0.515625 0.472656"
 				}
 
 			}
@@ -1911,9 +1911,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 303.98233, 1104.333374, 97.0, 22.0 ],
+					"patching_rect" : [ 303.98233, 1104.333374, 210.0, 22.0 ],
 					"style" : "",
-					"text" : "bgcolor 1. 0.5 0."
+					"text" : "bgcolor 0.503906 0.515625 0.472656"
 				}
 
 			}
@@ -1924,9 +1924,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1716.815552, 1104.333374, 97.0, 22.0 ],
+					"patching_rect" : [ 1716.815552, 1104.333374, 210.0, 22.0 ],
 					"style" : "",
-					"text" : "bgcolor 1. 0.5 0."
+					"text" : "bgcolor 0.503906 0.515625 0.472656"
 				}
 
 			}
@@ -1937,9 +1937,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1441.815674, 1104.333374, 97.0, 22.0 ],
+					"patching_rect" : [ 1441.815674, 1104.333374, 210.0, 22.0 ],
 					"style" : "",
-					"text" : "bgcolor 1. 0.5 0."
+					"text" : "bgcolor 0.503906 0.515625 0.472656"
 				}
 
 			}
@@ -1950,9 +1950,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1165.815674, 1104.333374, 97.0, 22.0 ],
+					"patching_rect" : [ 1165.815674, 1104.333374, 210.0, 22.0 ],
 					"style" : "",
-					"text" : "bgcolor 1. 0.5 0."
+					"text" : "bgcolor 0.503906 0.515625 0.472656"
 				}
 
 			}
@@ -2157,7 +2157,7 @@
 				"box" : 				{
 					"active" : 0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.2, 0.8, 0.2, 1.0 ],
+					"bgoncolor" : [ 0.652344, 0.90625, 0.738281, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -2221,7 +2221,7 @@
 				"box" : 				{
 					"active" : 0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.2, 0.8, 0.2, 1.0 ],
+					"bgoncolor" : [ 0.652344, 0.90625, 0.738281, 1.0 ],
 					"id" : "obj-47",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -2311,7 +2311,7 @@
 				"box" : 				{
 					"active" : 0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.2, 0.8, 0.2, 1.0 ],
+					"bgoncolor" : [ 0.652344, 0.90625, 0.738281, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -2375,7 +2375,7 @@
 				"box" : 				{
 					"active" : 0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.2, 0.8, 0.2, 1.0 ],
+					"bgoncolor" : [ 0.652344, 0.90625, 0.738281, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -2439,7 +2439,7 @@
 				"box" : 				{
 					"active" : 0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.2, 0.8, 0.2, 1.0 ],
+					"bgoncolor" : [ 0.652344, 0.90625, 0.738281, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -2503,7 +2503,7 @@
 				"box" : 				{
 					"active" : 0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bgoncolor" : [ 0.2, 0.8, 0.2, 1.0 ],
+					"bgoncolor" : [ 0.652344, 0.90625, 0.738281, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "textbutton",
 					"mode" : 1,
