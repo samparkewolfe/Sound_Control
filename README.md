@@ -21,6 +21,7 @@
 * UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
 
 #### Grab n Play
+* Update log posts for grab n play functions!
 
 #### Models
 
