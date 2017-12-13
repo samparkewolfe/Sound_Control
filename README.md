@@ -1,4 +1,13 @@
-# Sound Control Dev
+# Sound Control (Dev Git)
+
+* Finish Encapsulating model into the following
+	* 2 UI bpatchers
+		* one for Standard
+		* one for grab n play
+	* Standard record data sub-patch
+	* Extra record data sub-patch
+	* Grab n Play record data sub-patch.
+* This way you can edit the the UI sub patches and they would change for all model patches.
 
 ## Holistics
 * Save File.
