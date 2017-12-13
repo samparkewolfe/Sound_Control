@@ -28,7 +28,6 @@ CBMicroBit
 # Binary Files #
 ############
 *.h5
-*.json
 *.asd
 *.rx2
 
