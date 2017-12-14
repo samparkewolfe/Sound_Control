@@ -2,12 +2,13 @@
 
 * Finish Encapsulating model into the following
 	* 2 UI bpatchers
-		* one for Standard
-		* one for grab n play
+		* one for Standard models
+		* one for grab n play models
 	* Standard record data sub-patch
 	* Extra record data sub-patch
 	* Grab n Play record data sub-patch.
-* This way you can edit the the UI sub patches and they would change for all model patches.
+* Test new model patch construction.
+	* Interms of new dict object.
 
 ## Holistics
 * Save File.
