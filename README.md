@@ -1,15 +1,5 @@
 # Sound Control (Dev Git)
 
-* Finish Encapsulating model into the following
-	* 2 UI bpatchers
-		* one for Standard models
-		* one for grab n play models
-	* Standard record data sub-patch
-	* Extra record data sub-patch
-	* Grab n Play record data sub-patch.
-* Test new model patch construction.
-	* Interms of new dict object.
-
 ## Holistics
 * Save File.
 * Optimise all sensors.
@@ -21,7 +11,7 @@
 #### Leap
 * Make visualisation indicate Z position better.
 * Implement leap finger angles.
-* Fix two hand issue
+* Fix two hand training issue
 	* When you train on one hand and train on the other it’s not very clear what happens.
 
 #### Microbit
@@ -31,7 +21,9 @@
 * UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
 
 #### Grab n Play
-* Update log posts for grab n play functions!
+* Update log posts for grab n play functions! (Done)
+* Communicate better UI relationship between Quick and Play.
+    * Add text to UI to make it clearer.
 
 #### Models
 
