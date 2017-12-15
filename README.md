@@ -22,8 +22,8 @@
 
 #### Grab n Play
 * Update log posts for grab n play functions! (Done)
-* Communicate better UI relationship between Quick and Play.
-    * Add text to UI to make it clearer.
+* Communicate better UI relationship between Quick and Play. (Done)
+    * Add text to UI to make it clearer. (Done)
 
 #### Models
 
