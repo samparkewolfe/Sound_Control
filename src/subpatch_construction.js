@@ -84,7 +84,7 @@ function build_subpatch()
 	thispatcher_object.message("bgcolor", 0.662745098,0.705882353,0.760784314, 1);
 
 	subpatch.subpatcher().locked = 1;
-	//subpatch.subpatcher().wind.hasgrow = 0;
+	subpatch.subpatcher().wind.hasgrow = 0;
 	
 	outlet(0, "myinstrument "+no_instruments);
 	

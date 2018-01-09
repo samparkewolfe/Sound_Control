@@ -4,8 +4,8 @@
 * Save File.
 * Optimise all sensors.
 * Make whole UI nicer.
-	* Make UI have one solid background 
-	* Give each module the same coloured background that is smaller than the UI’s background.
+	* Make UI have one solid background  (Done)
+	* Give each module the same coloured background that is smaller than the UI’s background. (Done)
 	* Give smaller modules a different background.
 
 #### Colour Tracker
