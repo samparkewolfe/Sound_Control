@@ -1,8 +1,10 @@
 
 //80
-var sensor_coords = [0, 0, 320, 240];
-var sound_coords = [320, 0, 640, 240];
-var model_coords = [640, 0, 960, 240];
+//Adding borders
+var border = 10
+var sensor_coords = [border, border, 320-border, 240-border];
+var sound_coords = [320+border, border, 640-border, 240-border];
+var model_coords = [640+border, border, 960-border, 240-border];
 
 var sensor_int = 1
 var sound_int = 1
@@ -47,7 +49,7 @@ function build_subpatch()
 	subpatch.subpatcher().wind.size = [960, 240]
 	
 	this.patcher.bringtofront(subpatch);
-			
+				
   	var sensor = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sensor"+sensor_int+".maxpat");
 	sensor.rect = sensor_coords;
 	
@@ -78,9 +80,11 @@ function build_subpatch()
 	closebang_obj.hidden = true;
 	dispose_message.hidden = true;
 	thispatcher_object.hidden = true;
+	
+	thispatcher_object.message("bgcolor", 0.662745098,0.705882353,0.760784314, 1);
 
 	subpatch.subpatcher().locked = 1;
-	subpatch.subpatcher().wind.hasgrow = 0;
+	//subpatch.subpatcher().wind.hasgrow = 0;
 	
 	outlet(0, "myinstrument "+no_instruments);
 	
