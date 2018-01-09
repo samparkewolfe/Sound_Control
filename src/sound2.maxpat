@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 558.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1641,7 +1641,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 970.5, 610.999817, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.999939, 51.833374, 131.0, 148.166626 ],
+					"presentation_rect" : [ 113.999939, 51.833374, 131.0, 148.166626 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1862,7 +1862,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 9216.0, "ticks" ],
-						"originaltempo" : 336.0,
+						"originaltempo" : 288.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1935,7 +1935,7 @@
 					"patching_rect" : [ 241.0, 316.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 23.0, 103.333374, 87.0, 33.0 ],
+					"presentation_rect" : [ 22.5, 99.833374, 73.0, 33.0 ],
 					"style" : "",
 					"text" : "Drop sound file",
 					"textjustification" : 1
@@ -1964,7 +1964,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 51.333252, 21.0, 102.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 69.833374, 113.0, 100.0 ]
+					"presentation_rect" : [ 10.0, 77.833374, 98.0, 77.0 ]
 				}
 
 			}
@@ -2173,7 +2173,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 217.333252, 375.0, 32.666504, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.333435, 51.833374, 32.666504, 20.0 ],
+					"presentation_rect" : [ 162.333435, 51.833374, 32.666504, 20.0 ],
 					"style" : "",
 					"text" : "Play"
 				}
@@ -2189,7 +2189,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 188.333252, 375.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 181.666687, 73.833374, 24.0, 24.0 ],
+					"presentation_rect" : [ 166.666687, 73.833374, 24.0, 24.0 ],
 					"style" : "",
 					"varname" : "sound_play_toggle"
 				}
@@ -2256,7 +2256,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 670.666504, 190.666687, 43.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.333435, 148.833374, 35.0, 20.0 ],
+					"presentation_rect" : [ 162.333435, 148.833374, 35.0, 20.0 ],
 					"style" : "",
 					"text" : "Pitch"
 				}
@@ -2270,7 +2270,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 504.166504, 190.666687, 43.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 172.166687, 106.0, 43.0, 20.0 ],
+					"presentation_rect" : [ 157.166687, 106.0, 43.0, 20.0 ],
 					"style" : "",
 					"text" : "Speed"
 				}
@@ -2300,7 +2300,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 670.666504, 223.666748, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.666687, 170.833374, 120.0, 20.0 ],
+					"presentation_rect" : [ 118.666687, 170.833374, 120.0, 20.0 ],
 					"style" : "",
 					"varname" : "sound_pitch_slider"
 				}
@@ -2316,7 +2316,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 228.833252, 723.832886, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.999939, 51.833374, 48.0, 136.0 ],
+					"presentation_rect" : [ 246.999939, 51.833374, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -2345,7 +2345,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 515.666504, 223.666748, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.666687, 128.0, 120.0, 20.0 ],
+					"presentation_rect" : [ 118.666687, 128.0, 120.0, 20.0 ],
 					"style" : "",
 					"varname" : "sound_speed_slider"
 				}
@@ -2354,7 +2354,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.953125, 0.617188, 0.296875 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -2363,7 +2363,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 200.0, 1521.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.000061, -0.166626, 320.000061, 240.166626 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""

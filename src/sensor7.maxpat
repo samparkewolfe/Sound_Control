@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 558.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -207,7 +207,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 126.9104, 527.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 72.0, 20.0, 140.0 ],
+					"presentation_rect" : [ 140.0, 65.0, 20.0, 140.0 ],
 					"style" : ""
 				}
 
@@ -346,7 +346,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 19.0, 88.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 132.0, 96.0, 20.0 ],
+					"presentation_rect" : [ 42.0, 125.0, 96.0, 20.0 ],
 					"style" : "",
 					"text" : "Breath Pressure"
 				}
@@ -382,7 +382,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.925781, 0.820312, 0.875 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -391,7 +391,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 154.0, 1235.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""

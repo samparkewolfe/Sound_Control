@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 410.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -153,7 +153,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 126.5, 117.16658, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 198.5, 110.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 188.5, 100.0, 23.0, 20.0 ],
 					"style" : "",
 					"text" : "Z2"
 				}
@@ -167,7 +167,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 126.5, 71.16658, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 198.5, 64.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 188.5, 54.0, 23.0, 20.0 ],
 					"style" : "",
 					"text" : "Z1"
 				}
@@ -181,7 +181,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 79.5, 118.16658, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.5, 110.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 138.5, 100.0, 23.0, 20.0 ],
 					"style" : "",
 					"text" : "Y2"
 				}
@@ -195,7 +195,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 79.5, 72.16658, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.5, 64.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 138.5, 54.0, 23.0, 20.0 ],
 					"style" : "",
 					"text" : "Y1"
 				}
@@ -209,7 +209,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.5, 122.16658, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.5, 110.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 86.5, 100.0, 23.0, 20.0 ],
 					"style" : "",
 					"text" : "X2"
 				}
@@ -279,7 +279,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 469.0, 117.833252, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.0, 132.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 177.0, 122.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -295,7 +295,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 386.0, 117.833252, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 132.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 125.0, 122.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -311,7 +311,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 303.0, 117.833252, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 83.0, 132.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 73.0, 122.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -327,7 +327,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 220.0, 117.833252, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 86.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 175.0, 76.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -343,7 +343,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 137.0, 117.833252, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.0, 86.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 124.0, 76.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -359,7 +359,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 54.0, 117.833252, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 83.0, 86.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 73.0, 76.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -372,7 +372,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 54.0, 141.833252, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.5, 64.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 86.5, 54.0, 23.0, 20.0 ],
 					"style" : "",
 					"text" : "X1"
 				}
@@ -381,7 +381,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.925781, 0.820312, 0.875 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -390,7 +390,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 160.5, 1534.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""

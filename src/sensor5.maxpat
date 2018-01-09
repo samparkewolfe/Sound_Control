@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 558.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -153,7 +153,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 866.0, 841.5, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.5, 128.5, 61.0, 20.0 ],
+					"presentation_rect" : [ 214.5, 128.5, 61.0, 20.0 ],
 					"style" : "",
 					"text" : "Left Hand"
 				}
@@ -194,7 +194,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 866.0, 863.5, 66.714355, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.0, 150.5, 66.714355, 20.0 ],
+					"presentation_rect" : [ 210.0, 150.5, 66.714355, 20.0 ],
 					"style" : "",
 					"text" : "Absent"
 				}
@@ -208,7 +208,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 765.0, 801.5, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.357178, 70.5, 70.0, 20.0 ],
+					"presentation_rect" : [ 208.357178, 70.5, 70.0, 20.0 ],
 					"style" : "",
 					"text" : "Right Hand"
 				}
@@ -249,7 +249,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 765.0, 823.5, 66.714355, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.0, 92.5, 66.714355, 20.0 ],
+					"presentation_rect" : [ 210.0, 92.5, 66.714355, 20.0 ],
 					"style" : "",
 					"text" : "Absent"
 				}
@@ -2313,14 +2313,14 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 661.5, 77.0, 240.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 32.0, 190.0, 190.0 ]
+					"presentation_rect" : [ 10.0, 32.0, 180.0, 180.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.925781, 0.820312, 0.875 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -2329,7 +2329,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 154.0, 1780.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""

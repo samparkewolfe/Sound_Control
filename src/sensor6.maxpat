@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 558.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -168,7 +168,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 204.600006, 87.800003, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 203.0, 87.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 193.0, 77.0, 18.0, 20.0 ],
 					"style" : "",
 					"text" : "Z"
 				}
@@ -182,7 +182,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 151.000015, 87.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 151.0, 87.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 141.0, 77.0, 18.0, 20.0 ],
 					"style" : "",
 					"text" : "Y"
 				}
@@ -196,7 +196,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 19.0, 88.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.000008, 87.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 89.000008, 77.0, 18.0, 20.0 ],
 					"style" : "",
 					"text" : "X"
 				}
@@ -225,7 +225,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 412.0, 335.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.0, 109.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 177.0, 99.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -240,7 +240,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 360.0, 335.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 109.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 125.0, 99.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -255,7 +255,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 308.0, 335.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 83.000008, 109.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 73.000008, 99.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -342,7 +342,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.925781, 0.820312, 0.875 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -351,7 +351,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 193.0, 1159.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""

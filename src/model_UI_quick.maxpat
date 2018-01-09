@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 821.0, -1001.0, 530.0, 684.0 ],
+		"rect" : [ 716.0, 78.0, 530.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"patching_rect" : [ 154.0, 142.5, 150.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 93.0, 83.5, 218.5, 33.0 ],
+					"presentation_rect" : [ 83.0, 83.5, 218.5, 33.0 ],
 					"style" : "",
 					"text" : "Click and show one gesture that will make the sounds current configuration."
 				}
@@ -55,16 +55,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.0, 79.0, 150.0, 60.0 ],
+					"patching_rect" : [ 368.0, 79.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 93.0, 43.5, 218.5, 33.0 ],
+					"presentation_rect" : [ 83.0, 43.5, 218.5, 33.0 ],
 					"style" : "",
-					"text" : "Hold and show many gestures that will make many sound configurations."
+					"text" : "Hold and show many gestures that will make a random mapping."
 				}
 
 			}
@@ -298,9 +298,9 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 60.833336, 457.333008, 200.0, 178.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 139.5, 126.0, 61.0 ],
+					"presentation_rect" : [ 145.0, 139.5, 126.0, 61.0 ],
 					"rowheight" : 20,
-					"rows" : 78,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
@@ -585,10 +585,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 62.166645, 849.333313, 53.666668, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 90.0, 49.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 90.0, 49.0, 20.0 ],
 					"style" : "",
-					"text" : "Precice",
-					"textjustification" : 0
+					"text" : "Precice"
 				}
 
 			}
@@ -602,7 +601,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 259.333557, 879.333313, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 48.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 59.0, 48.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -641,10 +640,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 247.833481, 842.333313, 47.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 50.0, 49.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 50.0, 49.0, 20.0 ],
 					"style" : "",
-					"text" : "Quick",
-					"textjustification" : 0
+					"text" : "Quick"
 				}
 
 			}
@@ -658,7 +656,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 76.999992, 879.333313, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 88.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 59.0, 88.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -736,7 +734,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 517.833374, 854.333313, 37.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.25, 136.0, 37.5, 20.0 ],
+					"presentation_rect" : [ 76.25, 136.0, 37.5, 20.0 ],
 					"style" : "",
 					"text" : "Clear",
 					"textjustification" : 1
@@ -752,7 +750,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 524.333374, 879.333313, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 158.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 83.0, 158.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -765,7 +763,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 685.333313, 854.333313, 34.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.900002, 136.0, 31.0, 20.0 ],
+					"presentation_rect" : [ 31.5, 136.0, 31.0, 20.0 ],
 					"style" : "",
 					"text" : "Run"
 				}
@@ -781,7 +779,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 685.333313, 879.333313, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.400002, 158.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 35.0, 158.0, 24.0, 24.0 ],
 					"style" : "",
 					"varname" : "model_play_toggle"
 				}
@@ -842,7 +840,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.953125, 0.375, 0.210938 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -851,7 +849,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1006.66687, 520.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""

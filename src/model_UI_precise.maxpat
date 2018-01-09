@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -178.0, -1001.0, 554.0, 677.0 ],
+		"rect" : [ 34.0, 78.0, 625.0, 445.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"patching_rect" : [ 124.0, 112.5, 150.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 93.0, 67.5, 218.5, 33.0 ],
+					"presentation_rect" : [ 84.5, 67.5, 218.5, 33.0 ],
 					"style" : "",
 					"text" : "Click and show one gesture that will make the sounds current configuration."
 				}
@@ -295,9 +295,9 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 72.833344, 452.333008, 200.0, 178.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 139.5, 126.0, 61.0 ],
+					"presentation_rect" : [ 143.0, 139.5, 126.0, 61.0 ],
 					"rowheight" : 20,
-					"rows" : 107,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
@@ -582,7 +582,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.166641, 844.333313, 53.666668, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 74.0, 49.0, 20.0 ],
+					"presentation_rect" : [ 11.5, 74.0, 49.0, 20.0 ],
 					"style" : "",
 					"text" : "Precice"
 				}
@@ -649,7 +649,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 89.0, 874.333313, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 72.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 60.5, 72.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -727,7 +727,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 529.833374, 849.333313, 37.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.25, 136.0, 37.5, 20.0 ],
+					"presentation_rect" : [ 77.75, 136.0, 37.5, 20.0 ],
 					"style" : "",
 					"text" : "Clear",
 					"textjustification" : 1
@@ -743,7 +743,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 536.333374, 874.333313, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 158.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 84.5, 158.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -756,7 +756,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 697.333313, 849.333313, 34.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.5, 136.0, 31.0, 20.0 ],
+					"presentation_rect" : [ 33.0, 136.0, 31.0, 20.0 ],
 					"style" : "",
 					"text" : "Run"
 				}
@@ -772,7 +772,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 697.333313, 874.333313, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 158.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 36.5, 158.0, 24.0, 24.0 ],
 					"style" : "",
 					"varname" : "model_play_toggle"
 				}
@@ -833,7 +833,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.953125, 0.375, 0.210938 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -842,7 +842,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1018.66687, 515.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""

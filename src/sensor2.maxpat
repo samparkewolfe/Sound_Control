@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 558.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -814,7 +814,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 615.0, 92.666626, 240.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.333359, 48.75, 190.0, 142.5 ]
+					"presentation_rect" : [ 55.0, 50.0, 190.0, 142.5 ]
 				}
 
 			}
@@ -896,7 +896,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.925781, 0.820312, 0.875 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -905,7 +905,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 154.0, 1351.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 558.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -481,7 +481,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 952.0, 691.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.0, 56.0, 125.999939, 55.0 ],
+					"presentation_rect" : [ 118.0, 56.0, 125.999939, 55.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -568,7 +568,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"items" : [ "--", "silence", "--" ],
+					"items" : [ "--", "silence", "--", ",", 1, "BassDelight.mp3", ",", 2, "BassDelightSlap.mp3", ",", 3, "BassFever.mp3", ",", 4, "BassFunk.mp3", ",", 5, "ClavDance.mp3", ",", 6, "ClavDelight.mp3", ",", 7, "ClavFever.mp3", ",", 8, "DrumsBell.mp3", ",", 9, "DrumsMassive.mp3", ",", 10, "DrumsSticky.mp3", ",", 11, "DrumsTamborine.mp3", ",", 12, "GuitarDelight.mp3", ",", 13, "GuitarHit.mp3", ",", 14, "GuitarPickin.mp3", ",", 15, "GuitarRiser.mp3", ",", 16, "PianoDelight2.mp3", ",", 17, "PianoDelight3.mp3", ",", 18, "PianoDelight4.mp3", ",", 19, "PianoRiser.mp3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -576,7 +576,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 683.5, 542.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.332886, 83.0, 85.0, 22.0 ],
+					"presentation_rect" : [ 128.332886, 83.0, 85.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -617,7 +617,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 172.0, 136.0, 20.0 ],
 					"style" : "",
-					"text" : "No samples loaded."
+					"text" : "Loaded 19 sample(s)."
 				}
 
 			}
@@ -748,7 +748,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 62.0, 817.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.332947, 143.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 203.332947, 143.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -761,7 +761,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 62.0, 793.833496, 35.666504, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.499695, 116.5, 35.666504, 20.0 ],
+					"presentation_rect" : [ 197.499695, 116.5, 35.666504, 20.0 ],
 					"style" : "",
 					"text" : "Loop"
 				}
@@ -789,7 +789,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 24.333252, 817.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 151.833252, 143.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 141.833252, 143.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -815,7 +815,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 163.0, 739.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 110.0, 69.0, 20.0 ],
+					"presentation_rect" : [ 23.5, 96.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "Drop folder"
 				}
@@ -843,7 +843,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 91.0, 18.666733, 102.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 70.0, 113.0, 100.0 ]
+					"presentation_rect" : [ 10.0, 65.0, 96.0, 82.0 ]
 				}
 
 			}
@@ -855,7 +855,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 117.999939, 207.666733, 94.666504, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.832886, 61.0, 94.0, 20.0 ],
+					"presentation_rect" : [ 123.832886, 61.0, 94.0, 20.0 ],
 					"style" : "",
 					"text" : "Choose Sample"
 				}
@@ -1068,7 +1068,7 @@
 					"patching_rect" : [ 24.333252, 707.0, 32.666504, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 128.0, 110.0, 71.666504, 33.0 ],
+					"presentation_rect" : [ 118.0, 110.0, 71.666504, 33.0 ],
 					"style" : "",
 					"text" : "Trigger Sample",
 					"textjustification" : 1
@@ -1085,7 +1085,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 588.0, 542.0, 20.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 226.332947, 83.0, 20.0, 24.0 ],
+					"presentation_rect" : [ 216.332947, 83.0, 20.0, 24.0 ],
 					"style" : "",
 					"varname" : "sound_incdec"
 				}
@@ -1140,7 +1140,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 127.0, 1065.333252, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 255.999939, 52.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 245.999939, 52.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -1239,7 +1239,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.953125, 0.617188, 0.296875 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -1248,7 +1248,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.0, 1614.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""

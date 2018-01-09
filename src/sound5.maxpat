@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 558.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 83.365585, 851.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.365601, 51.916687, 48.0, 136.0 ],
+					"presentation_rect" : [ 252.0, 49.137512, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -226,7 +226,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1092.5, 397.999817, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 62.083344, 41.958344, 189.433258, 141.641663 ],
+					"presentation_rect" : [ 55.283371, 39.179169, 189.433258, 141.641663 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -776,7 +776,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 383.666504, 147.999939, 43.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.666687, 41.958344, 54.0, 20.0 ],
+					"presentation_rect" : [ 95.866714, 39.179169, 54.0, 20.0 ],
 					"style" : "",
 					"text" : "Pitch",
 					"textjustification" : 1
@@ -794,7 +794,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 383.666504, 181.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.666687, 63.958344, 120.0, 20.0 ],
+					"presentation_rect" : [ 62.866714, 61.179169, 120.0, 20.0 ],
 					"style" : "",
 					"varname" : "fmsynth_pitch_slider"
 				}
@@ -1110,7 +1110,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 846.333252, 321.0, 32.666504, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 212.633423, 86.916687, 32.666504, 20.0 ],
+					"presentation_rect" : [ 205.83345, 84.137512, 32.666504, 20.0 ],
 					"style" : "",
 					"text" : "On",
 					"textjustification" : 1
@@ -1127,7 +1127,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 817.333252, 321.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.966675, 107.916687, 24.0, 24.0 ],
+					"presentation_rect" : [ 210.166702, 105.137512, 24.0, 24.0 ],
 					"style" : "",
 					"varname" : "fmsynth__play_toggle"
 				}
@@ -1180,7 +1180,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 682.666504, 147.999939, 85.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.333435, 133.875015, 82.666504, 20.0 ],
+					"presentation_rect" : [ 81.533463, 131.09584, 82.666504, 20.0 ],
 					"style" : "",
 					"text" : "Strangeness",
 					"textjustification" : 1
@@ -1195,7 +1195,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 527.666504, 147.999939, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 93.166687, 87.916687, 73.0, 20.0 ],
+					"presentation_rect" : [ 86.366714, 85.137512, 73.0, 20.0 ],
 					"style" : "",
 					"text" : "Weirdness ",
 					"textjustification" : 1
@@ -1212,7 +1212,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 682.666504, 181.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.666687, 155.875015, 120.0, 20.0 ],
+					"presentation_rect" : [ 62.866714, 153.09584, 120.0, 20.0 ],
 					"style" : "",
 					"varname" : "fmsynth_strangeness_slider"
 				}
@@ -1229,7 +1229,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 527.666504, 181.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.666687, 109.916687, 120.0, 20.0 ],
+					"presentation_rect" : [ 62.866714, 107.137512, 120.0, 20.0 ],
 					"style" : "",
 					"varname" : "fmsynth_weirdness_slider"
 				}
@@ -1238,7 +1238,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.953125, 0.617188, 0.296875 ],
+					"bgcolor" : [ 0.929688, 0.941406, 0.933594 ],
 					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
 					"id" : "obj-181",
 					"maxclass" : "panel",
@@ -1247,7 +1247,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 212.0, 1633.833252, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.000061, -0.166626, 320.000061, 240.166626 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
