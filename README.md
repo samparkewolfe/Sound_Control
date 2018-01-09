@@ -3,10 +3,6 @@
 ## Holistics
 * Save File.
 * Optimise all sensors.
-* Make whole UI nicer.
-	* Make UI have one solid background  (Done)
-	* Give each module the same coloured background that is smaller than the UI’s background. (Done)
-	* Give smaller modules a different background.
 
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
@@ -24,9 +20,6 @@
 * UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
 
 #### Grab n Play
-* Update log posts for grab n play functions! (Done)
-* Communicate better UI relationship between Quick and Play. (Done)
-    * Add text to UI to make it clearer. (Done)
 
 #### Models
 * UI BUG: If you click the record button
