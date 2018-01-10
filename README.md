@@ -14,6 +14,8 @@
 	* When you train on one hand and train on the other it’s not very clear what happens.
 * Display positions in the same way as the colour tracker. (Done)
 * Make there only be one leap object in generate instrument window.
+	* Render the skeleton only once and then add the ball or line onto it.
+		* Possibly use jit.slab to get this addition happening on the gpu.
 
 #### Microbit
 * Get compass.
