@@ -462,7 +462,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 210.571411, 146.0, 85.0, 20.0 ],
 					"style" : "",
-					"text" : "60.00 0.00"
+					"text" : "45.00 0.00"
 				}
 
 			}

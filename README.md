@@ -12,7 +12,8 @@
 * Implement leap finger angles.
 * Fix two hand training issue
 	* When you train on one hand and train on the other it’s not very clear what happens.
-* Display positions in the same way as the colour tracker.
+* Display positions in the same way as the colour tracker. (Done)
+* Make there only be one leap object in generate instrument window.
 
 #### Microbit
 * Get compass.
