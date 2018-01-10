@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 22.0, -920.0, 430.0, 110.0 ],
+		"rect" : [ -178.0, -1002.0, 1852.0, 968.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,18 +39,6 @@
 		"subpatcher_template" : "",
 		"title" : "Sound Control",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 73.0, 434.166595, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-126",
 					"maxclass" : "newobj",
@@ -100,7 +88,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 895.5, 461.0, 60.0, 22.0 ],
+									"patching_rect" : [ 895.5, 475.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -125,7 +113,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 895.5, 425.0, 140.0, 22.0 ],
+									"patching_rect" : [ 838.5, 425.0, 140.0, 22.0 ],
 									"style" : "",
 									"text" : "s leap_refresh_pwindow"
 								}
@@ -297,7 +285,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 330.0, 507.5, 266.0, 21.0 ],
+									"patching_rect" : [ 330.0, 595.5, 266.0, 21.0 ],
 									"style" : "",
 									"text" : "jit.gl.sketch @lighting_enable 1 @smooth_shading 1"
 								}
@@ -1067,7 +1055,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 507.5, 162.0, 21.0 ],
+									"patching_rect" : [ 50.0, 595.5, 162.0, 21.0 ],
 									"style" : "",
 									"text" : "jit.gl.sketch @lighting_enable 0"
 								}
@@ -1791,7 +1779,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
-									"midpoints" : [ 461.5, 455.0, 339.5, 455.0 ],
 									"order" : 0,
 									"source" : [ "obj-112", 0 ]
 								}
@@ -1800,7 +1787,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-95", 0 ],
-									"midpoints" : [ 461.5, 456.0, 59.5, 456.0 ],
 									"order" : 1,
 									"source" : [ "obj-112", 0 ]
 								}
@@ -2097,7 +2083,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
-									"midpoints" : [ 798.5, 456.5, 339.5, 456.5 ],
 									"order" : 0,
 									"source" : [ "obj-56", 0 ]
 								}
@@ -2121,7 +2106,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-95", 0 ],
-									"midpoints" : [ 798.5, 456.5, 59.5, 456.5 ],
 									"order" : 1,
 									"source" : [ "obj-56", 0 ]
 								}
@@ -3169,7 +3153,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 919.0, 1258.0, 34.0, 22.0 ],
+					"patching_rect" : [ 919.0, 1255.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "print"
 				}
@@ -3436,7 +3420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 919.0, 1208.333374, 35.0, 22.0 ],
+					"patching_rect" : [ 919.0, 1226.333374, 35.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"shell" : "(default)",
 						"wd" : "(default)"
@@ -4237,14 +4221,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"order" : 5,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"order" : 4,
 					"source" : [ "obj-2", 0 ]
@@ -4868,10 +4844,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
