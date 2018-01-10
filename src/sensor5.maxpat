@@ -52,14 +52,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 735.5, 235.666672, 265.0, 35.0 ],
+					"patching_rect" : [ 735.5, 235.666672, 337.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.matrix leap_palm_pos_visualisation_matrix 4 char 240 240"
+					"text" : "jit.matrix leap_handwidth_visualisation_matrix 4 char 240 240"
 				}
 
 			}
