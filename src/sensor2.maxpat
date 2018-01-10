@@ -702,9 +702,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.5, 601.0, 220.0, 22.0 ],
+					"patching_rect" : [ 8.5, 601.0, 217.0, 22.0 ],
 					"style" : "",
-					"text" : "r sound_control_camera_10_10_output"
+					"text" : "r sound_control_dumb_camera_output"
 				}
 
 			}
@@ -727,9 +727,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 563.833313, 286.0, 22.0 ],
+					"patching_rect" : [ 125.0, 563.833313, 283.0, 22.0 ],
 					"style" : "",
-					"text" : "s sound_control_camera_10_10_control_messages"
+					"text" : "s sound_control_dumb_camera_control_messages"
 				}
 
 			}
@@ -740,9 +740,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.5, 44.0, 263.0, 22.0 ],
+					"patching_rect" : [ 5.5, 44.0, 259.0, 22.0 ],
 					"style" : "",
-					"text" : "r sound_control_camera_10_10_control_output"
+					"text" : "r sound_control_dumb_camera_control_output"
 				}
 
 			}

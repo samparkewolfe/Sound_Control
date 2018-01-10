@@ -12,6 +12,7 @@
 * Implement leap finger angles.
 * Fix two hand training issue
 	* When you train on one hand and train on the other it’s not very clear what happens.
+* Display positions in the same way as the colour tracker.
 
 #### Microbit
 * Get compass.
@@ -22,7 +23,7 @@
 #### Grab n Play
 
 #### Models
-* UI BUG: If you click the record button
+* UI BUG: If you click the record button, take your mouse away from the button and unclick, the button stays on.
 
 #### Sample Player
 
