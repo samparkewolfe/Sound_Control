@@ -13,12 +13,11 @@
 #### Leap
 * Make visualisation indicate Z position better.
 * Implement leap finger angles.
-* Fix two hand training issue
+* Fix two hand training issue.
 	* When you train on one hand and train on the other it’s not very clear what happens.
-* Display positions in the same way as the colour tracker. (Done)
-* Make there only be one leap object in generate instrument window. (Done)
-* Make flattening the leap data more efficient. (Done)
-	* Stop using the javascript method (Done)
+* Make two different displays.
+	* One for width.
+	* One for palm pos.
 
 #### Microbit
 * Get compass.
