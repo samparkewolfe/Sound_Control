@@ -1,5 +1,8 @@
 # Sound Control (Dev Git)
 
+* Look in to Squeez-ables.
+* Using a mouse as a controller.
+
 ## Holistics
 * Save File.
 * Optimise all sensors.
@@ -13,9 +16,8 @@
 * Fix two hand training issue
 	* When you train on one hand and train on the other it’s not very clear what happens.
 * Display positions in the same way as the colour tracker. (Done)
-* Make there only be one leap object in generate instrument window.
-	* Render the skeleton only once and then add the ball or line onto it.
-		* Possibly use jit.slab to get this addition happening on the gpu.
+* Make there only be one leap object in generate instrument window. (Done)
+* Make flattening the leap data more efficient.
 
 #### Microbit
 * Get compass.
@@ -76,18 +78,6 @@
 * Piano sampler which you map areas of the piano to the sensor positions.
     * Change Scale.
     * Linear Regression.
-
-
-* Press Quick
-	* Record inputs into grab_n_play buffer
-* Unclick Quick
-	* training_data is emptied
-	* training_data is filled with random elements
-	* new model is trained.
-* Press Precise
-	* Record more data into training_data
-	* Retrain model
-
 
 
 
