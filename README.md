@@ -5,10 +5,7 @@
 
 ## Holistics
 * Save File.
-* Optimise all sensors.
-	* Divide up metro objects for different tasks.
-		* Collecting data.
-		* Visualising data.
+* Optimise sensors. (Done)
 
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
@@ -20,9 +17,8 @@
 	* When you train on one hand and train on the other it’s not very clear what happens.
 * Display positions in the same way as the colour tracker. (Done)
 * Make there only be one leap object in generate instrument window. (Done)
-* Make flattening the leap data more efficient.
+* Make flattening the leap data more efficient. (Done)
 	* Stop using the javascript method (Done)
-		* This does not stop it from going slowly with two hands!
 
 #### Microbit
 * Get compass.
