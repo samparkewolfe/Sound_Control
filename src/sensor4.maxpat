@@ -107,9 +107,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 352.5, 284.5, 70.0, 20.0 ],
+					"patching_rect" : [ 110.5, 284.5, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 128.5, 61.0, 20.0 ],
+					"presentation_rect" : [ 160.0, 67.5, 61.0, 20.0 ],
 					"style" : "",
 					"text" : "Left Hand"
 				}
@@ -122,9 +122,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.5, 203.0, 219.0, 22.0 ],
+					"patching_rect" : [ 352.5, 203.0, 223.0, 22.0 ],
 					"style" : "",
-					"text" : "if $f1 == 0. then Absent else $f1 $f2 $f3"
+					"text" : "if $f1 == -1. then Absent else $f1 $f2 $f3"
 				}
 
 			}
@@ -162,9 +162,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 110.5, 284.5, 70.0, 20.0 ],
+					"patching_rect" : [ 352.5, 284.5, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 67.5, 70.0, 20.0 ],
+					"presentation_rect" : [ 160.0, 128.5, 70.0, 20.0 ],
 					"style" : "",
 					"text" : "Right Hand"
 				}
@@ -177,9 +177,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.5, 203.0, 219.0, 22.0 ],
+					"patching_rect" : [ 110.5, 203.0, 223.0, 22.0 ],
 					"style" : "",
-					"text" : "if $f1 == 0. then Absent else $f1 $f2 $f3"
+					"text" : "if $f1 == -1. then Absent else $f1 $f2 $f3"
 				}
 
 			}

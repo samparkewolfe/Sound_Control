@@ -6,6 +6,9 @@
 ## Holistics
 * Save File.
 * Optimise all sensors.
+	* Divide up metro objects for different tasks.
+		* Collecting data.
+		* Visualising data.
 
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
