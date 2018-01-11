@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -82,9 +82,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 672.5, 124.833313, 395.0, 22.0 ],
+					"patching_rect" : [ 672.5, 124.833313, 237.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.matrix leap_skeleton_hand_width_visualisation_matrix 4 char 240 240"
+					"text" : "jit.matrix leap_skeleton_vis 4 char 240 240"
 				}
 
 			}

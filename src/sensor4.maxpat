@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -56,9 +56,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 754.0, 337.833313, 386.0, 22.0 ],
+					"patching_rect" : [ 754.0, 337.833313, 237.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.matrix leap_skeleton_palm_pos_visualisation_matrix 4 char 240 240"
+					"text" : "jit.matrix leap_skeleton_vis 4 char 240 240"
 				}
 
 			}
@@ -152,7 +152,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 157.0, 80.5, 130.0, 20.0 ],
 					"style" : "",
-					"text" : "-70.86 207.71 110.81"
+					"text" : "Absent"
 				}
 
 			}
