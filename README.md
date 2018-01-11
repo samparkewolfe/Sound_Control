@@ -21,6 +21,8 @@
 * Display positions in the same way as the colour tracker. (Done)
 * Make there only be one leap object in generate instrument window. (Done)
 * Make flattening the leap data more efficient.
+	* Stop using the javascript method (Done)
+		* This does not stop it from going slowly with two hands!
 
 #### Microbit
 * Get compass.

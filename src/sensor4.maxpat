@@ -109,7 +109,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 110.5, 284.5, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 67.5, 61.0, 20.0 ],
+					"presentation_rect" : [ 157.0, 117.5, 61.0, 20.0 ],
 					"style" : "",
 					"text" : "Left Hand"
 				}
@@ -150,9 +150,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 352.5, 313.5, 130.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 150.5, 130.0, 20.0 ],
+					"presentation_rect" : [ 157.0, 80.5, 130.0, 20.0 ],
 					"style" : "",
-					"text" : "Absent"
+					"text" : "-70.86 207.71 110.81"
 				}
 
 			}
@@ -164,7 +164,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 352.5, 284.5, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 128.5, 70.0, 20.0 ],
+					"presentation_rect" : [ 157.0, 58.5, 70.0, 20.0 ],
 					"style" : "",
 					"text" : "Right Hand"
 				}
@@ -205,7 +205,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 110.5, 313.5, 130.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 89.5, 130.0, 20.0 ],
+					"presentation_rect" : [ 157.0, 139.5, 130.0, 20.0 ],
 					"style" : "",
 					"text" : "Absent"
 				}

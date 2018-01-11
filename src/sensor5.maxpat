@@ -218,7 +218,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 194.999969, 252.833313, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.5, 128.5, 61.0, 20.0 ],
+					"presentation_rect" : [ 210.0, 128.5, 61.0, 20.0 ],
 					"style" : "",
 					"text" : "Left Hand"
 				}
