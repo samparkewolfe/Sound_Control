@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 153.0, -1002.0, 1521.0, 967.0 ],
+		"rect" : [ -178.0, -1002.0, 1852.0, 968.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-108",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 735.5, 252.833313, 395.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.matrix leap_skeleton_hand_width_visualisation_matrix 4 char 240 240"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -46,19 +59,6 @@
 					"patching_rect" : [ 735.5, 193.0, 138.0, 22.0 ],
 					"style" : "",
 					"text" : "r leap_refresh_pwindow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 735.5, 235.666672, 337.0, 22.0 ],
-					"style" : "",
-					"text" : "jit.matrix leap_handwidth_visualisation_matrix 4 char 240 240"
 				}
 
 			}
@@ -500,6 +500,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-124", 0 ]
 				}
@@ -521,7 +528,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -616,13 +623,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
