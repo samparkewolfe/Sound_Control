@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 494.0, 286.0, 784.0, 127.0 ],
+		"rect" : [ 783.0, -1001.0, 891.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -587,7 +587,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-168",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -601,11 +601,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-169",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 78.0, 44.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -615,11 +615,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-170",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 583.83313, 56.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -629,11 +629,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 218.333328, 44.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -643,7 +643,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-172",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1014,7 +1014,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
