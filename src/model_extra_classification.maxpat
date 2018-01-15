@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 471.0, 446.0, 775.0, 278.0 ],
+		"rect" : [ -178.0, -1001.0, 1852.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -236,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.416565, 620.833252, 173.0, 22.0 ],
+					"patching_rect" : [ 134.416565, 620.833252, 185.0, 22.0 ],
 					"style" : "",
 					"text" : "#0training_data_extra_classify"
 				}
@@ -249,7 +249,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 289.333313, 430.83313, 195.0, 22.0 ],
+					"patching_rect" : [ 289.333313, 430.83313, 207.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
