@@ -9,6 +9,7 @@
 
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
+* BUG: Colour Tracking click is still off centre
 
 #### Leap
 * Make visualisation indicate Z position better.
@@ -29,6 +30,7 @@
 
 #### Models
 * UI BUG: If you click the record button, take your mouse away from the button and unclick, the button stays on.
+* Undo Button Bug: If you undo back to nothing then the next recording will write to the wrong index.
 
 #### Sample Player
 
