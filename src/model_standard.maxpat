@@ -148,19 +148,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-17",
-					"index" : 2,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 993.999939, 1025.0, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -218,18 +205,6 @@
 					"patching_rect" : [ 700.0, 516.167175, 56.0, 20.0 ],
 					"style" : "",
 					"text" : "Undo"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 517.999939, 2076.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}

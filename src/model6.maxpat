@@ -105,7 +105,7 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
+					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
 					"patching_rect" : [ 666.333435, 367.0, 121.0, 22.0 ],
@@ -118,7 +118,7 @@
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 377.333313, 425.0, 194.0, 22.0 ],
@@ -132,8 +132,8 @@
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 7,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 113.666641, 425.0, 139.0, 22.0 ],
 					"style" : "",
 					"text" : "model_standard.maxpat"
@@ -156,13 +156,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-143",
-					"linecount" : 7,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.666641, 72.000015, 97.0, 100.0 ],
+					"patching_rect" : [ 11.666641, 72.000015, 97.0, 114.0 ],
 					"style" : "",
-					"text" : "Output:\nPresice (metro)\nPreciece Train\nQuick (metro)\nQuick Train.\nClear (bang)\nRun (1/0)"
+					"text" : "Output:\nPresice (metro)\nPreciece Train\nQuick (metro)\nQuick Train.\nClear (bang)\nUndo (bang)\nRun (1/0)"
 				}
 
 			}
@@ -333,7 +333,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 3 ],
+					"destination" : [ "obj-10", 4 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -349,7 +349,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 3 ],
+					"destination" : [ "obj-11", 4 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -409,9 +409,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 5 ],
+					"destination" : [ "obj-10", 6 ],
 					"order" : 0,
 					"source" : [ "obj-141", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 3 ],
+					"order" : 0,
+					"source" : [ "obj-141", 5 ]
 				}
 
 			}
@@ -506,6 +514,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 3 ],
+					"order" : 1,
 					"source" : [ "obj-141", 5 ]
 				}
 
@@ -551,7 +560,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 4 ],
+					"destination" : [ "obj-11", 5 ],
 					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
@@ -581,7 +590,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 4 ],
+					"destination" : [ "obj-10", 5 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
