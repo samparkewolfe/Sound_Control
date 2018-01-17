@@ -28,6 +28,7 @@
 * UI BUG: If you click the record button, take your mouse away from the button and unclick, the button stays on.
 
 #### Sample Player
+* BUG: when run is pressed instrument automatically changes to most recent sample.
 
 #### Granulator
 
@@ -73,7 +74,7 @@
     * Divide stuff up with sample content.
 
 * Undo button for last recording sessions. (Done)
-	* Needs proper testing.
+	* All models apart from model 6 are broken in some way.
     * Bring in notion of “classes” or number of recording sessions in the training data.
     * Tell the user how many “classes” or number of recording sessions are in a file.
 

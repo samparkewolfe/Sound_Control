@@ -1937,7 +1937,7 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 22.5, 99.833374, 73.0, 33.0 ],
 					"style" : "",
-					"text" : "Drop sound file",
+					"text" : "DrumsMassive.mp3",
 					"textjustification" : 1
 				}
 
@@ -2881,14 +2881,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"order" : 4,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
 					"order" : 3,
 					"source" : [ "obj-5", 0 ]
 				}
