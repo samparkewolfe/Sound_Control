@@ -74,9 +74,9 @@
     * Divide stuff up with sample content.
 
 * Undo button for last recording sessions. (Done)
-	* All models apart from model 6 are broken in some way.
-    * Bring in notion of “classes” or number of recording sessions in the training data.
-    * Tell the user how many “classes” or number of recording sessions are in a file.
+	* Granulator + Dumb Camera was too slow.
+		* Definitely to do with training too many times.
+
 
 * Piano sampler which you map areas of the piano to the sensor positions.
     * Change Scale.
