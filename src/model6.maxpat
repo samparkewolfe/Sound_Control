@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 684.0 ],
+		"rect" : [ 689.0, 78.0, 557.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.933289, 455.0, 53.0, 22.0 ],
+					"patching_rect" : [ 260.999969, 455.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "initialize"
 				}
@@ -105,7 +105,7 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
 					"patching_rect" : [ 666.333435, 338.0, 121.0, 22.0 ],
@@ -131,7 +131,7 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 7,
+					"numinlets" : 8,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 113.666641, 396.0, 139.0, 22.0 ],
@@ -183,7 +183,7 @@
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "int" ],
 					"patching_rect" : [ 113.666641, 43.000015, 189.333328, 149.333328 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -228,7 +228,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -241,7 +241,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -280,7 +280,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -293,7 +293,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -306,7 +306,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -320,7 +320,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -349,7 +349,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 4 ],
+					"destination" : [ "obj-11", 5 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -357,7 +357,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 4 ],
+					"destination" : [ "obj-8", 5 ],
 					"order" : 2,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -395,7 +395,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 6 ],
+					"destination" : [ "obj-8", 7 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -450,7 +450,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-141", 1 ]
 				}
 
@@ -465,7 +465,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 3 ],
+					"destination" : [ "obj-11", 4 ],
 					"order" : 0,
 					"source" : [ "obj-141", 5 ]
 				}
@@ -473,7 +473,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 2 ],
+					"destination" : [ "obj-11", 3 ],
 					"order" : 0,
 					"source" : [ "obj-141", 4 ]
 				}
@@ -492,6 +492,14 @@
 					"destination" : [ "obj-11", 0 ],
 					"order" : 0,
 					"source" : [ "obj-141", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 2 ],
+					"order" : 0,
+					"source" : [ "obj-141", 1 ]
 				}
 
 			}
@@ -521,7 +529,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 3 ],
+					"destination" : [ "obj-8", 4 ],
 					"order" : 2,
 					"source" : [ "obj-141", 5 ]
 				}
@@ -529,7 +537,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 2 ],
+					"destination" : [ "obj-8", 3 ],
 					"order" : 3,
 					"source" : [ "obj-141", 4 ]
 				}
@@ -537,8 +545,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 2 ],
+					"order" : 2,
+					"source" : [ "obj-141", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-141", 1 ]
 				}
 
@@ -568,7 +584,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 5 ],
+					"destination" : [ "obj-11", 6 ],
 					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
@@ -576,7 +592,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 5 ],
+					"destination" : [ "obj-8", 6 ],
 					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
@@ -603,7 +619,48 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "model_UI_quick.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "model_standard.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "model_undo_dict.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "model_extra_classification.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "model_quick.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rapidmax.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

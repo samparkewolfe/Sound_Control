@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 889.0, 684.0 ],
+		"rect" : [ 34.0, 79.0, 876.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.933289, 484.0, 53.0, 22.0 ],
+					"patching_rect" : [ 268.999969, 458.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "initialize"
 				}
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.666641, 484.0, 97.0, 22.0 ],
+					"patching_rect" : [ 121.666641, 458.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend classify",
 					"varname" : "prepend_train_obj"
@@ -70,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 283.999969, 604.0, 34.0, 22.0 ],
+					"patching_rect" : [ 291.999969, 578.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 154.666641, 610.000488, 24.0, 24.0 ],
+					"patching_rect" : [ 162.666641, 584.000488, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "bang" ],
-					"patching_rect" : [ 113.666641, 551.000488, 60.0, 22.0 ],
+					"patching_rect" : [ 121.666641, 525.000488, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "rapidmax"
 				}
@@ -105,10 +105,10 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
+					"numinlets" : 8,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.666641, 425.0, 139.0, 22.0 ],
+					"patching_rect" : [ 121.666641, 399.0, 139.0, 22.0 ],
 					"style" : "",
 					"text" : "model_standard.maxpat"
 				}
@@ -121,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 886.416626, 72.000015, 150.0, 154.0 ],
+					"patching_rect" : [ 894.416626, 46.000015, 150.0, 154.0 ],
 					"style" : "",
 					"text" : "ALL HAVE:\n\n1. metro\n2. train bang\n3. clear\n4. input\n5. output\n\n1 have Run.\n\n1 has dict input"
 				}
@@ -130,13 +130,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-143",
-					"linecount" : 7,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.666641, 72.000015, 97.0, 100.0 ],
+					"patching_rect" : [ 19.666641, 46.000015, 97.0, 114.0 ],
 					"style" : "",
-					"text" : "Output:\nPresice (metro)\nPreciece Train\nQuick (metro)\nQuick Train.\nClear (bang)\nRun (1/0)"
+					"text" : "Output:\nPresice (metro)\nPreciece Train\nQuick (metro)\nQuick Train.\nClear (bang)\nUndo (bang)\nRun (1/0)"
 				}
 
 			}
@@ -152,12 +152,12 @@
 					"maxclass" : "bpatcher",
 					"name" : "model_UI_precise.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 6,
+					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "int" ],
-					"patching_rect" : [ 113.666641, 72.000015, 189.333328, 149.333328 ],
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "int" ],
+					"patching_rect" : [ 121.666641, 46.000015, 189.333328, 149.333328 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -168,7 +168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 710.499939, 51.666763, 150.0, 20.0 ],
+					"patching_rect" : [ 718.499939, 25.666763, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Second Output"
 				}
@@ -180,7 +180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 546.083313, 50.000015, 150.0, 20.0 ],
+					"patching_rect" : [ 554.083313, 24.000015, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Output "
 				}
@@ -192,7 +192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 381.333252, 50.000015, 150.0, 20.0 ],
+					"patching_rect" : [ 389.333252, 24.000015, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Input "
 				}
@@ -206,7 +206,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.333313, 674.999451, 30.0, 30.0 ],
+					"patching_rect" : [ 385.333313, 648.999451, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -220,7 +220,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 710.499939, 80.000046, 30.0, 30.0 ],
+					"patching_rect" : [ 718.499939, 54.000046, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -231,7 +231,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.666641, 50.000015, 73.0, 20.0 ],
+					"patching_rect" : [ 157.666641, 24.000015, 73.0, 20.0 ],
 					"style" : "",
 					"text" : "It's a hybrid!"
 				}
@@ -244,7 +244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.666641, 659.166748, 134.0, 22.0 ],
+					"patching_rect" : [ 84.666641, 633.166748, 134.0, 22.0 ],
 					"style" : "",
 					"text" : "\"Model is ready to run!\""
 				}
@@ -258,7 +258,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.999969, 674.999451, 30.0, 30.0 ],
+					"patching_rect" : [ 323.999969, 648.999451, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -271,7 +271,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.999969, 674.999451, 30.0, 30.0 ],
+					"patching_rect" : [ 291.999969, 648.999451, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -285,7 +285,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 546.083313, 80.000046, 30.0, 30.0 ],
+					"patching_rect" : [ 554.083313, 54.000046, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -299,7 +299,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 381.333252, 80.000046, 30.0, 30.0 ],
+					"patching_rect" : [ 389.333252, 54.000046, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -315,7 +315,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 3 ],
+					"destination" : [ "obj-8", 5 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -355,7 +355,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"order" : 0,
-					"source" : [ "obj-141", 5 ]
+					"source" : [ "obj-141", 6 ]
 				}
 
 			}
@@ -371,15 +371,29 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"order" : 1,
+					"source" : [ "obj-141", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 4 ],
 					"source" : [ "obj-141", 5 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 2 ],
+					"destination" : [ "obj-8", 3 ],
 					"order" : 1,
 					"source" : [ "obj-141", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 2 ],
+					"source" : [ "obj-141", 3 ]
 				}
 
 			}
@@ -400,7 +414,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 0 ],
-					"midpoints" : [ 86.166641, 700.0, 32.0, 700.0, 32.0, 54.0, 123.166641, 54.0 ],
+					"midpoints" : [ 94.166641, 669.0, 38.0, 669.0, 38.0, 20.0, 131.166641, 20.0 ],
 					"source" : [ "obj-146", 0 ]
 				}
 
@@ -414,7 +428,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 4 ],
+					"destination" : [ "obj-8", 6 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -443,6 +457,13 @@
 			}
 , 			{
 				"name" : "model_standard.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "model_undo_dict.maxpat",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

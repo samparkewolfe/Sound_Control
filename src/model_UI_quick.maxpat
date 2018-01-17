@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 583.666748, 1059.166626, 111.0, 22.0 ],
-					"presentation_rect" : [ 583.666748, 1056.166626, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "\"Undid last action.\""
 				}
@@ -54,12 +53,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-18",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 555.333374, 985.282532, 30.0, 30.0 ],
-					"presentation_rect" : [ 555.333374, 982.282532, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -330,7 +328,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -573,7 +571,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -599,7 +597,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -644,7 +642,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 90.0, 49.0, 20.0 ],
 					"style" : "",
-					"text" : "Precice"
+					"text" : "Precise"
 				}
 
 			}
@@ -846,7 +844,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-132",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -859,7 +857,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-133",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -872,7 +870,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-136",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -885,7 +883,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-138",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1411,7 +1409,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
