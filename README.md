@@ -74,8 +74,8 @@
     * Divide stuff up with sample content.
 
 * Undo button for last recording sessions. (Done)
-	* Granulator + Dumb Camera was too slow.
-		* Definitely to do with training too many times.
+	* Training too many times is causing really bad lag.
+		* Granulator + Dumb Camera was too slow.
 
 
 * Piano sampler which you map areas of the piano to the sensor positions.
