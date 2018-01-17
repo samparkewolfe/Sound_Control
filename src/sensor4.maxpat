@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -178.0, -1001.0, 1852.0, 967.0 ],
+		"rect" : [ 34.0, 78.0, 876.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -317,24 +317,6 @@
 ,
 					"style" : "",
 					"text" : "dict"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1194.5, 67.0, 259.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "flatten_leapmotion_hand_and_finger_data.js",
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "js flatten_leapmotion_hand_and_finger_data.js"
 				}
 
 			}

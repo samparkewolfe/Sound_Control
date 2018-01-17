@@ -1,11 +1,7 @@
 # Sound Control (Dev Git)
 
-* Look in to Squeez-ables.
-* Using a mouse as a controller.
-
 ## Holistics
 * Save File.
-* Optimise sensors. (Done)
 
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
@@ -30,7 +26,6 @@
 
 #### Models
 * UI BUG: If you click the record button, take your mouse away from the button and unclick, the button stays on.
-* Undo Button Bug: If you undo back to nothing then the next recording will write to the wrong index.
 
 #### Sample Player
 
@@ -50,7 +45,11 @@
     * Samples which progress after each other (possible whole songs)
 
 
-## New Instruments
+## New Functionality
+* Using a mouse as a controller.
+
+* Squeez-ables.
+
 * Colour Detector
     * Lets you set 3 colours to be tracked
     * 3 dimension input of just each colour is present to classifier.
@@ -73,7 +72,8 @@
     * Automatically name files and subdirectories.
     * Divide stuff up with sample content.
 
-* Undo button for last recording sessions.
+* Undo button for last recording sessions. (Done)
+	* Needs proper testing.
     * Bring in notion of “classes” or number of recording sessions in the training data.
     * Tell the user how many “classes” or number of recording sessions are in a file.
 
