@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -178.0, -1001.0, 1516.0, 967.0 ],
+		"rect" : [ -178.0, -1001.0, 1852.0, 967.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,285 @@
 		"title" : "Sound Control",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 3,
+							"revision" : 4,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 294.0, -637.0, 892.0, 172.0 ],
+						"bgcolor" : [ 0.662745, 0.705882, 0.760784, 1.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-2",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "sensor4.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 10.0, 300.0, 220.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-4",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "sound1.maxpat",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "signal", "" ],
+									"patching_rect" : [ 330.0, 10.0, 300.0, 220.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-6",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "model1.maxpat",
+									"numinlets" : 4,
+									"numoutlets" : 3,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "", "int", "" ],
+									"patching_rect" : [ 650.0, 10.0, 300.0, 220.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"hidden" : 1,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 330.0, 10.0, 100.0, 22.0 ],
+									"style" : "",
+									"text" : "dac~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"hidden" : 1,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 10.0, 10.0, 100.0, 22.0 ],
+									"style" : "",
+									"text" : "closebang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"hidden" : 1,
+									"id" : "obj-10",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 40.0, 50.0, 22.0 ],
+									"style" : "",
+									"text" : "dispose"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"hidden" : 1,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 10.0, 70.0, 100.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"style" : "",
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"hidden" : 1,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 650.0, 10.0, 100.0, 22.0 ],
+									"style" : "",
+									"text" : "active"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 3 ],
+									"hidden" : 1,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 1 ],
+									"hidden" : 1,
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"hidden" : 1,
+									"order" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"hidden" : 1,
+									"order" : 1,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 1 ],
+									"hidden" : 1,
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 862.0, 51.0, 100.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "p myinstrument6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 164.0, 1199.0, 76.0, 22.0 ],
+					"style" : "",
+					"text" : "s leap_bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-126",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -54,7 +333,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ -178.0, -1001.0, 1557.0, 968.0 ],
+						"rect" : [ -178.0, -1001.0, 1165.0, 967.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -83,13 +362,55 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-20",
+									"id" : "obj-60",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 928.5, 488.0, 140.0, 22.0 ],
+									"patching_rect" : [ 800.799988, 460.0, 121.0, 22.0 ],
 									"style" : "",
-									"text" : "s leap_refresh_pwindow"
+									"text" : "s leap_update_vis_b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "jit.pwindow",
+									"name" : "leap_skeleton_vis",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 418.5, 682.0, 320.0, 240.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ],
+									"shared" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_gl_texture", "" ],
+									"patching_rect" : [ 818.599976, 704.0, 346.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.gl.texture leap_skeleton_vis @adapt 1 @name tex_ctx_main"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 818.599976, 530.0, 138.0, 22.0 ],
+									"style" : "",
+									"text" : "to_texture tex_ctx_main"
 								}
 
 							}
@@ -541,19 +862,6 @@
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 201.100006, 36.0, 30.0, 30.0 ],
 									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 842.75, 670.833313, 237.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.matrix leap_skeleton_vis 4 char 240 240"
 								}
 
 							}
@@ -2416,7 +2724,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 53.0, 335.0, 50.0, 21.0 ],
 													"style" : "",
-													"text" : "6544"
+													"text" : "2064"
 												}
 
 											}
@@ -3004,11 +3312,11 @@
 									"id" : "obj-56",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "reset", "bang", "erase" ],
-									"patching_rect" : [ 803.0, 420.0, 81.0, 21.0 ],
+									"numoutlets" : 6,
+									"outlettype" : [ "reset", "bang", "bang", "bang", "bang", "erase" ],
+									"patching_rect" : [ 783.0, 381.0, 108.0, 21.0 ],
 									"style" : "",
-									"text" : "t reset b erase"
+									"text" : "t reset b b b b erase"
 								}
 
 							}
@@ -3017,12 +3325,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-58",
-									"linecount" : 2,
+									"linecount" : 5,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 842.75, 601.833313, 714.0, 38.0 ],
+									"patching_rect" : [ 818.599976, 601.833313, 181.0, 81.0 ],
 									"style" : "",
 									"text" : "jit.gl.render leap_skeleton_vis @ortho 1 @camera 0. 1. 3. @lookat 0. 1. 1. @light_ambient 0.8 0.8 0.8 1. @erase_color 1. 1. 1. 1."
 								}
@@ -3704,6 +4012,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-58", 0 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
 									"source" : [ "obj-26", 0 ]
 								}
@@ -3918,25 +4233,24 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"order" : 0,
-									"source" : [ "obj-56", 1 ]
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-56", 2 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-26", 2 ],
-									"order" : 2,
-									"source" : [ "obj-56", 1 ]
+									"order" : 0,
+									"source" : [ "obj-56", 4 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 2 ],
-									"order" : 3,
-									"source" : [ "obj-56", 1 ]
+									"order" : 1,
+									"source" : [ "obj-56", 4 ]
 								}
 
 							}
@@ -3951,14 +4265,20 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-58", 0 ],
-									"source" : [ "obj-56", 2 ]
+									"source" : [ "obj-56", 5 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-58", 0 ],
-									"order" : 1,
+									"source" : [ "obj-56", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-60", 0 ],
 									"source" : [ "obj-56", 1 ]
 								}
 
@@ -4000,13 +4320,6 @@
 									"destination" : [ "obj-50", 1 ],
 									"order" : 1,
 									"source" : [ "obj-57", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"source" : [ "obj-58", 0 ]
 								}
 
 							}
@@ -4588,18 +4901,6 @@
 					"patching_rect" : [ 919.0, 1255.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-90",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1337.5, 1142.0, 59.0, 22.0 ],
-					"style" : "",
-					"text" : "print pwd"
 				}
 
 			}
@@ -6156,6 +6457,10 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-39::obj-4::obj-135" : [ "live.gain~", "Volume", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
@@ -6164,11 +6469,57 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "model1.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "model_UI_precise.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "model_standard.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "model_undo_dict.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sound1.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sensor4.maxpat",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "Leapmotion.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rapidmax.mxo",
 				"type" : "iLaX"
 			}
  ],
