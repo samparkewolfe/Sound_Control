@@ -66,22 +66,25 @@ function build_subpatch()
 	subpatch.subpatcher().hiddenconnect(sound, 2, model, 2);
 	subpatch.subpatcher().hiddenconnect(model, 2, sound, 2);
 	
-	var dac_obj = subpatch.subpatcher().newdefault(319., 0., "dac~");
+	var dac_obj = subpatch.subpatcher().newdefault(320+border, border, "dac~");
 	dac_obj.hidden = true;
 	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 0);
 	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 1);
 	
-	var closebang_obj = subpatch.subpatcher().newdefault(19., 35.,"closebang");
-	var dispose_message = subpatch.subpatcher().newdefault(0, 191., "message", "@text", "dispose");
-	var thispatcher_object = subpatch.subpatcher().newdefault(0, 218., "thispatcher");
+	var closebang_obj = subpatch.subpatcher().newdefault(border, border,"closebang");
+	var dispose_message = subpatch.subpatcher().newdefault(border, 30 + border, "message", "@text", "dispose");
+	var thispatcher_object = subpatch.subpatcher().newdefault(border, 60 + border, "thispatcher");
 	subpatch.subpatcher().hiddenconnect(closebang_obj, 0, dispose_message, 0);
 	subpatch.subpatcher().hiddenconnect(dispose_message, 0, thispatcher_object, 0);
-
 	closebang_obj.hidden = true;
 	dispose_message.hidden = true;
 	thispatcher_object.hidden = true;
-	
+
 	thispatcher_object.message("bgcolor", 0.662745098,0.705882353,0.760784314, 1);
+
+	var active_obj = subpatch.subpatcher().newdefault(640+border, border,"active");
+	subpatch.subpatcher().hiddenconnect(active_obj, 0, model, 3);
+	active_obj.hidden = true;
 
 	subpatch.subpatcher().locked = 1;
 	subpatch.subpatcher().wind.hasgrow = 0;
