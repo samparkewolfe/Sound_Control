@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 291.0, 239.0, 430.0, 110.0 ],
+		"rect" : [ -178.0, -1001.0, 1516.0, 967.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -5343,7 +5343,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "GameTrak", ",", "Dumb", "Camera", ",", "Colour", "Tracker", ",", "Leap", "Motion", "Palm", "Position", ",", "Leap", "Motion", "Hand", "Width", ",", "MicroBit", ",", "Microphone" ],
+					"items" : [ "GameTrak", ",", "Dumb", "Camera", ",", "Colour", "Tracker", ",", "Leap", "Motion", "Palm", "Position", ",", "Leap", "Motion", "Hand", "Width", ",", "MicroBit", ",", "Microphone", ",", "Mouse" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5393,7 +5393,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.75, 293.666687, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "subpatch_construction.js",
+						"filename" : "subpatch_construction",
 						"parameter_enable" : 0
 					}
 ,
