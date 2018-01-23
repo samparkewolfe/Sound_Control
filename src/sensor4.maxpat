@@ -38,19 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 886.0, 324.0, 106.0, 22.0 ],
-					"style" : "",
-					"text" : "name #0ctx_spl_1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -112,9 +99,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 628.0, 77.0, 287.0, 22.0 ],
+					"patching_rect" : [ 628.0, 77.0, 334.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.videoplane #0ctx_spl_1 @texture tex_ctx_main"
+					"text" : "jit.gl.videoplane #0ctx_spl_1 @texture tex_leap_skeleton_vis"
 				}
 
 			}
@@ -435,16 +422,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
-					"order" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
-					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 

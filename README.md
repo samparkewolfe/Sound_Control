@@ -28,7 +28,7 @@
 * UI BUG: If you click the record button, take your mouse away from the button and unclick, the button stays on.
 
 #### Sample Player
-* BUG: when run is pressed instrument automatically changes to most recent sample.
+* BUG: when run is pressed instrument automatically changes to most recent sample. (Done)
 
 #### Granulator
 
@@ -47,7 +47,7 @@
 
 
 ## New Functionality
-* Using a mouse as a controller.
+* Using a mouse as a controller. (Done)
 
 * Squeez-ables.
 
