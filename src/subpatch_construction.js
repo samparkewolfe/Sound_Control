@@ -49,8 +49,8 @@ function build_subpatch()
 	subpatch.subpatcher().wind.size = [960, 240]
 	
 	this.patcher.bringtofront(subpatch);
-				
-  	var sensor = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sensor"+sensor_int+".maxpat");
+	
+	var sensor = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sensor"+sensor_int+".maxpat");
 	sensor.rect = sensor_coords;
 	
   	var sound = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sound"+sound_int+".maxpat");
