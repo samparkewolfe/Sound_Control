@@ -43,10 +43,10 @@
 
 
 ## New Functionality
-* Midi Note Generator.
-    * Instrument lets you choose a range of integers between 0 - 127.
-    * Train a model to classify to those values.
-	* Instrument then outputs those values to a midi channel.
+* Midi Note Generator. (Done)
+    * Instrument lets you choose a range of integers between 0 - 127. (Done)
+    * Train a model to classify to those values. (Done)
+	* Instrument then outputs those values to a midi channel. (Done)
 
 * Micro-bit Conductive Touch
     * Touch one of the 3 conductive inputs as an input.
