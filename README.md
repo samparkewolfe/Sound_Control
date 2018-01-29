@@ -12,9 +12,9 @@
 * Implement leap finger angles.
 * Fix two hand training issue.
 	* When you train on one hand and train on the other it’s not very clear what happens.
-* Make two different displays.
-	* One for width.
-	* One for palm pos.
+* Make two different displays. (Done)
+	* One for width. (Done)
+	* One for palm pos. (Done)
 
 #### Microbit
 * Get compass.
@@ -25,29 +25,31 @@
 #### Grab n Play
 
 #### Models
-* UI BUG: If you click the record button, take your mouse away from the button and unclick, the button stays on.
 
 #### Sample Player
-* BUG: when run is pressed instrument automatically changes to most recent sample. (Done)
 
 #### Granulator
+* Add Volume Slider.
 
 ## New Samples
 * Rock samples.
 * Make some ourselves on garage band.
-    * Deffo acoustic instruments.
-    * Orchestral pop covers.
-    * Group loops.
-    * Sax Groups.
-    * Discordant sounds.
-    * Solo instrument loops.
-    * Strings and Brass.
-    * Same motif on lots of different instruments.
-    * Samples which progress after each other (possible whole songs)
+    * Acoustic Orchestral instruments.
+    * Pop Covers.
+    * Group & Solo loops.
+    * Discordant & harmonic Sounds.
+    * Repeated motif on different instruments.
+    * Loops which in order complete a song.
 
 
 ## New Functionality
-* Using a mouse as a controller. (Done)
+* Midi Note Generator.
+    * Instrument lets you choose a range of integers between 0 - 127.
+    * Train a model to classify to those values.
+	* Instrument then outputs those values to a midi channel.
+
+* Micro-bit Conductive Touch
+    * Touch one of the 3 conductive inputs as an input.
 
 * Squeez-ables.
 
@@ -73,14 +75,6 @@
     * Automatically name files and subdirectories.
     * Divide stuff up with sample content.
 
-* Undo button for last recording sessions. (Done)
-	* Training too many times is causing really bad lag.
-		* Granulator + Dumb Camera was too slow.
-
-
-* Piano sampler which you map areas of the piano to the sensor positions.
-    * Change Scale.
-    * Linear Regression.
 
 
 
