@@ -12,9 +12,6 @@
 * Implement leap finger angles.
 * Fix two hand training issue.
 	* When you train on one hand and train on the other it’s not very clear what happens.
-* Make two different displays. (Done)
-	* One for width. (Done)
-	* One for palm pos. (Done)
 
 #### Microbit
 * Get compass.
@@ -33,9 +30,12 @@
 
 #### Midi Note Generator
 * Give functionality for legato and staccato.
-* Expand into an arpeggiator.
-* Enable a polyphonic interface.
+	* Give these as radio buttons legato/staccato/infinite.
+	* Give an “off” function to the infinite setting. (This would be fixed with a poly mode)
+* Maybe expand into an arpeggiator?
 * Enable a plug-in keyboard.
+* New Instrument extension: polyphonic interface.
+	* This enables chords.
 
 ## New Samples
 * Rock samples.
