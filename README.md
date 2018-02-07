@@ -31,6 +31,12 @@
 #### Granulator
 * Add Volume Slider.
 
+#### Midi Note Generator
+* Give functionality for legato and staccato.
+* Expand into an arpeggiator.
+* Enable a polyphonic interface.
+* Enable a plug-in keyboard.
+
 ## New Samples
 * Rock samples.
 * Make some ourselves on garage band.
@@ -43,11 +49,6 @@
 
 
 ## New Functionality
-* Midi Note Generator. (Done)
-    * Instrument lets you choose a range of integers between 0 - 127. (Done)
-    * Train a model to classify to those values. (Done)
-	* Instrument then outputs those values to a midi channel. (Done)
-
 * Micro-bit Conductive Touch
     * Touch one of the 3 conductive inputs as an input.
 
