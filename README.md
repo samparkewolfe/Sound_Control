@@ -1,14 +1,11 @@
 # Sound Control (Dev Git)
 
-## Holistics
-* Save File.
 
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
 * Envelop of looping instruments.
 
-#### Multi-Colour Tracker
-* Fix colour of the toggles on start up. (Done)
+#### Multi-Colour Tracker.
 
 #### Leap
 * Make visualisation indicate Z position better.
@@ -17,7 +14,6 @@
 	* When you train on one hand and train on the other it’s not very clear what happens.
 
 #### Microbit
-* Get compass.
 
 #### Mixer
 * UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
@@ -29,7 +25,6 @@
 #### Sample Player
 
 #### Granulator
-* Add Volume Slider. (Done)
 
 #### Midi Note Generator
 * Give an “off” function to the infinite setting. (This would be fixed with a poly mode)
@@ -57,10 +52,6 @@
 	* Make a new sensor for sound control which only uses those dimensions.
 
 * Squeez-ables.
-
-* Colour Detector
-    * Lets you set 3 colours to be tracked
-    * 3 dimension input of just each colour is present to classifier.
 
 * Recorder
     * Separate floating window which records the output of the instrument
