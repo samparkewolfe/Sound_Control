@@ -5,7 +5,7 @@
 
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
-* BUG: Colour Tracking click is still off centre (Done)
+* Envelop of looping instruments.
 
 #### Leap
 * Make visualisation indicate Z position better.
@@ -50,6 +50,8 @@
 ## New Functionality
 * Micro-bit Conductive Touch
     * Touch one of the 3 conductive inputs as an input.
+	* Need to re write code which loads on to USB to output 3 extra data streams.
+	* Make a new sensor for sound control which only uses those dimensions.
 
 * Squeez-ables.
 
