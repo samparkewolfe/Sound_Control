@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 754.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 342.0, 511.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "140 105"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-88",
 					"maxclass" : "newobj",
@@ -462,7 +474,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 210.571411, 146.0, 85.0, 20.0 ],
 					"style" : "",
-					"text" : "45.00 0.00"
+					"text" : "Absent"
 				}
 
 			}
@@ -997,9 +1009,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 160.5, 816.0, 139.0, 22.0 ],
+					"patching_rect" : [ 160.5, 816.0, 145.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.matrix 4 char 160 120"
+					"text" : "jit.matrix 4 char 140. 105."
 				}
 
 			}
@@ -1032,14 +1044,16 @@
 			}
 , 			{
 				"box" : 				{
+					"dstrect" : [ 0, 0, 140, 105 ],
 					"id" : "obj-3",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 817.5, 1552.5, 160.0, 120.0 ],
+					"patching_rect" : [ 817.5, 1552.5, 140.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.0, 35.0, 140.0, 105.0 ]
+					"presentation_rect" : [ 152.0, 35.0, 140.0, 105.0 ],
+					"srcrect" : [ 0, 0, 140, 105 ]
 				}
 
 			}
@@ -2290,7 +2304,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.401961, 0.288235, 0.268627, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 0.51629, 1.0 ],
 					"border" : 2,
 					"id" : "obj-59",
 					"maxclass" : "panel",
@@ -2308,7 +2322,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.201961, 0.088235, 0.068627, 1.0 ],
+					"bgcolor" : [ 0.491554, 0.601357, 0.0, 1.0 ],
 					"border" : 2,
 					"id" : "obj-58",
 					"maxclass" : "panel",
@@ -3429,6 +3443,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dstrect" : [ 0, 0, 140, 105 ],
 					"id" : "obj-39",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,

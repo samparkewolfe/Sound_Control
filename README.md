@@ -5,7 +5,7 @@
 
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
-* BUG: Colour Tracking click is still off centre
+* BUG: Colour Tracking click is still off centre (Done)
 
 #### Leap
 * Make visualisation indicate Z position better.
@@ -29,15 +29,14 @@
 * Add Volume Slider.
 
 #### Midi Note Generator
-* Give functionality for legato and staccato. (Done)
-	* Give these as radio buttons legato/staccato/infinite. (Done)
-	* Give an “off” function to the infinite setting. (This would be fixed with a poly mode)
+* Give an “off” function to the infinite setting. (This would be fixed with a poly mode)
 * Maybe expand into an arpeggiator?
 * Enable a plug-in keyboard.
 * New Instrument extension: polyphonic interface.
 	* This enables chords.
 
 ## New Samples
+* Making our own from the stem tracks.
 * Rock samples.
 * Make some ourselves on garage band.
     * Acoustic Orchestral instruments.
