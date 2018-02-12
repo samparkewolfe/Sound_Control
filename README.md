@@ -26,7 +26,7 @@
 #### Sample Player
 
 #### Granulator
-* Add Volume Slider.
+* Add Volume Slider. (Done)
 
 #### Midi Note Generator
 * Give an “off” function to the infinite setting. (This would be fixed with a poly mode)
