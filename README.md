@@ -7,6 +7,9 @@
 * Fix umenu that doesn’t work with more than 2 input devices.
 * Envelop of looping instruments.
 
+#### Multi-Colour Tracker
+* Fix colour of the toggles on start up. (Done)
+
 #### Leap
 * Make visualisation indicate Z position better.
 * Implement leap finger angles.
