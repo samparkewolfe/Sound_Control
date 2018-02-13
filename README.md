@@ -27,11 +27,9 @@
 #### Granulator
 
 #### Midi Note Generator
-* Give an “off” function to the infinite setting. (This would be fixed with a poly mode)
 * Maybe expand into an arpeggiator?
-* Enable a plug-in keyboard.
-* New Instrument extension: polyphonic interface.
-	* This enables chords.
+* Enable a plug-in keyboard. (Done)
+* New Instrument extension: polyphonic interface. (Done)
 
 ## New Samples
 * Making our own from the stem tracks.
