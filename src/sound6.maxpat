@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 684.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 61.0, 814.0, 36.0, 22.0 ],
+					"style" : "",
+					"text" : "flush"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 61.0, 785.0, 65.0, 22.0 ],
+					"style" : "",
+					"text" : "closebang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
@@ -8439,7 +8465,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 423.0, 78.0, 823.0, 684.0 ],
+						"rect" : [ 423.0, 79.0, 823.0, 684.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9209,7 +9235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 829.733276, 159.0, 20.0 ],
+					"patching_rect" : [ 61.0, 860.733276, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 31.299999, 119.433311, 81.0, 20.0 ],
 					"style" : "",
@@ -9340,7 +9366,7 @@
 					"presentation_rect" : [ 44.5, 142.433319, 18.0, 62.0 ],
 					"size" : 3,
 					"style" : "",
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -9371,9 +9397,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 32.800003, 40.733276, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 32.0, 157.316681, 20.0 ],
+					"presentation_rect" : [ 10.0, 32.0, 254.316681, 20.0 ],
 					"style" : "",
-					"text" : "Click a note to record map."
+					"text" : "Click notes to map to or plug in a keyboard."
 				}
 
 			}
@@ -9783,6 +9809,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"order" : 1,
@@ -10540,6 +10573,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
