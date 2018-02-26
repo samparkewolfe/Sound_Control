@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, 79.0, 621.0, 683.0 ],
+		"rect" : [ 264.0, 79.0, 798.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -777,9 +777,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 77.000092, 1022.0, 97.0, 22.0 ],
+					"patching_rect" : [ 77.000092, 1022.0, 98.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend classify",
+					"text" : "prepend regress",
 					"varname" : "prepend_train_obj"
 				}
 
