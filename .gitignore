@@ -1,3 +1,6 @@
+Sound\ Control.app
+audiofiles/*
+
 # Compiled source #
 ###################
 *.com
@@ -9,8 +12,6 @@
 *.app
 *.mxj
 *.mxo
-
-CBMicroBit
 
 # Packages #
 ############
