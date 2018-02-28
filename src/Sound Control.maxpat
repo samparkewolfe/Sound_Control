@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -178.0, -1001.0, 432.0, 121.0 ],
+		"rect" : [ -140.0, -1001.0, 1852.0, 967.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -4435,7 +4435,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 182.083344, 1151.166504, 227.0, 22.0 ],
+					"patching_rect" : [ 209.083344, 1187.0, 227.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
