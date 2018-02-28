@@ -28,10 +28,9 @@
 
 #### Midi Note Generator
 * Maybe expand into an arpeggiator?
-* Enable a plug-in keyboard. (Done)
-* New Instrument extension: polyphonic interface. (Done)
 
 ## New Samples
+* Made some new samples from some Ska Samples!
 * Making our own from the stem tracks.
 * Rock samples.
 * Make some ourselves on garage band.
