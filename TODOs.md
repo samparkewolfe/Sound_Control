@@ -1,6 +1,6 @@
-# Sound Control (Dev Git)
+# Sound Control ToDos
 
-
+## Sensors
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
 * Envelop of looping instruments.
@@ -15,31 +15,29 @@
 
 #### Microbit
 
-#### Mixer
-* UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
 
-#### Grab n Play
-
-#### Models
-
+## Instruments
 #### Sample Player
+* Add loop enveloping.
 
 #### Granulator
+* Add loop enveloping.
+
+#### Looper
+* Add loop enveloping.
+* Add continuous looping functionality.
+	* Add sample warping (Maybe?)
 
 #### Midi Note Generator
 * Maybe expand into an arpeggiator?
 
-## New Samples
-* Made some new samples from some Ska Samples!
-* Making our own from the stem tracks.
-* Rock samples.
-* Make some ourselves on garage band.
-    * Acoustic Orchestral instruments.
-    * Pop Covers.
-    * Group & Solo loops.
-    * Discordant & harmonic Sounds.
-    * Repeated motif on different instruments.
-    * Loops which in order complete a song.
+#### Mixer
+* UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
+* Add loop enveloping.
+
+
+## Models
+#### Grab n Play
 
 
 ## New Functionality
