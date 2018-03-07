@@ -17,23 +17,24 @@
 
 ## Instruments
 #### Sample Player
-* Add loop enveloping.
+* Add loop enveloping. (Done)
 
 #### Granulator
-* Add loop enveloping.
+* Add loop enveloping. (Done)
 
 #### Looper
-* Add loop enveloping.
+* Add loop enveloping. (Done)
 * Add continuous looping functionality.
 	* Add sample warping (Maybe?)
-* Samples don’t start from beginning when being dragged in anymore?
+* Samples don’t start from beginning when being dragged in anymore? (Done)
 
 #### Midi Note Generator
 * Maybe expand into an arpeggiator?
 
 #### Mixer
-* UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
-* Add loop enveloping.
+* UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap. (Done)
+* Rescale Sliders (Done)
+* Add loop enveloping. (Done)
 
 
 ## Models
