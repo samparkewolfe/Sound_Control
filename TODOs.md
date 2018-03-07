@@ -27,6 +27,7 @@
 * Add loop enveloping.
 * Add continuous looping functionality.
 	* Add sample warping (Maybe?)
+* Samples don’t start from biginning when being dragged in anymore?
 
 #### Midi Note Generator
 * Maybe expand into an arpeggiator?
@@ -67,6 +68,12 @@
     * Divide stuff up with sample content.
 
 
+## Samples
 
+#### Apple Loops
+* Condence.
 
+#### Music Stems.org
+* Contact the royalty free loop producers.
+* Reggae Loops (Done)
 
