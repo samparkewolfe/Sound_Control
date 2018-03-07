@@ -15,7 +15,6 @@
 
 #### Microbit
 
-
 ## Instruments
 #### Sample Player
 * Add loop enveloping.
@@ -27,7 +26,7 @@
 * Add loop enveloping.
 * Add continuous looping functionality.
 	* Add sample warping (Maybe?)
-* Samples don’t start from biginning when being dragged in anymore?
+* Samples don’t start from beginning when being dragged in anymore?
 
 #### Midi Note Generator
 * Maybe expand into an arpeggiator?
@@ -67,13 +66,15 @@
     * Automatically name files and subdirectories.
     * Divide stuff up with sample content.
 
-
 ## Samples
 
 #### Apple Loops
-* Condence.
+* Condense. (Done)
+	* Found new set of traditional Chinese that are great but formatted differently and need consolidating.
 
 #### Music Stems.org
-* Contact the royalty free loop producers.
+* Contact the royalty free loop producers. (Done)
 * Reggae Loops (Done)
 
+#### Music Radar Ska Loops
+* Contact the royalty free loop producers. (Done)
