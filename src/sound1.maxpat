@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 405.0, -814.0, 890.0, 684.0 ],
+		"rect" : [ 117.0, 79.0, 890.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -676,7 +676,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"items" : [ "--", "silence", "--", ",", 1, "Arise_Chorus_Bass.mp3", ",", 2, "Arise_Chorus_Drums.mp3", ",", 3, "Arise_Chorus_OrganHigh.mp3", ",", 4, "Arise_Chorus_OrganLow.mp3", ",", 5, "Arise_Chorus_Piano.mp3", ",", 6, "Arise_Chorus_PluckyGuitar.mp3", ",", 7, "Arise_Chorus_Vocals.mp3", ",", 8, "Arise_Verse_Bass.mp3", ",", 9, "Arise_Verse_Drums.mp3", ",", 10, "Arise_Verse_GroovyGuitar1.mp3", ",", 11, "Arise_Verse_GroovyGuitar2.mp3", ",", 12, "Arise_Verse_GroovyGuitar3.mp3", ",", 13, "Arise_Verse_OrganHigh.mp3", ",", 14, "Arise_Verse_OrganLow.mp3", ",", 15, "Arise_Verse_Piano.mp3", ",", 16, "Arise_Verse_PluckyGuitar.mp3", ",", 17, "Arise_Verse_Vocals1.mp3", ",", 18, "Arise_Verse_Vocals2.mp3", ",", 19, "Arise_Verse_Vocals3(WickedMan).mp3" ],
+					"items" : [ "--", "silence", "--", ",", 1, "Arise_Chorus_Bass.mp3", ",", 2, "Arise_Chorus_Drums.mp3", ",", 3, "Arise_Chorus_OrganHigh.mp3", ",", 4, "Arise_Chorus_OrganLow.mp3", ",", 5, "Arise_Chorus_Piano.mp3", ",", 6, "Arise_Chorus_PluckyGuitar.mp3", ",", 7, "Arise_Chorus_Vocals.mp3", ",", 8, "Arise_Verse_Bass.mp3", ",", 9, "Arise_Verse_Drums.mp3", ",", 10, "Arise_Verse_GroovyGuitar1.mp3", ",", 11, "Arise_Verse_GroovyGuitar2.mp3", ",", 12, "Arise_Verse_GroovyGuitar3.mp3", ",", 13, "Arise_Verse_OrganHigh.mp3", ",", 14, "Arise_Verse_OrganLow.mp3", ",", 15, "Arise_Verse_Piano.mp3", ",", 16, "Arise_Verse_PluckyGuitar.mp3", ",", 17, "Arise_Verse_Vocals1(RunRunRun).mp3", ",", 18, "Arise_Verse_Vocals2(Babylon).mp3", ",", 19, "Arise_Verse_Vocals3(WickedMan).mp3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
