@@ -67,7 +67,6 @@
     * Divide stuff up with sample content.
 
 ## Samples
-
 #### Apple Loops
 * Condense. (Done)
 	* Found new set of traditional Chinese that are great but formatted differently and need consolidating.
