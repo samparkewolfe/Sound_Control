@@ -1,5 +1,6 @@
 # Sound Control ToDos
 
+
 ## Sensors
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
@@ -15,30 +16,32 @@
 
 #### Microbit
 
+
 ## Instruments
 #### Sample Player
-* Add loop enveloping. (Done)
 
 #### Granulator
-* Add loop enveloping. (Done)
 
 #### Looper
-* Add loop enveloping. (Done)
 * Add continuous looping functionality.
 	* Add sample warping (Maybe?)
-* Samples don’t start from beginning when being dragged in anymore? (Done)
 
 #### Midi Note Generator
-* Maybe expand into an arpeggiator?
 
 #### Mixer
-* UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap. (Done)
-* Rescale Sliders (Done)
-* Add loop enveloping. (Done)
 
 
 ## Models
 #### Grab n Play
+
+
+## Samples
+#### Apple Loops
+* Condense traditional Chinese samples.
+
+#### Musicstems.org
+
+#### Music Radar Ska Loops
 
 
 ## New Functionality
@@ -66,15 +69,3 @@
     * Take into account more than one kid using the same app.
     * Automatically name files and subdirectories.
     * Divide stuff up with sample content.
-
-## Samples
-#### Apple Loops
-* Condense. (Done)
-	* Found new set of traditional Chinese that are great but formatted differently and need consolidating.
-
-#### Music Stems.org
-* Contact the royalty free loop producers. (Done)
-* Reggae Loops (Done)
-
-#### Music Radar Ska Loops
-* Contact the royalty free loop producers. (Done)

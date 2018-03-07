@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -140.0, -1001.0, 1852.0, 967.0 ],
+		"rect" : [ -140.0, -1001.0, 1307.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -821,6 +821,7 @@
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 					"id" : "obj-45",
+					"ignoreclick" : 1,
 					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
@@ -844,6 +845,7 @@
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 					"id" : "obj-39",
+					"ignoreclick" : 1,
 					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
@@ -867,6 +869,7 @@
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 					"id" : "obj-74",
+					"ignoreclick" : 1,
 					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
