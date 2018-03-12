@@ -69,3 +69,5 @@
     * Take into account more than one kid using the same app.
     * Automatically name files and subdirectories.
     * Divide stuff up with sample content.
+
+* Fart synthesiser
