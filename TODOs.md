@@ -24,6 +24,7 @@
 
 #### Looper
 * Add continuous looping functionality.
+	* Encapsulated sound players to make code dynamic (Done)
 	* Add sample warping (Maybe?)
 
 #### Midi Note Generator
