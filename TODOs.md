@@ -25,6 +25,8 @@
 * Add continuous looping functionality.
 	* Encapsulated sound players to make code dynamic (Done)
 	* Add sample warping (Maybe?)
+* Bug: If a sample is added to a button which is already playing the sample won’t restart.
+
 
 #### Midi Note Generator
 
@@ -34,7 +36,6 @@
 ## Models
 #### Quick
 * Develop better key short cut.
-* Classification on quick is bad.
 
 #### Precise
 * Develop better key short cut.
