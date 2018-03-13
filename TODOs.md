@@ -4,7 +4,6 @@
 ## Sensors
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
-* Envelop of looping instruments.
 
 #### Multi-Colour Tracker.
 
@@ -33,7 +32,12 @@
 
 
 ## Models
-#### Grab n Play
+#### Quick
+* Develop better key short cut.
+* Classification on quick is bad.
+
+#### Precise
+* Develop better key short cut.
 
 
 ## Samples

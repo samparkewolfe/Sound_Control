@@ -6,9 +6,9 @@ var sensor_coords = [border, border, 320-border, 240-border];
 var sound_coords = [320+border, border, 640-border, 240-border];
 var model_coords = [640+border, border, 960-border, 240-border];
 
-var sensor_int = 1
-var sound_int = 1
-var model_int = 1
+var sensor_it = 1
+var sound_it = 1
+var model_it = 1
 
 //var instruments = [];
 
@@ -16,24 +16,24 @@ no_instruments = 0;
 
 inlets = 4
 
-function msg_int(v)
+function set_subpatch_it(v)
 {
 	switch(inlet)
 	{
     	case 1:
-			sensor_int = v
+			sensor_it = v
         	break;
     	case 2:
-			sound_int = v
+			sound_it = v
         	break;
     	case 3:
-			model_int = v
+			model_it = v
         	break;
-	}
+	}	
 }
 
 function anything()
-{
+{	
 	var a = arrayfromargs(messagename, arguments);
 	if(a == "bang")
 	{
@@ -50,13 +50,13 @@ function build_subpatch()
 	
 	this.patcher.bringtofront(subpatch);
 	
-	var sensor = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sensor"+sensor_int+".maxpat");
+	var sensor = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sensor"+sensor_it+".maxpat");
 	sensor.rect = sensor_coords;
 	
-  	var sound = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sound"+sound_int+".maxpat");
+  	var sound = subpatch.subpatcher().newdefault(0,0,"bpatcher", "sound"+sound_it+".maxpat");
 	sound.rect = sound_coords;
 	
-  	var model = subpatch.subpatcher().newdefault(0,0,"bpatcher", "model"+model_int+".maxpat");
+  	var model = subpatch.subpatcher().newdefault(0,0,"bpatcher", "model"+model_it+".maxpat");
 	model.rect = model_coords;
 	
 	subpatch.subpatcher().hiddenconnect(sensor, 0, model, 0);
