@@ -1,0 +1,9 @@
+{
+	"sensor_bg_colour" : [238, 241, 239],
+	"sound_bg_colour" : [238, 241, 239],
+	"model_bg_colour" : [238, 241, 239],
+	"generate_instrument_bg_colour" : [238, 241, 239],
+	"generate_instrument_bg_border_colour" : [169, 180, 194]
+}
+
+
