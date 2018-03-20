@@ -17,7 +17,7 @@ The Sound Control project is supported by a Paul Hamlyn Foundation “Widening A
 https://github.com/Louismac/CBMicroBit
 
 ### RapidMax.mxo
-http://gitlab.doc.gold.ac.uk/spark041/RapidMax_release
+https://github.com/samparkewolfe/RapidMax
 
 ### Shell.mxo
 https://cycling74.com/forums/chess-for-max/replies/1#reply-596a3e15d5b2a4159a6c7d04 
@@ -34,8 +34,6 @@ https://forge.ircam.fr/p/leapmotion/
 The app automatically sets it’s audio I/O to whatever the I/O settings of the Max.app are. If you want to change these you must close the Sound Control app, set the desired audio I/O settings in the Max.app and then reopen Sound Control. However you can then change the audio I/O settings for the Max.app and not change the Sound Control audio I/O settings after the Sound Control app has been opened.
 
 The colour tracker does not work with more than 2 input devices.
-
-If you hold down the mouse on the record button, move off the record button, release the mouse, the record button stays on.
 
 ![alt text](/logos/NMPAT_long.jpg?raw=true "Logo1")
 ![alt text](/logos/pfh.jpg?raw=true "Logo2")
