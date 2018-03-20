@@ -1,9 +1,9 @@
-# Sound Control (Dev Git)
+# Sound Control ToDos
 
 
+## Sensors
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
-* Envelop of looping instruments.
 
 #### Multi-Colour Tracker.
 
@@ -15,32 +15,38 @@
 
 #### Microbit
 
-#### Mixer
-* UI BUG: Names of samples loaded at start up will overlap, however when dragging files in comment boxes will make text wrap.
 
-#### Grab n Play
-
-#### Models
-
+## Instruments
 #### Sample Player
 
 #### Granulator
 
-#### Midi Note Generator
-* Maybe expand into an arpeggiator?
-* Enable a plug-in keyboard. (Done)
-* New Instrument extension: polyphonic interface. (Done)
+#### Looper
+* Add continuous looping functionality.
+	* Add sample warping (Maybe?)
+* Fix Bug: If a sample is added to a button which is already playing the sample won’t restart.
 
-## New Samples
-* Making our own from the stem tracks.
-* Rock samples.
-* Make some ourselves on garage band.
-    * Acoustic Orchestral instruments.
-    * Pop Covers.
-    * Group & Solo loops.
-    * Discordant & harmonic Sounds.
-    * Repeated motif on different instruments.
-    * Loops which in order complete a song.
+
+#### Midi Note Generator
+
+#### Mixer
+
+
+## Models
+#### Quick
+* Develop better key short cut.
+
+#### Precise
+* Develop better key short cut.
+
+
+## Samples
+#### Apple Loops
+* Condense traditional Chinese samples.
+
+#### Musicstems.org
+
+#### Music Radar Ska Loops
 
 
 ## New Functionality
@@ -69,7 +75,4 @@
     * Automatically name files and subdirectories.
     * Divide stuff up with sample content.
 
-
-
-
-
+* Fart synthesiser
