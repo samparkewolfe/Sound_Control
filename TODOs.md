@@ -23,9 +23,8 @@
 
 #### Looper
 * Add continuous looping functionality.
-	* Encapsulated sound players to make code dynamic (Done)
 	* Add sample warping (Maybe?)
-* Bug: If a sample is added to a button which is already playing the sample won’t restart.
+* Fix Bug: If a sample is added to a button which is already playing the sample won’t restart.
 
 
 #### Midi Note Generator
