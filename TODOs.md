@@ -91,3 +91,4 @@
     * Divide stuff up with sample content.
 
 * Fart synthesiser
+	* Have found fart samples need to decide if they are worth putting in a synth.
