@@ -1,35 +1,49 @@
 # Sound Control ToDos
 
+## Holistics
+* Make a windows version.
+* Make whole instrument larger.
 
 ## Sensors
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
+* Make Camera UI Bigger
 
 #### Multi-Colour Tracker.
+* Make Camera UI Bigger
 
 #### Leap
-* Make visualisation indicate Z position better.
-* Implement leap finger angles.
-* Fix two hand training issue.
-	* When you train on one hand and train on the other it’s not very clear what happens.
 
-#### Microbit
+#### Microbit Accelerometer
+* Build new GUI
+
+#### Microbit Pins
+* Finish extending CBMicroBit App.
+
+#### GamTrak
+* Build new GUI
 
 
 ## Instruments
 #### Sample Player
+* Add Presets
 
 #### Granulator
+* Add Presets
+
 
 #### Looper
-* Add continuous looping functionality.
-	* Add sample warping (Maybe?)
 * Fix Bug: If a sample is added to a button which is already playing the sample won’t restart.
-
+* Add Presets
+* Stop it from playing all the loops when it opens.
 
 #### Midi Note Generator
 
 #### Mixer
+* Add Presets
+
+#### FM Synth
+* Have a lower nicer pitch range.
 
 
 ## Models
@@ -41,20 +55,20 @@
 
 
 ## Samples
+#### NEW SAMPLES
+* Animal Sounds
+* Sound effects & Familiar noises
+
 #### Apple Loops
-* Condense traditional Chinese samples.
 
 #### Musicstems.org
+* Follow up on getting Permissions
 
 #### Music Radar Ska Loops
+* Follow up on getting Permissions
 
 
 ## New Functionality
-* Micro-bit Conductive Touch
-    * Touch one of the 3 conductive inputs as an input.
-	* Need to re write code which loads on to USB to output 3 extra data streams.
-	* Make a new sensor for sound control which only uses those dimensions.
-
 * Squeez-ables.
 
 * Recorder
