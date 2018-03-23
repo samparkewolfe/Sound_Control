@@ -44,7 +44,7 @@
 * Add Presets
 
 #### FM Synth
-* Have a lower nicer pitch range.
+* Have a lower nicer pitch range. (Done)
 
 
 ## Models
