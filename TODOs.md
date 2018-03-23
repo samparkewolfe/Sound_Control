@@ -24,7 +24,7 @@
 * Build new GUI
 
 
-## Instruments
+## Sounds
 #### Sample Player
 * Add Presets
 
@@ -55,7 +55,7 @@
 
 
 ## Samples
-#### NEW SAMPLES
+#### New Samples
 * Animal Sounds
 * Sound effects & Familiar noises
 
@@ -69,7 +69,7 @@
 
 
 ## New Functionality
-* Squeez-ables.
+* Squeez-ables. 
 
 * Recorder
     * Separate floating window which records the output of the instrument
