@@ -35,7 +35,8 @@
 #### Looper
 * Fix Bug: If a sample is added to a button which is already playing the sample won’t restart.
 * Add Presets
-* Stop it from playing all the loops when it opens.
+* Stop it from playing all the loops when it opens. (Done)
+* Add gains ramp when toggling players on and off.
 
 #### Midi Note Generator
 
