@@ -8,28 +8,34 @@
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
 * Make Camera UI Bigger
+* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Multi-Colour Tracker.
 * Make Camera UI Bigger
+* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Leap
 
 #### Microbit Accelerometer
 * Build new GUI
+* Run leap from inside .app file.
+* Distribute .hex separately.
 
 #### Microbit Pins
 * Finish extending CBMicroBit App.
 
 #### GamTrak
-* Build new GUI
+* Build new GUI (Done).
 
 
 ## Sounds
 #### Sample Player
 * Add Presets
+* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Granulator
 * Add Presets
+* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 
 #### Looper
@@ -37,14 +43,15 @@
 * Add Presets
 * Stop it from playing all the loops when it opens. (Done)
 * Add gains ramp when toggling players on and off.
+* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Midi Note Generator
 
 #### Mixer
 * Add Presets
+* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### FM Synth
-* Have a lower nicer pitch range. (Done)
 
 
 ## Models
@@ -59,14 +66,20 @@
 #### New Samples
 * Animal Sounds
 * Sound effects & Familiar noises
+* Add samples to the .pkg to install in music.
 
 #### Apple Loops
+* Add samples to the .pkg to install in music.
 
 #### Musicstems.org
 * Follow up on getting Permissions
+* Add samples to the .pkg to install in music.
 
 #### Music Radar Ska Loops
 * Follow up on getting Permissions
+* Add samples to the .pkg to install in music.
+
+#### Fart Samples
 
 
 ## New Functionality
