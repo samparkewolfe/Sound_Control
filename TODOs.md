@@ -3,6 +3,9 @@
 ## Holistics
 * Make a windows version.
 * Make whole instrument larger.
+* Rename instrument subpatches to something more user friendly.
+* Implement save functionality for instruments.
+* Update deliverables for the new .pkg file.
 
 ## Sensors
 #### Colour Tracker
