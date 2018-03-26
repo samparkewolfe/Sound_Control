@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -140.0, -1001.0, 1402.0, 967.0 ],
+		"rect" : [ -140.0, -1001.0, 1852.0, 967.0 ],
 		"openrect" : [ 0.0, 0.0, 430.0, 110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 404.083344, 282.666687, 111.0, 22.0 ],
-					"presentation_rect" : [ 258.416656, 287.000031, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "set_subpatch_it $1"
 				}
@@ -60,7 +59,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 187.083328, 282.666687, 111.0, 22.0 ],
-					"presentation_rect" : [ 139.75, 289.666687, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "set_subpatch_it $1"
 				}
@@ -100,7 +98,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 864.166748, 240.666626, 29.5, 22.0 ],
-					"presentation_rect" : [ 487.083313, 251.666656, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -5723,7 +5720,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.75, 336.666656, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "subpatch_construction.js",
+						"filename" : "subpatch_construction",
 						"parameter_enable" : 0
 					}
 ,
@@ -6535,6 +6532,10 @@
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
