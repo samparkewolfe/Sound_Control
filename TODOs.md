@@ -60,10 +60,10 @@
 
 ## Models
 #### Quick
-* Develop better key short cut.
+* Develop better key short cut. (Done)
 
 #### Precise
-* Develop better key short cut.
+* Develop better key short cut. (Done)
 
 
 ## Samples
