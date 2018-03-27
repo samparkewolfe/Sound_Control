@@ -10,7 +10,8 @@
 ## Sensors
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
-* Make Camera UI Bigger
+	* Just replace Leap with a pretty ascii filler.
+* Make Camera UI Bigger. (Done)
 * Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Multi-Colour Tracker.
