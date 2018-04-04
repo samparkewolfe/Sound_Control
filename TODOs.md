@@ -1,35 +1,36 @@
 # Sound Control ToDos
 
-## Holistics
+## Holistic’s
 * Make a windows version.
 * Make whole instrument larger.
 * Rename instrument subpatches to something more user friendly.
 * Implement save functionality for instruments.
-* Update deliverables for the new .pkg file.
+* Readme: give credit to the color tracker.
+* Make it easier to distinguish between instruments.
 
 ## Sensors
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
 	* Just replace Leap with a pretty ascii filler.
-* Make Camera UI Bigger. (Done)
 * Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Multi-Colour Tracker.
-* Make Camera UI Bigger
+* Update GUI.
 * Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Leap
 
 #### Microbit Accelerometer
 * Build new GUI
-* Run leap from inside .app file.
+* Run CBMicrobit from inside .app file.
 * Distribute .hex separately.
 
 #### Microbit Pins
-* Finish extending CBMicroBit App.
+* GUI
+* Run CBMicrobit from inside .app file.
 
 #### GamTrak
-* Build new GUI (Done).
+* Weight Z axis to be more important.
 
 
 ## Sounds
@@ -41,15 +42,14 @@
 * Add Presets
 * Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
-
 #### Looper
 * Fix Bug: If a sample is added to a button which is already playing the sample won’t restart.
 * Add Presets
-* Stop it from playing all the loops when it opens. (Done)
 * Add gains ramp when toggling players on and off.
-* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
+* Change config file towrite to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Midi Note Generator
+* Notes don’t turn off when turned off on infinite.
 
 #### Mixer
 * Add Presets
@@ -60,10 +60,10 @@
 
 ## Models
 #### Quick
-* Develop better key short cut. (Done)
+* Implement some PCA.
 
 #### Precise
-* Develop better key short cut. (Done)
+* Implement some PCA.
 
 
 ## Samples
@@ -84,7 +84,7 @@
 * Add samples to the .pkg to install in music.
 
 #### Fart Samples
-
+* Fix permissions .pkg issue.
 
 ## New Functionality
 * Squeez-ables. 
