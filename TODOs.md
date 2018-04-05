@@ -44,9 +44,9 @@
 * Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Looper
-* Fix Bug: If a sample is added to a button which is already playing the sample won’t restart.
+* Fix Bug: If a sample is added to a button which is already playing the sample won’t restart. (Done)
 * Add Presets
-* Add gains ramp when toggling players on and off.
+* Add gains ramp when toggling players on and off. (Done)
 * Change config file towrite to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Midi Note Generator
