@@ -5,7 +5,7 @@
 * Make whole instrument larger.
 * Rename instrument subpatches to something more user friendly.
 * Implement save functionality for instruments.
-* Readme: give credit to the color tracker.
+* Readme: give credit to the color tracker. (Done)
 * Make it easier to distinguish between instruments.
 
 ## Sensors
