@@ -50,7 +50,7 @@
 * Change config file towrite to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/
 
 #### Midi Note Generator
-* Notes don’t turn off when turned off on infinite.
+* Notes don’t turn off when turned off on infinite. (Could not recreate even with garage band)
 
 #### Mixer
 * Add Presets

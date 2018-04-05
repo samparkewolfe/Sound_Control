@@ -29,6 +29,9 @@ https://www.julesfrancoise.com/leapmotion/
 
 https://forge.ircam.fr/p/leapmotion/
 
+### Colour Tracker (original)
+https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
+
 ## Known Bugs
 
 The app automatically sets it’s audio I/O to whatever the I/O settings of the Max.app are. If you want to change these you must close the Sound Control app, set the desired audio I/O settings in the Max.app and then reopen Sound Control. However you can then change the audio I/O settings for the Max.app and not change the Sound Control audio I/O settings after the Sound Control app has been opened.
