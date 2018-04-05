@@ -30,6 +30,7 @@
 * Run CBMicrobit from inside .app file.
 
 #### GamTrak
+* Fix jitter display. (Done).
 * Weight Z axis to be more important.
 
 
