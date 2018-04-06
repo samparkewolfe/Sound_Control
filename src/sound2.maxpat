@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -38,10 +38,22 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1763.0, 222.833313, 367.0, 22.0 ],
+					"style" : "",
+					"text" : "\"/Library/Application Support/Sound_Control/config/granulator.json\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 					"id" : "obj-74",
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -49,11 +61,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 241.0, 305.833313, 100.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
 					"presentation_rect" : [ 10.0, 106.833374, 98.0, 40.0 ],
 					"readonly" : 1,
 					"style" : "",
-					"text" : "Arise_Verse_GroovyGuitar2.mp3",
+					"text" : "Drop sound file",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -377,7 +388,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -930,7 +941,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1530,7 +1541,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1527.333374, 417.0, 43.0, 22.0 ],
+					"patching_rect" : [ 1672.333374, 370.833313, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "empty"
 				}
@@ -1543,35 +1554,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1513.0, 313.0, 33.0, 22.0 ],
+					"patching_rect" : [ 1658.0, 266.833313, 33.0, 22.0 ],
 					"style" : "",
 					"text" : "t b s"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1618.0, 328.0, 59.0, 22.0 ],
-					"style" : "",
-					"text" : "tosymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1618.0, 277.0, 263.0, 22.0 ],
-					"style" : "",
-					"text" : "sprintf %ssound_control_granulator_config.json"
 				}
 
 			}
@@ -1582,7 +1567,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1505.333374, 473.0, 37.0, 22.0 ],
+					"patching_rect" : [ 1650.333374, 426.833313, 37.0, 22.0 ],
 					"style" : "",
 					"text" : "clear"
 				}
@@ -1595,7 +1580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1505.333374, 377.0, 65.0, 22.0 ],
+					"patching_rect" : [ 1650.333374, 330.833313, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "closebang"
 				}
@@ -1608,22 +1593,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1546.666626, 111.999985, 34.0, 22.0 ],
+					"patching_rect" : [ 1748.0, 155.833298, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-37",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1561.666626, 162.999985, 72.0, 22.0 ],
-					"style" : "",
-					"text" : "get location"
 				}
 
 			}
@@ -1634,7 +1606,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1737.0, 377.0, 91.0, 22.0 ],
+					"patching_rect" : [ 1882.0, 330.833313, 91.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend import"
 				}
@@ -1647,22 +1619,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1618.0, 377.0, 91.0, 22.0 ],
+					"patching_rect" : [ 1763.0, 330.833313, 91.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend export"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1618.0, 240.0, 83.0, 22.0 ],
-					"style" : "",
-					"text" : "route location"
 				}
 
 			}
@@ -1673,27 +1632,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1546.666626, 70.999985, 60.0, 22.0 ],
+					"patching_rect" : [ 1748.0, 114.833298, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-50",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1561.666626, 204.0, 195.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "dict sound_control_config_location"
 				}
 
 			}
@@ -1704,7 +1645,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1604.333374, 547.0, 608.0, 22.0 ],
+					"patching_rect" : [ 1749.333374, 500.833313, 608.0, 22.0 ],
 					"style" : "",
 					"text" : "export \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_granulator_config.json\""
 				}
@@ -1717,7 +1658,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2085.333252, 473.0, 609.0, 22.0 ],
+					"patching_rect" : [ 2230.333252, 426.833313, 609.0, 22.0 ],
 					"style" : "",
 					"text" : "import \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_granulator_config.json\""
 				}
@@ -1730,7 +1671,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 2070.333252, 405.0, 34.0, 22.0 ],
+					"patching_rect" : [ 2215.333252, 358.833313, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b"
 				}
@@ -1743,7 +1684,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1505.333374, 700.999939, 80.0, 22.0 ],
+					"patching_rect" : [ 1650.333374, 654.833252, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "route filepath"
 				}
@@ -1758,7 +1699,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1505.333374, 661.333252, 55.0, 23.0 ],
+					"patching_rect" : [ 1650.333374, 615.166565, 55.0, 23.0 ],
 					"style" : "",
 					"text" : "dict.iter"
 				}
@@ -1771,7 +1712,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1856.333374, 473.0, 116.0, 22.0 ],
+					"patching_rect" : [ 2001.333374, 426.833313, 116.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend set filepath"
 				}
@@ -1784,7 +1725,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1505.333374, 629.333252, 50.5, 22.0 ],
+					"patching_rect" : [ 1650.333374, 583.166565, 50.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
@@ -2570,7 +2511,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
+					"destination" : [ "obj-42", 0 ],
+					"order" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -2812,7 +2762,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-36", 1 ]
 				}
 
@@ -2821,13 +2771,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
-					"source" : [ "obj-37", 0 ]
 				}
 
 			}
@@ -2929,13 +2872,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-49", 0 ]
 				}
@@ -2970,13 +2906,6 @@
 					"destination" : [ "obj-3", 0 ],
 					"order" : 3,
 					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-50", 1 ]
 				}
 
 			}
@@ -3151,22 +3080,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-68", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"order" : 0,
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"order" : 1,
-					"source" : [ "obj-69", 0 ]
 				}
 
 			}

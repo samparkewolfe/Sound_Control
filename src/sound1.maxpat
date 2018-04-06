@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1618.0, 271.0, 391.0, 22.0 ],
+					"style" : "",
+					"text" : "\"/Library/Application Support/Sound_Control/config/sample_player.json\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-92",
 					"maxclass" : "newobj",
@@ -281,32 +294,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1618.0, 328.0, 59.0, 22.0 ],
-					"style" : "",
-					"text" : "tosymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1618.0, 277.0, 281.0, 22.0 ],
-					"style" : "",
-					"text" : "sprintf %ssound_control_sampleplayer_config.json"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -338,22 +325,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1546.666626, 111.999985, 34.0, 22.0 ],
+					"patching_rect" : [ 1603.0, 190.999985, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-38",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1561.666626, 162.999985, 72.0, 22.0 ],
-					"style" : "",
-					"text" : "get location"
 				}
 
 			}
@@ -385,25 +359,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-46",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1618.0, 240.0, 83.0, 22.0 ],
-					"style" : "",
-					"text" : "route location"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-47",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1546.666626, 70.999985, 60.0, 22.0 ],
+					"patching_rect" : [ 1603.0, 149.999985, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -411,32 +372,15 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1561.666626, 204.0, 195.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "dict sound_control_config_location"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-105",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1604.333374, 473.0, 624.0, 22.0 ],
+					"patching_rect" : [ 1557.333374, 473.0, 280.0, 35.0 ],
 					"style" : "",
-					"text" : "export \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_sampleplayer_config.json\""
+					"text" : "export \"/Library/Application Support/Sound_Control/config/sample_player.json\""
 				}
 
 			}
@@ -449,7 +393,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2085.333252, 473.0, 625.0, 22.0 ],
 					"style" : "",
-					"text" : "import \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_sampleplayer_config.json\""
+					"text" : "import \"/Library/Application Support/Sound_Control/config/sample_player.json\""
 				}
 
 			}
@@ -676,7 +620,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"items" : [ "--", "silence", "--", ",", 1, "Arise_Chorus_Bass.mp3", ",", 2, "Arise_Chorus_Drums.mp3", ",", 3, "Arise_Chorus_OrganHigh.mp3", ",", 4, "Arise_Chorus_OrganLow.mp3", ",", 5, "Arise_Chorus_Piano.mp3", ",", 6, "Arise_Chorus_PluckyGuitar.mp3", ",", 7, "Arise_Chorus_Vocals.mp3", ",", 8, "Arise_Verse_Bass.mp3", ",", 9, "Arise_Verse_Drums.mp3", ",", 10, "Arise_Verse_GroovyGuitar1.mp3", ",", 11, "Arise_Verse_GroovyGuitar2.mp3", ",", 12, "Arise_Verse_GroovyGuitar3.mp3", ",", 13, "Arise_Verse_OrganHigh.mp3", ",", 14, "Arise_Verse_OrganLow.mp3", ",", 15, "Arise_Verse_Piano.mp3", ",", 16, "Arise_Verse_PluckyGuitar.mp3", ",", 17, "Arise_Verse_Vocals1(RunRunRun).mp3", ",", 18, "Arise_Verse_Vocals2(Babylon).mp3", ",", 19, "Arise_Verse_Vocals3(WickedMan).mp3" ],
+					"items" : [ "--", "silence", "--" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -712,7 +656,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 172.0, 136.0, 20.0 ],
 					"style" : "",
-					"text" : "Loaded 19 sample(s)."
+					"text" : "No samples loaded."
 				}
 
 			}
@@ -1341,7 +1285,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
+					"destination" : [ "obj-41", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1648,7 +1601,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -1678,13 +1631,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -1755,22 +1701,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"source" : [ "obj-48", 1 ]
 				}
 
 			}
@@ -1970,22 +1902,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"order" : 0,
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"order" : 1,
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-70", 0 ]
 				}
@@ -2144,7 +2060,26 @@
 		}
 ,
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1394.666748, 948.0, 419.0, 22.0 ],
+					"style" : "",
+					"text" : "\"/Library/Application Support/Sound_Control/config/multi-colour_tracker.json\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-94",
 					"maxclass" : "message",
@@ -70,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 798.071411, 817.333374, 29.5, 22.0 ],
-					"presentation_rect" : [ 840.988037, 841.333313, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "3"
 				}
@@ -84,7 +96,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 734.404724, 817.333374, 29.5, 22.0 ],
-					"presentation_rect" : [ 729.333374, 840.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "2"
 				}
@@ -111,7 +122,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 798.071411, 725.333313, 29.5, 22.0 ],
-					"presentation_rect" : [ 847.404724, 686.666687, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -125,7 +135,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 798.071411, 781.0, 36.0, 22.0 ],
-					"presentation_rect" : [ 847.404724, 797.333313, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -154,7 +163,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 734.404724, 725.333313, 29.5, 22.0 ],
-					"presentation_rect" : [ 716.738037, 688.000061, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -168,7 +176,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 734.404724, 781.0, 36.0, 22.0 ],
-					"presentation_rect" : [ 716.738037, 798.666687, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -197,7 +204,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 673.071411, 725.333313, 29.5, 22.0 ],
-					"presentation_rect" : [ 610.666687, 689.333374, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -624,7 +630,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.856104, 0.887477, 0.448261, 1.0 ],
+					"bgcolor" : [ 0.758824, 0.62549, 0.547059, 1.0 ],
 					"checkedcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-209",
 					"maxclass" : "toggle",
@@ -1142,32 +1148,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1394.666748, 977.0, 59.0, 22.0 ],
-					"style" : "",
-					"text" : "tosymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1394.666748, 926.0, 308.0, 22.0 ],
-					"style" : "",
-					"text" : "sprintf %ssound_control_multi-colourtracker_config.json"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-95",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1199,22 +1179,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1298.0, 761.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1390.0, 873.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1313.0, 812.0, 72.0, 22.0 ],
-					"style" : "",
-					"text" : "get location"
 				}
 
 			}
@@ -1246,25 +1213,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1394.666748, 889.0, 83.0, 22.0 ],
-					"style" : "",
-					"text" : "route location"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-118",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1298.0, 720.0, 60.0, 22.0 ],
+					"patching_rect" : [ 1390.0, 832.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -1272,47 +1226,29 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-117",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1313.0, 853.0, 195.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "dict sound_control_config_location"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-105",
-					"linecount" : 36,
+					"linecount" : 24,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1530.833374, 1193.333374, 30.0, 491.0 ],
+					"patching_rect" : [ 1530.833374, 1193.333374, 30.0, 330.0 ],
 					"style" : "",
-					"text" : "export \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_multi-colourtracker_config.json\""
+					"text" : "export \"/Library/Application Support/Sound_Control/config/multi-colour_tracker.json\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-75",
-					"linecount" : 36,
+					"linecount" : 24,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1889.666626, 1142.333374, 30.0, 491.0 ],
+					"patching_rect" : [ 1889.666626, 1142.333374, 30.0, 330.0 ],
 					"style" : "",
-					"text" : "import \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_multi-colourtracker_config.json\""
+					"text" : "import \"/Library/Application Support/Sound_Control/config/multi-colour_tracker.json\""
 				}
 
 			}
@@ -1451,7 +1387,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1877,13 +1813,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-117", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-118", 0 ]
 				}
@@ -1909,13 +1838,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-12", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -2566,13 +2488,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-117", 0 ],
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -2608,7 +2523,23 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
+					"destination" : [ "obj-14", 0 ],
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"order" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-42", 1 ]
 				}
 
@@ -2617,13 +2548,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
-					"source" : [ "obj-43", 0 ]
 				}
 
 			}
@@ -2844,22 +2768,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"order" : 1,
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"order" : 0,
-					"source" : [ "obj-69", 0 ]
 				}
 
 			}
