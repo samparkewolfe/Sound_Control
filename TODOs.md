@@ -5,56 +5,44 @@
 * Make whole instrument larger.
 * Rename instrument subpatches to something more user friendly.
 * Implement save functionality for instruments.
-* Readme: give credit to the color tracker. (Done)
 * Make it easier to distinguish between instruments.
 
 ## Sensors
 #### Colour Tracker
 * Fix umenu that doesn’t work with more than 2 input devices.
 	* Just replace Leap with a pretty ascii filler.
-* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/ (Done)
 
 #### Multi-Colour Tracker.
 * Update GUI.
-* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/ (Done)
 
 #### Leap
 
 #### Microbit Accelerometer
 * Build new GUI
-* Run CBMicrobit from inside .app file. (Done)
 * Distribute .hex separately.
 
 #### Microbit Pins
 * GUI
-* Run CBMicrobit from inside .app file. (Done)
 
 #### GamTrak
-* Fix jitter display. (Done).
 * Weight Z axis to be more important.
 
 
 ## Sounds
 #### Sample Player
 * Add Presets
-* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/ (Done)
 
 #### Granulator
 * Add Presets
-* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/ (Done)
 
 #### Looper
-* Fix Bug: If a sample is added to a button which is already playing the sample won’t restart. (Done)
 * Add Presets
-* Add gains ramp when toggling players on and off. (Done)
-* Change config file towrite to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/ (Done)
 
 #### Midi Note Generator
 * Notes don’t turn off when turned off on infinite. (Could not recreate even with garage band)
 
 #### Mixer
 * Add Presets
-* Change config file to write to /Library/Application\ Support/Sound_Control/ instead of ~/Library/Application\ Support/Sound_Control/ (Done)
 
 #### FM Synth
 
