@@ -9,8 +9,7 @@
 
 ## Sensors
 #### Colour Tracker
-* Fix umenu that doesn’t work with more than 2 input devices.
-	* Just replace Leap with a pretty ascii filler.
+* Fix umenu that doesn’t work with more than 2 input devices. (Done)
 
 #### Multi-Colour Tracker.
 * Update GUI.
