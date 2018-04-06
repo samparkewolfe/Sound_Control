@@ -44,7 +44,7 @@ function anything()
 function build_subpatch()
 {
 	
-	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", "Instrument "+no_instruments);
+	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", "Instrument"+no_instruments);
 	
 	subpatch.subpatcher().wind.size = [960, 240]
 	
