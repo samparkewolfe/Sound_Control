@@ -9,10 +9,10 @@
 
 ## Sensors
 #### Colour Tracker
-* Fix umenu that doesn’t work with more than 2 input devices. (Done)
 
 #### Multi-Colour Tracker.
-* Update GUI.
+* Go back over UI. 
+* fix config loading.
 
 #### Leap
 
@@ -24,7 +24,6 @@
 * GUI
 
 #### GamTrak
-* Weight Z axis to be more important.
 
 
 ## Sounds
@@ -38,7 +37,6 @@
 * Add Presets
 
 #### Midi Note Generator
-* Notes don’t turn off when turned off on infinite. (Could not recreate even with garage band)
 
 #### Mixer
 * Add Presets
@@ -85,15 +83,3 @@
     * Mmmmm meta..
     * Combine this with a mic recorder?
     * Thought shower different interfaces for recording the instrument and recording the mic.
-
-* Internal Sound File Browser
-    * Save copies of SoundFiles in Library.
-    * Build internal menu to sounds in app.
-    * Integrate this into the instruments.
-    * How not to make internal sound finder polluted.
-    * Take into account more than one kid using the same app.
-    * Automatically name files and subdirectories.
-    * Divide stuff up with sample content.
-
-* Fart synthesiser
-	* Have found fart samples need to decide if they are worth putting in a synth.
