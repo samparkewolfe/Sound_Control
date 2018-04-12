@@ -71,6 +71,10 @@ function build_subpatch()
 	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 0);
 	subpatch.subpatcher().hiddenconnect(sound, 0, dac_obj, 1);
 	
+	var send_dac_obj = subpatch.subpatcher().newdefault(320+border, 20+border, "send~", "dac");
+	send_dac_obj.hidden = true;
+	subpatch.subpatcher().hiddenconnect(sound, 0, send_dac_obj, 0);
+	
 	var closebang_obj = subpatch.subpatcher().newdefault(border, border,"closebang");
 	var dispose_message = subpatch.subpatcher().newdefault(border, 30 + border, "message", "@text", "dispose");
 	var thispatcher_object = subpatch.subpatcher().newdefault(border, 60 + border, "thispatcher");

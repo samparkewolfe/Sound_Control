@@ -7,6 +7,9 @@
 * Implement save functionality for instruments.
 * Make it easier to distinguish between instruments.
 
+#### Recorder
+* Built (Done)
+
 ## Sensors
 #### Colour Tracker
 
@@ -73,14 +76,6 @@
 #### Fart Samples
 * Fix permissions .pkg issue.
 
+
 ## New Functionality
 * Squeez-ables. 
-
-* Recorder
-    * Separate floating window which records the output of the instrument
-    * Could then be used with the volume object.
-    * Kid can listen back sounds they've made and compare.
-    * Self evaluation
-    * Mmmmm meta..
-    * Combine this with a mic recorder?
-    * Thought shower different interfaces for recording the instrument and recording the mic.
