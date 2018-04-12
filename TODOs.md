@@ -35,6 +35,7 @@
 
 #### Looper
 * Add Presets
+* Add continuous functionality (Done)
 
 #### Midi Note Generator
 
