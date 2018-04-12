@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 824.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -160,9 +160,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1069.666748, 1079.0, 389.0, 22.0 ],
+					"patching_rect" : [ 1069.666748, 1079.0, 361.0, 22.0 ],
 					"style" : "",
-					"text" : "\"/Library/Application Support/Sound_Control/config/colour_tracker.json\""
+					"text" : "\"~/Library/Application Support/Sound_Control/colour_tracker.json\""
 				}
 
 			}
@@ -660,7 +660,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1056.0, 1308.500122, 622.0, 22.0 ],
 					"style" : "",
-					"text" : "export \"/Library/Application Support/Sound_Control/config/colour_tracker.json\""
+					"text" : "export \"~/Library/Application Support/Sound_Control/colour_tracker.json\""
 				}
 
 			}
@@ -744,7 +744,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1865.5, 1267.500122, 623.0, 22.0 ],
 					"style" : "",
-					"text" : "import \"/Library/Application Support/Sound_Control/config/colour_tracker.json\""
+					"text" : "import \"~/Library/Application Support/Sound_Control/colour_tracker.json\""
 				}
 
 			}

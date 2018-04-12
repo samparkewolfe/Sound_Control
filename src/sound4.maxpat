@@ -43,9 +43,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2044.666626, 261.0, 289.0, 22.0 ],
+					"patching_rect" : [ 2044.666626, 261.0, 260.0, 22.0 ],
 					"style" : "",
-					"text" : "\"/Library/Application Support/Sound_Control/config/\""
+					"text" : "\"~/Library/Application Support/Sound_Control/\""
 				}
 
 			}
@@ -1799,7 +1799,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2005.0, 601.333313, 583.0, 22.0 ],
 					"style" : "",
-					"text" : "export \"/Library/Application Support/Sound_Control/config/mixer.json\""
+					"text" : "export \"~/Library/Application Support/Sound_Control/mixer.json\""
 				}
 
 			}
@@ -1812,7 +1812,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3238.666748, 523.0, 609.0, 22.0 ],
 					"style" : "",
-					"text" : "import \"/Library/Application Support/Sound_Control/config/mixer.json\""
+					"text" : "import \"~/Library/Application Support/Sound_Control/mixer.json\""
 				}
 
 			}

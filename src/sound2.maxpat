@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 791.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,9 +43,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1763.0, 222.833313, 367.0, 22.0 ],
+					"patching_rect" : [ 1763.0, 222.833313, 339.0, 22.0 ],
 					"style" : "",
-					"text" : "\"/Library/Application Support/Sound_Control/config/granulator.json\""
+					"text" : "\"~/Library/Application Support/Sound_Control/granulator.json\""
 				}
 
 			}
@@ -1647,7 +1647,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1749.333374, 500.833313, 608.0, 22.0 ],
 					"style" : "",
-					"text" : "export \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_granulator_config.json\""
+					"text" : "export \"~/Library/Application Support/Sound_Control/granulator.json\""
 				}
 
 			}
@@ -1660,7 +1660,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2230.333252, 426.833313, 609.0, 22.0 ],
 					"style" : "",
-					"text" : "import \"/Users/samparkewolfe/Library/Application Support/Sound_Control/sound_control_granulator_config.json\""
+					"text" : "import \"~/Library/Application Support/Sound_Control/granulator.json\""
 				}
 
 			}

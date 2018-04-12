@@ -182,9 +182,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2297.315918, 224.0, 347.0, 22.0 ],
+					"patching_rect" : [ 2297.315918, 224.0, 318.0, 22.0 ],
 					"style" : "",
-					"text" : "\"/Library/Application Support/Sound_Control/config/looper.json\""
+					"text" : "\"~/Library/Application Support/Sound_Control/looper.json\""
 				}
 
 			}
@@ -1154,7 +1154,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1849.64917, 631.333252, 594.0, 22.0 ],
 					"style" : "",
-					"text" : "export \"/Library/Application Support/Sound_Control/config/looper.json\""
+					"text" : "export \"~/Library/Application Support/Sound_Control/looper.json\""
 				}
 
 			}
@@ -1167,7 +1167,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2665.315674, 448.333252, 609.0, 22.0 ],
 					"style" : "",
-					"text" : "import \"/Library/Application Support/Sound_Control/config/looper.json\""
+					"text" : "import \"~/Library/Application Support/Sound_Control/looper.json\""
 				}
 
 			}
@@ -1570,7 +1570,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "textbutton",
@@ -1607,7 +1608,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "textbutton",
@@ -1644,7 +1646,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "textbutton",
@@ -1681,7 +1684,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "textbutton",

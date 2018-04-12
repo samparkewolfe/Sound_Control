@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1127.0, 144.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "led",
 					"numinlets" : 1,
@@ -109,7 +122,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-125",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -151,9 +164,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1035.666748, 192.000031, 445.0, 22.0 ],
+					"patching_rect" : [ 1035.666748, 192.000031, 416.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf /Library/Application Support/Sound_Control/config/multi-colour_tracker_%s"
+					"text" : "sprintf ~/Library/Application Support/Sound_Control/multi-colour_tracker_%s"
 				}
 
 			}
@@ -174,7 +187,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -409,7 +422,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1036.0, 498.500122, 622.0, 22.0 ],
 					"style" : "",
-					"text" : "export \"/Library/Application Support/Sound_Control/config/multi-colour_tracker_2.json\""
+					"text" : "export \"~/Library/Application Support/Sound_Control/multi-colour_tracker_0.json\""
 				}
 
 			}
@@ -435,7 +448,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1845.5, 457.500122, 623.0, 22.0 ],
 					"style" : "",
-					"text" : "import \"/Library/Application Support/Sound_Control/config/multi-colour_tracker_2.json\""
+					"text" : "import \"~/Library/Application Support/Sound_Control/multi-colour_tracker_0.json\""
 				}
 
 			}
@@ -3336,6 +3349,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-70", 0 ]
 				}
@@ -3439,7 +3459,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

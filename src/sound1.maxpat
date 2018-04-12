@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 117.0, 79.0, 890.0, 684.0 ],
+		"rect" : [ 37.0, 79.0, 837.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,9 +43,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1618.0, 271.0, 391.0, 22.0 ],
+					"patching_rect" : [ 1618.0, 271.0, 363.0, 22.0 ],
 					"style" : "",
-					"text" : "\"/Library/Application Support/Sound_Control/config/sample_player.json\""
+					"text" : "\"~/Library/Application Support/Sound_Control/sample_player.json\""
 				}
 
 			}
@@ -380,7 +380,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1557.333374, 473.0, 280.0, 35.0 ],
 					"style" : "",
-					"text" : "export \"/Library/Application Support/Sound_Control/config/sample_player.json\""
+					"text" : "export \"~/Library/Application Support/Sound_Control/sample_player.json\""
 				}
 
 			}
@@ -393,7 +393,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2085.333252, 473.0, 625.0, 22.0 ],
 					"style" : "",
-					"text" : "import \"/Library/Application Support/Sound_Control/config/sample_player.json\""
+					"text" : "import \"~/Library/Application Support/Sound_Control/sample_player.json\""
 				}
 
 			}
