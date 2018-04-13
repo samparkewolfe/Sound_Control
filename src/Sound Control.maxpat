@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -140.0, -1001.0, 1852.0, 967.0 ],
+		"rect" : [ 107.0, -883.0, 531.0, 126.0 ],
 		"openrect" : [ 0.0, 0.0, 520.0, 110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1579,9 +1579,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 676.083374, 607.333374, 313.0, 22.0 ],
+					"patching_rect" : [ 676.083374, 607.333374, 352.0, 22.0 ],
 					"style" : "",
-					"text" : "\"/Library/Application Support/Sound_Control/CBMicroBit\""
+					"text" : "\"/Library/Application Support/Sound_Control/CBMicroBit\" \"9109\""
 				}
 
 			}
@@ -8210,7 +8210,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "GameTrak", ",", "Dumb", "Camera", ",", "Colour", "Tracker", ",", "Leap", "Motion", "Palm", "Position", ",", "Leap", "Motion", "Hand", "Width", ",", "MicroBit", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour", "Tracker" ],
+					"items" : [ "GameTrak", ",", "Dumb", "Camera", ",", "Colour", "Tracker", ",", "Leap", "Motion", "Palm", "Position", ",", "Leap", "Motion", "Hand", "Width", ",", "Micro:bit", "Position", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour", "Tracker", ",", "Micro:bit", "Touch" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8801,6 +8801,10 @@
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
