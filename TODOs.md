@@ -14,8 +14,8 @@
 #### Colour Tracker
 
 #### Multi-Colour Tracker.
-* Go back over UI.
-* fix config loading.
+* Go back over UI. (Done)
+* fix config loading. (Done)
 
 #### Leap
 

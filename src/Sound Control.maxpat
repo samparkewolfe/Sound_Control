@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -26.0, -984.0, 1212.0, 683.0 ],
+		"rect" : [ -140.0, -1001.0, 1852.0, 967.0 ],
 		"openrect" : [ 0.0, 0.0, 520.0, 110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"title" : "Sound Control",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 397.583344, 55.0, 100.0, 20.0 ],
+					"rounded" : 5.0,
+					"style" : "",
+					"text" : "Recorder"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
@@ -81,26 +96,13 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 146.0, 157.0, 50.0, 22.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-33",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 55.0, 293.333374, 184.0, 22.0 ],
+									"patching_rect" : [ 55.0, 160.333374, 184.0, 22.0 ],
 									"style" : "",
 									"text" : "s sound_control_microbit_output"
 								}
@@ -123,15 +125,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
-									"order" : 1,
-									"source" : [ "obj-32", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 1 ],
-									"order" : 0,
 									"source" : [ "obj-32", 0 ]
 								}
 
@@ -155,40 +148,11 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-50",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 406.333344, 32.0, 92.5, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 699.083374, 73.0, 91.0, 20.0 ],
-					"style" : "",
-					"text" : "Open Recorder",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 440.583344, 54.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 732.583374, 95.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 732.583374, 128.0, 87.0, 22.0 ],
+					"patching_rect" : [ 440.583344, 125.0, 87.0, 22.0 ],
 					"style" : "",
 					"text" : "s open_record"
 				}
@@ -253,7 +217,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 399.0, 506.0, 430.0, 110.0 ],
+						"rect" : [ 772.0, -355.0, 430.0, 110.0 ],
 						"openrect" : [ 0.0, 0.0, 430.0, 110.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1507,7 +1471,7 @@
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 50.0, 142.833435, 274.0, 23.0 ],
 									"style" : "",
-									"text" : "jit.grab 100. 75. @colormode argb @unique 1"
+									"text" : "jit.grab 200 150 @colormode argb @unique 1"
 								}
 
 							}
@@ -3357,18 +3321,6 @@
 					"patching_rect" : [ 864.166748, 205.666656, 104.0, 22.0 ],
 					"style" : "",
 					"text" : "sel \"Midi Mapper\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 229.25, 134.0, 449.0, 20.0 ],
-					"style" : "",
-					"text" : "Sample Player, Granulator, Looper, Mixer, FMSynth, Midi Mapper"
 				}
 
 			}
@@ -8203,7 +8155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 356.166656, 54.0, 24.0, 24.0 ],
+					"patching_rect" : [ 350.333344, 53.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 463.0, 71.0, 24.0, 24.0 ],
 					"style" : ""
@@ -8216,7 +8168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.666656, 32.0, 59.0, 20.0 ],
+					"patching_rect" : [ 332.833344, 29.999998, 59.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 463.0, 38.0, 150.0, 20.0 ],
 					"style" : "",
@@ -8367,7 +8319,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 10.0, 500.0, 90.0 ],
+					"patching_rect" : [ 10.0, 10.0, 500.083313, 90.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -8383,7 +8335,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 520.0, 110.0 ],
+					"patching_rect" : [ 0.0, 0.0, 520.083374, 110.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -8518,6 +8470,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-34", 0 ]
 				}
@@ -8569,14 +8528,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -8850,10 +8801,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
