@@ -14,13 +14,12 @@
 #### Colour Tracker
 
 #### Multi-Colour Tracker.
-* Go back over UI. 
+* Go back over UI.
 * fix config loading.
 
 #### Leap
 
 #### Microbit Accelerometer
-* Build new GUI
 * Distribute .hex separately.
 
 #### Microbit Pins
