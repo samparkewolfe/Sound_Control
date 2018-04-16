@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 107.0, -883.0, 531.0, 126.0 ],
+		"rect" : [ 100.0, -935.0, 520.0, 110.0 ],
 		"openrect" : [ 0.0, 0.0, 520.0, 110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -46,7 +46,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 397.583344, 55.0, 100.0, 20.0 ],
+					"patching_rect" : [ 405.583344, 14.0, 100.0, 20.0 ],
 					"rounded" : 5.0,
 					"style" : "",
 					"text" : "Recorder"
@@ -217,7 +217,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 772.0, -355.0, 430.0, 110.0 ],
+						"rect" : [ 664.0, -412.0, 430.0, 110.0 ],
 						"openrect" : [ 0.0, 0.0, 430.0, 110.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1996,27 +1996,55 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-12",
+									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 351.0, 187.0, 29.5, 22.0 ],
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 160.0, 383.0, 29.5, 22.0 ],
+									"presentation_rect" : [ 170.0, 393.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "* 2"
+									"text" : "* 2."
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-11",
+									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 165.0, 187.0, 29.5, 22.0 ],
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 94.0, 383.0, 29.5, 22.0 ],
 									"style" : "",
-									"text" : "* 2"
+									"text" : "* 2."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 423.999969, 116.0, 22.0 ],
+									"presentation_rect" : [ 64.0, 431.999969, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "pack 0. 0. 0. 0. 0. 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 6,
+									"outlettype" : [ "float", "float", "float", "float", "float", "float" ],
+									"patching_rect" : [ 50.0, 346.999969, 129.0, 22.0 ],
+									"style" : "",
+									"text" : "unpack 0. 0. 0. 0. 0. 0."
 								}
 
 							}
@@ -2936,7 +2964,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 394.166718, 198.0, 22.0 ],
+									"patching_rect" : [ 50.0, 466.166718, 198.0, 22.0 ],
 									"style" : "",
 									"text" : "s sound_control_gametrack_output"
 								}
@@ -3007,15 +3035,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-123", 2 ],
-									"source" : [ "obj-11", 0 ]
+									"destination" : [ "obj-8", 2 ],
+									"source" : [ "obj-10", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-123", 5 ],
-									"source" : [ "obj-12", 0 ]
+									"destination" : [ "obj-8", 5 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
@@ -3086,14 +3114,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"source" : [ "obj-21", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-123", 5 ],
 									"source" : [ "obj-21", 5 ]
 								}
 
@@ -3109,6 +3130,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-123", 3 ],
 									"source" : [ "obj-21", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-123", 2 ],
+									"source" : [ "obj-21", 2 ]
 								}
 
 							}
@@ -3172,6 +3200,48 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-4", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-4", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 4 ],
+									"source" : [ "obj-4", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 3 ],
+									"source" : [ "obj-4", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 1 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-26", 0 ],
 									"source" : [ "obj-46", 0 ]
 								}
@@ -3194,16 +3264,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"order" : 1,
+									"destination" : [ "obj-4", 0 ],
+									"order" : 2,
 									"source" : [ "obj-52", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-57", 0 ],
-									"order" : 2,
+									"destination" : [ "obj-46", 0 ],
+									"order" : 1,
 									"source" : [ "obj-52", 0 ]
 								}
 
@@ -3219,6 +3289,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-57", 0 ],
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -8801,10 +8878,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
