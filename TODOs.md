@@ -23,7 +23,7 @@
 * Distribute .hex separately.
 
 #### Microbit Pins
-* GUI
+* GUI (Done)
 
 #### GamTrak
 
