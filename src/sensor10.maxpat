@@ -352,7 +352,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 145.0, 58.0, 36.0, 20.0 ],
 					"style" : "",
-					"text" : "Pin 3",
+					"text" : "Pin 2",
 					"textjustification" : 1
 				}
 
@@ -367,7 +367,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 93.0, 58.0, 36.0, 20.0 ],
 					"style" : "",
-					"text" : "Pin 2",
+					"text" : "Pin 1",
 					"textjustification" : 1
 				}
 
@@ -382,7 +382,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 41.0, 58.0, 36.0, 20.0 ],
 					"style" : "",
-					"text" : "Pin 1",
+					"text" : "Pin 0",
 					"textjustification" : 1
 				}
 
@@ -501,7 +501,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "MicroBit"
+					"text" : "MicroBit Pins"
 				}
 
 			}
