@@ -2,30 +2,28 @@
 
 ## Holistic’s
 * Make a windows version.
-* Make whole instrument larger.
-* Rename instrument subpatches to something more user friendly.
+* Rename instrument subpatches to something more user friendly. (Done)
 * Implement save functionality for instruments.
 * Make it easier to distinguish between instruments.
 
 #### Recorder
-* Built (Done)
+* Change button to being text label and button.
+* Add button in in its own border.
 
 ## Sensors
-#### Colour Tracker
-
 #### Multi-Colour Tracker.
-* Go back over UI. (Done)
-* fix config loading. (Done)
-
-#### Leap
+* Add clear button.
 
 #### Microbit Accelerometer
 * Distribute .hex separately.
 
 #### Microbit Pins
-* GUI (Done)
 
 #### GamTrak
+
+#### Leap
+
+#### Colour Tracker
 
 
 ## Sounds
@@ -33,11 +31,10 @@
 * Add Presets
 
 #### Granulator
-* Add Presets
+* Add Presets (Done)
 
 #### Looper
 * Add Presets
-* Add continuous functionality (Done)
 
 #### Midi Note Generator
 
@@ -57,9 +54,10 @@
 
 ## Samples
 #### New Samples
-* Animal Sounds
 * Sound effects & Familiar noises
 * Add samples to the .pkg to install in music.
+
+#### Animal Sounds.
 
 #### Apple Loops
 * Add samples to the .pkg to install in music.
