@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -140.0, -1001.0, 1852.0, 967.0 ],
+		"rect" : [ -140.0, -1001.0, 1478.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,34 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 647.0, 392.0, 61.0, 22.0 ],
+					"style" : "",
+					"text" : "t 10000 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 647.0, 358.500092, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 260.75, 41.75, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "clear"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "newobj",
@@ -72,7 +100,7 @@
 					"patching_rect" : [ 10.0, 29.5, 153.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 10.0, 29.0, 263.0, 33.0 ],
+					"presentation_rect" : [ 4.0, 23.0, 263.0, 33.0 ],
 					"style" : "",
 					"text" : "1. Click the screen to track a colour.\n2. Lower slider untill everything else is dark."
 				}
@@ -333,7 +361,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "jit_matrix", "", "int" ],
-					"patching_rect" : [ 556.833313, 448.499969, 27.666672, 133.0 ],
+					"patching_rect" : [ 556.833313, 448.499969, 80.333344, 141.666656 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.25, 82.75, 25.5, 130.0 ],
 					"viewvisibility" : 1
@@ -355,7 +383,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "jit_matrix", "", "int" ],
-					"patching_rect" : [ 486.0, 448.499969, 27.666672, 133.0 ],
+					"patching_rect" : [ 486.0, 448.499969, 49.666672, 133.666672 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 242.916672, 82.75, 25.5, 130.0 ],
 					"viewvisibility" : 1
@@ -519,7 +547,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "jit_matrix", "", "int" ],
-					"patching_rect" : [ 419.5, 448.499969, 27.666672, 133.0 ],
+					"patching_rect" : [ 419.5, 448.499969, 49.666672, 133.666672 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 214.0, 82.75, 25.5, 130.0 ],
 					"viewvisibility" : 1
@@ -1170,7 +1198,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 117.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 117.0, 20.0 ],
 					"style" : "",
 					"text" : "Multi-Colour Tracker"
 				}
@@ -1274,7 +1302,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 850.071411, 504.666779, 145.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.5, 9.0, 145.0, 22.0 ],
+					"presentation_rect" : [ 137.5, 3.0, 145.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1538,6 +1566,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"order" : 1,
+					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"order" : 0,
+					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-28", 1 ]
 				}
@@ -1654,6 +1705,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

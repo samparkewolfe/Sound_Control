@@ -11,7 +11,7 @@
 
 ## Sensors
 #### Multi-Colour Tracker.
-* Add clear button.
+* Add clear button. (Done)
 
 #### Microbit Accelerometer
 * Distribute .hex separately.
