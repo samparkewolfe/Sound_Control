@@ -1,0 +1,47 @@
+{
+	"granulator" : 	{
+		"preset1" : 		{
+			"file1" : "Trump130mj02-Bb.wav"
+		}
+,
+		"preset2" : 		{
+			"file1" : "Organ130mj03-Bb1.wav"
+		}
+,
+		"preset3" : 		{
+			"file1" : "Brass130mj02-Bb2.wav"
+		}
+
+	}
+,
+	"looper" : 	{
+		"preset1" : 		{
+			"file1" : "arise/Arise_Verse_Drums.mp3",
+			"file2" : "arise/Arise_Verse_Bass.mp3",
+			"file3" : "arise/Arise_Verse_Piano.mp3",
+			"file4" : "arise/Arise_Verse_PluckyGuitar.mp3",
+			"file5" : "arise/Arise_Verse_GroovyGuitar2.mp3",
+			"file6" : "arise/Arise_Verse_Vocals3(WickedMan).mp3"
+		}
+,
+		"preset2" : 		{
+			"file1" : "arise/Arise_Verse_Drums.mp3",
+			"file2" : "arise/Arise_Verse_Bass.mp3",
+			"file3" : "arise/Arise_Verse_Piano.mp3",
+			"file4" : "arise/Arise_Verse_PluckyGuitar.mp3",
+			"file5" : "arise/Arise_Verse_GroovyGuitar2.mp3",
+			"file6" : "arise/Arise_Verse_Vocals3(WickedMan).mp3"
+		}
+,
+		"preset3" : 		{
+			"file1" : "arise/Arise_Verse_Drums.mp3",
+			"file2" : "arise/Arise_Verse_Bass.mp3",
+			"file3" : "arise/Arise_Verse_Piano.mp3",
+			"file4" : "arise/Arise_Verse_PluckyGuitar.mp3",
+			"file5" : "arise/Arise_Verse_GroovyGuitar2.mp3",
+			"file6" : "arise/Arise_Verse_Vocals3(WickedMan).mp3"
+		}
+
+	}
+
+}
