@@ -25,21 +25,18 @@
 		}
 ,
 		"preset2" : 		{
-			"file1" : "arise/Arise_Verse_Drums.mp3",
-			"file2" : "arise/Arise_Verse_Bass.mp3",
-			"file3" : "arise/Arise_Verse_Piano.mp3",
-			"file4" : "arise/Arise_Verse_PluckyGuitar.mp3",
-			"file5" : "arise/Arise_Verse_GroovyGuitar2.mp3",
-			"file6" : "arise/Arise_Verse_Vocals3(WickedMan).mp3"
+			"file1" : "ska/SKA_130_BEAT_01.wav",
+			"file2" : "ska/Bass130mj01-Bb.wav",
+			"file3" : "ska/Brass130mj01-Bb1.wav",
+			"file4" : "ska/Sax130mj04-Bb.wav",
+			"file5" : "ska/Tromb130mj03-Bb.wav",
+			"file6" : "ska/Trump130mj02-Bb.wav"
 		}
 ,
 		"preset3" : 		{
-			"file1" : "arise/Arise_Verse_Drums.mp3",
-			"file2" : "arise/Arise_Verse_Bass.mp3",
-			"file3" : "arise/Arise_Verse_Piano.mp3",
-			"file4" : "arise/Arise_Verse_PluckyGuitar.mp3",
-			"file5" : "arise/Arise_Verse_GroovyGuitar2.mp3",
-			"file6" : "arise/Arise_Verse_Vocals3(WickedMan).mp3"
+			"file1" : "rock/01(120BPM).wav",
+			"file2" : "rock/GC ChugIban120A.wav",
+			"file3" : "rock/GC Riff120A-01.wav"
 		}
 
 	}
