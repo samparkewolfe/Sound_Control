@@ -2,13 +2,12 @@
 
 ## Holistic’s
 * Make a windows version.
-* Rename instrument subpatches to something more user friendly. (Done)
 * Implement save functionality for instruments.
 * Make it easier to distinguish between instruments.
 
 #### Recorder
-* Change button to being text label and button.
-* Add button in in its own border.
+* Change button to being text label and button. (Done)
+* Add button in in its own border. (Done)
 
 ## Sensors
 #### Multi-Colour Tracker.
