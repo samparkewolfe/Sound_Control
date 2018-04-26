@@ -58,7 +58,7 @@
 ## Models
 #### Quick
 * Implement some PCA.
-* Check how holding quick for ages affects memory.
+* Check how holding quick for ages affects memory. (Done)
 
 #### Precise
 * Implement some PCA.
