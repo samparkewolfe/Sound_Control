@@ -16,7 +16,7 @@
 #### Microbit Pins
 
 #### GamTrak
-* Bug: Sensor stops working when left turret is al the way to the left.
+* Bug: Sensor stops working when left turret is al the way to the left. (Done)
 * Make floating window smaller.
 
 #### Leap

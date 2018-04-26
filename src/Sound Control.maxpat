@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 27.0, -920.0, 420.0, 150.0 ],
+		"rect" : [ -140.0, -1001.0, 1852.0, 967.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 150.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1976,7 +1976,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+						"rect" : [ 34.0, 79.0, 689.0, 683.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2984,9 +2984,9 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 241.999969, 116.0, 22.0 ],
+									"patching_rect" : [ 50.0, 241.999969, 110.0, 22.0 ],
 									"style" : "",
-									"text" : "pack 0. 0. 0. 0. 0. 0."
+									"text" : "pak 0. 0. 0. 0. 0. 0."
 								}
 
 							}
