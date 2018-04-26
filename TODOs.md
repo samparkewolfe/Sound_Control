@@ -6,12 +6,9 @@
 * Make it easier to distinguish between instruments.
 
 #### Recorder
-* Change button to being text label and button. (Done)
-* Add button in in its own border. (Done)
 
 ## Sensors
 #### Multi-Colour Tracker.
-* Add clear button. (Done)
 
 #### Microbit Accelerometer
 * Distribute .hex separately.
@@ -19,33 +16,49 @@
 #### Microbit Pins
 
 #### GamTrak
+* Bug: Sensor stops working when left turret is al the way to the left.
+* Make floating window smaller.
 
 #### Leap
+* Make visualisations bigger.
 
 #### Colour Tracker
+* Make tracking colour icon larger.
+* Check if the mouse clicking accurate?
+* Add a large visualisation of the camera.
 
 
 ## Sounds
 #### Sample Player
 * Add Presets
+* Bug: Won’t load folder that doesn’t explicitly have sound file types in it.
 
 #### Granulator
-* Add Presets (Done)
+* Take volume away from quick record somehow.
+* Take away presets with silence.
 
 #### Looper
-* Add Presets (Done)
+* Bug: Greyed out is not over tiles.
+* Bug: Tiles can be triggered even when tiles are “inactive” therefore If a sound file is loaded into that sample player then it will be played by quick recording.
+* Needs some clean up of samples loaded in each sample player which switching between presets and closing instruments.
+* Make quick predictions better.
 
-#### Midi Note Generator
+#### Midi Mapper
+* Gets confused when more than one is running.
+* Explore midi routing with GarageBand more.
 
 #### Mixer
 * Add Presets
+* Gain changes aren’t smooth and are causing clicking.
 
 #### FM Synth
+* Check how quick training affect the toggle button.
 
 
 ## Models
 #### Quick
 * Implement some PCA.
+* Check how holding quick for ages affects memory.
 
 #### Precise
 * Implement some PCA.
