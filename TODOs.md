@@ -31,7 +31,6 @@
 ## Sounds
 #### Sample Player
 * Add Presets
-* Bug: Won’t load folder that doesn’t explicitly have sound file types in it.
 
 #### Granulator
 * Take volume away from quick record somehow.
