@@ -49,10 +49,10 @@
 
 #### Mixer
 * Add Presets
-* Gain changes aren’t smooth and are causing clicking.
+* Gain changes aren’t smooth and are causing clicking. (Done)
 
 #### FM Synth
-* Check how quick training affect the toggle button.
+* Check how quick training affect the toggle button. (Done)
 
 
 ## Models
