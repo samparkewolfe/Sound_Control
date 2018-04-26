@@ -33,7 +33,7 @@
 * Add Presets (Done)
 
 #### Looper
-* Add Presets
+* Add Presets (Done)
 
 #### Midi Note Generator
 
