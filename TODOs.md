@@ -39,8 +39,8 @@
 
 #### Looper
 * Bug: Greyed out is not over tiles. (Done)
-* Bug: Tiles can be triggered even when tiles are “inactive” therefore If a sound file is loaded into that sample player then it will be played by quick recording.
-* Needs some clean up of samples loaded in each sample player which switching between presets and closing instruments.
+* Bug: Tiles can be turned on even when tiles are “inactive” therefore If a sound file is loaded into that sample player then it will be played by quick recording.
+* Needs some clean up of samples loaded in each sample player which switching between presets and closing instruments. (Done)
 * Make quick predictions better.
 
 #### Midi Mapper
