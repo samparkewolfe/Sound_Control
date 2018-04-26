@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -140.0, -1001.0, 1852.0, 964.0 ],
+		"rect" : [ -140.0, -1001.0, 1329.0, 964.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,24 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
+					"id" : "obj-61",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 876.89917, 2578.833252, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 85.999939, 50.333374, 166.0, 112.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-138",
 					"maxclass" : "newobj",
@@ -694,7 +712,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2721.983398, 590.000183, 80.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 75.833374, 50.666664, 20.0 ],
+					"presentation_rect" : [ 24.0, 75.833374, 51.0, 20.0 ],
 					"style" : "",
 					"text" : "Reggae",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -716,7 +734,7 @@
 					"presentation_rect" : [ 10.0, 76.833374, 64.666664, 66.0 ],
 					"size" : 4,
 					"style" : "",
-					"value" : 3
+					"value" : 0
 				}
 
 			}
@@ -1224,24 +1242,6 @@
 					"patching_rect" : [ 46.41658, 456.0, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "scale 0 128 0. 2."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
-					"id" : "obj-61",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 876.89917, 2578.833252, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 371.666626, 54.333374, 184.0, 123.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
