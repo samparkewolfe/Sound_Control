@@ -88,6 +88,7 @@ function build_subpatch()
 
 	var active_obj = subpatch.subpatcher().newdefault(640+border, border,"active");
 	subpatch.subpatcher().hiddenconnect(active_obj, 0, model, 3);
+	subpatch.subpatcher().hiddenconnect(active_obj, 0, sensor, 0);
 	active_obj.hidden = true;
 
 	subpatch.subpatcher().locked = 1;
