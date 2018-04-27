@@ -87,8 +87,9 @@ function build_subpatch()
 	thispatcher_object.message("bgcolor", 0.662745098,0.705882353,0.760784314, 1);
 
 	var active_obj = subpatch.subpatcher().newdefault(640+border, border,"active");
-	subpatch.subpatcher().hiddenconnect(active_obj, 0, model, 3);
 	subpatch.subpatcher().hiddenconnect(active_obj, 0, sensor, 0);
+	subpatch.subpatcher().hiddenconnect(active_obj, 0, sound, 3);
+	subpatch.subpatcher().hiddenconnect(active_obj, 0, model, 3);
 	active_obj.hidden = true;
 
 	subpatch.subpatcher().locked = 1;
