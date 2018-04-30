@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 37.0, 79.0, 1212.0, 683.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 150.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -2551,6 +2551,32 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1077.0, 9.0, 150.0, 20.0 ],
+									"style" : "",
+									"text" : "Keep just in case"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"linecount" : 3,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1073.0, 36.833328, 246.0, 49.0 ],
+									"style" : "",
+									"text" : "importmovie \"/Library/Application Support/Sound_Control/pics/crosshair.png\", bang"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -2673,7 +2699,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 929.333374, 63.833328, 60.0, 22.0 ],
+									"patching_rect" : [ 929.333374, 70.833328, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -2751,14 +2777,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-23",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 929.333374, 102.333344, 295.0, 38.0 ],
+									"patching_rect" : [ 929.333374, 109.333344, 198.0, 23.0 ],
 									"style" : "",
-									"text" : "importmovie \"/Library/Application Support/Sound_Control/pics/crosshair.png\", bang"
+									"text" : "importmovie crosshair.png, bang"
 								}
 
 							}
@@ -9727,10 +9752,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
