@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-97",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 411.0, 562.0, 50.0, 62.0 ],
+					"style" : "",
+					"text" : "Brass130mj02-Bb2.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -347,12 +361,12 @@
 				"box" : 				{
 					"id" : "obj-150",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 399.899933, 464.999878, 339.0, 22.0 ],
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 399.899933, 464.999878, 40.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf \"/Library/Application Support/Sound_Control/audio/%s\""
+					"text" : "zl.reg"
 				}
 
 			}
@@ -522,7 +536,7 @@
 					"presentation_rect" : [ 29.833385, 89.333374, 72.666664, 66.0 ],
 					"size" : 4,
 					"style" : "",
-					"value" : 3
+					"value" : 2
 				}
 
 			}
@@ -2379,7 +2393,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 9216.0, "ticks" ],
-						"originaltempo" : 155.999782,
+						"originaltempo" : 311.997647,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -3163,6 +3177,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
+					"order" : 1,
+					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 1 ],
+					"order" : 0,
 					"source" : [ "obj-158", 0 ]
 				}
 
