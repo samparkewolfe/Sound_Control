@@ -38,12 +38,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2770.0, 1300.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "Old preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2782.31665, 1284.233887, 59.0, 22.0 ],
+					"patching_rect" : [ 2768.483398, 1361.233887, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "tosymbol"
 				}
@@ -56,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2782.31665, 1246.233887, 339.0, 22.0 ],
+					"patching_rect" : [ 2768.483398, 1323.233887, 339.0, 22.0 ],
 					"style" : "",
 					"text" : "sprintf \"/Library/Application Support/Sound_Control/audio/%s\""
 				}
@@ -673,7 +685,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2789.483398, 1162.000122, 58.0, 22.0 ],
+					"patching_rect" : [ 2823.483398, 1162.000122, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "target $1"
 				}
@@ -1638,8 +1650,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "textbutton",
@@ -1676,8 +1687,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-47",
 					"maxclass" : "textbutton",
@@ -1740,8 +1750,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "textbutton",
@@ -1778,8 +1787,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "textbutton",
@@ -1816,8 +1824,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "textbutton",
@@ -1854,8 +1861,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "textbutton",
