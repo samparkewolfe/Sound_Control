@@ -27,6 +27,8 @@ https://www.julesfrancoise.com/leapmotion/
 
 https://forge.ircam.fr/p/leapmotion/
 
+https://developer.leapmotion.com/get-started/
+
 ### Colour Tracker (original)
 https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
 

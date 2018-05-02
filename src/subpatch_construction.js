@@ -9,6 +9,7 @@ var model_coords = [640+border, border, 960-border, 240-border];
 var sensor_it = 1
 var sound_it = 1
 var model_it = 1
+var subpatch_name = null;
 
 //var instruments = [];
 
@@ -32,6 +33,22 @@ function set_subpatch_it(v)
 	}	
 }
 
+function set_subpatch_name(v)
+{
+
+	subpatch_name = v
+	
+}
+
+function use_subpatch_name()
+{
+	
+	var throwaway = subpatch_name;
+	subpatch_name = ""
+	return throwaway;
+	
+}
+
 function anything()
 {	
 	var a = arrayfromargs(messagename, arguments);
@@ -44,7 +61,16 @@ function anything()
 function build_subpatch()
 {
 	
-	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", "Instrument"+no_instruments);
+	var localname = null;
+	if (subpatch_name)
+	{
+		localname = subpatch_name;
+		subpatch_name = null;
+	} else {
+		localname = ("Instrument"+no_instruments)
+	}
+	
+	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
 	
 	subpatch.subpatcher().wind.size = [960, 240]
 	
