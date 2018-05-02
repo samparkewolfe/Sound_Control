@@ -216,18 +216,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-90",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2924.0, 1177.666504, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "Inlet for active."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-87",
 					"maxclass" : "comment",
 					"numinlets" : 1,
