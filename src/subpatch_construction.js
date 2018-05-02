@@ -120,6 +120,7 @@ function build_subpatch()
 	
 	var localname_message = subpatch.subpatcher().newdefault(120, border, "message", "@text", localname);
 	subpatch.subpatcher().hiddenconnect(localname_message, 0, sensor, 1);
+	subpatch.subpatcher().hiddenconnect(localname_message, 0, sound, 4);
 	localname_message.message("bang");
 	localname_message.hidden = true;
 

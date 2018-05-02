@@ -844,19 +844,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-128",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 914.0, 483.0, 74.0, 22.0 ],
-					"style" : "",
-					"text" : "patcherargs"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-90",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -886,7 +873,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 979.0, 413.0, 102.0, 22.0 ],
+					"patching_rect" : [ 1102.083374, 423.999969, 102.0, 22.0 ],
 					"style" : "",
 					"text" : "print mac_or_win"
 				}
@@ -899,7 +886,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1172.5, 341.0, 24.0, 22.0 ],
+					"patching_rect" : [ 1295.583374, 351.999969, 24.0, 22.0 ],
 					"style" : "",
 					"text" : "t b"
 				}
@@ -912,7 +899,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1172.5, 309.0, 102.0, 22.0 ],
+					"patching_rect" : [ 1295.583374, 319.999969, 102.0, 22.0 ],
 					"style" : "",
 					"text" : "r getMac_or_Win"
 				}
@@ -925,7 +912,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1082.0, 341.0, 72.0, 22.0 ],
+					"patching_rect" : [ 1205.083374, 351.999969, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
 				}
@@ -937,7 +924,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1082.0, 413.0, 87.0, 22.0 ],
+					"patching_rect" : [ 1205.083374, 423.999969, 87.0, 22.0 ],
 					"style" : "",
 					"text" : "s Mac_or_Win"
 				}
@@ -950,7 +937,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1193.0, 407.5, 150.0, 33.0 ],
+					"patching_rect" : [ 1316.083374, 418.499969, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "Code this effects:\n- Gametrak Code"
 				}
@@ -962,7 +949,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1082.0, 309.0, 60.0, 20.0 ],
+					"patching_rect" : [ 1205.083374, 319.999969, 60.0, 20.0 ],
 					"style" : "",
 					"text" : "2- Win"
 				}
@@ -974,7 +961,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1082.0, 287.0, 60.0, 20.0 ],
+					"patching_rect" : [ 1205.083374, 297.999969, 60.0, 20.0 ],
 					"style" : "",
 					"text" : "1- Mac"
 				}
@@ -988,7 +975,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1082.0, 379.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1205.083374, 389.999969, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -9339,7 +9326,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1572.0, 217.600006, 243.0, 22.0 ],
+					"patching_rect" : [ 1784.0, 221.999954, 243.0, 22.0 ],
 					"style" : "",
 					"text" : "get generate_instrument_bg_border_colour"
 				}
@@ -9352,7 +9339,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1572.0, 385.600006, 99.0, 22.0 ],
+					"patching_rect" : [ 1784.0, 389.999969, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "scale 0 256 0. 1."
 				}
@@ -9365,7 +9352,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1572.0, 421.600006, 109.0, 22.0 ],
+					"patching_rect" : [ 1784.0, 425.999969, 109.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend bgfillcolor"
 				}
@@ -9378,7 +9365,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1358.5, 180.266754, 34.0, 22.0 ],
+					"patching_rect" : [ 1570.5, 184.666702, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b"
 				}
@@ -9391,7 +9378,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1358.5, 137.600006, 60.0, 22.0 ],
+					"patching_rect" : [ 1570.5, 141.999954, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -9404,7 +9391,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1369.0, 385.600006, 99.0, 22.0 ],
+					"patching_rect" : [ 1581.0, 389.999969, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "scale 0 256 0. 1."
 				}
@@ -9417,7 +9404,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1369.0, 348.600006, 425.0, 22.0 ],
+					"patching_rect" : [ 1581.0, 352.999969, 425.0, 22.0 ],
 					"style" : "",
 					"text" : "route generate_instrument_bg_colour generate_instrument_bg_border_colour"
 				}
@@ -9430,7 +9417,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1358.5, 217.600006, 200.0, 22.0 ],
+					"patching_rect" : [ 1570.5, 221.999954, 200.0, 22.0 ],
 					"style" : "",
 					"text" : "get generate_instrument_bg_colour"
 				}
@@ -9443,7 +9430,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1864.166748, 217.600006, 236.0, 22.0 ],
+					"patching_rect" : [ 2076.166748, 221.999954, 236.0, 22.0 ],
 					"style" : "",
 					"text" : "import sound_control_colour_scheme.json"
 				}
@@ -9456,7 +9443,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1358.5, 301.600006, 50.5, 22.0 ],
+					"patching_rect" : [ 1570.5, 305.999969, 50.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
@@ -9919,7 +9906,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1369.0, 421.600006, 109.0, 22.0 ],
+					"patching_rect" : [ 1581.0, 425.999969, 109.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend bgfillcolor"
 				}
