@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 150.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,12 +40,87 @@
 		"title" : "Sound Control",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-89",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 734.0, 80.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 734.0, 152.0, 87.0, 22.0 ],
+					"style" : "",
+					"text" : "s Mac_or_Win"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 902.0, 26.0, 150.0, 34.0 ],
+					"style" : "",
+					"text" : "Changes:\n- Gametrak Code"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 734.0, 48.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 737.0, 46.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "2- Win"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 734.0, 26.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "1- Mac"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 734.0, 118.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1386.583374, 780.599976, 34.0, 22.0 ],
-					"presentation_rect" : [ 1387.583374, 904.599976, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "print"
 				}
@@ -632,7 +707,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -750,7 +825,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1471,7 +1546,7 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.660156, 0.703125, 0.757812 ],
+									"bgcolor" : [ 0.660156, 0.703125, 0.757813 ],
 									"id" : "obj-14",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1915,7 +1990,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2113,9 +2188,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 774.083374, 583.266602, 481.0, 35.0 ],
+					"patching_rect" : [ 774.083374, 583.266602, 481.0, 36.0 ],
 					"style" : "",
-					"text" : ";\rmax launchbrowser \"file:///Applications/Sound Control.app/Contents/MacOS/CBMicroBit\""
+					"text" : ";\r\nmax launchbrowser \"file:///Applications/Sound Control.app/Contents/MacOS/CBMicroBit\""
 				}
 
 			}
@@ -2130,7 +2205,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2306,7 +2381,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2482,12 +2557,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 79.0, 689.0, 683.0 ],
+						"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2514,7 +2589,87 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-87",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 300.0, 85.0, 22.0 ],
+									"style" : "",
+									"text" : "r Mac_or_Win"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 337.0, 54.0, 22.0 ],
+									"style" : "",
+									"text" : "switch 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 50.0, 376.0, 40.0, 22.0 ],
+									"style" : "",
+									"text" : "zl.reg"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "newobj",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 242.5, 245.000031, 112.0, 22.0 ],
+									"style" : "",
+									"text" : "scale 0 65535 0. 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 242.5, 205.999969, 110.0, 22.0 ],
+									"presentation_rect" : [ 225.0, 239.999969, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "pak 0. 0. 0. 0. 0. 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 7,
+									"numoutlets" : 7,
+									"outlettype" : [ "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 242.5, 171.0, 118.0, 22.0 ],
+									"style" : "",
+									"text" : "route 0 4 8 12 16 20"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-25",
 									"maxclass" : "comment",
@@ -2534,7 +2689,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1073.0, 36.833328, 246.0, 49.0 ],
+									"patching_rect" : [ 1073.0, 36.833328, 246.0, 50.0 ],
 									"style" : "",
 									"text" : "importmovie \"/Library/Application Support/Sound_Control/pics/crosshair.png\", bang"
 								}
@@ -2547,7 +2702,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 160.0, 383.0, 29.5, 22.0 ],
+									"patching_rect" : [ 160.0, 447.0, 29.5, 22.0 ],
 									"style" : "",
 									"text" : "* 2."
 								}
@@ -2560,7 +2715,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 94.0, 383.0, 29.5, 22.0 ],
+									"patching_rect" : [ 94.0, 447.0, 29.5, 22.0 ],
 									"style" : "",
 									"text" : "* 2."
 								}
@@ -2573,7 +2728,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 423.999969, 116.0, 22.0 ],
+									"patching_rect" : [ 50.0, 487.999969, 116.0, 22.0 ],
 									"style" : "",
 									"text" : "pack 0. 0. 0. 0. 0. 0."
 								}
@@ -2586,7 +2741,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 6,
 									"outlettype" : [ "float", "float", "float", "float", "float", "float" ],
-									"patching_rect" : [ 50.0, 346.999969, 129.0, 22.0 ],
+									"patching_rect" : [ 50.0, 410.999969, 129.0, 22.0 ],
 									"style" : "",
 									"text" : "unpack 0. 0. 0. 0. 0. 0."
 								}
@@ -2777,7 +2932,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3130,7 +3285,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3495,7 +3650,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 281.000031, 105.0, 22.0 ],
+									"patching_rect" : [ 67.5, 245.000031, 105.0, 22.0 ],
 									"style" : "",
 									"text" : "scale 0 4095 0. 1."
 								}
@@ -3507,7 +3662,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 466.166718, 198.0, 22.0 ],
+									"patching_rect" : [ 50.0, 530.166748, 198.0, 22.0 ],
 									"style" : "",
 									"text" : "s sound_control_gametrack_output"
 								}
@@ -3520,7 +3675,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 241.999969, 110.0, 22.0 ],
+									"patching_rect" : [ 67.5, 205.999969, 110.0, 22.0 ],
 									"style" : "",
 									"text" : "pak 0. 0. 0. 0. 0. 0."
 								}
@@ -3533,7 +3688,7 @@
 									"numinlets" : 7,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 50.0, 148.0, 517.0, 22.0 ],
+									"patching_rect" : [ 67.5, 171.0, 138.0, 22.0 ],
 									"style" : "",
 									"text" : "route 15 16 17 18 19 20"
 								}
@@ -3548,7 +3703,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "list", "" ],
-									"patching_rect" : [ 50.0, 100.0, 120.0, 23.0 ],
+									"patching_rect" : [ 67.5, 93.0, 120.0, 23.0 ],
 									"style" : "",
 									"text" : "hi Game-Trak V1.3"
 								}
@@ -3563,7 +3718,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
+									"patching_rect" : [ 67.5, 33.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -3737,7 +3892,103 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
+									"order" : 1,
 									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"order" : 0,
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 5 ],
+									"source" : [ "obj-31", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 4 ],
+									"source" : [ "obj-31", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 3 ],
+									"source" : [ "obj-31", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 2 ],
+									"source" : [ "obj-31", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 1 ],
+									"source" : [ "obj-31", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 2 ],
+									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"order" : 0,
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"order" : 2,
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"order" : 1,
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 0 ],
+									"source" : [ "obj-39", 0 ]
 								}
 
 							}
@@ -3799,24 +4050,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
-									"order" : 0,
-									"source" : [ "obj-52", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"order" : 2,
-									"source" : [ "obj-52", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"order" : 1,
+									"destination" : [ "obj-39", 1 ],
 									"source" : [ "obj-52", 0 ]
 								}
 
@@ -3839,6 +4073,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-57", 0 ],
 									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-87", 0 ]
 								}
 
 							}
@@ -3955,7 +4196,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4257,7 +4498,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4667,7 +4908,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4893,7 +5134,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5120,7 +5361,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5935,7 +6176,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6473,7 +6714,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7168,7 +7409,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8623,14 +8864,9 @@
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 672.083374, 821.93335, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"shell" : "(default)",
-						"wd" : "(default)"
-					}
-,
 					"style" : "",
 					"text" : "shell"
 				}
@@ -8658,7 +8894,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.75, 100.5, 197.0, 33.0 ],
+					"patching_rect" : [ 209.75, 100.5, 197.0, 34.0 ],
 					"style" : "",
 					"text" : "Remember: Plug in sensors before opening app!"
 				}
@@ -8954,7 +9190,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.660156, 0.703125, 0.757812 ],
+					"bgcolor" : [ 0.660156, 0.703125, 0.757813 ],
 					"id" : "obj-14",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -9388,6 +9624,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
@@ -9628,6 +9871,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"order" : 5,
 					"source" : [ "obj-95", 0 ]
@@ -9677,18 +9927,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
-				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
+				"bootpath" : "~/Sound_Control/src",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "Leapmotion.mxo",
-				"type" : "iLaX"
+				"name" : "Leapmotion.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
