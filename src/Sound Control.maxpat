@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 458.0, 344.0, 420.0, 150.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 150.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,14 +40,39 @@
 		"title" : "Sound Control",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 631.0, 152.0, 102.0, 22.0 ],
+					"style" : "",
+					"text" : "print mac_or_win"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 832.0, 80.0, 24.0, 22.0 ],
+					"style" : "",
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 819.000061, 80.0, 29.5, 22.0 ],
+					"patching_rect" : [ 832.0, 48.0, 102.0, 22.0 ],
 					"style" : "",
-					"text" : "2"
+					"text" : "r getMac_or_Win"
 				}
 
 			}
@@ -83,9 +108,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 902.0, 26.0, 150.0, 34.0 ],
+					"patching_rect" : [ 845.0, 146.5, 150.0, 33.0 ],
 					"style" : "",
-					"text" : "Changes:\n- Gametrak Code"
+					"text" : "Code this effects:\n- Gametrak Code"
 				}
 
 			}
@@ -719,7 +744,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -837,7 +862,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1558,7 +1583,7 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.660156, 0.703125, 0.757813 ],
+									"bgcolor" : [ 0.660156, 0.703125, 0.757812 ],
 									"id" : "obj-14",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2002,7 +2027,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2200,9 +2225,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 774.083374, 583.266602, 481.0, 36.0 ],
+					"patching_rect" : [ 774.083374, 583.266602, 481.0, 35.0 ],
 					"style" : "",
-					"text" : ";\r\nmax launchbrowser \"file:///Applications/Sound Control.app/Contents/MacOS/CBMicroBit\""
+					"text" : ";\rmax launchbrowser \"file:///Applications/Sound Control.app/Contents/MacOS/CBMicroBit\""
 				}
 
 			}
@@ -2217,7 +2242,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2393,7 +2418,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2569,12 +2594,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
+						"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2608,7 +2633,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 300.0, 85.0, 22.0 ],
+									"patching_rect" : [ 50.0, 302.0, 85.0, 22.0 ],
 									"style" : "",
 									"text" : "r Mac_or_Win"
 								}
@@ -2647,7 +2672,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 242.5, 245.000031, 112.0, 22.0 ],
+									"patching_rect" : [ 340.5, 226.000031, 112.0, 22.0 ],
 									"style" : "",
 									"text" : "scale 0 65535 0. 1."
 								}
@@ -2660,7 +2685,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 242.5, 205.999969, 110.0, 22.0 ],
+									"patching_rect" : [ 340.5, 186.999969, 110.0, 22.0 ],
 									"style" : "",
 									"text" : "pak 0. 0. 0. 0. 0. 0."
 								}
@@ -2673,7 +2698,7 @@
 									"numinlets" : 7,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 242.5, 171.0, 118.0, 22.0 ],
+									"patching_rect" : [ 340.5, 152.0, 118.0, 22.0 ],
 									"style" : "",
 									"text" : "route 0 4 8 12 16 20"
 								}
@@ -2699,7 +2724,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1073.0, 36.833328, 246.0, 50.0 ],
+									"patching_rect" : [ 1073.0, 36.833328, 246.0, 49.0 ],
 									"style" : "",
 									"text" : "importmovie \"/Library/Application Support/Sound_Control/pics/crosshair.png\", bang"
 								}
@@ -2942,7 +2967,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3295,7 +3320,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3660,7 +3685,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 67.5, 245.000031, 105.0, 22.0 ],
+									"patching_rect" : [ 165.5, 226.000031, 105.0, 22.0 ],
 									"style" : "",
 									"text" : "scale 0 4095 0. 1."
 								}
@@ -3685,7 +3710,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 67.5, 205.999969, 110.0, 22.0 ],
+									"patching_rect" : [ 165.5, 186.999969, 110.0, 22.0 ],
 									"style" : "",
 									"text" : "pak 0. 0. 0. 0. 0. 0."
 								}
@@ -3698,7 +3723,7 @@
 									"numinlets" : 7,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 67.5, 171.0, 138.0, 22.0 ],
+									"patching_rect" : [ 165.5, 152.0, 138.0, 22.0 ],
 									"style" : "",
 									"text" : "route 15 16 17 18 19 20"
 								}
@@ -3713,7 +3738,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "list", "" ],
-									"patching_rect" : [ 67.5, 93.0, 120.0, 23.0 ],
+									"patching_rect" : [ 165.5, 74.0, 120.0, 23.0 ],
 									"style" : "",
 									"text" : "hi Game-Trak V1.3"
 								}
@@ -3728,7 +3753,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 67.5, 33.0, 30.0, 30.0 ],
+									"patching_rect" : [ 165.5, 14.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -4206,7 +4231,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4508,7 +4533,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4918,7 +4943,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5144,7 +5169,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5371,7 +5396,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -6186,7 +6211,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6724,7 +6749,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7419,7 +7444,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8874,9 +8899,14 @@
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 672.083374, 821.93335, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"shell" : "(default)",
+						"wd" : "(default)"
+					}
+,
 					"style" : "",
 					"text" : "shell"
 				}
@@ -8904,7 +8934,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.75, 100.5, 197.0, 34.0 ],
+					"patching_rect" : [ 209.75, 100.5, 197.0, 33.0 ],
 					"style" : "",
 					"text" : "Remember: Plug in sensors before opening app!"
 				}
@@ -9200,7 +9230,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.660156, 0.703125, 0.757813 ],
+					"bgcolor" : [ 0.660156, 0.703125, 0.757812 ],
 					"id" : "obj-14",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -9492,6 +9522,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
@@ -9529,13 +9566,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -9641,7 +9671,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"order" : 1,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
+					"order" : 0,
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -9704,6 +9743,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-63", 0 ]
 				}
 
 			}
@@ -9942,20 +9988,20 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
-				"bootpath" : "~/Sound_Control/src",
+				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Leapmotion.mxe64",
-				"type" : "mx64"
+				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "Leapmotion.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
