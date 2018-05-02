@@ -117,6 +117,11 @@ function build_subpatch()
 	subpatch.subpatcher().hiddenconnect(active_obj, 0, sound, 3);
 	subpatch.subpatcher().hiddenconnect(active_obj, 0, model, 3);
 	active_obj.hidden = true;
+	
+	var localname_message = subpatch.subpatcher().newdefault(120, border, "message", "@text", localname);
+	subpatch.subpatcher().hiddenconnect(localname_message, 0, sensor, 1);
+	localname_message.message("bang");
+	localname_message.hidden = true;
 
 	subpatch.subpatcher().locked = 1;
 	subpatch.subpatcher().wind.hasgrow = 0;
