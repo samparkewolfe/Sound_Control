@@ -38,11 +38,37 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 586.0, 632.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "Instrument name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-33",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 554.0, 632.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.0, 632.0, 81.0, 22.0 ],
+					"patching_rect" : [ 350.0, 787.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "s savesensor"
 				}
@@ -55,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 355.0, 594.0, 24.0, 22.0 ],
+					"patching_rect" : [ 350.0, 749.0, 24.0, 22.0 ],
 					"style" : "",
 					"text" : "t 4"
 				}
@@ -68,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 557.0, 34.0, 22.0 ],
+					"patching_rect" : [ 350.0, 712.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -81,7 +107,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 521.0, 83.0, 22.0 ],
+					"patching_rect" : [ 365.0, 676.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "r getsavedata"
 				}
@@ -93,7 +119,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 387.0, 477.0, 150.0, 20.0 ],
+					"patching_rect" : [ 382.0, 632.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Active"
 				}
@@ -108,7 +134,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 477.0, 30.0, 30.0 ],
+					"patching_rect" : [ 350.0, 632.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
