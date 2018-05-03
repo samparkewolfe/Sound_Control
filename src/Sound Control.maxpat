@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 428.0, 172.0, 420.0, 150.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 150.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -70,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1832.56665, 2178.666748, 84.0, 22.0 ],
-					"presentation_rect" : [ 1832.56665, 2180.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "prepend send"
 				}
@@ -97,7 +96,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1669.900024, 2178.666748, 84.0, 22.0 ],
-					"presentation_rect" : [ 1669.900024, 2178.666748, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "prepend send"
 				}
@@ -204,7 +202,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1318.699951, 2100.0, 49.0, 22.0 ],
-					"presentation_rect" : [ 1318.699951, 2104.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "dict.iter"
 				}
@@ -242,7 +239,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1201.699951, 2192.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 1193.366577, 2192.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "- 1"
 				}
@@ -295,7 +291,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1127.699951, 1816.0, 63.0, 22.0 ],
-					"presentation_rect" : [ 1189.333374, 1768.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "get config"
 				}
@@ -400,7 +395,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 783.200012, 1200.266602, 127.0, 22.0 ],
-					"presentation_rect" : [ 893.866699, 1280.866821, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "loadmess interval 100"
 				}
@@ -428,7 +422,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1562.366699, 1395.93335, 41.000004, 21.0 ],
-					"presentation_rect" : [ 1621.200073, 1458.266724, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Shift",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
@@ -444,7 +437,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1592.616577, 1368.93335, 71.666672, 21.0 ],
-					"presentation_rect" : [ 1651.449951, 1431.266724, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Caps Lock",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
@@ -460,7 +452,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1633.366577, 1343.93335, 130.333344, 21.0 ],
-					"presentation_rect" : [ 1692.199951, 1406.266724, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Mac Option / Win Alt",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
@@ -476,7 +467,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1671.866577, 1318.93335, 179.666672, 21.0 ],
-					"presentation_rect" : [ 1730.699951, 1381.266724, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Mac Control / Win Right Click",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
@@ -492,7 +482,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1693.366577, 1293.93335, 20.0, 20.0 ],
-					"presentation_rect" : [ 1752.199951, 1356.266724, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -506,7 +495,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1651.866577, 1318.93335, 20.0, 20.0 ],
-					"presentation_rect" : [ 1710.699951, 1381.266724, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -520,7 +508,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1612.866577, 1343.93335, 20.0, 20.0 ],
-					"presentation_rect" : [ 1671.699951, 1406.266724, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -534,7 +521,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1572.616699, 1368.93335, 20.0, 20.0 ],
-					"presentation_rect" : [ 1631.450073, 1431.266724, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -548,7 +534,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1544.366699, 1395.93335, 20.0, 20.0 ],
-					"presentation_rect" : [ 1603.200073, 1458.266724, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -563,7 +548,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 1544.366699, 1234.93335, 63.0, 23.0 ],
-					"presentation_rect" : [ 1603.200073, 1297.266724, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "modifiers"
 				}
@@ -578,7 +562,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1713.366577, 1293.93335, 123.666672, 21.0 ],
-					"presentation_rect" : [ 1772.199951, 1356.266724, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Mac Cmd / Win Ctrl",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
@@ -593,7 +576,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
 					"patching_rect" : [ 1485.900024, 1283.533447, 50.5, 22.0 ],
-					"presentation_rect" : [ 748.600037, 1246.200073, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "key"
 				}
@@ -607,7 +589,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 991.033264, 1871.066772, 37.0, 22.0 ],
-					"presentation_rect" : [ 377.0, 1889.733398, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "clear"
 				}
@@ -621,7 +602,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
 					"patching_rect" : [ 1127.699951, 1952.533447, 100.0, 22.0 ],
-					"presentation_rect" : [ 392.0, 1949.200073, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
@@ -9850,7 +9830,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 31.75, 446.266663, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "subpatch_construction.js",
+						"filename" : "subpatch_construction",
 						"parameter_enable" : 0
 					}
 ,
@@ -11014,6 +10994,10 @@
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/GoogleDrive/Music_Computing/Projects/Sound_Control/Code/Sound_Control/src",
