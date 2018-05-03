@@ -1,0 +1,5 @@
+Paste and replace the original file with this modification file inorder to make saveing and opening work.
+Paste: Sound\ Control.app/Contents/Resources/C74/interfaces/
+
+See this link for changes made
+https://cycling74.com/forums/saving-preset-automatically-with-commands-in-standalone-app
