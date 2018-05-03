@@ -33,6 +33,11 @@ https://developer.leapmotion.com/get-started/
 ### Colour Tracker (original)
 https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
 
+## Win Vs Mac
+Sound Control source has a build for windows or mac flag, this is what it changes.
+* Which Gametrak encoding method is used
+* Whether the microbit sensors show up in the umenu. 
+
 ## Known Bugs
 
 The app automatically sets it’s audio I/O to whatever the I/O settings of the Max.app are. If you want to change these you must close the Sound Control app, set the desired audio I/O settings in the Max.app and then reopen Sound Control. However you can then change the audio I/O settings for the Max.app and not change the Sound Control audio I/O settings after the Sound Control app has been opened.
