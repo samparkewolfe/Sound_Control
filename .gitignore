@@ -1,5 +1,5 @@
 Sound\ Control.app
-builds/.*
+builds/
 
 # OS generated files #
 ######################
