@@ -12,10 +12,17 @@ The Sound Control project is supported by a Paul Hamlyn Foundation “Widening A
 
 ### CBMicroBit
 https://github.com/Louismac/CBMicroBit
+
 In order to use the CBMicrobit.exe with Sound Control, it must be at the directory /Library/Application Support/Sound_Control/CBMicroBit
 
 ### RapidMax
+Mac
+
 https://github.com/samparkewolfe/RapidMax
+
+Windows
+
+https://github.com/samparkewolfe/RapidMax_win
 
 ### Shell.mxo
 https://cycling74.com/forums/chess-for-max/replies/1#reply-596a3e15d5b2a4159a6c7d04 
@@ -24,6 +31,7 @@ http://expr-i0.net/shell_170717.zip
 
 ### Leapmotion
 https://github.com/JulesFrancoise/leapmotion-for-max/releases
+
 In order to run the Leap Object in Max the Leap SDK must be installed as well.
 Read the readme’s in the release downloads as there are OS specifics for running the object with Max.
 
