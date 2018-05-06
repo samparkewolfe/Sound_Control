@@ -16,12 +16,9 @@ https://github.com/Louismac/CBMicroBit
 In order to use the CBMicrobit.exe with Sound Control, it must be at the directory /Library/Application Support/Sound_Control/CBMicroBit
 
 ### RapidMax
-Mac
-
+* Mac
 https://github.com/samparkewolfe/RapidMax
-
-Windows
-
+* Windows
 https://github.com/samparkewolfe/RapidMax_win
 
 ### Shell.mxo
@@ -32,10 +29,11 @@ http://expr-i0.net/shell_170717.zip
 ### Leapmotion
 https://github.com/JulesFrancoise/leapmotion-for-max/releases
 
-In order to run the Leap Object in Max the Leap SDK must be installed as well.
-Read the readme’s in the release downloads as there are OS specifics for running the object with Max.
-
 https://developer.leapmotion.com/get-started/
+
+* In order to run the Leap Object in Max the Leap SDK must be installed as well.
+* There is a link in Releases to the Leap SDKs
+* If you are building on windows to build Sound Control from sources you need to download the leap motion object from releases and put a .dll file that is provided in your Max MSP directory.
 
 ### Colour Tracker (original)
 https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
