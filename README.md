@@ -13,7 +13,8 @@ The Sound Control project is supported by a Paul Hamlyn Foundation “Widening A
 ### CBMicroBit
 https://github.com/Louismac/CBMicroBit
 
-In order to use the CBMicrobit.exe with Sound Control, it must be at the directory /Library/Application Support/Sound_Control/CBMicroBit
+* In order to use the CBMicrobit.exe with Sound Control as sources instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit.
+* The .pkg downloader puts it there for you.
 
 ### RapidMax
 * Mac
