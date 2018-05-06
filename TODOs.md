@@ -32,6 +32,7 @@
 * Bug On Other Machine: Won’t load folder that doesn’t explicitly have sound file types in it.
 
 #### Granulator
+* Found Bug: Run shadow doesn’t go away.
 * Take volume away from quick record somehow.
 * Take away presets with silence.
 
