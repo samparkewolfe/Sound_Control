@@ -8,11 +8,11 @@ The goal of the Sound Control project is to collaborate with youth with special 
 
 The Sound Control project is supported by a Paul Hamlyn Foundation “Widening Access and Participation in the Arts” grant. The project is led by the Northamptonshire Music and Performing Arts Trust.
 
-
 ## Externals & 3rd Party Software Used
 
 ### CBMicroBit
 https://github.com/Louismac/CBMicroBit
+In order to use the CBMicrobit.exe with Sound Control, it must be at the directory /Library/Application Support/Sound_Control/CBMicroBit
 
 ### RapidMax
 https://github.com/samparkewolfe/RapidMax
@@ -23,10 +23,9 @@ https://cycling74.com/forums/chess-for-max/replies/1#reply-596a3e15d5b2a4159a6c7
 http://expr-i0.net/shell_170717.zip
 
 ### Leapmotion
-https://www.julesfrancoise.com/leapmotion/
-(Read Readme Closely for using max object involving the .dll file.)
-
-https://forge.ircam.fr/p/leapmotion/
+https://github.com/JulesFrancoise/leapmotion-for-max/releases
+In order to run the Leap Object in Max the Leap SDK must be installed as well.
+Read the readme’s in the release downloads as there are OS specifics for running the object with Max.
 
 https://developer.leapmotion.com/get-started/
 
@@ -36,7 +35,7 @@ https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
 ## Win Vs Mac
 Sound Control source has a build for windows or mac flag, this is what it changes.
 * Which Gametrak encoding method is used
-* Whether the microbit sensors show up in the umenu. 
+* Whether the microbit sensors show up in the umenu.
 
 ## Known Bugs
 
