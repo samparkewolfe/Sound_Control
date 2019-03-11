@@ -13,8 +13,11 @@ The Sound Control project is supported by a Paul Hamlyn Foundation “Widening A
 ### CBMicroBit
 https://github.com/Louismac/CBMicroBit
 
-* In order to use the CBMicrobit.exe with Sound Control as sources instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit.
-* The .pkg downloader puts it there for you.
+* In order to use the CBMicrobit.exe with Sound Control as sources instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit. The .pkg downloader puts it there for you.
+* To use the Micro:Bit you have to load it with a .hex file. There are currently two different micro:bits in rotation:
+    * New Micro:Bit: If you have a new microbit it probably has a combined accelerometer and magnetometer, in this case you should load the "CBMicroBit-New-Combined-Accelerometer-Compass.hex" onto your Micro:Bit.
+    * Old Micro:Bit: If you have an old microbit it probably has a separated accelerometer and magnetometer, in this case you should load the "CBMicroBit-Old-Separated-Accelerometer-Compass.hex" onto your Micro:Bit.
+    * Both can be found in the resources folder.
 
 ### RapidMax
 * Mac
