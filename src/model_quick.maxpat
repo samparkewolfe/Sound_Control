@@ -984,11 +984,11 @@
 				"box" : 				{
 					"id" : "obj-173",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 306.833344000000011, 723.99993900000004, 165.0, 22.0 ],
-					"text" : "combine input_ 0 @triggers 1"
+					"patching_rect" : [ 306.833344000000011, 723.99993900000004, 162.0, 22.0 ],
+					"text" : "combine input_0 @triggers 1"
 				}
 
 			}
@@ -1243,11 +1243,11 @@
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 619.833252000000016, 215.333267000000006, 165.0, 22.0 ],
-					"text" : "combine input_ 0 @triggers 1"
+					"patching_rect" : [ 619.833252000000016, 215.333267000000006, 162.0, 22.0 ],
+					"text" : "combine input_0 @triggers 1"
 				}
 
 			}
