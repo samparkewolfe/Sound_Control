@@ -126,7 +126,7 @@ function build_subpatch()
 	localname_message.hidden = true;
 
 	subpatch.subpatcher().locked = 1;
-	subpatch.subpatcher().wind.hasgrow = 0;
+	subpatch.subpatcher().wind.hasgrow = 1;
 	
 	outlet(0, "myinstrument "+no_instruments);
 	
