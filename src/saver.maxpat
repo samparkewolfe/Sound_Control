@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2035.0, 176.0, 1408.0, 1053.0 ],
+		"rect" : [ 1818.0, 106.0, 1408.0, 1053.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,9 +56,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.50000799999998, 583.26647899999989, 321.0, 35.0 ],
-					"presentation_linecount" : 12,
-					"text" : "replace config::model::quickstore dictionary 1228_training_data_quick_store"
+					"patching_rect" : [ 311.00000799999998, 573.26647899999989, 321.0, 35.0 ],
+					"text" : "replace config::model::quickstore dictionary 1145_training_data_quick_store"
 				}
 
 			}
@@ -71,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 546.433402999999998, 845.0, 200.0, 62.0 ],
-					"text" : "replace config::model::outputdims dictionary 1228_training_data_quick_outputdims"
+					"text" : "replace config::model::outputdims dictionary 1145_training_data_quick_outputdims"
 				}
 
 			}
@@ -83,8 +82,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.0, 740.0, 146.0, 76.0 ],
-					"text" : "replace config::model::standard dictionary 1231training_data_precise"
+					"patching_rect" : [ 405.0, 719.0, 146.0, 76.0 ],
+					"text" : "replace config::model::standard dictionary 1148_training_data_precise"
 				}
 
 			}
@@ -97,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.00000799999998, 468.5, 163.0, 49.0 ],
-					"text" : "replace config::model::quick dictionary 1228_training_data_quick"
+					"text" : "replace config::model::quick dictionary 1145_training_data_quick"
 				}
 
 			}
@@ -121,7 +120,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 382.50000799999998, 395.0, 154.0, 49.0 ],
-					"text" : "replace config::sound dictionary 1223_mixer_config"
+					"text" : "replace config::sound dictionary 1140_mixer_config"
 				}
 
 			}
@@ -559,7 +558,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 258.489783999999986, 850.0, 30.0, 30.0 ]
+					"patching_rect" : [ 221.489783999999986, 869.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -659,7 +658,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-289", 0 ],
-					"midpoints" : [ 88.166648999999978, 552.0, 267.989783999999986, 552.0 ],
+					"midpoints" : [ 88.166648999999978, 552.0, 230.989783999999986, 552.0 ],
 					"source" : [ "obj-129", 2 ]
 				}
 
