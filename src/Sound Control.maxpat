@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 44.0, 141.0, 1068.0, 780.0 ],
+		"rect" : [ 190.0, 95.0, 1094.0, 780.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1678,7 +1678,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2193.0, 734.0, 118.831168174743652, 49.0 ],
+					"patching_rect" : [ 2193.0, 734.0, 119.0, 49.0 ],
 					"text" : "send m&s_quickmodel_config"
 				}
 
@@ -1692,7 +1692,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2031.533325000000787, 782.174972500000422, 103.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "dictionary u317012497"
 				}
 
@@ -1706,7 +1705,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1915.233397999999852, 782.174972500000422, 103.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "dictionary u026008412"
 				}
 
@@ -1720,7 +1718,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1799.866577000000234, 782.174972500000422, 103.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "dictionary u380013845"
 				}
 
@@ -1734,7 +1731,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1680.699951000000056, 782.174972500000422, 103.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "dictionary u306013844"
 				}
 
@@ -1748,7 +1744,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1310.699951000000056, 773.174972500000422, 103.0, 49.0 ],
-					"presentation_linecount" : 3,
 					"text" : "standard dictionary u317012497"
 				}
 
@@ -1762,7 +1757,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1740.0, 133.0, 50.0, 156.0 ],
-					"presentation_linecount" : 11,
 					"text" : "MB:/Users/martintownley/Documents/SoundControlStuff/newSaves/m&s.json"
 				}
 
@@ -1789,7 +1783,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1446.0, 588.008712500000343, 50.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "sensor 8"
 				}
 
@@ -1826,8 +1819,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.333336000000003, 1126.266601999999921, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 226.333336000000003, 1126.266601999999921, 154.0, 33.0 ],
 					"text" : "< receives from instrument subpatch when test saving"
 				}
 
@@ -11845,11 +11837,11 @@
 					"presentation_rect" : [ 463.0, 71.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_type" : 2,
 							"parameter_longname" : "button",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2
+							"parameter_shortname" : "button"
 						}
 
 					}
@@ -11952,7 +11944,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.416671999999949, 819.26666299999988, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "subpatch_construction.js",
+						"filename" : "subpatch_construction",
 						"parameter_enable" : 0
 					}
 ,
@@ -13599,27 +13591,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-347::obj-4::obj-75" : [ "live.gain~[2]", "Volume", 0 ],
-			"obj-351::obj-4::obj-135" : [ "live.gain~[3]", "Volume", 0 ],
 			"obj-348::obj-4::obj-135" : [ "live.gain~", "Volume", 0 ],
 			"obj-13" : [ "button", "button", 0 ],
 			"obj-346::obj-4::obj-75" : [ "live.gain~[1]", "Volume", 0 ],
+			"obj-347::obj-4::obj-75" : [ "live.gain~[2]", "Volume", 0 ],
+			"obj-351::obj-4::obj-135" : [ "live.gain~[3]", "Volume", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-346::obj-4::obj-75" : 				{
+					"parameter_longname" : "live.gain~[1]",
+					"parameter_shortname" : "Volume"
+				}
+,
 				"obj-347::obj-4::obj-75" : 				{
 					"parameter_longname" : "live.gain~[2]"
 				}
 ,
 				"obj-351::obj-4::obj-135" : 				{
 					"parameter_longname" : "live.gain~[3]"
-				}
-,
-				"obj-346::obj-4::obj-75" : 				{
-					"parameter_longname" : "live.gain~[1]",
-					"parameter_shortname" : "Volume"
 				}
 
 			}
