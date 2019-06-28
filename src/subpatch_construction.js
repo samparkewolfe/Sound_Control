@@ -70,9 +70,12 @@ function build_subpatch()
 		localname = ("Instrument"+no_instruments)
 	}
 	
-	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
+	//var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
+	var subpatch = this.patcher.newdefault(1000 + 200*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
 	
-	subpatch.subpatcher().wind.size = [960, 240]
+	
+	subpatch.subpatcher().wind.size = [1200, 400]
+	//originally 960 by 240
 	
 	this.patcher.bringtofront(subpatch);
 	

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 194.0, 78.0, 1212.0, 684.0 ],
+		"rect" : [ 47.0, 78.0, 542.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,29 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 94.0, 174.666504000000003, 26.0, 20.0 ],
+					"text" : "run"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 94.0, 200.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "message",
@@ -232,7 +255,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Undo",
 					"id" : "obj-18",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -518,7 +541,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 145.0, 139.5, 126.0, 61.0 ],
 					"rowheight" : 20,
-					"rows" : 1,
+					"rows" : 5,
 					"vscroll" : 0
 				}
 
@@ -700,7 +723,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.333457999999993, 47.0, 162.0, 22.0 ],
+					"patching_rect" : [ 118.333457999999993, 47.0, 162.0, 22.0 ],
 					"text" : "loadmess \"Model log ready!\""
 				}
 
@@ -973,7 +996,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Run",
 					"id" : "obj-132",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -985,7 +1008,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Precise",
 					"id" : "obj-133",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -997,7 +1020,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Clear",
 					"id" : "obj-136",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -1009,7 +1032,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Quick",
 					"id" : "obj-138",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -1322,6 +1345,14 @@
 					"destination" : [ "obj-138", 0 ],
 					"order" : 0,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"midpoints" : [ 692.5, 878.0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
