@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 38.0, 79.0, 821.0, 683.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
