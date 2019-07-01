@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2036.0, 121.0, 1879.0, 1214.0 ],
+		"rect" : [ 1901.0, 606.0, 1832.0, 964.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -422,7 +422,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 9,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -512,11 +512,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-127",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1267.0, 370.333252000000016, 30.0, 30.0 ]
 				}
 
@@ -537,11 +537,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 208.333327999999995, 37.0, 30.0, 30.0 ]
 				}
 
@@ -761,11 +761,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 402.833129999999983, 37.0, 30.0, 30.0 ]
 				}
 
@@ -774,7 +774,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1276,7 +1276,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-168",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1289,11 +1289,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-169",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.0, 37.0, 30.0, 30.0 ]
 				}
 
@@ -1302,11 +1302,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-170",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 292.833129999999983, 37.0, 30.0, 30.0 ]
 				}
 
@@ -1315,11 +1315,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 139.333327999999995, 37.0, 30.0, 30.0 ]
 				}
 
@@ -1328,7 +1328,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-172",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2211,6 +2211,15 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "model_undo_dict.maxpat",
+				"bootpath" : "~/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

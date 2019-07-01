@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-42",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 957.0, 973.0, 147.0, 47.0 ],
+					"text" : "we've received all data, now you can change. \n"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -69,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 171.0, 82.333312999999976, 35.0, 20.0 ],
+					"patching_rect" : [ 14.999962000000011, -0.666687000000024, 35.0, 20.0 ],
 					"text" : "clear"
 				}
 
@@ -82,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 177.333373999999992, 104.333312999999976, 24.0, 24.0 ],
+					"patching_rect" : [ 21.333336000000003, 21.333312999999976, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 360.333373999999992, 660.333312999999976, 24.0, 24.0 ]
 				}
@@ -95,29 +107,34 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1109.0, 949.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1109.0, 949.0, 50.0, 22.0 ],
+					"text" : "bang"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-37",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1105.0, 872.666381999999999, 50.0, 22.0 ]
+					"patching_rect" : [ 1237.0, 842.333312999999976, 50.0, 62.0 ],
+					"text" : "newFMsynth_trainmodel"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-36",
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1105.0, 909.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1254.0, 908.333312999999976, 50.0, 76.0 ],
+					"text" : "set newFMsynth_trainmodel"
 				}
 
 			}
@@ -285,7 +302,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -321,11 +338,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 615.333312999999976, 47.0, 30.0, 30.0 ]
 				}
 
@@ -406,7 +423,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -663,7 +680,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -689,7 +706,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 145.0, 139.5, 126.0, 61.0 ],
 					"rowheight" : 20,
-					"rows" : 1,
+					"rows" : 6,
 					"vscroll" : 0
 				}
 
@@ -892,7 +909,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -916,7 +933,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1146,7 +1163,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-132",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1158,7 +1175,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-133",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1170,7 +1187,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-136",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1182,7 +1199,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-138",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1876,15 +1893,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "keystate.maxpat",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
