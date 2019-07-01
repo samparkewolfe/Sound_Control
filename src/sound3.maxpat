@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 1839.0, 329.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -1583,7 +1583,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "textbutton",
@@ -1619,7 +1620,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-47",
 					"maxclass" : "textbutton",
@@ -1679,7 +1681,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "textbutton",
@@ -1715,7 +1718,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "textbutton",
@@ -1751,7 +1755,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "textbutton",
@@ -1787,7 +1792,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
+					"active" : 0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "textbutton",
