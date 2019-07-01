@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2705.0, 96.0, 1224.0, 736.0 ],
+		"rect" : [ 2036.0, 121.0, 1879.0, 1214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -977,7 +977,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 131.666626000000008, 723.99993900000004, 167.0, 22.0 ],
+					"patching_rect" : [ 139.333327999999995, 721.99993900000004, 167.0, 22.0 ],
 					"text" : "combine input_ 0 @triggers 1"
 				}
 
@@ -1031,7 +1031,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "bang" ],
-					"patching_rect" : [ 139.333327999999995, 395.499663999999996, 54.0, 22.0 ],
+					"patching_rect" : [ 142.333327999999995, 247.333267000000006, 54.0, 22.0 ],
 					"text" : "t b b b b"
 				}
 
@@ -1115,7 +1115,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 439.833312999999976, 458.666564999999991, 40.0, 22.0 ],
+					"patching_rect" : [ 167.833312999999976, 340.666564999999991, 40.0, 22.0 ],
 					"text" : "uzi 5"
 				}
 
@@ -1150,7 +1150,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 139.333327999999995, 324.999908000000005, 150.0, 20.0 ],
+					"patching_rect" : [ -12.666672000000005, 355.999908000000005, 150.0, 20.0 ],
 					"text" : "Grab n Play"
 				}
 
@@ -1163,7 +1163,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 139.333327999999995, 353.999908000000005, 24.0, 24.0 ]
+					"patching_rect" : [ 142.333327999999995, 186.999908000000005, 24.0, 24.0 ]
 				}
 
 			}
