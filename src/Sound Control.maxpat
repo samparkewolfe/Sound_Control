@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1500.0, 78.0, 642.0, 484.0 ],
+		"rect" : [ 1500.0, 78.0, 1579.0, 1053.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,18 @@
 		"subpatcher_template" : "",
 		"title" : "Sound Control",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 127.933350000000019, 1440.0, 80.0, 22.0 ],
+					"text" : "r saveBanger"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "comment",
@@ -312,7 +324,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 62.333312999999976, 1460.066649999999981, 24.0, 24.0 ]
+					"patching_rect" : [ 44.458297999999559, 1389.066649999999981, 24.0, 24.0 ]
 				}
 
 			}
@@ -324,7 +336,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1369.0, -26.325271499999531, 24.0, 24.0 ]
+					"patching_rect" : [ 1165.0, 118.208053500000347, 108.0, 108.0 ]
 				}
 
 			}
@@ -494,7 +506,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 94.333312999999976, 1467.266601999999921, 85.0, 22.0 ],
+					"patching_rect" : [ 97.433350000000019, 1389.066649999999981, 85.0, 22.0 ],
 					"text" : "r saveHandler"
 				}
 
@@ -11387,6 +11399,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-294", 0 ],
 					"source" : [ "obj-295", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-129", 0 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
