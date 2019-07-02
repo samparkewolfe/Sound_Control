@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1530.0, 84.0, 2113.0, 1237.0 ],
+		"rect" : [ 1478.0, 78.0, 1413.0, 634.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,

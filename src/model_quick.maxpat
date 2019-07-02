@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1677.0, 203.0, 2188.0, 1125.0 ],
+		"rect" : [ 1478.0, 78.0, 1368.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 389.0, 70.0, 22.0 ],
+					"patching_rect" : [ 139.333327999999995, 450.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.333327999999995, 440.0, 32.0, 22.0 ],
+					"patching_rect" : [ 139.333327999999995, 483.333252000000016, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -1170,17 +1170,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -12.666672000000005, 355.999908000000005, 150.0, 20.0 ],
-					"text" : "Grab n Play"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -1344,7 +1333,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.333327999999995, 37.0, 30.0, 30.0 ]
+					"patching_rect" : [ 142.333327999999995, 37.0, 30.0, 30.0 ]
 				}
 
 			}
