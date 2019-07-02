@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1576.0, 170.0, 1951.0, 1149.0 ],
+		"rect" : [ 1530.0, 84.0, 2113.0, 1237.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -10303,7 +10303,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 38.75, 1028.26666299999988, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "subpatch_construction.js",
+						"filename" : "subpatch_construction",
 						"parameter_enable" : 0
 					}
 ,
