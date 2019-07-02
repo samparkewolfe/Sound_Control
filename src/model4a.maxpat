@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 136.0, 81.0, 1212.0, 788.0 ],
+		"rect" : [ 170.0, 78.0, 821.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -136,6 +136,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.811764705882353, 0.576470588235294, 0.866666666666667, 1.0 ],
 					"id" : "obj-109",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -148,6 +149,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.737254901960784, 0.713725490196078, 0.403921568627451, 1.0 ],
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 9,
@@ -172,6 +174,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 10,
@@ -221,7 +224,7 @@
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "int" ],
-					"patching_rect" : [ 125.999977000000001, 48.333378000000003, 368.0, 273.0 ],
+					"patching_rect" : [ 125.999977000000001, 48.333378000000003, 300.0, 220.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 220.0 ],
 					"viewvisibility" : 1
@@ -599,7 +602,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-141", 0 ],
-					"midpoints" : [ 86.166640999999998, 666.0, 59.0, 666.0, 59.0, 17.0, 135.499977000000001, 17.0 ],
+					"midpoints" : [ 86.166640999999998, 666.0, 30.0, 666.0, 30.0, 17.0, 135.499977000000001, 17.0 ],
 					"source" : [ "obj-146", 0 ]
 				}
 
@@ -754,10 +757,6 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "rapidmax.mxo",

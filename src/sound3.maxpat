@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1839.0, 329.0, 1212.0, 683.0 ],
+		"rect" : [ 1748.0, 390.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2023,13 +2023,13 @@
 					"presentation_rect" : [ 251.999939000000012, 41.833373999999999, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[1]"
+							"parameter_mmin" : -70.0
 						}
 
 					}
