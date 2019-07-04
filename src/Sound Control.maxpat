@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 78.0, 1049.0, 788.0 ],
+		"rect" : [ 38.0, 78.0, 968.0, 567.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -2676,7 +2676,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 640.5, 641.0, 50.0, 35.0 ],
-									"text" : "32 -80 1024"
+									"text" : "32 -80 1040"
 								}
 
 							}
@@ -11428,11 +11428,11 @@
 					"presentation_rect" : [ 463.0, 71.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "button",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "button",
-							"parameter_enum" : [ "off", "on" ]
+							"parameter_shortname" : "button"
 						}
 
 					}
@@ -11487,7 +11487,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", "Micro:bit Position", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", "Micro:bit Touch" ],
+					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", "Micro:Bit Position (Bluetooth)", ",", "Mirco:Bit Position (USB)", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", "Micro:Bit Touch" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 109.0, 1212.0, 683.0 ],
+		"rect" : [ 38.0, 109.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 530.0, 293.0, 289.0, 22.0 ],
-					"text" : "16 -98 1022"
+					"text" : "32 -80 1024"
 				}
 
 			}
@@ -75,7 +75,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-33",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -146,11 +146,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-18",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 769.0, 128.0, 30.0, 30.0 ]
 				}
 
@@ -461,7 +461,7 @@
 					"patching_rect" : [ 330.0, 40.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
-					"text" : "MicroBit"
+					"text" : "Micro:Bit (Bluetooth)"
 				}
 
 			}
@@ -469,7 +469,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -668,7 +668,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
