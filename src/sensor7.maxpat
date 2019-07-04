@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1028.0, 247.0, 150.0, 60.0 ],
+					"text" : "sent to micro_bit patch and used to toggle between it sending bluetooth / serial data."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 915.0, 243.0, 105.0, 22.0 ],
+					"text" : "s MB_USB_active"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -74,6 +98,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
 					"id" : "obj-73",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -114,7 +139,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 172.0, 83.0, 22.0 ],
+					"patching_rect" : [ 784.0, 177.0, 83.0, 22.0 ],
 					"text" : "r getsavedata"
 				}
 
@@ -331,8 +356,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.0, 102.0, 182.0, 22.0 ],
-					"text" : "r sound_control_microbit_output"
+					"patching_rect" : [ 84.0, 102.0, 211.0, 22.0 ],
+					"text" : "r sound_control_microbit_output_USB"
 				}
 
 			}
@@ -500,7 +525,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 778.5, 159.0, 924.5, 159.0 ],
+					"order" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
 

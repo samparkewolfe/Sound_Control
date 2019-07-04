@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 109.0, 1212.0, 683.0 ],
+		"rect" : [ 106.0, 145.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1012.0, 307.0, 150.0, 60.0 ],
+					"text" : "this will be sent to the micro_bit patcher and used to switch between bluetooth and serial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 897.0, 306.0, 96.0, 22.0 ],
+					"text" : "s MB_BT_active"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -55,8 +79,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 530.0, 293.0, 289.0, 22.0 ],
-					"text" : "32 -80 1024"
+					"patching_rect" : [ 479.0, 390.0, 289.0, 22.0 ],
+					"text" : "16 16 1040"
 				}
 
 			}
@@ -66,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1022.0, 128.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1111.0, 128.0, 150.0, 20.0 ],
 					"text" : "Instrument name"
 				}
 
@@ -80,17 +104,18 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 990.0, 128.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1079.0, 128.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
 					"id" : "obj-73",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 769.0, 283.0, 81.0, 22.0 ],
+					"patching_rect" : [ 769.0, 306.0, 81.0, 22.0 ],
 					"text" : "s savesensor"
 				}
 
@@ -102,7 +127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 769.0, 245.0, 24.0, 22.0 ],
+					"patching_rect" : [ 769.0, 258.0, 24.0, 22.0 ],
 					"text" : "t 6"
 				}
 
@@ -126,7 +151,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 172.0, 83.0, 22.0 ],
+					"patching_rect" : [ 784.0, 179.0, 83.0, 22.0 ],
 					"text" : "r getsavedata"
 				}
 
@@ -357,8 +382,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.0, 102.0, 182.0, 22.0 ],
-					"text" : "r sound_control_microbit_output"
+					"patching_rect" : [ 84.0, 102.0, 202.0, 22.0 ],
+					"text" : "r sound_control_microbit_output_BT"
 				}
 
 			}
@@ -526,7 +551,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"midpoints" : [ 778.5, 159.0, 906.5, 159.0 ],
+					"order" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
 
