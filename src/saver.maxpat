@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1607.0, 122.0, 1368.0, 788.0 ],
+		"rect" : [ 448.0, 78.0, 883.0, 407.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,26 +40,22 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.00000799999998, 657.26647899999989, 195.0, 35.0 ],
-					"text" : "dictionary 1131training_data_extra_classify"
+					"patching_rect" : [ 374.00000799999998, 657.26647899999989, 195.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.00000799999998, 573.26647899999989, 321.0, 35.0 ],
-					"text" : "replace config::model::quickstore dictionary 1128_training_data_quick_store"
+					"patching_rect" : [ 311.00000799999998, 573.26647899999989, 321.0, 22.0 ]
 				}
 
 			}
@@ -85,20 +81,18 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 405.0, 719.0, 146.0, 76.0 ],
-					"text" : "replace config::model::standard dictionary 1133training_data_precise"
+					"text" : "replace config::model::standard dictionary 1174training_data_precise"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-18",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.00000799999998, 468.5, 163.0, 49.0 ],
-					"text" : "replace config::model::quick dictionary 1128_training_data_quick"
+					"patching_rect" : [ 390.00000799999998, 468.5, 163.0, 22.0 ]
 				}
 
 			}
@@ -122,7 +116,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 382.50000799999998, 395.0, 154.0, 49.0 ],
-					"text" : "replace config::sound dictionary 1086_sampleplayer_config"
+					"text" : "replace config::sound dictionary 1172_sampleplayer_config"
 				}
 
 			}
@@ -145,7 +139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 387.0, 283.0, 50.0, 22.0 ],
-					"text" : "5"
+					"text" : "1"
 				}
 
 			}
@@ -169,7 +163,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 332.0, 150.0, 50.0, 22.0 ],
-					"text" : "8"
+					"text" : "6"
 				}
 
 			}

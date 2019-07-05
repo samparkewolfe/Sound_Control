@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 78.0, 1060.0, 755.0 ],
+		"rect" : [ 83.0, 84.0, 998.0, 714.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -234,7 +234,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2128.816772500000297, 358.541427500000395, 110.0, 76.0 ],
-					"text" : "MB: Users martintownley Documents SoundControlStuff Saves microFM"
+					"text" : "MB: Users martintownley Documents SoundControlStuff Saves mbtouch"
 				}
 
 			}
@@ -269,7 +269,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1703.0, 307.007980500000372, 110.0, 76.0 ],
-					"text" : "MB: Users martintownley Documents SoundControlStuff Saves microFM"
+					"text" : "MB: Users martintownley Documents SoundControlStuff Saves mbtouch"
 				}
 
 			}
@@ -293,7 +293,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1708.0, 199.007980500000372, 119.166503999999804, 62.0 ],
-					"text" : "MB:/Users/martintownley/Documents/SoundControlStuff/Saves/microFM"
+					"text" : "MB:/Users/martintownley/Documents/SoundControlStuff/Saves/mbtouch"
 				}
 
 			}
@@ -306,7 +306,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1578.0, 97.0, 119.166503999999804, 62.0 ],
-					"text" : "MB:/Users/martintownley/Documents/SoundControlStuff/Saves/microFM.json"
+					"text" : "MB:/Users/martintownley/Documents/SoundControlStuff/Saves/mbtouch.json"
 				}
 
 			}
@@ -330,7 +330,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1555.0, 19.007980500000372, 209.0, 49.0 ],
-					"text" : "MB:/Users/martintownley/Documents/SoundControlStuff/Saves/microFM.json"
+					"text" : "MB:/Users/martintownley/Documents/SoundControlStuff/Saves/mbtouch.json"
 				}
 
 			}
@@ -343,7 +343,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1387.699951000000056, 438.007980500000372, 50.0, 76.0 ],
-					"text" : "config dictionary u677004755"
+					"text" : "config dictionary u528006065"
 				}
 
 			}
@@ -367,7 +367,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2193.0, 779.0, 119.0, 49.0 ],
-					"text" : "send microFM_quickmodel_config"
+					"text" : "send mbtouch_quickmodel_config"
 				}
 
 			}
@@ -380,7 +380,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2031.533325000000787, 782.174972500000422, 103.0, 35.0 ],
-					"text" : "dictionary u096004757"
+					"text" : "dictionary u667006067"
 				}
 
 			}
@@ -393,7 +393,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1915.233397999999852, 782.174972500000422, 103.0, 35.0 ],
-					"text" : "dictionary u048004758"
+					"text" : "dictionary u774011516"
 				}
 
 			}
@@ -406,7 +406,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1799.866577000000234, 782.174972500000422, 103.0, 35.0 ],
-					"text" : "dictionary u173004760"
+					"text" : "dictionary u252011518"
 				}
 
 			}
@@ -419,7 +419,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1680.699951000000056, 782.174972500000422, 103.0, 35.0 ],
-					"text" : "dictionary u335004759"
+					"text" : "dictionary u129011517"
 				}
 
 			}
@@ -432,7 +432,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1310.699951000000056, 773.174972500000422, 103.0, 49.0 ],
-					"text" : "outputdims dictionary u460004761"
+					"text" : "standard dictionary u667006067"
 				}
 
 			}
@@ -445,7 +445,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1446.0, 588.008712500000343, 50.0, 35.0 ],
-					"text" : "sensor 6"
+					"text" : "sensor 11"
 				}
 
 			}
@@ -458,7 +458,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1620.0, 566.0, 103.0, 35.0 ],
-					"text" : "model dictionary u003004756"
+					"text" : "sound dictionary u073006068"
 				}
 
 			}
@@ -726,7 +726,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1527.0, 425.0, 226.0, 49.0 ],
-					"text" : "import MB:/Users/martintownley/Documents/SoundControlStuff/Saves/microFM.json"
+					"text" : "import MB:/Users/martintownley/Documents/SoundControlStuff/Saves/mbtouch.json"
 				}
 
 			}
@@ -836,22 +836,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 412.458297999999559, 2109.66668176651001, 403.250029999999924, 282.0 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"border" : 2,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-176",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 412.458297999999559, 2401.333347678184509, 382.083404000000201, 192.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1169,7 +1153,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 281.999969000000021, 85.0, 22.0 ],
+					"patching_rect" : [ 76.0, 272.999969000000021, 85.0, 22.0 ],
 					"text" : "r Mac_or_Win"
 				}
 
@@ -2152,7 +2136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 523.999999999999773, 2477.233432678184727, 72.0, 22.0 ],
+					"patching_rect" : [ 523.999999999999773, 2458.00001472234726, 72.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -2186,7 +2170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 523.999999999999773, 2445.233432678184727, 60.0, 20.0 ],
+					"patching_rect" : [ 523.999999999999773, 2434.49996899999951, 60.0, 20.0 ],
 					"text" : "2- Win"
 				}
 
@@ -2197,7 +2181,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 523.999999999999773, 2423.233432678184727, 60.0, 20.0 ],
+					"patching_rect" : [ 523.999999999999773, 2412.49996899999951, 60.0, 20.0 ],
 					"text" : "1- Mac"
 				}
 
@@ -2527,7 +2511,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1569.0, 121.0, 2253.0, 1243.0 ],
+						"rect" : [ 143.0, 78.0, 2253.0, 1243.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2913,13 +2897,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-35",
-									"linecount" : 55,
+									"linecount" : 50,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 640.5, 641.0, 52.0, 746.0 ],
-									"text" : "øøHøHøÌÌÌÌÌ¿ÌÌèÌÌøÌÌÌÌHøÌ>HølHøÌÌHøÌäÌÌÌþÌøJHøÌÌþ>HøHøÌþÌþÌHäÌøJ\bøÌøÌÌøÌÌÌäÌÌÌÌÌÌÌÌlÌHøÌÌÌþÌHøþJHøêøøHøýÌÌÌÌÌýÌÌÌÌþHøøìÌÌúÌÌÌÌêÌúÌÌÌÌÌÌÌÌJÌJ øøHøHøÌÌÌÌÌ¿ÌÌèÌÌøÌÌÌÌHøÌ>HølHøÌÌHøÌäÌÌÌþÌøJHøÌÌþ>HøHøÌþÌþÌHäÌøJ\bøÌøÌÌøÌÌÌäÌÌÌÌÌÌÌÌlÌHøÌÌÌþÌHøþJHøêøøHøýÌÌÌÌÌýÌÌÌÌþHøøìÌÌúÌÌÌÌêÌúÌÌÌÌÌÌÌÌJÌJ øøHøHøÌÌÌÌÌ¿ÌÌèÌÌøÌÌÌÌHøÌ>HølHøÌÌHøÌäÌÌÌþÌøJHøÌÌþ>HøHøÌþÌþÌHäÌøJ\bøÌøÌÌøÌÌÌäÌÌÌÌÌÌÌÌlÌHøÌÌÌþÌHøþJHøêøøHøýÌÌÌÌÌýÌÌÌÌþHøøìÌÌúÌÌÌÌêÌúÌÌÌÌÌÌÌÌJÌJ"
+									"patching_rect" : [ 640.5, 641.0, 55.0, 679.0 ],
+									"text" : "øøHøHøÌÌÌÌÌ¿ÌÌèÌÌøÌÌÌÌHøÌ>HølHøÌÌHøÌäÌÌÌþÌøJHøÌÌþ>HøHøÌþÌþÌHäÌøJ\bøÌøÌÌøÌÌÌäÌÌÌÌÌÌÌÌlÌHøÌÌÌþÌHøþJHøêøøHøýÌÌÌÌÌýÌÌÌÌþHøøìÌÌúÌÌÌÌêÌúÌÌÌÌÌÌÌÌJÌJ øøHøHøÌÌÌÌÌ¿ÌÌèÌÌøÌÌÌÌHøÌ>HølHøÌÌHøÌäÌÌÌþÌøJHøÌÌþ>HøHøÌþÌþÌHäÌøJ\bøÌøÌÌøÌÌÌäÌÌÌÌÌÌÌÌlÌHøÌÌÌþÌHøþJHøêøøHøýÌÌÌÌÌýÌÌÌÌþHøøìÌÌúÌÌÌÌêÌúÌÌÌÌÌÌÌÌJÌJ øøHøHøÌÌÌÌÌ¿ÌÌèÌÌøÌÌÌÌHøÌ>HølHøÌÌHøÌäÌÌÌþÌøJHøÌÌþ>HøHøÌþÌþÌHäÌøJ\bøÌøÌÌøÌÌÌäÌÌÌÌÌÌÌÌlÌHøÌÌÌþÌHøþJHøêøøHøýÌÌÌÌÌýÌÌÌÌþHøøìÌÌúÌÌÌÌêÌúÌÌÌÌÌÌÌÌJÌJ"
 								}
 
 							}
@@ -5614,7 +5598,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1701.0, 188.0, 1212.0, 683.0 ],
+						"rect" : [ 181.0, 78.0, 1212.0, 683.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -11754,46 +11738,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 359.333344000000011, -39.000045999999998, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 71.0, 24.0, 24.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "button"
-						}
-
-					}
-,
-					"varname" : "button"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 337.833344000000011, -72.0, 59.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 38.0, 150.0, 20.0 ],
-					"text" : "Generate",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-7",
 					"items" : [ "Sample", "Player", ",", "Granulator", ",", "Looper", ",", "Mixer", ",", "FMSynth", ",", "Midi", "Mapper" ],
 					"maxclass" : "umenu",
@@ -13410,7 +13354,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 219.25, 81.0, 195.0, 81.0, 195.0, 225.0, 36.0, 225.0, 36.0, 678.0, 212.249999999999943, 678.0 ],
+					"midpoints" : [ 219.25, 81.0, 195.0, 81.0, 195.0, 225.0, 36.0, 225.0, 36.0, 664.0, 212.249999999999943, 664.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -13581,14 +13525,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13" : [ "button", "button", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",
