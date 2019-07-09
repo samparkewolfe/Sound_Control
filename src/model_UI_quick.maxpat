@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 106.0, 78.0, 1334.0, 788.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -266,7 +266,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-19",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -302,11 +302,11 @@
 				"box" : 				{
 					"comment" : "Active",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 615.333312999999976, 47.0, 30.0, 30.0 ]
 				}
 
@@ -387,7 +387,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-18",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -644,7 +644,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -873,7 +873,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -897,7 +897,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1127,7 +1127,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-132",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1139,7 +1139,7 @@
 				"box" : 				{
 					"comment" : "Precise",
 					"id" : "obj-133",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1151,7 +1151,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-136",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1163,7 +1163,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-138",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1829,6 +1829,15 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "keystate.maxpat",
+				"bootpath" : "~/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
