@@ -4,15 +4,15 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 178.0, 114.0, 841.0, 712.0 ],
+		"rect" : [ 34.0, 77.0, 1298.0, 617.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -67,7 +67,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 449.0, 428.0, 174.0, 35.0 ],
+					"patching_rect" : [ 449.0, 428.0, 174.0, 36.0 ],
 					"text" : "dictionary 2032_training_data_quick"
 				}
 
@@ -275,7 +275,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 917.416625999999951, 233.000014999999991, 150.0, 154.0 ],
+					"patching_rect" : [ 917.416625999999951, 233.000014999999991, 150.0, 158.0 ],
 					"text" : "ALL HAVE:\n\n1. metro\n2. train bang\n3. clear\n4. input\n5. output\n\n1 have Run.\n\n1 has dict input"
 				}
 
@@ -287,7 +287,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.666640999999998, 73.000015000000005, 97.0, 114.0 ],
+					"patching_rect" : [ 41.666640999999998, 73.000015000000005, 97.0, 117.0 ],
 					"text" : "Output:\nPresice (metro)\nPreciece Train\nQuick (metro)\nQuick Train.\nClear (bang)\nUndo (bang)\nRun (1/0)"
 				}
 
@@ -809,8 +809,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rapidmax.mxo",
-				"type" : "iLaX"
+				"name" : "rapidmax.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
