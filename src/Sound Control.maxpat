@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1559.0, 78.0, 1944.0, 1253.0 ],
+		"rect" : [ 605.0, 120.0, 651.0, 394.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,17 @@
 		"subpatcher_template" : "",
 		"title" : "Sound Control",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 217.0, 194.0, 150.0, 20.0 ],
+					"text" : "yo"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
@@ -14002,7 +14013,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "leapmotion.mxo",
+				"name" : "Leapmotion.mxo",
 				"type" : "iLaX"
 			}
 , 			{
