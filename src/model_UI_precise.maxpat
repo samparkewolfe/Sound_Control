@@ -4,15 +4,15 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 39.0, 78.0, 1368.0, 787.0 ],
+		"rect" : [ 1836.0, 291.0, 1368.0, 787.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -78,9 +78,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 154.333374000000049, 124.333312999999976, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 452.333374000000049, 619.333312999999976, 24.0, 24.0 ]
+					"patching_rect" : [ 154.333374000000049, 124.333312999999976, 24.0, 24.0 ]
 				}
 
 			}
@@ -92,9 +90,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 114.333457999999993, 120.5, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 336.333373999999992, 619.333312999999976, 24.0, 24.0 ]
+					"patching_rect" : [ 114.333457999999993, 120.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -106,9 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.333312999999976, 77.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 45.333312999999976, 74.333312999999976, 24.0, 24.0 ],
+					"patching_rect" : [ 45.333312999999976, 80.0, 24.0, 24.0 ],
 					"varname" : "model_play_toggle[1]"
 				}
 
@@ -265,7 +259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 659.0, 88.0, 33.0 ],
+					"patching_rect" : [ 510.0, 659.0, 88.0, 34.0 ],
 					"text" : "q: 113\nw: 119"
 				}
 
@@ -365,10 +359,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.0, 172.5, 150.0, 60.0 ],
+					"patching_rect" : [ 184.0, 172.5, 150.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 83.0, 65.5, 217.0, 33.0 ],
+					"presentation_rect" : [ 83.0, 65.5, 217.0, 34.0 ],
 					"text" : "Click and show one gesture that will make the sounds current configuration."
 				}
 
@@ -380,7 +374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 398.0, 109.0, 150.0, 47.0 ],
+					"patching_rect" : [ 398.0, 109.0, 150.0, 48.0 ],
 					"text" : "Hold and show many gestures that will make a random mapping."
 				}
 

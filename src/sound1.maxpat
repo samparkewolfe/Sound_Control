@@ -4,15 +4,15 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 193.0, 78.0, 1006.0, 765.0 ],
+		"rect" : [ 193.0, 85.0, 606.0, 765.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -1181,10 +1181,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.333252000000002, 707.0, 32.666504000000003, 74.0 ],
+					"patching_rect" : [ 24.333252000000002, 707.0, 32.666504000000003, 75.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 118.0, 110.0, 71.666504000000003, 33.0 ],
+					"presentation_rect" : [ 118.0, 110.0, 71.666504000000003, 34.0 ],
 					"text" : "Trigger Sample",
 					"textjustification" : 1
 				}
