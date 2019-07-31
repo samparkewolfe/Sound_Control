@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 38.0, 79.0, 1108.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -418,7 +418,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.157227000000034, 1700.500121999999919, 38.0, 33.0 ],
+					"patching_rect" : [ 771.157227000000034, 1700.500121999999919, 38.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 223.25, 85.0, 62.899994, 20.0 ],
 					"text" : "Colour",
@@ -429,7 +429,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.607843, 0.47451, 0.172549, 1.0 ],
+					"bgcolor" : [ 0.23921568627451, 0.32156862745098, 0.482352941176471, 1.0 ],
 					"border" : 2,
 					"id" : "obj-107",
 					"maxclass" : "panel",
@@ -438,7 +438,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 643.514159999999947, 1700.500121999999919, 51.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 242.199996999999996, 105.0, 25.0, 25.0 ],
+					"presentation_rect" : [ 229.700000499999987, 105.0, 50.0, 50.0 ],
 					"proportion" : 0.39
 				}
 
@@ -589,7 +589,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 458.0, 21.0, 150.0, 20.0 ],
+					"patching_rect" : [ 528.0, 21.0, 150.0, 20.0 ],
 					"text" : "140 105"
 				}
 
@@ -709,10 +709,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 21.0, 150.0, 20.0 ],
+					"patching_rect" : [ 202.0, 21.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 215.300003000000004, 140.0, 78.799994999999996, 33.0 ],
+					"presentation_rect" : [ 215.300003000000004, 157.0, 78.799994999999996, 33.0 ],
 					"text" : "Colour Position:",
 					"textjustification" : 1
 				}
@@ -751,7 +751,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 214.5, 2244.0, 66.714354999999998, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 212.199996999999996, 173.0, 85.0, 20.0 ],
+					"presentation_rect" : [ 212.199996999999996, 190.0, 85.0, 20.0 ],
 					"text" : "Absent",
 					"textjustification" : 1
 				}
@@ -2414,7 +2414,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.725337, 0.592004, 0.290043, 1.0 ],
+					"bgcolor" : [ 0.23921568627451, 0.32156862745098, 0.482352941176471, 1.0 ],
 					"border" : 2,
 					"id" : "obj-59",
 					"maxclass" : "panel",
@@ -2429,7 +2429,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.490349, 0.357016, 0.055055, 1.0 ],
+					"bgcolor" : [ 0.23921568627451, 0.32156862745098, 0.482352941176471, 1.0 ],
 					"border" : 2,
 					"id" : "obj-58",
 					"maxclass" : "panel",
