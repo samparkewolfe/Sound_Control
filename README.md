@@ -13,6 +13,8 @@ The Sound Control project is supported by a Paul Hamlyn Foundation “Widening A
 ### CBMicroBit
 https://github.com/Louismac/CBMicroBit
 
+(Update Microbit Info)
+
 * In order to use the CBMicrobit.exe with Sound Control as sources instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit. The .pkg downloader puts it there for you.
 * To use the Micro:Bit you have to load it with a .hex file. There are currently two different micro:bits in rotation:
     * New Micro:Bit: If you have a new microbit it probably has a combined accelerometer and magnetometer, in this case you should load the "CBMicroBit-New-Combined-Accelerometer-Compass.hex" onto your Micro:Bit.
@@ -44,6 +46,7 @@ https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
 
 ## Win Vs Mac
 Sound Control source has a build for windows or mac flag, this is what it changes.
+(Insert flag instructions here)
 * Which Gametrak encoding method is used
 * Whether the microbit sensors show up in the umenu.
 
@@ -52,9 +55,17 @@ Sound Control source has a build for windows or mac flag, this is what it change
 * This process happens after building the standalone so one can not save instruments by just using the scripts.
 
 ## Known Bugs
+(Update)
 
 The app automatically sets it’s audio I/O to whatever the I/O settings of the Max.app are. If you want to change these you must close the Sound Control app, set the desired audio I/O settings in the Max.app and then reopen Sound Control. However you can then change the audio I/O settings for the Max.app and not change the Sound Control audio I/O settings after the Sound Control app has been opened.
 
 ![alt text](/logos/NMPAT_long.jpg?raw=true "Logo1")
 ![alt text](/logos/pfh.jpg?raw=true "Logo2")
 ![alt text](/logos/Youth_Music.jpg?raw=true "Logo3")
+
+## Building
+* Insert build instructions here
+
+## Navigating patcher
+(Insert info on Max menus, window no-grow etc.)
+

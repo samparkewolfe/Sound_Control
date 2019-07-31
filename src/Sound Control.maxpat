@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 78.0, 937.0, 521.0 ],
+		"rect" : [ 53.0, 78.0, 1109.0, 691.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,30 @@
 		"subpatcher_template" : "",
 		"title" : "Sound Control",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-129",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 560.0, 392.799987999999985, 70.0, 22.0 ],
+					"text" : "loadmess 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-118",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 483.0, 392.799987999999985, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "rounded",
 					"fontface" : 0,
@@ -71,18 +95,6 @@
 					"text" : "Open Recorder",
 					"texton" : "Open Recorder",
 					"textoncolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-130",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 860.0, 473.163498500000401, 70.0, 22.0 ],
-					"text" : "loadmess 2"
 				}
 
 			}
@@ -122,7 +134,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 823.083344000000125, 367.49996899999951, 100.0, 23.0 ]
+					"patching_rect" : [ 824.0, 381.999968999999965, 100.0, 23.0 ]
 				}
 
 			}
@@ -1991,7 +2003,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 457.333374000000276, 524.09985400000005, 102.0, 22.0 ],
+					"patching_rect" : [ 457.333374000000276, 551.09985400000005, 102.0, 22.0 ],
 					"text" : "print mac_or_win"
 				}
 
@@ -2026,7 +2038,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.583374000000049, 524.09985400000005, 87.0, 22.0 ],
+					"patching_rect" : [ 582.583374000000049, 551.09985400000005, 87.0, 22.0 ],
 					"text" : "s Mac_or_Win"
 				}
 
@@ -2049,7 +2061,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.583374000000049, 389.49996899999951, 60.0, 20.0 ],
+					"patching_rect" : [ 697.083374000000049, 330.49996899999951, 60.0, 20.0 ],
 					"text" : "2- Win"
 				}
 
@@ -2060,7 +2072,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.583374000000049, 367.49996899999951, 60.0, 20.0 ],
+					"patching_rect" : [ 697.083374000000049, 308.49996899999951, 60.0, 20.0 ],
 					"text" : "1- Mac"
 				}
 
@@ -2073,7 +2085,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 582.583374000000049, 493.007980500000372, 50.0, 22.0 ]
+					"patching_rect" : [ 651.583374000000049, 474.007980500000372, 50.0, 22.0 ]
 				}
 
 			}
@@ -11484,7 +11496,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", "Micro:Bit Position (Bluetooth)", ",", "Mirco:Bit Position (USB)", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", "Micro:Bit Touch" ],
+					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", " ", ",", "Micro:Bit Position (USB) ", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", " " ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11888,7 +11900,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-130", 0 ]
+					"source" : [ "obj-129", 0 ]
 				}
 
 			}
