@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 47.0, 78.0, 972.0, 732.0 ],
+		"rect" : [ 330.0, 147.0, 773.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,18 +39,161 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.533333333333333, 0.525490196078431, 0.525490196078431, 1.0 ],
+					"bgoncolor" : [ 0.25098, 0.501961, 0.0, 1.0 ],
+					"id" : "obj-51",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 400.0, 499.0, 44.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 112.0, 186.0, 39.0, 16.0 ],
+					"rounded" : 10.0,
+					"text" : "here",
+					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 308.0, 499.0, 245.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 20.0, 186.0, 260.0, 33.0 ],
+					"text" : "Windows: Click                to install serial port driver. Re-load instrument once installed. "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 273.0, 593.0, 444.0, 35.0 ],
+					"text" : ";\rmax launch_browser https://os.mbed.com/handbook/Windows-serial-configuration"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"id" : "obj-46",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 308.0, 409.0, 151.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 16.0, 149.5, 268.0, 33.0 ],
+					"text" : "(Make sure your Micro:Bit has been flashed with the correct HEX file for USB communication)",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 734.0, 40.0, 4.0, 448.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 297.0, 102.0, 111.0, 20.0 ],
+					"text" : "from sensor7 patch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 557.0, 243.0, 150.0, 20.0 ],
+					"text" : "to sensor7 patch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 500.0, 166.0, 150.0, 20.0 ],
+					"text" : "from sensor7 patch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "rounded",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-35",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 34.0, 201.0, 130.0, 23.0 ],
+					"text_width" : 80.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 542.0, 205.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 44.0, 71.0, 20.0 ],
+					"text" : "Select Port:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 234.0, 79.0, 22.0 ],
+					"patching_rect" : [ 127.0, 264.0, 79.0, 22.0 ],
 					"text" : "s serial_scan"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.811764705882353, 0.576470588235294, 0.866666666666667, 1.0 ],
 					"bgoncolor" : [ 0.25098, 0.501961, 0.0, 1.0 ],
 					"id" : "obj-111",
 					"legacytextcolor" : 1,
@@ -59,13 +202,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 127.0, 167.0, 100.0, 20.0 ],
+					"patching_rect" : [ 127.0, 234.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 46.0, 100.0, 20.0 ],
-					"text" : "Scan Serial Port",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"presentation_rect" : [ 112.0, 69.0, 91.0, 20.0 ],
+					"rounded" : 10.0,
+					"text" : "(Refresh Menu)",
+					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -73,11 +217,12 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 321.0, 188.0, 79.0, 22.0 ],
+					"patching_rect" : [ 474.0, 243.0, 79.0, 22.0 ],
 					"text" : "s from_menu"
 				}
 
@@ -91,20 +236,21 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 321.0, 136.0, 100.0, 22.0 ],
+					"patching_rect" : [ 433.5, 205.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 74.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 10.0, 68.0, 100.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.811764705882353, 0.576470588235294, 0.866666666666667, 1.0 ],
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.0, 102.0, 63.0, 22.0 ],
+					"patching_rect" : [ 433.5, 166.0, 63.0, 22.0 ],
 					"text" : "r to_menu"
 				}
 
@@ -305,7 +451,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 473.0, 201.0, 29.5, 22.0 ],
+					"patching_rect" : [ 314.0, 147.0, 29.5, 22.0 ],
 					"text" : "b"
 				}
 
@@ -318,9 +464,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 536.0, 194.0, 24.0, 24.0 ],
+					"patching_rect" : [ 314.0, 171.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.5, 32.0, 48.0, 48.0 ]
+					"presentation_rect" : [ 223.0, 32.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -330,9 +476,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 473.0, 172.0, 67.0, 20.0 ],
+					"patching_rect" : [ 236.0, 168.0, 67.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.0, 10.0, 67.0, 20.0 ],
+					"presentation_rect" : [ 213.5, 10.0, 67.0, 20.0 ],
 					"text" : "Connected",
 					"textjustification" : 1
 				}
@@ -448,7 +594,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 330.0, 71.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.0, 105.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 185.0, 99.0, 18.0, 20.0 ],
 					"text" : "Z"
 				}
 
@@ -461,7 +607,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 162.166672000000005, 71.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.0, 105.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 133.0, 99.0, 18.0, 20.0 ],
 					"text" : "Y"
 				}
 
@@ -474,7 +620,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 76.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 89.0, 105.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 81.0, 99.0, 18.0, 20.0 ],
 					"text" : "X"
 				}
 
@@ -501,7 +647,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 412.0, 335.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 127.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 169.0, 121.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -515,7 +661,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 360.0, 335.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 127.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 117.0, 121.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -529,7 +675,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 308.0, 335.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 127.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 65.0, 121.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -547,13 +693,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 40.0, 150.0, 20.0 ],
+					"patching_rect" : [ 19.0, 40.0, 160.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 160.0, 20.0 ],
 					"text" : "Micro:Bit (USB)"
 				}
 
@@ -704,6 +851,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-111", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -727,6 +881,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"midpoints" : [ 272.0, 600.0 ],
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}
