@@ -8,6 +8,12 @@ The goal of the Sound Control project is to collaborate with youth with special 
 
 The Sound Control project is supported by a Paul Hamlyn Foundation “Widening Access and Participation in the Arts” grant. The project is led by the Northamptonshire Music and Performing Arts Trust.
 
+## General
+* On opening the patch, some standard Max settings may be disabled. This is so that the guts of the patch are hidden from the user in the standalone.
+	* To access full Max menus: File > Max Menus
+	* To enable scrolling and window enlarging: CTRL + F "window flags". This should scope to a message box:[window flags nogrow, window exec]. Connect this message box to the loadbang object above, save the patcher, and re-open it.
+* Building: Connect
+
 ## Externals & 3rd Party Software Used
 
 ### CBMicroBit
