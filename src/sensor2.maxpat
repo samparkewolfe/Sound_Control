@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1189.0, 117.0, 1282.0, 1139.0 ],
+		"rect" : [ 514.0, 141.0, 1059.0, 1139.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -136,8 +136,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1170.0, 158.0, 222.0, 22.0 ],
-					"text" : "jit.window dumbCam_vis @pos 100 500"
+					"patching_rect" : [ 1170.0, 158.0, 274.0, 22.0 ],
+					"text" : "jit.window dumbCam_vis @pos 100 500 @grow 0"
 				}
 
 			}
@@ -1139,15 +1139,16 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-321",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 4.0, 150.0, 34.0 ],
+					"patching_rect" : [ 5.5, 4.0, 156.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 10.0, 10.0, 70.333359000000002, 34.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 74.0, 34.0 ],
 					"text" : "Dumb\nCamera"
 				}
 

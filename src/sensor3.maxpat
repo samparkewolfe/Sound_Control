@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 173.0, 1078.0, 1075.0 ],
+		"rect" : [ 713.0, 141.0, 1290.0, 1075.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -352,8 +352,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 728.0, 956.0, 229.0, 22.0 ],
-					"text" : "jit.window colourTrack_vis @pos 100 500"
+					"patching_rect" : [ 676.0, 981.0, 281.0, 22.0 ],
+					"text" : "jit.window colourTrack_vis @pos 100 500 @grow 0"
 				}
 
 			}
@@ -4416,7 +4416,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 112.25, 1116.0, 633.0, 1116.0, 633.0, 948.0, 737.5, 948.0 ],
+					"midpoints" : [ 112.25, 1116.0, 633.0, 1116.0, 633.0, 948.0, 685.5, 948.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 

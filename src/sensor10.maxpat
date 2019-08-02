@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1274.0, 160.0, 1101.0, 950.0 ],
+		"rect" : [ 605.0, 165.0, 1101.0, 950.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -213,8 +213,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 729.0, 885.0, 257.0, 22.0 ],
-					"text" : "jit.window multiColourTrack_vis @pos 100 500"
+					"patching_rect" : [ 729.0, 885.0, 309.0, 22.0 ],
+					"text" : "jit.window multiColourTrack_vis @pos 100 500 @grow 0"
 				}
 
 			}
