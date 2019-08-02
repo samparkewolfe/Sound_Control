@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 79.0, 83.0, 482.0, 748.0 ],
+		"rect" : [ 79.0, 85.0, 482.0, 748.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,8 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 869.0, 308.5, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 869.0, 308.5, 150.0, 48.0 ],
 					"text" : "(get number at the end of the file name and send to savesensor)"
 				}
 
@@ -70,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 871.0, 253.0, 148.0, 35.0 ],
+					"patching_rect" : [ 871.0, 253.0, 148.0, 36.0 ],
 					"text" : "fromsymbol @separator sensor"
 				}
 
@@ -115,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1129.0, 253.0, 150.0, 60.0 ],
+					"patching_rect" : [ 1129.0, 253.0, 150.0, 62.0 ],
 					"text" : "this will be sent to the micro_bit patcher and used to switch between bluetooth and serial"
 				}
 
@@ -376,7 +375,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 33.0, 150.0, 33.0 ],
+					"patching_rect" : [ 12.0, 33.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 32.0, 159.0, 20.0 ],
 					"text" : "Remeber: turn on bluetooth."
@@ -526,13 +525,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 40.0, 150.0, 20.0 ],
+					"patching_rect" : [ 330.0, 40.0, 165.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 165.0, 20.0 ],
 					"text" : "Micro:Bit (Bluetooth)"
 				}
 

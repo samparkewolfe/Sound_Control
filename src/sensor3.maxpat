@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1955.0, -462.0, 1193.0, 1060.0 ],
+		"rect" : [ 48.0, 173.0, 1078.0, 1075.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,42 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-113",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 426.5, 652.0, 150.0, 62.0 ],
+					"text" : "close the grabber when the instrument closes, allowing it to be used by another instrument"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-115",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 361.5, 691.333129999999983, 37.0, 22.0 ],
+					"text" : "close"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-117",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 361.5, 652.0, 63.0, 22.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-126",
 					"maxclass" : "comment",
@@ -138,7 +174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 750.0, 1220.0, 150.0, 60.0 ],
+					"patching_rect" : [ 750.0, 1220.0, 150.0, 62.0 ],
 					"text" : "extracting the mouse coord numbers, then putting them back into a mouse message"
 				}
 
@@ -222,7 +258,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.123711109161377, 1327.834977149963379, 54.0, 49.0 ],
+					"patching_rect" : [ 4.123711109161377, 1327.834977149963379, 54.0, 50.0 ],
 					"text" : "134 69 1 0 0 0 0 0"
 				}
 
@@ -235,7 +271,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.539965830955452, 1333.500121999999919, 52.0, 49.0 ],
+					"patching_rect" : [ 262.539965830955452, 1333.500121999999919, 52.0, 50.0 ],
 					"text" : "97 100 0 0 0 0 0 0"
 				}
 
@@ -248,7 +284,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.296388864517212, 1274.000121999999919, 52.0, 35.0 ],
+					"patching_rect" : [ 228.296388864517212, 1274.000121999999919, 52.0, 36.0 ],
 					"text" : "getcell 134 69"
 				}
 
@@ -304,7 +340,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 508.0, 919.0, 194.0, 23.0 ],
+					"patching_rect" : [ 504.0, 919.0, 194.0, 23.0 ],
 					"text_width" : 73.0
 				}
 
@@ -702,7 +738,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 771.157227000000034, 1700.500121999999919, 38.0, 33.0 ],
+					"patching_rect" : [ 771.157227000000034, 1700.500121999999919, 38.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 223.25, 85.0, 62.899994, 20.0 ],
 					"text" : "Colour",
@@ -942,6 +978,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.505882352941176, 0.772549019607843, 0.529411764705882, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -996,7 +1033,7 @@
 					"patching_rect" : [ 202.0, 21.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 215.300003000000004, 157.0, 78.799994999999996, 33.0 ],
+					"presentation_rect" : [ 215.300003000000004, 157.0, 78.799994999999996, 34.0 ],
 					"text" : "Colour Position:",
 					"textjustification" : 1
 				}
@@ -1036,7 +1073,7 @@
 					"patching_rect" : [ 214.5, 2244.0, 66.714354999999998, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 212.199996999999996, 190.0, 85.0, 20.0 ],
-					"text" : "25.00 0.00",
+					"text" : "Absent",
 					"textjustification" : 1
 				}
 
@@ -1199,7 +1236,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1491,7 +1528,7 @@
 					"patching_rect" : [ 361.5, 21.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 215.300003000000004, 40.0, 81.0, 33.0 ],
+					"presentation_rect" : [ 215.300003000000004, 40.0, 81.0, 34.0 ],
 					"text" : "Click to track a colour!",
 					"textjustification" : 1
 				}
@@ -1518,7 +1555,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.285644999999988, 1985.000121999999919, 86.0, 33.0 ],
+					"patching_rect" : [ 423.285644999999988, 1985.000121999999919, 86.0, 34.0 ],
 					"text" : "right - bottom corner"
 				}
 
@@ -1532,7 +1569,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.285644999999988, 1985.000121999999919, 70.571410999999998, 33.0 ],
+					"patching_rect" : [ 227.285644999999988, 1985.000121999999919, 70.571410999999998, 34.0 ],
 					"text" : "left - top corner"
 				}
 
@@ -1599,7 +1636,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.5, 1781.500121999999919, 135.0, 37.0 ],
+					"patching_rect" : [ 385.5, 1781.500121999999919, 135.0, 38.0 ],
 					"text" : "set range of fastblur to remove noise"
 				}
 
@@ -1758,7 +1795,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2069,7 +2106,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2676,7 +2713,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 509.357177999999976, 1699.500121999999919, 38.0, 33.0 ],
+					"patching_rect" : [ 509.357177999999976, 1699.500121999999919, 38.0, 34.0 ],
 					"text" : "Colour",
 					"textjustification" : 1
 				}
@@ -2739,7 +2776,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3829,7 +3866,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-84",
-					"items" : "FaceTime HD Camera",
+					"items" : "Integrated Webcam",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3949,6 +3986,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-115", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-163", 0 ],
 					"order" : 1,
 					"source" : [ "obj-116", 0 ]
@@ -3960,6 +4004,13 @@
 					"destination" : [ "obj-170", 0 ],
 					"order" : 0,
 					"source" : [ "obj-116", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"source" : [ "obj-117", 0 ]
 				}
 
 			}
@@ -4112,6 +4163,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
+					"midpoints" : [ 82.183341999999996, 213.0, 57.0, 213.0, 57.0, 225.0, 24.0, 225.0, 24.0, 498.0, 46.683342000000003, 498.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -4891,6 +4943,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 1 ],
+					"midpoints" : [ 32.683341999999996, 264.0, 24.0, 264.0, 24.0, 342.0, 62.183342000000003, 342.0 ],
 					"source" : [ "obj-99", 0 ]
 				}
 
@@ -4910,8 +4963,31 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "jit.pass.mxe64",
+				"type" : "mx64"
+			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

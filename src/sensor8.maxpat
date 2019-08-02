@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 42.0, 85.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 874.0, 253.09368900000004, 150.0, 47.0 ],
+					"patching_rect" : [ 874.0, 253.09368900000004, 150.0, 48.0 ],
 					"text" : "(get number at the end of the file name and send to savesensor)"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 882.0, 210.09368900000004, 148.0, 35.0 ],
+					"patching_rect" : [ 882.0, 210.09368900000004, 148.0, 36.0 ],
 					"text" : "fromsymbol @separator sensor"
 				}
 
@@ -432,7 +432,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-36",
-					"items" : [ "Built-in Microphone", ",", "iShowU Audio Capture" ],
+					"items" : [ "None", ",", "Microphone Array (Realtek Audio" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -486,13 +486,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 40.0, 150.0, 20.0 ],
+					"patching_rect" : [ 330.0, 40.0, 161.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 161.0, 20.0 ],
 					"text" : "Microphone"
 				}
 

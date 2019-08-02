@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 136.0, 80.0, 1212.0, 683.0 ],
+		"rect" : [ 1189.0, 117.0, 1282.0, 1139.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,152 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "size",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-55",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1170.0, 105.166686999999996, 194.0, 23.0 ],
+					"text_width" : 73.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "size",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-54",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 937.0, 105.166686999999996, 194.0, 23.0 ],
+					"text_width" : 73.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1170.0, 44.0, 150.0, 48.0 ],
+					"text" : "proportion multiplier - popout window will be 3x larger"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1096.0, 44.0, 70.0, 22.0 ],
+					"text" : "loadmess 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 937.0, 22.0, 150.0, 20.0 ],
+					"text" : "window width (original)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.866666666666667, 0.290196078431373, 0.290196078431373, 1.0 ],
+					"id" : "obj-119",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 937.0, 70.0, 91.0, 22.0 ],
+					"text" : "pWindowSizing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 937.0, 44.0, 83.0, 22.0 ],
+					"text" : "loadmess 200"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1170.0, 158.0, 222.0, 22.0 ],
+					"text" : "jit.window dumbCam_vis @pos 100 500"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-113",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 510.5, 595.0, 150.0, 62.0 ],
+					"text" : "close the grabber when the instrument closes, allowing it to be used by another instrument"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-115",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 445.5, 634.333129999999983, 37.0, 22.0 ],
+					"text" : "close"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-117",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 445.5, 595.0, 63.0, 22.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.0, 567.0, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 1100.0, 993.0, 150.0, 48.0 ],
 					"text" : "(get number at the end of the file name and send to savesensor)"
 				}
 
@@ -58,8 +197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 982.0, 525.0, 148.0, 35.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 1095.0, 951.0, 148.0, 36.0 ],
 					"text" : "fromsymbol @separator sensor"
 				}
 
@@ -73,7 +211,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 982.0, 501.0, 49.0, 20.0 ],
+					"patching_rect" : [ 1095.0, 927.0, 49.0, 20.0 ],
 					"text" : "strippath"
 				}
 
@@ -87,7 +225,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 982.0, 475.0, 60.0, 20.0 ],
+					"patching_rect" : [ 1095.0, 901.0, 60.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "namey.js",
 						"parameter_enable" : 0
@@ -104,7 +242,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 873.0, 558.0, 29.5, 22.0 ],
+					"patching_rect" : [ 986.0, 984.0, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -116,7 +254,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 873.0, 644.0, 155.0, 33.0 ],
+					"patching_rect" : [ 986.0, 1070.0, 155.0, 34.0 ],
 					"text" : "sends to saver sub in main patch"
 				}
 
@@ -128,7 +266,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 717.0, 506.0, 150.0, 33.0 ],
+					"patching_rect" : [ 830.0, 932.0, 150.0, 34.0 ],
 					"text" : "1 is sent when the sensor is active, opening the gate"
 				}
 
@@ -140,7 +278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 724.0, 420.0, 152.0, 60.0 ],
+					"patching_rect" : [ 837.0, 846.0, 152.0, 62.0 ],
 					"text" : "receives from saver sub in main patch, banged when the saveHandler is triggered"
 				}
 
@@ -151,7 +289,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1209.0, 357.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1322.0, 783.0, 150.0, 20.0 ],
 					"text" : "Instrument name"
 				}
 
@@ -165,7 +303,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1177.0, 357.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1290.0, 783.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -176,7 +314,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 873.0, 615.0, 81.0, 22.0 ],
+					"patching_rect" : [ 986.0, 1041.0, 81.0, 22.0 ],
 					"text" : "s savesensor"
 				}
 
@@ -188,7 +326,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 873.0, 506.0, 34.0, 22.0 ],
+					"patching_rect" : [ 986.0, 932.0, 34.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -201,7 +339,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 888.0, 420.0, 83.0, 22.0 ],
+					"patching_rect" : [ 1001.0, 846.0, 83.0, 22.0 ],
 					"text" : "r getsavedata"
 				}
 
@@ -212,7 +350,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 905.0, 380.0, 44.0, 20.0 ],
+					"patching_rect" : [ 1018.0, 806.0, 44.0, 20.0 ],
 					"text" : "Active"
 				}
 
@@ -226,7 +364,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 873.0, 357.0, 30.0, 30.0 ]
+					"patching_rect" : [ 986.0, 783.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -459,7 +597,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 570.5, 55.0, 184.0, 22.0 ],
+					"patching_rect" : [ 570.5, 49.0, 184.0, 22.0 ],
 					"text" : "jit.spill @plane 2 @listlength 100"
 				}
 
@@ -518,7 +656,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1006,10 +1144,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 4.0, 150.0, 33.0 ],
+					"patching_rect" : [ 5.5, 4.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 10.0, 10.0, 70.333359000000002, 33.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 70.333359000000002, 34.0 ],
 					"text" : "Dumb\nCamera"
 				}
 
@@ -1061,9 +1199,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 615.0, 92.666625999999994, 240.0, 240.0 ],
+					"patching_rect" : [ 615.0, 92.666625999999994, 200.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 50.0, 190.0, 142.5 ]
+					"presentation_rect" : [ 55.0, 50.0, 200.0, 150.0 ]
 				}
 
 			}
@@ -1111,7 +1249,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-78",
-					"items" : "FaceTime HD Camera",
+					"items" : "Integrated Webcam",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1181,6 +1319,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-115", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"source" : [ "obj-117", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-119", 1 ]
 				}
 
 			}
@@ -1313,6 +1479,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -1371,6 +1544,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
@@ -1443,6 +1623,28 @@
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 1 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"midpoints" : [ 946.5, 129.0, 867.0, 129.0, 867.0, 78.0, 624.5, 78.0 ],
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -1546,8 +1748,34 @@
 				"type" : "TEXT",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "pWindowSizing.maxpat",
+				"bootpath" : "~/Sound_Control/src",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 78.0, 255.0, 972.0, 494.0 ],
+		"rect" : [ 587.0, 272.0, 1467.0, 664.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -187,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 803.0, 1609.0, 150.0, 60.0 ],
+					"patching_rect" : [ 803.0, 1609.0, 150.0, 62.0 ],
 					"text" : "<this should tell you what hex file is on the microbit – the one for bluetooth, or the one for serial"
 				}
 
@@ -267,7 +267,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 722.0, 661.100220000000036, 285.0, 33.0 ],
+					"patching_rect" : [ 722.0, 661.100220000000036, 285.0, 34.0 ],
 					"text" : "triggers a bang to the gate send an address to the shell object."
 				}
 
@@ -392,7 +392,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1555.0, 19.007980500000372, 209.0, 35.0 ],
+					"patching_rect" : [ 1555.0, 19.007980500000372, 209.0, 36.0 ],
 					"text" : "MB:/Users/martintownley/Sound_Control/bin/COLOUR_LOOPER.json"
 				}
 
@@ -415,7 +415,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.333336000000003, 1126.266601999999921, 154.0, 33.0 ],
+					"patching_rect" : [ 226.333336000000003, 1126.266601999999921, 154.0, 34.0 ],
 					"text" : "< receives from instrument subpatch when test saving"
 				}
 
@@ -440,7 +440,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 618.0, 1052.0, 344.0, 100.0 ],
+					"patching_rect" : [ 618.0, 1052.0, 344.0, 103.0 ],
 					"text" : "Model 1 = Standard\nModel 2 = Standard\nModel 3 = Standard + Quick\nModel 4 = Standard Regression \nModel 4a = Standard Regression + Quick + Extra Classification\n\n"
 				}
 
@@ -452,7 +452,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 429.0, 1052.0, 165.0, 74.0 ],
+					"patching_rect" : [ 429.0, 1052.0, 165.0, 75.0 ],
 					"text" : "Sample Player uses model 1.\nGranulator uses model 4a.\nLooper uses model 3.\nMixer uses model 4.\nFMSynth uses model 4a."
 				}
 
@@ -464,7 +464,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.333336000000003, 1069.266601999999921, 150.0, 33.0 ],
+					"patching_rect" : [ 159.333336000000003, 1069.266601999999921, 150.0, 34.0 ],
 					"text" : "< receives save trigger from maxinterface.json file"
 				}
 
@@ -476,7 +476,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 1169.0, 150.0, 33.0 ],
+					"patching_rect" : [ 148.0, 1169.0, 150.0, 34.0 ],
 					"text" : "< update of the save file happens in here"
 				}
 
@@ -501,7 +501,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, -85.608138500000337, 150.0, 47.0 ],
+					"patching_rect" : [ 10.0, -85.608138500000337, 150.0, 48.0 ],
 					"text" : "sends have green borders, receives pink, subs are red"
 				}
 
@@ -604,7 +604,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 139.0, 478.0, 123.0, 33.0 ],
+					"patching_rect" : [ 139.0, 478.0, 123.0, 34.0 ],
 					"text" : "numbered sensorlist dictionary"
 				}
 
@@ -695,7 +695,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 599.708358999999746, 524.09985400000005, 156.0, 60.0 ],
+					"patching_rect" : [ 599.708358999999746, 524.09985400000005, 156.0, 62.0 ],
 					"text" : "This code handels running the MicroBit exe when the app begins and then killing it when the app closes."
 				}
 
@@ -707,7 +707,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1578.0, -107.325271499999531, 150.0, 114.0 ],
+					"patching_rect" : [ 1578.0, -107.325271499999531, 150.0, 117.0 ],
 					"text" : "Open\nGet URL\nLoad Dict\nGet Build Key\nGenerate Instrument\nGet Config Key\nSet bpatcher configs.\nTrain model"
 				}
 
@@ -719,7 +719,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1181.199951000000056, 19.007980500000372, 150.0, 60.0 ],
+					"patching_rect" : [ 1181.199951000000056, 19.007980500000372, 150.0, 62.0 ],
 					"text" : "https://cycling74.com/forums/saving-preset-automatically-with-commands-in-standalone-app"
 				}
 
@@ -731,7 +731,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1181.199951000000056, -26.325271499999531, 150.0, 33.0 ],
+					"patching_rect" : [ 1181.199951000000056, -26.325271499999531, 150.0, 34.0 ],
 					"text" : "This code is used for opening a saved file."
 				}
 
@@ -743,7 +743,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 632.583229838790885, 1274.804031749999467, 150.0, 33.0 ],
+					"patching_rect" : [ 632.583229838790885, 1274.804031749999467, 150.0, 34.0 ],
 					"text" : "This code updates all of the input devices"
 				}
 
@@ -771,7 +771,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 529.0, -27.0, 315.200012000000015, 33.0 ],
+					"patching_rect" : [ 529.0, -27.0, 315.200012000000015, 34.0 ],
 					"text" : "This code reads the colour scheme json and sets the colours used in the patch."
 				}
 
@@ -783,7 +783,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.75, 238.999954000000002, 244.0, 33.0 ],
+					"patching_rect" : [ 66.75, 238.999954000000002, 244.0, 34.0 ],
 					"text" : "This code sets which list of sensors the app will use, depending on windows or Mac"
 				}
 
@@ -842,7 +842,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.583344000000011, -188.70005772234731, 150.0, 47.0 ],
+					"patching_rect" : [ 309.583344000000011, -188.70005772234731, 150.0, 48.0 ],
 					"text" : "(connect this loadbang to disable window resizing on open)"
 				}
 
@@ -1582,7 +1582,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1439.333374000000049, 1060.341456266510704, 150.0, 114.0 ],
+					"patching_rect" : [ 1439.333374000000049, 1060.341456266510704, 150.0, 117.0 ],
 					"text" : "Open\nGet URL\nLoad Dict\nGet Build Key\nGenerate Instrument\nGet Config Key\nSet bpatcher configs.\nTrain model"
 				}
 
@@ -1961,7 +1961,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 1893.233398000000079, 307.007980500000372, 118.0, 20.0 ],
+					"patching_rect" : [ 1893.233398000000079, 307.007980500000372, 118.0, 19.0 ],
 					"text" : "regexp / @substitute \" \""
 				}
 
@@ -2057,7 +2057,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 723.999999999999773, 2543.733432678184727, 150.0, 33.0 ],
+					"patching_rect" : [ 723.999999999999773, 2543.733432678184727, 150.0, 34.0 ],
 					"text" : "Code this effects:\n- Gametrak Code"
 				}
 
@@ -2358,7 +2358,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3615,7 +3615,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4783,13 +4783,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 3324.0, 331.0, 640.0, 480.0 ],
+						"rect" : [ 1856.0, 727.0, 414.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4818,29 +4818,43 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 179.0, 93.0, 50.0, 22.0 ],
+									"text" : "close"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-113",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 50.0, 175.833435000000009, 130.0, 22.0 ],
+									"patching_rect" : [ 50.0, 206.833435000000009, 130.0, 22.0 ],
 									"text" : "jit.dimmap @invert 1 0"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.482352941176471, 0.737254901960784, 0.541176470588235, 1.0 ],
 									"id" : "obj-112",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 211.333190999999999, 247.0, 22.0 ],
+									"patching_rect" : [ 50.0, 275.333190999999999, 247.0, 22.0 ],
 									"text" : "s sound_control_multi-colour_tracker_output"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.482352941176471, 0.737254901960784, 0.541176470588235, 1.0 ],
 									"id" : "obj-111",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -4852,12 +4866,13 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.682352941176471, 0.466666666666667, 0.756862745098039, 1.0 ],
 									"id" : "obj-110",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 309.0, 22.0 ],
+									"patching_rect" : [ 144.0, 40.0, 309.0, 22.0 ],
 									"text" : "r sound_control_multi-colour_tracker_control_messages"
 								}
 
@@ -4872,8 +4887,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 50.0, 142.833435000000009, 274.0, 23.0 ],
-									"text" : "jit.grab 200 150 @colormode argb @unique 1"
+									"patching_rect" : [ 50.0, 142.833435000000009, 279.0, 23.0 ],
+									"text" : "jit.grab 200. 150. @colormode argb @unique 1"
 								}
 
 							}
@@ -4908,6 +4923,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-109", 0 ],
+									"order" : 1,
+									"source" : [ "obj-110", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 1 ],
+									"order" : 0,
 									"source" : [ "obj-110", 0 ]
 								}
 
@@ -4965,13 +4989,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 74.0, 452.0, 640.0, 480.0 ],
+						"rect" : [ 1299.0, 877.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5028,7 +5052,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 107.0, 88.0, 281.0, 22.0 ],
+									"patching_rect" : [ 143.0, 53.0, 281.0, 22.0 ],
 									"text" : "r sound_control_dumb_camera_control_messages"
 								}
 
@@ -5135,13 +5159,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2307.0, -119.0, 592.0, 476.0 ],
+						"rect" : [ 1849.0, 102.0, 592.0, 476.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5169,6 +5193,18 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 164.0, 105.0, 50.0, 22.0 ],
+									"text" : "close"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "comment",
@@ -5220,7 +5256,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 82.0, 95.0, 280.0, 22.0 ],
+									"patching_rect" : [ 103.0, 40.0, 280.0, 22.0 ],
 									"text" : "r sound_control_colour_tracker_control_messages"
 								}
 
@@ -5271,6 +5307,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-109", 0 ],
+									"order" : 1,
+									"source" : [ "obj-110", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 1 ],
+									"order" : 0,
 									"source" : [ "obj-110", 0 ]
 								}
 
@@ -5316,7 +5361,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5676,7 +5721,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6013,7 +6058,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6894,7 +6939,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7178,7 +7223,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7570,7 +7615,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7783,7 +7828,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 0,
-															"revision" : 4,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8000,7 +8045,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 0,
-															"revision" : 4,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8783,7 +8828,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9294,7 +9339,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9957,7 +10002,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11346,14 +11391,9 @@
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 672.083374000000049, 725.933350000000019, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"shell" : "(default)",
-						"wd" : "(default)"
-					}
-,
 					"text" : "shell"
 				}
 
@@ -11367,7 +11407,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.75, 102.5, 197.0, 33.0 ],
+					"patching_rect" : [ 209.75, 102.5, 197.0, 34.0 ],
 					"text" : "Remember: Plug in sensors before opening app!"
 				}
 
@@ -11503,7 +11543,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", "Micro:Bit Position (Bluetooth)", ",", "Mirco:Bit Position (USB)", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", "Micro:Bit Touch" ],
+					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", " ", ",", "Micro:Bit Position (USB) ", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", " " ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11832,13 +11872,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-118", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-132", 0 ],
 					"source" : [ "obj-119", 0 ]
 				}
@@ -11911,6 +11944,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-299", 0 ],
 					"source" : [ "obj-128", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-129", 0 ]
 				}
 
 			}
@@ -13166,6 +13206,13 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",
@@ -13188,12 +13235,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "Leapmotion.mxo",
-				"type" : "iLaX"
+				"name" : "Leapmotion.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,

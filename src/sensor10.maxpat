@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2579.0, -434.0, 1114.0, 683.0 ],
+		"rect" : [ 1274.0, 160.0, 1101.0, 950.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,42 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2172.404785000000629, 629.666870000000017, 150.0, 89.0 ],
+					"text" : "close the jit.grab in the [p multicolor tracker] of the main patch  when the instrument closes, allowing it to be used by another instrument later"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2107.404785000000629, 669.0, 37.0, 22.0 ],
+					"text" : "close"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2107.404785000000629, 629.666870000000017, 63.0, 22.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
 					"id" : "obj-85",
@@ -559,10 +595,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 29.5, 153.0, 60.0 ],
+					"patching_rect" : [ 10.0, 29.5, 153.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 4.0, 23.0, 263.0, 33.0 ],
+					"presentation_rect" : [ 4.0, 23.0, 263.0, 34.0 ],
 					"text" : "1. Click the screen to track a colour.\n2. Lower slider untill everything else is dark."
 				}
 
@@ -1290,7 +1326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1939.833374000000049, 630.166870000000017, 38.0, 22.0 ],
+					"patching_rect" : [ 1895.404784999999947, 651.166870000000017, 38.0, 22.0 ],
 					"text" : "defer"
 				}
 
@@ -1302,7 +1338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1939.833374000000049, 562.166870000000017, 24.0, 22.0 ],
+					"patching_rect" : [ 1902.833374000000049, 570.166870000000017, 24.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -1316,7 +1352,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1939.833374000000049, 590.166870000000017, 40.0, 23.0 ],
+					"patching_rect" : [ 1902.833374000000049, 598.166870000000017, 40.0, 23.0 ],
 					"text" : "open"
 				}
 
@@ -1335,11 +1371,12 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.474509803921569, 0.772549019607843, 0.552941176470588, 1.0 ],
 					"id" : "obj-110",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1997.404784999999947, 680.166870000000017, 311.0, 22.0 ],
+					"patching_rect" : [ 1936.404784999999947, 728.166870000000017, 311.0, 22.0 ],
 					"text" : "s sound_control_multi-colour_tracker_control_messages"
 				}
 
@@ -1386,7 +1423,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1682,7 +1719,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-78",
-					"items" : "FaceTime HD Camera",
+					"items" : "Integrated Webcam",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1941,6 +1978,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
+					"midpoints" : [ 1939.904784999999947, 184.0, 1866.0, 184.0, 1866.0, 477.0, 1872.904784999999947, 477.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2387,6 +2425,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
+					"midpoints" : [ 1890.404784999999947, 252.0, 1881.0, 252.0, 1881.0, 339.0, 1919.904784999999947, 339.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -2696,6 +2735,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"source" : [ "obj-9", 1 ]
 				}
@@ -2719,6 +2765,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-93", 0 ]
 				}
 
 			}
@@ -2750,6 +2803,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.pass.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
