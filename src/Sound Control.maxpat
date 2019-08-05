@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1745.0, -225.0, 1034.0, 985.0 ],
+		"rect" : [ 1626.0, -292.0, 2177.0, 1262.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,29 @@
 		"subpatcher_template" : "",
 		"title" : "Sound Control",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1437.90002400000003, -60.825271499999531, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1335.0, -91.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -441,13 +464,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-210",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1555.0, 19.007980500000372, 209.0, 36.0 ],
-					"text" : "MB:/Users/martintownley/Sound_Control/bin/COLOUR_LOOPER.json"
+					"patching_rect" : [ 1555.0, 19.007980500000372, 209.0, 22.0 ]
 				}
 
 			}
@@ -982,7 +1003,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1437.90002400000003, -48.925369499999647, 87.0, 22.0 ],
+					"patching_rect" : [ 1437.90002400000003, -121.925369499999647, 87.0, 22.0 ],
 					"text" : "r openHandler"
 				}
 
@@ -11904,6 +11925,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-114", 0 ]
 				}
@@ -13189,7 +13217,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
+					"destination" : [ "obj-110", 0 ],
+					"order" : 0,
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 1 ],
+					"order" : 1,
 					"source" : [ "obj-88", 0 ]
 				}
 
