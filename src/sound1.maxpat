@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 193.0, 85.0, 606.0, 765.0 ],
+		"rect" : [ 1472.0, -269.0, 628.0, 504.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,48 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 346.0, 511.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 379.0, 245.0, 100.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 174.0, 307.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 174.0, 307.0, 150.0, 20.0 ],
+					"text" : "turn loop into button"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 189.0, 277.0, 150.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 172.0, 253.0, 150.0, 34.0 ],
+					"text" : "turn trigger sample into play button"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "comment",
@@ -1207,13 +1249,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-318",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 163.0, 764.833435000000009, 150.0, 20.0 ],
+					"patching_rect" : [ 163.0, 764.833435000000009, 157.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 87.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 91.0, 20.0 ],
 					"text" : "Sample Player"
 				}
 

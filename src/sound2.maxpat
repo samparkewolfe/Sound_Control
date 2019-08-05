@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1560.0, -235.0, 2078.0, 1187.0 ],
+		"rect" : [ 2184.0, -266.0, 791.0, 470.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 101.0, 333.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 99.777857850627868, 333.0, 150.0, 20.0 ],
+					"text" : "random one clock"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 105.0, 289.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 105.0, 289.0, 150.0, 20.0 ],
+					"text" : "play toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-72",
 					"lastchannelcount" : 0,
 					"maxclass" : "live.gain~",
@@ -51,13 +77,13 @@
 					"presentation_rect" : [ 255.999999999999972, 42.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Volume"
 						}
 
 					}

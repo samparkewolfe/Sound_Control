@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 78.0, 1110.0, 788.0 ],
+		"rect" : [ 3037.0, -268.0, 851.0, 532.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,10 +44,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.500038, 71.333293999999995, 150.0, 33.0 ],
+					"patching_rect" : [ 22.500038, 71.333293999999995, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 171.0, 3.5, 120.0, 33.0 ],
+					"presentation_rect" : [ 171.0, 3.5, 120.0, 34.0 ],
 					"text" : "Click (here) to find more loops!"
 				}
 
@@ -472,7 +472,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1019.0, 335.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1019.0, 335.0, 150.0, 34.0 ],
 					"text" : "bgcolor 0.503906 0.515625 0.472656"
 				}
 
@@ -978,7 +978,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 76.833374000000006, 64.666663999999997, 66.0 ],
 					"size" : 4,
-					"value" : 3
+					"value" : 0
 				}
 
 			}
@@ -1004,7 +1004,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.444702000000007, 888.333252000000016, 126.0, 69.0 ],
+					"patching_rect" : [ 480.444702000000007, 888.333252000000016, 126.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 43.999935000000001, 169.000045999999998, 165.0, 40.0 ],
@@ -1673,8 +1673,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "textbutton",
@@ -1711,8 +1710,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-47",
 					"maxclass" : "textbutton",
@@ -1773,8 +1771,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "textbutton",
@@ -3909,19 +3906,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-31.1::obj-46" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-31.1::obj-41" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-31.2::obj-46" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-75" : [ "live.gain~[2]", "Volume", 0 ],
-			"obj-31.5::obj-46" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-31.2::obj-41" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-31.6::obj-46" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-75" : [ "live.gain~[2]", "Volume", 0 ],
+			"obj-31.1::obj-46" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-31.3::obj-41" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-31.4::obj-46" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"obj-31.5::obj-41" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"obj-31.6::obj-41" : [ "live.gain~[12]", "live.gain~", 0 ],
-			"obj-31.3::obj-41" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-31.4::obj-41" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-31.1::obj-41" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-31.2::obj-41" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-31.3::obj-46" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-31.4::obj-41" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-31.5::obj-46" : [ "live.gain~[9]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -3931,12 +3928,16 @@
 					"parameter_longname" : "live.gain~[1]"
 				}
 ,
-				"obj-31.5::obj-46" : 				{
-					"parameter_longname" : "live.gain~[9]"
+				"obj-31.2::obj-41" : 				{
+					"parameter_longname" : "live.gain~[4]"
 				}
 ,
 				"obj-31.6::obj-46" : 				{
 					"parameter_longname" : "live.gain~[11]"
+				}
+,
+				"obj-31.3::obj-41" : 				{
+					"parameter_longname" : "live.gain~[5]"
 				}
 ,
 				"obj-31.4::obj-46" : 				{
@@ -3951,20 +3952,16 @@
 					"parameter_longname" : "live.gain~[12]"
 				}
 ,
-				"obj-31.3::obj-41" : 				{
-					"parameter_longname" : "live.gain~[5]"
+				"obj-31.3::obj-46" : 				{
+					"parameter_longname" : "live.gain~[6]"
 				}
 ,
 				"obj-31.4::obj-41" : 				{
 					"parameter_longname" : "live.gain~[7]"
 				}
 ,
-				"obj-31.2::obj-41" : 				{
-					"parameter_longname" : "live.gain~[4]"
-				}
-,
-				"obj-31.3::obj-46" : 				{
-					"parameter_longname" : "live.gain~[6]"
+				"obj-31.5::obj-46" : 				{
+					"parameter_longname" : "live.gain~[9]"
 				}
 
 			}
