@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2310.0, 351.0, 574.0, 459.0 ],
+		"rect" : [ 2751.0, 14.0, 574.0, 400.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,31 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"bgoncolor" : [ 0.305882352941176, 0.254901960784314, 0.27843137254902, 1.0 ],
+					"fontface" : 1,
+					"fontlink" : 1,
+					"fontsize" : 12.0,
+					"id" : "obj-112",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 131.0, 1.0, 76.685546875, 21.40625 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.181167125000002, 189.958344000000011, 76.685546875, 21.40625 ],
+					"text" : "randomise",
+					"textcolor" : [ 0.305882352941176, 0.254901960784314, 0.27843137254902, 1.0 ],
+					"texton" : "PLAY SAMPLE",
+					"textoncolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"usebgoncolor" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-107",
 					"maxclass" : "comment",
@@ -230,38 +255,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
-					"hint" : "",
-					"id" : "obj-87",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1100.5, 561.999817000000007, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 73.866714000000002, 46.316681000000003, 173.133285999999998, 141.641662999999994 ],
-					"proportion" : 0.39
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-55",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 127.36558500000001, 14.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 92.275024000000002, 69.0, 20.0 ],
-					"text" : "Randomize",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -316,9 +309,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 78.36558500000001, 1.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 25.5, 112.275024000000002, 24.0, 24.0 ]
+					"patching_rect" : [ 78.36558500000001, 1.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1456,6 +1447,24 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bordercolor" : [ 0.857038, 0.911608, 0.893382, 1.0 ],
+					"hint" : "",
+					"id" : "obj-87",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1100.5, 561.999817000000007, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 73.866714000000002, 46.316681000000003, 173.133285999999998, 141.641662999999994 ],
+					"proportion" : 0.39
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1524,6 +1533,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-112", 0 ]
 				}
 
 			}
@@ -2337,6 +2353,23 @@
 				"multi" : 0
 			}
 , 			{
+				"name" : "Audiomix",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "newobjBlue-1",
 				"default" : 				{
 					"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -2357,8 +2390,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

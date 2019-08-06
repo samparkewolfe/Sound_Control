@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 232.0, 293.0, 936.0, 416.0 ],
+		"rect" : [ 1705.0, 622.0, 1637.0, 511.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -11461,6 +11461,7 @@
 				"box" : 				{
 					"bubblepoint" : 0.0,
 					"bubbleside" : 3,
+					"fontface" : 2,
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -11602,7 +11603,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", " ", ",", "Micro:Bit Position (USB) ", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", " " ],
+					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", "Micro:Bit Position (Bluetooth)", ",", "Mirco:Bit Position (USB)", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", "Micro:Bit Touch" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11931,6 +11932,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-132", 0 ],
 					"source" : [ "obj-119", 0 ]
 				}
@@ -12003,13 +12011,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-299", 0 ],
 					"source" : [ "obj-128", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-129", 0 ]
 				}
 
 			}
