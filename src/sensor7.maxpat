@@ -45,7 +45,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 469.0, 215.0, 83.0, 22.0 ],
-					"text" : "loadmess 200"
+					"text" : "loadmess 150"
 				}
 
 			}
@@ -193,7 +193,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 331.0, 45.0, 22.0 ],
-					"text" : "$1 200"
+					"text" : "$1 100"
 				}
 
 			}
@@ -205,7 +205,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 351.0, 331.0, 45.0, 22.0 ],
-					"text" : "$1 200"
+					"text" : "$1 100"
 				}
 
 			}
@@ -217,7 +217,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 304.0, 331.0, 45.0, 22.0 ],
-					"text" : "$1 200"
+					"text" : "$1 100"
 				}
 
 			}

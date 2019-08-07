@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 287.0, 355.0, 150.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 287.0, 355.0, 150.0, 22.0 ],
+					"text" : " \t⬛ "
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Futura Bold",
 					"fontsize" : 13.0,
@@ -104,7 +117,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 173.580272854385385, 52.397992229866034, 73.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.333435000000009, 49.15384578704834, 51.0, 23.0 ],
+					"presentation_rect" : [ 175.333435000000009, 52.239654741210927, 51.0, 23.0 ],
 					"text" : "SPEED",
 					"textcolor" : [ 0.807843137254902, 0.631372549019608, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
@@ -281,10 +294,9 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"bgoncolor" : [ 0.192156862745098, 0.627450980392157, 0.145098039215686, 1.0 ],
+					"bgcolor" : [ 0.192156862745098, 0.627450980392157, 0.145098039215686, 1.0 ],
+					"bgoncolor" : [ 0.866666666666667, 0.290196078431373, 0.290196078431373, 1.0 ],
 					"fontface" : 0,
-					"fontlink" : 1,
 					"fontname" : "Futura Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-20",
@@ -296,11 +308,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 212.999923999999993, 1164.218487352132797, 70.808361053466797, 26.185943603515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.833435000000009, 3.427154741210927, 70.808361053466797, 26.185943603515625 ],
+					"presentation_rect" : [ 139.833435000000009, 3.427154741210927, 72.02734375, 23.185943603515625 ],
 					"rounded" : 11.0,
-					"text" : "► PLAY",
-					"textcolor" : [ 0.192156862745098, 0.627450980392157, 0.145098039215686, 1.0 ],
-					"texton" : "► PLAY",
+					"text" : "PLAY",
+					"textcolor" : [ 0.858823529411765, 0.909803921568627, 0.894117647058824, 1.0 ],
+					"texton" : "STOP",
 					"usebgoncolor" : 1
 				}
 
@@ -363,7 +375,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 448.0, 524.999816999999894, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 100.000000000000014, 115.0, 84.0 ],
+					"presentation_rect" : [ 10.0, 88.692314147949219, 115.0, 84.0 ],
 					"tabs" : [ "Trumpet", "Organ", "Brass", "Custom" ]
 				}
 
@@ -1134,7 +1146,7 @@
 					"patching_rect" : [ 857.933350000000019, 148.466599000000002, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 10.0, 34.5, 118.0, 60.0 ],
+					"presentation_rect" : [ 10.0, 28.833404741210927, 118.0, 60.0 ],
 					"text" : "Drag a soundfile on to the instrument to set the custom sound."
 				}
 
@@ -1261,7 +1273,7 @@
 					"patching_rect" : [ 787.600037000000043, 1106.866698999999926, 106.0, 108.666672000000005 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 0.0, 186.83341999999999, 133.0, 46.999996000000003 ],
+					"presentation_rect" : [ 0.0, 174.692314147949219, 133.0, 46.999996000000003 ],
 					"readonly" : 1,
 					"text" : "Custom Sound: No Sound",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2796,7 +2808,7 @@
 						"loopend" : [ 0.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 37552193.31215038895607, "ticks" ],
+						"originallength" : [ 2107852542.515405893325806, "ticks" ],
 						"originaltempo" : 1271288.625281213084236,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
