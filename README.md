@@ -55,6 +55,10 @@ https://cycling74.com/forums/how-to-line-multiple-values-between-succeeding-list
 
 (Ctrl+F "ak.list_.line")
 
+### loopMIDI
+This is required to enable use of the MIDI Mapper instrument.
+https://www.tobias-erichsen.de/software/loopmidi.html
+
 ## Win Vs Mac
 Sound Control source has a build for windows or mac flag, this is what it changes.
 (Insert flag instructions here)
