@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 3071.0, -107.0, 895.0, 675.0 ],
+		"rect" : [ 1423.0, -211.0, 929.0, 786.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -86,10 +86,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.500038, 71.333293999999995, 150.0, 33.0 ],
+					"patching_rect" : [ 22.500038, 71.333293999999995, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 171.0, 3.5, 120.0, 33.0 ],
+					"presentation_rect" : [ 171.0, 3.5, 120.0, 34.0 ],
 					"text" : "Click (here) to find more loops!"
 				}
 
@@ -514,7 +514,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1019.0, 335.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1019.0, 335.0, 150.0, 34.0 ],
 					"text" : "bgcolor 0.503906 0.515625 0.472656"
 				}
 
@@ -771,7 +771,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1592.854736000000003, 981.333374000000049, 116.0, 22.0 ],
+					"patching_rect" : [ 1611.854736000000003, 876.333374000000049, 116.0, 22.0 ],
 					"text" : "s turn_off_message"
 				}
 
@@ -1036,7 +1036,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.444702000000007, 888.333252000000016, 126.0, 69.0 ],
+					"patching_rect" : [ 480.444702000000007, 888.333252000000016, 126.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 43.999935000000001, 169.000045999999998, 165.0, 40.0 ],
@@ -2145,13 +2145,13 @@
 					"presentation_rect" : [ 251.999939000000012, 41.833373999999999, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Volume"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -3945,38 +3945,34 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-31.4::obj-41" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-31.6::obj-46" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-31.3::obj-41" : [ "live.gain~[6]", "live.gain~", 0 ],
 			"obj-31.5::obj-46" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-31.3::obj-46" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-31.6::obj-41" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-75" : [ "live.gain~[2]", "Volume", 0 ],
-			"obj-31.1::obj-46" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-31.4::obj-41" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-31.6::obj-41" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-31.2::obj-41" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-31.4::obj-46" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-31.2::obj-46" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-31.1::obj-41" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-31.3::obj-41" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-31.3::obj-46" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-31.5::obj-41" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-31.6::obj-46" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-31.2::obj-46" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-31.1::obj-46" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-31.1::obj-41" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-31.4::obj-41" : 				{
-					"parameter_longname" : "live.gain~[8]"
-				}
-,
-				"obj-31.6::obj-46" : 				{
-					"parameter_longname" : "live.gain~[11]"
+				"obj-31.3::obj-41" : 				{
+					"parameter_longname" : "live.gain~[6]"
 				}
 ,
 				"obj-31.5::obj-46" : 				{
 					"parameter_longname" : "live.gain~[10]"
 				}
 ,
-				"obj-31.3::obj-46" : 				{
-					"parameter_longname" : "live.gain~[5]"
+				"obj-31.4::obj-41" : 				{
+					"parameter_longname" : "live.gain~[8]"
 				}
 ,
 				"obj-31.6::obj-41" : 				{
@@ -3991,16 +3987,20 @@
 					"parameter_longname" : "live.gain~[7]"
 				}
 ,
-				"obj-31.2::obj-46" : 				{
-					"parameter_longname" : "live.gain~[1]"
-				}
-,
-				"obj-31.3::obj-41" : 				{
-					"parameter_longname" : "live.gain~[6]"
+				"obj-31.3::obj-46" : 				{
+					"parameter_longname" : "live.gain~[5]"
 				}
 ,
 				"obj-31.5::obj-41" : 				{
 					"parameter_longname" : "live.gain~[9]"
+				}
+,
+				"obj-31.6::obj-46" : 				{
+					"parameter_longname" : "live.gain~[11]"
+				}
+,
+				"obj-31.2::obj-46" : 				{
+					"parameter_longname" : "live.gain~[1]"
 				}
 
 			}
