@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1423.0, -211.0, 929.0, 786.0 ],
+		"rect" : [ 1423.0, -211.0, 1380.0, 1006.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -767,6 +767,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.117647058823529, 0.737254901960784, 0.435294117647059, 1.0 ],
 					"id" : "obj-234",
 					"maxclass" : "newobj",
 					"numinlets" : 1,

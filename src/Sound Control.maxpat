@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1436.0, -258.0, 2084.0, 1087.0 ],
+		"rect" : [ 1436.0, -225.0, 1794.0, 1003.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1265.411766529083252, 1314.637252749999561, 58.0, 22.0 ],
+					"patching_rect" : [ 1265.411766529083252, 1286.80403174999924, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -76,13 +76,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-278",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1324.411766529083252, 1649.264674425125122, 337.499994516372681, 64.0 ],
-					"text" : ";\r\nmax launch_browser C:/Users/Rebecca/Sound_Control/src/loopMIDISetup_1_0_15_26/loopMIDISetup.exe"
+					"patching_rect" : [ 1324.411766529083252, 1649.264674425125122, 337.499994516372681, 50.0 ],
+					"text" : ";\r\nmax launch_browser \"C:/Program Files/Cycling '74/Max 8/loopMIDISetup_1_0_15_26/loopMIDISetup.exe\""
 				}
 
 			}
@@ -155,18 +155,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1425.411766529083252, 1489.764706611633301, 260.0, 22.0 ],
 					"text" : "loopMIDISetup_1_0_15_26/loopMIDISetup.exe"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-218",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.0, 680.0, 29.5, 22.0 ],
-					"text" : "end"
 				}
 
 			}
@@ -12054,13 +12042,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-109", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
-					"source" : [ "obj-110", 0 ]
 				}
 
 			}
