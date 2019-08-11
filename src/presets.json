@@ -43,5 +43,20 @@
 		}
 
 	}
+,
+	"mixer" : 	{
+		"preset1" : 		{
+			"file1" : "mixer_droplets.mp3",
+		}
+,
+		"preset2" : 		{
+			"file1" : "mixer_pad.mp3",
+		}
+,
+		"preset3" : 		{
+			"file1" : "mixer_shimmer.mp3",
+		}
 
+	}
+	
 }
