@@ -39,12 +39,36 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-98",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ -194.148181279500335, 772.0, 42.0, 22.0 ],
+					"text" : "gate 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ -218.148181279500335, 732.0, 66.0, 22.0 ],
+					"text" : "unpack s s"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ -257.814847946166992, 694.3028804063797, 138.0, 22.0 ],
+					"patching_rect" : [ -257.814847946166992, 693.666687000000024, 138.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0,
@@ -74,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ -257.814847946166992, 622.587305665016174, 29.5, 22.0 ],
+					"patching_rect" : [ -257.814847946166992, 600.587305665016174, 29.5, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -86,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ -278.814847946166992, 586.67904794216156, 40.0, 22.0 ],
+					"patching_rect" : [ -278.814847946166992, 567.67904794216156, 40.0, 22.0 ],
 					"text" : "uzi 3"
 				}
 
@@ -98,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ -278.814847946166992, 551.67904794216156, 58.0, 22.0 ],
+					"patching_rect" : [ -278.814847946166992, 532.67904794216156, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -179,7 +203,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 282.0, 94.0, 50.0, 49.0 ],
-					"text" : "110. 110. 112."
+					"text" : "127. 127. 127."
 				}
 
 			}
@@ -759,10 +783,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 247.416655999999989, 548.833312999999976, 100.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 10.0, 180.0, 80.0, 40.0 ],
 					"readonly" : 1,
-					"text" : "\"The Ridge.mp3\"",
+					"text" : "No File",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1261,7 +1284,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-206",
-					"knobcolor" : [ 0.7, 0.92, 0.92, 1.0 ],
+					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1928,13 +1951,13 @@
 					"presentation_rect" : [ 252.0, 59.75, 48.0, 116.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Volume",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Volume",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -1996,6 +2019,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"source" : [ "obj-100", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-101", 0 ]
 				}
@@ -2005,6 +2035,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"midpoints" : [ -237.814847946166992, 635.0, -269.0, 635.0, -269.0, 767.0, -184.648181279500335, 767.0 ],
+					"source" : [ "obj-102", 1 ]
 				}
 
 			}
@@ -3118,6 +3156,13 @@
 					"destination" : [ "obj-75", 0 ],
 					"order" : 1,
 					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 1 ],
+					"source" : [ "obj-81", 1 ]
 				}
 
 			}
