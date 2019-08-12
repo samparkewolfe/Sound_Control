@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -259,7 +259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 659.0, 88.0, 34.0 ],
+					"patching_rect" : [ 510.0, 659.0, 88.0, 33.0 ],
 					"text" : "q: 113\nw: 119"
 				}
 
@@ -359,10 +359,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.0, 172.5, 150.0, 62.0 ],
+					"patching_rect" : [ 184.0, 172.5, 150.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 83.0, 65.5, 217.0, 34.0 ],
+					"presentation_rect" : [ 83.0, 65.5, 217.0, 33.0 ],
 					"text" : "Click and show one gesture that will make the sounds current configuration."
 				}
 
@@ -374,7 +374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 398.0, 109.0, 150.0, 48.0 ],
+					"patching_rect" : [ 398.0, 109.0, 150.0, 47.0 ],
 					"text" : "Hold and show many gestures that will make a random mapping."
 				}
 
@@ -555,13 +555,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1026.166870000000017, 148.0, 73.0, 20.0 ],
+					"patching_rect" : [ 1026.166870000000017, 148.0, 79.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 52.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 57.0, 20.0 ],
 					"text" : "Training"
 				}
 

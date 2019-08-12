@@ -1355,7 +1355,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-212",
-					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -1372,7 +1372,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-210",
-					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -1389,7 +1389,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-206",
-					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -2046,13 +2046,13 @@
 					"presentation_rect" : [ 252.0, 59.75, 48.0, 116.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[1]",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "live.gain~[1]"
 						}
 
 					}

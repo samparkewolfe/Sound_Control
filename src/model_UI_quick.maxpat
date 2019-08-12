@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1298.0, 617.0 ],
+		"rect" : [ 38.0, 77.0, 1102.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.999969000000021, 1025.0, 47.0, 34.0 ],
+					"patching_rect" : [ 338.999969000000021, 1025.0, 47.0, 33.0 ],
 					"text" : "Quick train"
 				}
 
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.999977000000001, 985.282531999999946, 51.0, 34.0 ],
+					"patching_rect" : [ 142.999977000000001, 985.282531999999946, 51.0, 33.0 ],
 					"text" : "precise train"
 				}
 
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 957.0, 973.0, 147.0, 48.0 ],
+					"patching_rect" : [ 957.0, 973.0, 147.0, 47.0 ],
 					"text" : "we've received all data, now you can change. \n"
 				}
 
@@ -342,7 +342,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 644.333312999999862, 759.500000000000114, 88.0, 34.0 ],
+					"patching_rect" : [ 644.333312999999862, 759.500000000000114, 88.0, 33.0 ],
 					"text" : "q: 113\nw: 119"
 				}
 
@@ -430,10 +430,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 149.5, 150.0, 62.0 ],
+					"patching_rect" : [ 388.0, 149.5, 150.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 83.0, 83.5, 218.5, 34.0 ],
+					"presentation_rect" : [ 83.0, 83.5, 218.5, 33.0 ],
 					"text" : "Click and show one gesture that will make the sounds current configuration."
 				}
 
@@ -445,10 +445,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 99.0, 150.0, 48.0 ],
+					"patching_rect" : [ 388.0, 99.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 83.0, 43.5, 218.5, 34.0 ],
+					"presentation_rect" : [ 83.0, 43.5, 218.5, 33.0 ],
 					"text" : "Hold and show many gestures that will make a random mapping."
 				}
 
@@ -629,13 +629,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 24.0, 73.0, 20.0 ],
+					"patching_rect" : [ 388.0, 24.0, 79.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 52.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 57.0, 20.0 ],
 					"text" : "Training"
 				}
 
