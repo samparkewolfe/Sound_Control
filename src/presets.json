@@ -43,15 +43,15 @@
 ,
 	"mixer" : 	{
 		"preset1" : 		{
-			"file1" : "mixer_droplets.mp3"
+			"file1" : "mixer_arp1.mp3"
 		}
 ,
 		"preset2" : 		{
-			"file1" : "mixer_pad.mp3"
+			"file1" : "mixer_pad1.mp3"
 		}
 ,
 		"preset3" : 		{
-			"file1" : "mixer_shimmer.mp3"
+			"file1" : "mixer_shimmer1.mp3"
 		}
 
 	}
