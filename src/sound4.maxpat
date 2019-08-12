@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2449.0, -114.0, 385.0, 276.0 ],
+		"rect" : [ 2998.0, -181.0, 385.0, 276.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -146,8 +146,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 193.560973999999987, 32.0, 100.0, 20.0 ],
 					"rounded" : 10.0,
-					"text" : "Default sounds",
-					"texton" : "Default sounds"
+					"text" : "default sounds",
+					"texton" : "default sounds"
 				}
 
 			}
@@ -2047,13 +2047,13 @@
 					"presentation_rect" : [ 252.0, 59.75, 48.0, 116.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[1]"
+							"parameter_longname" : "live.gain~[1]",
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}

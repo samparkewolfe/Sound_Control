@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1981.0, 196.0, 614.0, 436.0 ],
+		"rect" : [ 1965.0, 167.0, 896.0, 628.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1451.190462350845337, 180.95237922668457, 69.0, 22.0 ],
+					"text" : "rounded 14"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.533333333333333, 0.525490196078431, 0.525490196078431, 1.0 ],
 					"bgoncolor" : [ 0.25098, 0.501961, 0.0, 1.0 ],
 					"id" : "obj-53",
@@ -50,7 +62,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 510.057864677703947, 34.0, 44.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.767403816570322, 189.128740191459656, 39.0, 16.0 ],
+					"presentation_rect" : [ 239.767403816570322, 187.0, 39.0, 16.0 ],
 					"rounded" : 10.0,
 					"text" : "here",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
@@ -140,7 +152,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.576470588235294, 0.866666666666667, 1.0 ],
+					"bgcolor" : [ 0.650963, 0.655203, 0.777106, 1.0 ],
 					"bgoncolor" : [ 0.25098, 0.501961, 0.0, 1.0 ],
 					"id" : "obj-48",
 					"legacytextcolor" : 1,
@@ -153,8 +165,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 191.333343500000012, 25.947368621826172, 91.0, 20.0 ],
 					"rounded" : 10.0,
-					"text" : "(Refresh Menu)",
+					"text" : "refresh menu",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"texton" : "refresh menu",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
 					"usebgoncolor" : 1,
@@ -283,7 +296,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.811764705882353, 0.576470588235294, 0.866666666666667, 1.0 ],
+					"bgcolor" : [ 0.650963, 0.655203, 0.777106, 1.0 ],
 					"bgoncolor" : [ 0.25098, 0.501961, 0.0, 1.0 ],
 					"id" : "obj-111",
 					"legacytextcolor" : 1,
@@ -296,8 +309,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 191.333343500000012, 160.026300808296213, 91.0, 20.0 ],
 					"rounded" : 10.0,
-					"text" : "(Refresh Menu)",
+					"text" : "refresh menu",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"texton" : "refresh menu",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
 					"usebgoncolor" : 1,
@@ -315,7 +329,7 @@
 					"patching_rect" : [ 409.0, 31.604790449142456, 187.125748038291931, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 140.0, 187.0, 150.0, 33.0 ],
+					"presentation_rect" : [ 140.0, 187.0, 158.0, 33.0 ],
 					"text" : "WINDOWS: Click                 to download LoopMIDI"
 				}
 
@@ -376,7 +390,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.033416999999986, 966.0, 50.0, 22.0 ],
-					"text" : "109"
+					"text" : "100"
 				}
 
 			}
@@ -929,9 +943,8 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 11.595186999999999,
+					"bgcolor" : [ 0.533333333333333, 0.525490196078431, 0.525490196078431, 0.0 ],
+					"htabcolor" : [ 0.533333333333333, 0.525490196078431, 0.525490196078431, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -941,7 +954,12 @@
 					"patching_rect" : [ 1297.0, 180.66667099999998, 96.333374000000049, 50.666657000000015 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 141.433318999999983, 85.666686999999996, 60.666657000000015 ],
-					"tabs" : [ "Infinite", "Staccato", "Legato" ]
+					"rounded" : 14.0,
+					"style" : "velvet",
+					"tabcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"tabs" : [ "infinite", "staccato", "legato" ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"varname" : "tab"
 				}
 
 			}
@@ -3188,6 +3206,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-154", 0 ],
 					"source" : [ "obj-78", 1 ]
 				}
@@ -3281,6 +3306,13 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "pTrack_note.maxpat",
 				"bootpath" : "~/Sound_Control/src",
@@ -3325,6 +3357,23 @@
 						"angle" : 270.0,
 						"proportion" : 0.39,
 						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Audiomix",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39
 					}
 
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1492.0, 183.0, 425.0, 293.0 ],
+		"rect" : [ 1507.0, 165.0, 317.0, 249.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,33 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.305882352941176, 0.254901960784314, 0.27843137254902, 1.0 ],
+					"bgoncolor" : [ 0.305882352941176, 0.254901960784314, 0.27843137254902, 1.0 ],
+					"fontface" : 0,
+					"fontlink" : 1,
+					"fontname" : "Futura Medium",
+					"fontsize" : 14.0,
+					"id" : "obj-128",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 211.592650999999989, 1.0, 82.0078125, 26.1767578125 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 108.99609375, 10.0, 82.0078125, 26.1767578125 ],
+					"rounded" : 10.0,
+					"text" : "randomise",
+					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"texton" : "randomise",
+					"textoncolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"usebgoncolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Futura Bold",
 					"fontsize" : 14.0,
@@ -48,7 +75,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 695.0, 154.0, 98.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.866714000000002, 136.275024000000002, 106.0, 25.0 ],
+					"presentation_rect" : [ 88.866714000000002, 158.275024000000002, 106.0, 25.0 ],
 					"text" : "strangeness",
 					"textcolor" : [ 0.807843137254902, 0.631372549019608, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
@@ -66,7 +93,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 552.833435000000009, 154.0, 85.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.366714000000002, 88.775024000000002, 85.0, 25.0 ],
+					"presentation_rect" : [ 99.366714000000002, 111.275024000000002, 85.0, 25.0 ],
 					"text" : "weirdness",
 					"textcolor" : [ 0.807843137254902, 0.631372549019608, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
@@ -84,7 +111,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 411.580272854385385, 154.0, 44.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.09748315740967, 43.239757629638675, 60.0, 25.0 ],
+					"presentation_rect" : [ 111.866714000000002, 65.239757629638675, 60.0, 25.0 ],
 					"text" : "pitch",
 					"textcolor" : [ 0.807843137254902, 0.631372549019608, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
@@ -118,8 +145,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 131.0, 1.0, 76.685546875, 21.40625 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 3.181167125000002, 43.239757629638675, 76.685546875, 21.40625 ],
 					"text" : "randomise",
 					"textcolor" : [ 0.305882352941176, 0.254901960784314, 0.27843137254902, 1.0 ],
 					"texton" : "PLAY SAMPLE",
@@ -391,13 +416,13 @@
 					"presentation_rect" : [ 252.0, 49.137512000000001, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -517,7 +542,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 154.831832000000077, 37.800003000000004, 155.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 155.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 62.0, 20.0 ],
 					"text" : "FM Synth"
 				}
 
@@ -1049,7 +1074,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 383.666503999999975, 181.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.866714000000002, 68.316681000000003, 120.0, 20.0 ],
+					"presentation_rect" : [ 81.866714000000002, 49.137512000000001, 120.0, 20.0 ],
 					"varname" : "fmsynth_pitch_slider"
 				}
 
@@ -1410,7 +1435,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 682.666504000000032, 181.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.866714000000002, 160.233352999999994, 120.0, 20.0 ],
+					"presentation_rect" : [ 81.866714000000002, 142.275024000000002, 120.0, 20.0 ],
 					"varname" : "fmsynth_strangeness_slider"
 				}
 
@@ -1428,7 +1453,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 527.666504000000032, 181.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.866714000000002, 114.275024000000002, 120.0, 20.0 ],
+					"presentation_rect" : [ 81.866714000000002, 96.275024000000002, 120.0, 20.0 ],
 					"varname" : "fmsynth_weirdness_slider"
 				}
 
@@ -1544,6 +1569,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"midpoints" : [ 227.0, 24.0 ],
+					"source" : [ "obj-128", 0 ]
 				}
 
 			}
