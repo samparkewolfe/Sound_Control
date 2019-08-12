@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1770.0, -17.0, 1231.0, 873.0 ],
+		"rect" : [ 1488.0, -178.0, 327.0, 260.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -122,41 +122,13 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 19.5, 760.0, 33.8154296875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.0, 118.890625, 33.8154296875, 28.109375 ],
+					"presentation_rect" : [ 118.0, 114.890625, 33.8154296875, 28.109375 ],
 					"rounded" : 10.0,
 					"text" : "►",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
 					"texton" : "PLAY SAMPLE",
 					"textoncolor" : [ 0.192156862745098, 0.627450980392157, 0.145098039215686, 1.0 ],
 					"usebgoncolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-58",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 174.0, 307.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 174.0, 307.0, 150.0, 20.0 ],
-					"text" : "turn loop into button"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-50",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 277.0, 150.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 172.0, 253.0, 150.0, 33.0 ],
-					"text" : "turn trigger sample into play button"
 				}
 
 			}
@@ -1297,13 +1269,13 @@
 					"presentation_rect" : [ 245.999939000000012, 52.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_mmax" : 6.0
 						}
 
 					}

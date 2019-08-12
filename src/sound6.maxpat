@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1525.0, -161.0, 1685.0, 1118.0 ],
+		"rect" : [ 1933.0, 189.0, 380.0, 249.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 759.333312999999976, 810.0, 60.0, 22.0 ],
+					"text" : "r rounded"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -53,7 +65,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
-					"items" : [ "Microsoft GS Wavetable Synth", ",", "microKEY-37", ",", "from Max 1" ],
+					"items" : [ "AU DLS Synth 1", ",", "UMC404HD 192k", ",", "microKEY-37 CTRL", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -145,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 596.0, 1221.999755999999934, 155.0, 48.0 ],
+					"patching_rect" : [ 596.0, 1221.999755999999934, 155.0, 47.0 ],
 					"text" : "notein and note out are on separate channels to avoid midi feedback loop"
 				}
 
@@ -167,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.561393601280201, 756.133240000000114, 155.0, 48.0 ],
+					"patching_rect" : [ 24.561393601280201, 756.133240000000114, 155.0, 47.0 ],
 					"text" : "notein and note out are on separate channels to avoid midi feedback loop"
 				}
 
@@ -263,10 +275,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.0, 34.0, 150.0, 34.0 ],
+					"patching_rect" : [ 409.0, 34.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 140.0, 187.0, 150.0, 34.0 ],
+					"presentation_rect" : [ 140.0, 187.0, 150.0, 33.0 ],
 					"text" : "WINDOWS: Click here to download LoopMIDI"
 				}
 
@@ -278,7 +290,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 657.0334170000001, 919.0, 150.0, 75.0 ],
+					"patching_rect" : [ 657.0334170000001, 919.0, 150.0, 74.0 ],
 					"text" : "Zero messages mean note off, these are routepassed so they are not affected by the note velocity slider above. "
 				}
 
@@ -290,7 +302,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 883.0, 1080.0, 150.0, 62.0 ],
+					"patching_rect" : [ 883.0, 1080.0, 150.0, 60.0 ],
 					"text" : "open umenu for midiports on number 1, \"from Max 1\". Bang triggered on the left to initialise it."
 				}
 
@@ -327,7 +339,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.033416999999986, 966.0, 50.0, 22.0 ],
-					"text" : "100"
+					"text" : "71"
 				}
 
 			}
@@ -355,7 +367,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -924,7 +936,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-102",
-					"items" : [ "Microsoft GS Wavetable Synth", ",", "microKEY-37", ",", "from Max 1" ],
+					"items" : [ "AU DLS Synth 1", ",", "UMC404HD 192k", ",", "microKEY-37 CTRL", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -967,7 +979,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 761.70010400000001, 852.333129999999983, 77.0, 34.0 ],
+					"patching_rect" : [ 761.70010400000001, 852.333129999999983, 77.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 109.0, 112.433319000000012, 82.0, 20.0 ],
 					"text" : "Note Velocity:"
@@ -977,6 +989,8 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-80",
+					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -3117,6 +3131,13 @@
 					"destination" : [ "obj-89", 0 ],
 					"order" : 1,
 					"source" : [ "obj-72", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"source" : [ "obj-75", 0 ]
 				}
 
 			}

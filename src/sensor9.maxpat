@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 368.0, 78.0, 907.0, 683.0 ],
+		"rect" : [ 2727.0, 547.0, 316.0, 228.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -357,13 +357,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 22.0, 150.0, 20.0 ],
+					"patching_rect" : [ 54.0, 22.0, 160.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 160.0, 20.0 ],
 					"text" : "Mouse Position"
 				}
 

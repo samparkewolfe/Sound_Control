@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2307.0, 229.0, 964.0, 345.0 ],
+		"rect" : [ 38.0, 78.0, 1086.0, 377.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,29 @@
 		"subpatcher_template" : "",
 		"title" : "Sound Control",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-238",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 692.0, 342.0, 132.0, 22.0 ],
+					"text" : "loadmess knobshape 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-232",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 692.0, 370.0, 62.0, 22.0 ],
+					"text" : "s rounded"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-66",
 					"linecount" : 2,
@@ -88,7 +111,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -5049,7 +5071,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 179.0, 93.0, 50.0, 22.0 ],
-									"text" : "open"
+									"text" : "close"
 								}
 
 							}
@@ -5425,7 +5447,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 164.0, 105.0, 50.0, 22.0 ],
-									"text" : "open"
+									"text" : "close"
 								}
 
 							}
@@ -11774,7 +11796,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", " ", ",", "Micro:Bit Position (USB) ", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", " " ],
+					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", "Micro:Bit Position (Bluetooth)", ",", "Mirco:Bit Position (USB)", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", "Micro:Bit Touch" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12867,6 +12889,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-232", 0 ],
+					"source" : [ "obj-238", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-292", 0 ],
 					"source" : [ "obj-241", 0 ]
 				}
@@ -13564,13 +13593,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 2745.0, 163.0, 334.0, 242.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -396,7 +396,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 369.5, 333.5, 130.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.0, 80.5, 130.0, 20.0 ],
+					"presentation_rect" : [ 157.0, 80.5, 70.0, 20.0 ],
 					"text" : "Absent"
 				}
 
@@ -447,7 +447,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 127.5, 333.5, 130.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.0, 139.5, 130.0, 20.0 ],
+					"presentation_rect" : [ 157.0, 139.5, 70.0, 20.0 ],
 					"text" : "Absent"
 				}
 
@@ -568,14 +568,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-323",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.5, 37.333343999999997, 150.0, 33.0 ],
+					"patching_rect" : [ 37.5, 37.333343999999997, 159.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 169.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 182.0, 20.0 ],
 					"text" : "Leap Motion Palm Position"
 				}
 

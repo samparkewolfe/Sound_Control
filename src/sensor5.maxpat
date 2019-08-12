@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 3348.0, 163.0, 317.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -473,7 +473,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 194.999968999999993, 252.833313000000004, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 128.5, 61.0, 20.0 ],
+					"presentation_rect" : [ 158.642821999999995, 122.5, 61.0, 20.0 ],
 					"text" : "Left Hand"
 				}
 
@@ -511,7 +511,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 194.999968999999993, 274.833312999999976, 66.714354999999998, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 150.5, 66.714354999999998, 20.0 ],
+					"presentation_rect" : [ 158.642821999999995, 144.5, 66.714354999999998, 20.0 ],
 					"text" : "Absent"
 				}
 
@@ -524,7 +524,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 395.666747999999984, 251.333313000000004, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.357178000000005, 70.5, 70.0, 20.0 ],
+					"presentation_rect" : [ 157.0, 64.5, 70.0, 20.0 ],
 					"text" : "Right Hand"
 				}
 
@@ -562,7 +562,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 395.666747999999984, 273.333312999999976, 66.714354999999998, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 92.5, 66.714354999999998, 20.0 ],
+					"presentation_rect" : [ 158.642821999999995, 86.5, 66.714354999999998, 20.0 ],
 					"text" : "Absent"
 				}
 
@@ -594,13 +594,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-323",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.5, 7.333344, 150.0, 20.0 ],
+					"patching_rect" : [ 7.5, 7.333344, 159.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 159.0, 20.0 ],
 					"text" : "Leap Motion Hand Width"
 				}
 

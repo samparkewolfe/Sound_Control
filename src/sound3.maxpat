@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 78.0, 1380.0, 1006.0 ],
+		"rect" : [ 2684.0, -178.0, 372.0, 270.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2131,13 +2131,13 @@
 					"presentation_rect" : [ 251.999939000000012, 41.833373999999999, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Volume"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -3948,49 +3948,29 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-31.4::obj-41" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-75" : [ "live.gain~[2]", "Volume", 0 ],
-			"obj-31.3::obj-46" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-31.5::obj-41" : [ "live.gain~[9]", "live.gain~", 0 ],
-			"obj-31.4::obj-46" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-31.6::obj-41" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-31.5::obj-46" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-31.3::obj-41" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-31.6::obj-46" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-31.1::obj-41" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-31.2::obj-41" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-31.5::obj-46" : [ "live.gain~[10]", "live.gain~", 0 ],
+			"obj-31.3::obj-46" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-31.6::obj-46" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-31.1::obj-46" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-31.2::obj-46" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-31.2::obj-41" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-31.4::obj-46" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-31.2::obj-46" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-31.3::obj-41" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-31.5::obj-41" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-75" : [ "live.gain~[2]", "Volume", 0 ],
+			"obj-31.4::obj-41" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-31.6::obj-41" : [ "live.gain~[11]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-31.4::obj-41" : 				{
-					"parameter_longname" : "live.gain~[7]"
-				}
-,
-				"obj-31.3::obj-46" : 				{
-					"parameter_longname" : "live.gain~[6]"
-				}
-,
-				"obj-31.5::obj-41" : 				{
-					"parameter_longname" : "live.gain~[9]"
-				}
-,
-				"obj-31.4::obj-46" : 				{
-					"parameter_longname" : "live.gain~[8]"
-				}
-,
-				"obj-31.6::obj-41" : 				{
-					"parameter_longname" : "live.gain~[11]"
-				}
-,
 				"obj-31.5::obj-46" : 				{
 					"parameter_longname" : "live.gain~[10]"
 				}
 ,
-				"obj-31.3::obj-41" : 				{
+				"obj-31.3::obj-46" : 				{
 					"parameter_longname" : "live.gain~[5]"
 				}
 ,
@@ -3999,11 +3979,31 @@
 				}
 ,
 				"obj-31.2::obj-41" : 				{
-					"parameter_longname" : "live.gain~[1]"
+					"parameter_longname" : "live.gain~[4]"
+				}
+,
+				"obj-31.4::obj-46" : 				{
+					"parameter_longname" : "live.gain~[7]"
 				}
 ,
 				"obj-31.2::obj-46" : 				{
-					"parameter_longname" : "live.gain~[4]"
+					"parameter_longname" : "live.gain~[1]"
+				}
+,
+				"obj-31.3::obj-41" : 				{
+					"parameter_longname" : "live.gain~[6]"
+				}
+,
+				"obj-31.5::obj-41" : 				{
+					"parameter_longname" : "live.gain~[9]"
+				}
+,
+				"obj-31.4::obj-41" : 				{
+					"parameter_longname" : "live.gain~[8]"
+				}
+,
+				"obj-31.6::obj-41" : 				{
+					"parameter_longname" : "live.gain~[11]"
 				}
 
 			}

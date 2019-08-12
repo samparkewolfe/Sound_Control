@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 1784.0, 610.0, 336.0, 254.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 426.0, 519.0, 60.0, 22.0 ],
+					"text" : "r rounded"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "button",
@@ -253,6 +265,8 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
+					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -268,6 +282,8 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
+					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -283,6 +299,8 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
+					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -651,13 +669,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 40.0, 150.0, 20.0 ],
+					"patching_rect" : [ 330.0, 40.0, 162.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 162.0, 20.0 ],
 					"text" : "MicroBit Pins"
 				}
 
@@ -913,6 +932,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"order" : 2,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"order" : 0,
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}

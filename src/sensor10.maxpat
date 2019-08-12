@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 605.0, 165.0, 1101.0, 950.0 ],
+		"rect" : [ 3150.0, 449.0, 532.0, 434.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2172.404785000000629, 629.666870000000017, 150.0, 89.0 ],
+					"patching_rect" : [ 2172.404785000000629, 629.666870000000017, 150.0, 87.0 ],
 					"text" : "close the jit.grab in the [p multicolor tracker] of the main patch  when the instrument closes, allowing it to be used by another instrument later"
 				}
 
@@ -595,10 +595,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 29.5, 153.0, 62.0 ],
+					"patching_rect" : [ 10.0, 29.5, 153.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 4.0, 23.0, 263.0, 34.0 ],
+					"presentation_rect" : [ 4.0, 23.0, 263.0, 33.0 ],
 					"text" : "1. Click the screen to track a colour.\n2. Lower slider untill everything else is dark."
 				}
 
@@ -1020,7 +1020,7 @@
 					"outlettype" : [ "", "jit_matrix", "int", "dictionary" ],
 					"patching_rect" : [ 419.5, 448.499969000000021, 49.666671999999998, 133.666672000000005 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.0, 82.75, 25.5, 130.0 ],
+					"presentation_rect" : [ 214.25, 82.75, 25.5, 130.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1423,7 +1423,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1624,13 +1624,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-321",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
+					"patching_rect" : [ 10.0, 10.0, 161.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 117.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 125.0, 20.0 ],
 					"text" : "Multi-Colour Tracker"
 				}
 
@@ -1719,7 +1720,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-78",
-					"items" : "Integrated Webcam",
+					"items" : "FaceTime HD Camera",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2803,10 +2804,6 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,

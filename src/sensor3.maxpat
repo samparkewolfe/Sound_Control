@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 713.0, 141.0, 1290.0, 1075.0 ],
+		"rect" : [ 2382.0, 189.0, 327.0, 241.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-118",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 513.333348631858826, 1318.666705965995789, 60.0, 22.0 ],
+					"text" : "r rounded"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-113",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.5, 652.0, 150.0, 62.0 ],
+					"patching_rect" : [ 426.5, 652.0, 150.0, 60.0 ],
 					"text" : "close the grabber when the instrument closes, allowing it to be used by another instrument"
 				}
 
@@ -174,7 +186,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 750.0, 1220.0, 150.0, 62.0 ],
+					"patching_rect" : [ 750.0, 1220.0, 150.0, 60.0 ],
 					"text" : "extracting the mouse coord numbers, then putting them back into a mouse message"
 				}
 
@@ -258,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.123711109161377, 1327.834977149963379, 54.0, 50.0 ],
+					"patching_rect" : [ 4.123711109161377, 1327.834977149963379, 54.0, 49.0 ],
 					"text" : "134 69 1 0 0 0 0 0"
 				}
 
@@ -271,7 +283,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.539965830955452, 1333.500121999999919, 52.0, 50.0 ],
+					"patching_rect" : [ 262.539965830955452, 1333.500121999999919, 52.0, 49.0 ],
 					"text" : "97 100 0 0 0 0 0 0"
 				}
 
@@ -284,7 +296,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.296388864517212, 1274.000121999999919, 52.0, 36.0 ],
+					"patching_rect" : [ 228.296388864517212, 1274.000121999999919, 52.0, 35.0 ],
 					"text" : "getcell 134 69"
 				}
 
@@ -738,7 +750,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 771.157227000000034, 1700.500121999999919, 38.0, 34.0 ],
+					"patching_rect" : [ 771.157227000000034, 1700.500121999999919, 38.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 223.25, 85.0, 62.899994, 20.0 ],
 					"text" : "Colour",
@@ -1033,7 +1045,7 @@
 					"patching_rect" : [ 202.0, 21.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 215.300003000000004, 157.0, 78.799994999999996, 34.0 ],
+					"presentation_rect" : [ 215.300003000000004, 157.0, 78.799994999999996, 33.0 ],
 					"text" : "Colour Position:",
 					"textjustification" : 1
 				}
@@ -1073,7 +1085,7 @@
 					"patching_rect" : [ 214.5, 2244.0, 66.714354999999998, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 212.199996999999996, 190.0, 85.0, 20.0 ],
-					"text" : "Absent",
+					"text" : "0.00 0.00",
 					"textjustification" : 1
 				}
 
@@ -1236,7 +1248,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1528,7 +1540,7 @@
 					"patching_rect" : [ 361.5, 21.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 215.300003000000004, 40.0, 81.0, 34.0 ],
+					"presentation_rect" : [ 215.300003000000004, 40.0, 81.0, 33.0 ],
 					"text" : "Click to track a colour!",
 					"textjustification" : 1
 				}
@@ -1555,7 +1567,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.285644999999988, 1985.000121999999919, 86.0, 34.0 ],
+					"patching_rect" : [ 423.285644999999988, 1985.000121999999919, 86.0, 33.0 ],
 					"text" : "right - bottom corner"
 				}
 
@@ -1569,7 +1581,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.285644999999988, 1985.000121999999919, 70.571410999999998, 34.0 ],
+					"patching_rect" : [ 227.285644999999988, 1985.000121999999919, 70.571410999999998, 33.0 ],
 					"text" : "left - top corner"
 				}
 
@@ -1636,7 +1648,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.5, 1781.500121999999919, 135.0, 38.0 ],
+					"patching_rect" : [ 385.5, 1781.500121999999919, 135.0, 37.0 ],
 					"text" : "set range of fastblur to remove noise"
 				}
 
@@ -1795,7 +1807,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2106,7 +2118,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2713,7 +2725,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 509.357177999999976, 1699.500121999999919, 38.0, 34.0 ],
+					"patching_rect" : [ 509.357177999999976, 1699.500121999999919, 38.0, 33.0 ],
 					"text" : "Colour",
 					"textjustification" : 1
 				}
@@ -2735,7 +2747,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.362745098039216, 0.26078431372549, 0.22156862745098, 1.0 ],
+					"bgcolor" : [ 0.692555831265509, 0.692555831265509, 0.692555831265509, 1.0 ],
 					"border" : 2,
 					"id" : "obj-59",
 					"maxclass" : "panel",
@@ -2750,7 +2762,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.162745098039216, 0.06078431372549, 0.02156862745098, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"border" : 2,
 					"id" : "obj-58",
 					"maxclass" : "panel",
@@ -2776,7 +2788,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3756,6 +3768,8 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-50",
+					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobshape" : 1,
 					"maxclass" : "slider",
 					"mult" : 0.001,
 					"numinlets" : 1,
@@ -3771,13 +3785,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-321",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 21.0, 150.0, 20.0 ],
+					"patching_rect" : [ 15.0, 21.0, 161.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 91.666695000000004, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 98.0, 20.0 ],
 					"text" : "Colour Tracker"
 				}
 
@@ -3866,7 +3881,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-84",
-					"items" : "Integrated Webcam",
+					"items" : "FaceTime HD Camera",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4011,6 +4026,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
 					"source" : [ "obj-117", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-118", 0 ]
 				}
 
 			}
@@ -4962,10 +4984,6 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1950.0, -92.0, 1101.0, 691.0 ],
+		"rect" : [ 3220.0, -179.0, 324.0, 251.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 24.916655999999989, 1167.1875, 60.0, 22.0 ],
+					"text" : "r rounded"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-115",
 					"maxclass" : "newobj",
@@ -849,7 +861,7 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 174.560973999999987, 180.0, 80.0, 40.0 ],
 					"readonly" : 1,
-					"text" : "mixer_shimmer.mp3",
+					"text" : "mixer_shimmer1.mp3",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -871,7 +883,7 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 93.0, 180.0, 80.0, 40.0 ],
 					"readonly" : 1,
-					"text" : "mixer_pad.mp3",
+					"text" : "mixer_pad1.mp3",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1343,7 +1355,8 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-212",
-					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1359,7 +1372,8 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-210",
-					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1375,7 +1389,8 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-206",
-					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"knobcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 1.0 ],
+					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -3200,6 +3215,30 @@
 					"destination" : [ "obj-59", 0 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-206", 0 ],
+					"order" : 2,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-210", 0 ],
+					"order" : 1,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-212", 0 ],
+					"order" : 0,
+					"source" : [ "obj-53", 0 ]
 				}
 
 			}
