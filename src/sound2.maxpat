@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2168.0, -183.0, 433.0, 281.0 ],
+		"rect" : [ 102.0, 95.0, 869.0, 712.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -76,26 +76,26 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-151",
-					"linecount" : 4,
+					"linecount" : 10,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.0, 981.0, 50.0, 62.0 ],
-					"text" : "Trump130mj02-Bb.wav"
+					"patching_rect" : [ 249.0, 981.0, 50.0, 143.0 ],
+					"text" : "\"MB:/Users/martintownley/Downloads/Jms - Toast w  Rage.mp3\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-145",
-					"linecount" : 4,
+					"linecount" : 10,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.0, 867.0, 50.0, 62.0 ],
-					"text" : "Trump130mj02-Bb.wav"
+					"patching_rect" : [ 205.0, 867.0, 50.0, 143.0 ],
+					"text" : "\"MB:/Users/martintownley/Downloads/Jms - Toast w  Rage.mp3\""
 				}
 
 			}
@@ -268,16 +268,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Futura Bold",
-					"fontsize" : 13.0,
+					"fontsize" : 14.0,
 					"id" : "obj-101",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 174.567612112579354, 155.034091449188224, 61.0, 57.0 ],
+					"patching_rect" : [ 174.567612112579354, 155.034091449188224, 59.0, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.333435000000009, 174.692314147949219, 137.0, 23.0 ],
-					"text" : "DELAY FEEDBACK",
+					"presentation_rect" : [ 128.333435000000009, 171.615390777587891, 147.0, 25.0 ],
+					"text" : "delay feedback",
 					"textcolor" : [ 0.807843137254902, 0.631372549019608, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
 				}
@@ -287,16 +287,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Futura Bold",
-					"fontsize" : 13.0,
+					"fontsize" : 14.0,
 					"id" : "obj-100",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.466346443710336, 118.85369381945037, 73.0, 40.0 ],
+					"patching_rect" : [ 176.466346443710336, 118.85369381945037, 78.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.833435000000009, 133.576923370361328, 98.0, 23.0 ],
-					"text" : "DELAY TIME",
+					"presentation_rect" : [ 146.833435000000009, 130.269230842590332, 106.0, 25.0 ],
+					"text" : "delay time",
 					"textcolor" : [ 0.807843137254902, 0.631372549019608, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
 				}
@@ -306,15 +306,15 @@
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Futura Bold",
-					"fontsize" : 13.0,
+					"fontsize" : 14.0,
 					"id" : "obj-84",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 174.833435000000009, 80.481014966964722, 73.0, 23.0 ],
+					"patching_rect" : [ 174.833435000000009, 80.481014966964722, 77.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.333435000000009, 92.445709562705986, 54.0, 23.0 ],
-					"text" : "PITCH",
+					"presentation_rect" : [ 169.833435000000009, 88.692314147949219, 57.0, 25.0 ],
+					"text" : "pitch",
 					"textcolor" : [ 0.807843137254902, 0.631372549019608, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
 				}
@@ -324,15 +324,15 @@
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Futura Bold",
-					"fontsize" : 13.0,
+					"fontsize" : 14.0,
 					"id" : "obj-55",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.580272854385385, 52.397992229866034, 73.0, 23.0 ],
+					"patching_rect" : [ 173.580272854385385, 52.397992229866034, 78.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.333435000000009, 52.239654741210927, 56.0, 23.0 ],
-					"text" : "SPEED",
+					"presentation_rect" : [ 169.833435000000009, 46.333404741210927, 60.0, 25.0 ],
+					"text" : "speed",
 					"textcolor" : [ 0.807843137254902, 0.631372549019608, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
 				}
@@ -427,7 +427,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 696.499720023792293, 1059.339043367111117, 42.677734375, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 242.559997500000009, 52.239654741210927, 42.677734375, 21.40625 ],
+					"presentation_rect" : [ 87.512046635150909, 84.674253642559052, 42.677734375, 21.40625 ],
 					"rounded" : 10.0,
 					"text" : "reset",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
@@ -450,7 +450,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 385.36691299999984, 1062.0, 128.722648620605469, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.833435000000009, 6.814056396484375, 128.722648620605469, 21.40625 ],
+					"presentation_rect" : [ 139.833435000000009, 5.427154741210927, 128.722648620605469, 21.40625 ],
 					"rounded" : 10.0,
 					"style" : "Audiomix",
 					"text" : "randomise with delay",
@@ -466,7 +466,7 @@
 					"bgoncolor" : [ 0.866666666666667, 0.290196078431373, 0.290196078431373, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Futura Bold",
-					"fontsize" : 14.0,
+					"fontsize" : 20.0,
 					"id" : "obj-20",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -476,11 +476,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 212.999923999999993, 1164.218487352132797, 70.808361053466797, 26.185943603515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 6.814056396484375, 72.02734375, 23.185943603515625 ],
+					"presentation_rect" : [ 12.189781010150909, 84.674253642559052, 72.02734375, 23.185943603515625 ],
 					"rounded" : 11.0,
-					"text" : "PLAY",
+					"text" : "play",
 					"textcolor" : [ 0.858823529411765, 0.909803921568627, 0.894117647058824, 1.0 ],
-					"texton" : "STOP",
+					"texton" : "stop",
 					"usebgoncolor" : 1
 				}
 
@@ -528,7 +528,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 517.980913065448931, 666.99993900000004, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "3"
 				}
 
 			}
@@ -545,7 +545,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 536.499720023792179, 515.0, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 88.692314147949219, 115.0, 84.0 ],
+					"presentation_rect" : [ 10.0, 116.429540276527405, 115.0, 74.510948956012726 ],
 					"tabs" : [ "Trumpet", "Organ", "Brass", "Custom" ]
 				}
 
@@ -1304,7 +1304,7 @@
 					"patching_rect" : [ 857.933350000000019, 148.466599000000002, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 10.0, 28.833404741210927, 118.0, 60.0 ],
+					"presentation_rect" : [ 5.620437979698181, 20.396675003383635, 118.0, 60.0 ],
 					"text" : "Drag a soundfile on to the instrument to set the custom sound."
 				}
 
@@ -1422,18 +1422,18 @@
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 					"id" : "obj-74",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1007.81470659352135, 1027.533325000000104, 106.0, 108.666672000000005 ],
+					"patching_rect" : [ 1018.033684640892261, 1057.833351000000221, 106.0, 108.666672000000005 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 0.0, 174.692314147949219, 133.0, 46.999996000000003 ],
+					"presentation_rect" : [ 0.0, 186.339418027069087, 133.0, 35.321163945861827 ],
 					"readonly" : 1,
-					"text" : "Custom Sound: No Sound",
+					"text" : "Custom Sound: \"Jms - Toast w  Rage.mp3\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -2956,7 +2956,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 101757920182.738052368164062, "ticks" ],
-						"originaltempo" : 3444924770.471120357513428,
+						"originaltempo" : 65424291.208443932235241,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -3242,7 +3242,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 857.933350000000019, 126.733292000000006, 162.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 79.0, 20.0 ],
+					"presentation_rect" : [ 5.620437979698181, 1.563270262172708, 79.0, 20.0 ],
 					"text" : "Granulator"
 				}
 
@@ -4875,7 +4875,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
-					"midpoints" : [ 952.618554255783465, 984.0, 1017.31470659352135, 984.0 ],
+					"midpoints" : [ 952.618554255783465, 984.0, 1027.533684640892261, 984.0 ],
 					"source" : [ "obj-92", 0 ]
 				}
 

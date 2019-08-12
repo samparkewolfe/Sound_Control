@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1488.0, -178.0, 327.0, 260.0 ],
+		"rect" : [ 1707.0, -152.0, 391.0, 245.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,16 +39,53 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.533333333333333, 0.525490196078431, 0.525490196078431, 1.0 ],
+					"bgoncolor" : [ 0.25098, 0.501961, 0.0, 1.0 ],
+					"id" : "obj-47",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 320.0, 18.666733000000001, 44.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 157.319702132675161, 10.662251710891724, 39.0, 16.0 ],
+					"rounded" : 10.0,
+					"text" : "here",
+					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-98",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 396.0, 13.0, 375.0, 49.0 ],
+					"text" : ";\rmax launch_browser https://github.com/samparkewolfe/Sound_Control/releases/tag/Loops"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-46",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.832886000000002, 9.0, 94.666504000000003, 47.0 ],
+					"patching_rect" : [ 202.832886000000002, 15.0, 94.666504000000003, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 123.832886000000002, 10.0, 117.0, 33.0 ],
-					"text" : "Click (here) to download samples"
+					"presentation_rect" : [ 123.832886000000002, 10.0, 148.000000000000028, 33.0 ],
+					"text" : "Click              to download samples"
 				}
 
 			}
@@ -60,7 +97,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 386.0, 1049.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -78,7 +115,7 @@
 					"patching_rect" : [ 80.0, 860.0, 99.0, 49.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.33294699999999, 114.890625, 99.0, 49.0 ],
-					"tabs" : [ "PLAY ONCE", "LOOP" ]
+					"tabs" : [ "play once", "loop" ]
 				}
 
 			}
@@ -1850,6 +1887,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"midpoints" : [ 329.5, 49.0, 405.5, 49.0 ],
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-49", 0 ]
 				}
@@ -2205,6 +2250,23 @@
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
+				"name" : "2015 big",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{

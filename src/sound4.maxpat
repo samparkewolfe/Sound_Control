@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 3220.0, -179.0, 324.0, 251.0 ],
+		"rect" : [ 2449.0, -114.0, 385.0, 276.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -145,6 +145,7 @@
 					"patching_rect" : [ -137.0, 219.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 193.560973999999987, 32.0, 100.0, 20.0 ],
+					"rounded" : 10.0,
 					"text" : "Default sounds",
 					"texton" : "Default sounds"
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1933.0, 189.0, 380.0, 249.0 ],
+		"rect" : [ 1981.0, 196.0, 614.0, 436.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,43 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.533333333333333, 0.525490196078431, 0.525490196078431, 1.0 ],
+					"bgoncolor" : [ 0.25098, 0.501961, 0.0, 1.0 ],
+					"id" : "obj-53",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 510.057864677703947, 34.0, 44.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 239.767403816570322, 189.128740191459656, 39.0, 16.0 ],
+					"rounded" : 10.0,
+					"text" : "here",
+					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-98",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 661.333313000000089, 125.333327999999995, 408.0, 35.0 ],
+					"text" : ";\rmax launch_browser https://www.tobias-erichsen.de/software/loopmidi.html"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-75",
 					"maxclass" : "newobj",
@@ -275,11 +312,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.0, 34.0, 150.0, 33.0 ],
+					"patching_rect" : [ 409.0, 31.604790449142456, 187.125748038291931, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 140.0, 187.0, 150.0, 33.0 ],
-					"text" : "WINDOWS: Click here to download LoopMIDI"
+					"text" : "WINDOWS: Click                 to download LoopMIDI"
 				}
 
 			}
@@ -339,7 +376,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.033416999999986, 966.0, 50.0, 22.0 ],
-					"text" : "100"
+					"text" : "109"
 				}
 
 			}
@@ -3013,6 +3050,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"midpoints" : [ 519.557864677703947, 111.333327999999995, 670.833313000000089, 111.333327999999995 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-92", 1 ],
 					"source" : [ "obj-54", 0 ]
 				}
@@ -3262,6 +3307,24 @@
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"angle" : 270.0,
 						"proportion" : 0.39
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
 					}
 
 				}

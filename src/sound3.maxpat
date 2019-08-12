@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2684.0, -179.0, 615.0, 415.0 ],
+		"rect" : [ 2295.0, -180.0, 521.0, 261.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,13 +64,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-98",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 161.0, 444.0, 35.0 ],
-					"text" : ";\rmax launch_browser https://os.mbed.com/handbook/Windows-serial-configuration"
+					"patching_rect" : [ 144.0, 161.0, 375.0, 49.0 ],
+					"text" : ";\rmax launch_browser https://github.com/samparkewolfe/Sound_Control/releases/tag/Loops"
 				}
 
 			}
@@ -1101,7 +1101,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 446.0, 910.833252000000016, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.999939000000012, 184.000045999999998, 24.0, 24.0 ]
+					"presentation_rect" : [ 210.999939000000012, 184.000045999999998, 24.0, 24.0 ],
+					"thickness" : 100.0
 				}
 
 			}
