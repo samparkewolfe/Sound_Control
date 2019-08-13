@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2398.0, -180.0, 521.0, 261.0 ],
+		"rect" : [ 2426.0, -174.0, 1059.0, 322.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,7 +39,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.533333333333333, 0.525490196078431, 0.525490196078431, 1.0 ],
+					"bgcolor" : [ 0.929411764705882, 0.415686274509804, 0.352941176470588, 0.64 ],
 					"bgoncolor" : [ 0.25098, 0.501961, 0.0, 1.0 ],
 					"id" : "obj-92",
 					"legacytextcolor" : 1,
@@ -100,11 +100,11 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.345098, 0.513725, 0.572549, 1.0 ],
+					"bgcolor" : [ 0.345098039215686, 0.513725490196078, 0.572549019607843, 0.0 ],
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
-					"htabcolor" : [ 0.485368, 0.706563, 0.767416, 1.0 ],
+					"htabcolor" : [ 0.764705882352941, 0.764705882352941, 0.901960784313726, 1.0 ],
 					"id" : "obj-93",
 					"margin" : 0,
 					"maxclass" : "tab",
@@ -114,8 +114,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1481.854736000000003, 746.000183000000106, 200.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 87.136363625526428, 73.999938999999998, 86.0 ],
-					"tabs" : [ "Reggae", "Ska", "Garage", "Custom" ]
+					"presentation_rect" : [ 4.0, 84.265192068027488, 73.999938999999998, 86.0 ],
+					"tabcolor" : [ 0.643137254901961, 0.788235294117647, 0.792156862745098, 0.490196078431373 ],
+					"tabs" : [ "Reggae", "Ska", "Garage", "Custom" ],
+					"textcolor" : [ 0.176470588235294, 0.207843137254902, 0.196078431372549, 1.0 ]
 				}
 
 			}
@@ -2161,13 +2163,13 @@
 					"presentation_rect" : [ 251.999939000000012, 41.833373999999999, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Volume",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Volume",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -3970,62 +3972,62 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-31.6::obj-41" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-31.5::obj-46" : [ "live.gain~[10]", "live.gain~", 0 ],
+			"obj-31.3::obj-41" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-31.6::obj-46" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-75" : [ "live.gain~[2]", "Volume", 0 ],
-			"obj-31.2::obj-46" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-31.4::obj-46" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-31.1::obj-46" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-31.3::obj-41" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-31.5::obj-46" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-31.2::obj-41" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-31.2::obj-46" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-31.4::obj-41" : [ "live.gain~[7]", "live.gain~", 0 ],
 			"obj-31.1::obj-41" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-31.4::obj-41" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-31.6::obj-46" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-31.5::obj-41" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-31.3::obj-46" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-31.2::obj-41" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-31.6::obj-41" : [ "live.gain~[12]", "live.gain~", 0 ],
+			"obj-31.3::obj-46" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-31.1::obj-46" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-31.5::obj-41" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-31.4::obj-46" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-31.2::obj-46" : 				{
-					"parameter_longname" : "live.gain~[4]"
-				}
-,
-				"obj-31.4::obj-46" : 				{
-					"parameter_longname" : "live.gain~[7]"
-				}
-,
-				"obj-31.3::obj-41" : 				{
-					"parameter_longname" : "live.gain~[6]"
-				}
-,
-				"obj-31.5::obj-46" : 				{
-					"parameter_longname" : "live.gain~[9]"
-				}
-,
-				"obj-31.4::obj-41" : 				{
-					"parameter_longname" : "live.gain~[8]"
-				}
-,
-				"obj-31.6::obj-46" : 				{
+				"obj-31.6::obj-41" : 				{
 					"parameter_longname" : "live.gain~[11]"
 				}
 ,
-				"obj-31.5::obj-41" : 				{
+				"obj-31.5::obj-46" : 				{
 					"parameter_longname" : "live.gain~[10]"
 				}
 ,
-				"obj-31.3::obj-46" : 				{
+				"obj-31.3::obj-41" : 				{
 					"parameter_longname" : "live.gain~[5]"
 				}
 ,
+				"obj-31.6::obj-46" : 				{
+					"parameter_longname" : "live.gain~[12]"
+				}
+,
 				"obj-31.2::obj-41" : 				{
+					"parameter_longname" : "live.gain~[4]"
+				}
+,
+				"obj-31.2::obj-46" : 				{
 					"parameter_longname" : "live.gain~[1]"
 				}
 ,
-				"obj-31.6::obj-41" : 				{
-					"parameter_longname" : "live.gain~[12]"
+				"obj-31.4::obj-41" : 				{
+					"parameter_longname" : "live.gain~[7]"
+				}
+,
+				"obj-31.3::obj-46" : 				{
+					"parameter_longname" : "live.gain~[6]"
+				}
+,
+				"obj-31.5::obj-41" : 				{
+					"parameter_longname" : "live.gain~[9]"
+				}
+,
+				"obj-31.4::obj-46" : 				{
+					"parameter_longname" : "live.gain~[8]"
 				}
 
 			}
@@ -4041,10 +4043,6 @@
 			}
  ],
 		"autosave" : 0,
-		"boxgroups" : [ 			{
-				"boxes" : [ "obj-61", "obj-25", "obj-19", "obj-29", "obj-47", "obj-42", "obj-33" ]
-			}
- ],
 		"styles" : [ 			{
 				"name" : "2015 big",
 				"default" : 				{

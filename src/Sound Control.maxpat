@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 475.0, 227.0, 421.0, 153.0 ],
+		"rect" : [ 75.0, 119.0, 1227.0, 631.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -2234,7 +2234,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 564.083344000000011, -73.108138500000337, 102.0, 22.0 ],
+					"patching_rect" : [ 564.083344000000011, -73.108138500000337, 100.0, 22.0 ],
 					"text" : "print mac_or_win"
 				}
 
@@ -2269,7 +2269,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 671.083373999999935, -73.108138500000337, 87.0, 22.0 ],
+					"patching_rect" : [ 766.083373999999935, -73.108138500000337, 87.0, 22.0 ],
 					"text" : "s Mac_or_Win"
 				}
 

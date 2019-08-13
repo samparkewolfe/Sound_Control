@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2998.0, -181.0, 385.0, 276.0 ],
+		"rect" : [ 2918.0, -180.0, 415.0, 286.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -136,6 +136,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.901960784313726, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -147,7 +148,8 @@
 					"presentation_rect" : [ 193.560973999999987, 32.0, 100.0, 20.0 ],
 					"rounded" : 10.0,
 					"text" : "default sounds",
-					"texton" : "default sounds"
+					"texton" : "default sounds",
+					"textoncolor" : [ 0.176470588235294, 0.207843137254902, 0.196078431372549, 1.0 ]
 				}
 
 			}
@@ -1355,8 +1357,9 @@
 			}
 , 			{
 				"box" : 				{
+					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"id" : "obj-212",
-					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"knobcolor" : [ 0.784313725490196, 0.768627450980392, 0.556862745098039, 1.0 ],
 					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -1372,8 +1375,9 @@
 			}
 , 			{
 				"box" : 				{
+					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"id" : "obj-210",
-					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"knobcolor" : [ 0.784313725490196, 0.768627450980392, 0.556862745098039, 1.0 ],
 					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -1389,8 +1393,9 @@
 			}
 , 			{
 				"box" : 				{
+					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"id" : "obj-206",
-					"knobcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"knobcolor" : [ 0.784313725490196, 0.768627450980392, 0.556862745098039, 1.0 ],
 					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -2047,13 +2052,13 @@
 					"presentation_rect" : [ 252.0, 59.75, 48.0, 116.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Volume",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Volume",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}

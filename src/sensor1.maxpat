@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 116.0, 1060.0, 639.0 ],
+		"rect" : [ 38.0, 116.0, 1060.0, 639.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 916.0, 253.0, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "(get number at the end of the file name and send to savesensor)"
 				}
 
@@ -361,13 +360,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.333252000000002, 31.333328000000002, 150.0, 20.0 ],
+					"patching_rect" : [ 26.333252000000002, 31.333328000000002, 155.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 10.0, 155.0, 20.0 ],
 					"text" : "GameTrak"
 				}
 
