@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1965.0, 167.0, 896.0, 628.0 ],
+		"rect" : [ 1853.0, 3.0, 1953.0, 866.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3306,13 +3306,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "pTrack_note.maxpat",
 				"bootpath" : "~/Sound_Control/src",
