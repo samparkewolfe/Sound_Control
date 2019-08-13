@@ -76,7 +76,7 @@ function build_subpatch()
 	//var subpatch = this.patcher.newdefault(1000 + 200*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
 	
 	
-	subpatch.subpatcher().wind.size = [1040, 320]
+	subpatch.subpatcher().wind.size = [960, 240]
 	//originally 960 by 240
 	
 	this.patcher.bringtofront(subpatch);
