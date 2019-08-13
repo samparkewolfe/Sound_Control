@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 55.0, 93.0, 1227.0, 631.0 ],
+		"rect" : [ 55.0, 93.0, 777.0, 572.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -376,7 +376,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.916675048488628, -38.000045999999998, 130.0, 23.0 ],
+					"patching_rect" : [ 269.916675048488628, 2.0, 130.0, 23.0 ],
 					"text_width" : 80.0
 				}
 
@@ -779,11 +779,12 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
+					"hidden" : 1,
 					"id" : "obj-262",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.75, 160.800018000000023, 82.0, 22.0 ],
+					"patching_rect" : [ 255.75, 166.800018000000023, 82.0, 22.0 ],
 					"text" : "s selectedInst"
 				}
 
@@ -3842,11 +3843,12 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.152941176470588, 0.886274509803922, 0.607843137254902, 1.0 ],
+					"hidden" : 1,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 91.699996999999996, 154.800018000000023, 87.0, 22.0 ],
+					"patching_rect" : [ 91.699996999999996, 166.800018000000023, 87.0, 22.0 ],
 					"text" : "s open_record"
 				}
 
@@ -5006,7 +5008,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 91.699996999999996, 178.800018000000023, 65.0, 22.0 ],
+					"patching_rect" : [ 91.699996999999996, 190.800018000000023, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -11844,7 +11846,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.416671999999949, 819.26666299999988, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "subpatch_construction",
+						"filename" : "subpatch_construction.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -13404,6 +13406,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 					"destination" : [ "obj-262", 0 ],
 					"source" : [ "obj-7", 1 ]
 				}
@@ -13470,6 +13473,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-79", 0 ]
 				}
@@ -13593,13 +13597,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",

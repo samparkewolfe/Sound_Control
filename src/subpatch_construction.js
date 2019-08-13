@@ -70,11 +70,13 @@ function build_subpatch()
 		localname = ("Instrument"+no_instruments)
 	}
 	
-	//var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
-	var subpatch = this.patcher.newdefault(1000 + 200*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
+	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
 	
 	
-	subpatch.subpatcher().wind.size = [1200, 400]
+	//var subpatch = this.patcher.newdefault(1000 + 200*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
+	
+	
+	subpatch.subpatcher().wind.size = [1040, 320]
 	//originally 960 by 240
 	
 	this.patcher.bringtofront(subpatch);
@@ -109,7 +111,7 @@ function build_subpatch()
 	var thispatcher_object = subpatch.subpatcher().newdefault(border, 60 + border, "thispatcher");
 	
 	//this button will allow saving from the created instrument patch for testing purposes
-	var button_object = subpatch.subpatcher().newdefault(950+border, border,"button");
+	var button_object = subpatch.subpatcher().newdefault(1250+border, border,"button");
 		
 	
 	
