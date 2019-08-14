@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1212.0, 683.0 ],
+		"rect" : [ 1818.0, -52.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 328.0, 549.0, 60.0, 22.0 ],
+					"text" : "r rounded"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 874.0, 253.09368900000004, 150.0, 48.0 ],
+					"patching_rect" : [ 874.0, 253.09368900000004, 150.0, 47.0 ],
 					"text" : "(get number at the end of the file name and send to savesensor)"
 				}
 
@@ -57,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 882.0, 210.09368900000004, 148.0, 36.0 ],
+					"patching_rect" : [ 882.0, 210.09368900000004, 148.0, 35.0 ],
 					"text" : "fromsymbol @separator sensor"
 				}
 
@@ -355,14 +367,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
+					"knobcolor" : [ 0.784313725490196, 0.768627450980392, 0.556862745098039, 1.0 ],
+					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 126.910399999999996, 527.0, 20.0, 140.0 ],
+					"patching_rect" : [ 126.910399999999996, 525.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 65.0, 20.0, 140.0 ]
+					"presentation_rect" : [ 122.5, 65.0, 55.0, 140.0 ]
 				}
 
 			}
@@ -432,7 +446,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-36",
-					"items" : [ "None", ",", "Microphone Array (Realtek Audio" ],
+					"items" : [ "Built-in Microphone", ",", "UMC404HD 192k", ",", "iShowU Audio Capture" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -479,7 +493,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 19.0, 88.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.0, 125.0, 96.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 181.0, 96.0, 20.0 ],
 					"text" : "Breath Pressure"
 				}
 
@@ -571,6 +585,13 @@
 					"destination" : [ "obj-6", 1 ],
 					"order" : 1,
 					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}

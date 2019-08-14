@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2727.0, 547.0, 316.0, 228.0 ],
+		"rect" : [ 1936.0, 162.0, 836.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -344,13 +344,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 14.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.5, 518.833252000000016, 50.0, 20.0 ],
+					"patching_rect" : [ 207.5, 518.833252000000016, 56.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 159.5, 77.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 172.0, 77.0, 20.0, 22.0 ],
 					"text" : "Y"
 				}
 
@@ -383,6 +384,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 16.0,
 					"format" : 6,
 					"id" : "obj-41",
 					"maxclass" : "flonum",
@@ -390,14 +392,15 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 207.5, 491.833252000000016, 50.0, 22.0 ],
+					"patching_rect" : [ 207.5, 491.833252000000016, 61.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 145.0, 99.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 152.0, 99.0, 60.0, 26.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 16.0,
 					"format" : 6,
 					"id" : "obj-40",
 					"maxclass" : "flonum",
@@ -405,21 +408,22 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 124.5, 491.833252000000016, 50.0, 22.0 ],
+					"patching_rect" : [ 124.5, 491.833252000000016, 61.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.0, 99.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 69.5, 99.0, 61.0, 26.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 14.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.5, 518.833252000000016, 50.0, 20.0 ],
+					"patching_rect" : [ 124.5, 518.833252000000016, 56.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.5, 77.0, 23.0, 20.0 ],
+					"presentation_rect" : [ 90.0, 77.0, 20.0, 22.0 ],
 					"text" : "X"
 				}
 
