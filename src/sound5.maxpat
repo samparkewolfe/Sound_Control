@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2142.0, -178.0, 731.0, 613.0 ],
+		"rect" : [ 2142.0, -178.0, 1464.0, 892.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -541,13 +541,13 @@
 					"presentation_rect" : [ 252.0, 49.137512000000001, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -1326,8 +1326,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1043.0, 345.0, 232.0, 22.0 ],
-					"text" : "script respondtoclick fmsynth_ptich_slider"
+					"patching_rect" : [ 1043.0, 345.0, 230.0, 22.0 ],
+					"text" : "script respondtoclick fmsynth_pitch_slider"
 				}
 
 			}
@@ -1338,8 +1338,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 987.0, 321.0, 212.0, 22.0 ],
-					"text" : "script ignoreclick fmsynth_ptich_slider"
+					"patching_rect" : [ 987.0, 321.0, 210.0, 22.0 ],
+					"text" : "script ignoreclick fmsynth_pitch_slider"
 				}
 
 			}
@@ -2505,8 +2505,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

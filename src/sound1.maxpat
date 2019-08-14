@@ -290,17 +290,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 807.5, 943.0, 150.0, 20.0 ],
-					"text" : "put umenu back here"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-44",
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
