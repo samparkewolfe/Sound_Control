@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 196.0, 159.0, 653.0, 426.0 ],
+		"rect" : [ 1525.0, -116.0, 2070.0, 1122.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -83,16 +83,6 @@
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 564.083344000000011, -215.0, 32.0, 22.0 ],
 					"text" : "t b b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-221",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 970.0, -87.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -236,31 +226,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1425.411766529083252, 1489.764706611633301, 260.0, 22.0 ],
 					"text" : "loopMIDISetup_1_0_15_26/loopMIDISetup.exe"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-178",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1060.23529577255249, 1329.529482766021374, 32.0, 22.0 ],
-					"text" : "path"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-112",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1113.411766529083252, 1360.590308739898092, 67.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-					"text" : "thispatcher"
 				}
 
 			}
@@ -1052,11 +1017,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-163",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 784.083374000000049, 584.850403000000028, 150.0, 20.0 ],
-					"text" : "receives a 1 if it's a mac. "
+					"patching_rect" : [ 784.083374000000049, 584.850403000000028, 150.0, 33.0 ],
+					"text" : "receives a 1 if building for mac, 2 for Windows"
 				}
 
 			}
@@ -12627,13 +12593,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
-					"source" : [ "obj-178", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-182", 0 ]
 				}
@@ -13597,6 +13556,13 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",
@@ -13616,76 +13582,6 @@
 				"bootpath" : "~/Sound_Control/src",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "model1.maxpat",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "model_UI_precise.maxpat",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "keystate.maxpat",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "model_standard.maxpat",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "model_undo_dict.maxpat",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sound6.maxpat",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pTrack_note.maxpat",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "changelist.js",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sensor9.maxpat",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "namey.js",
-				"bootpath" : "~/Sound_Control/src",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
