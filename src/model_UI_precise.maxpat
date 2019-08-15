@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 19.0, 78.0, 309.0, 225.0 ],
+		"rect" : [ 38.0, 78.0, 1052.0, 622.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -103,7 +103,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 715.333312999999976, 825.333313000000089, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 166.333313000000089, 39.0, 39.0 ]
+					"presentation_rect" : [ 18.0, 165.333313000000089, 41.0, 41.0 ]
 				}
 
 			}
@@ -452,9 +452,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 184.0, 172.5, 150.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 83.0, 65.5, 217.0, 33.0 ],
-					"text" : "Click and show one gesture that will make the sounds current configuration."
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 83.0, 58.5, 217.0, 47.0 ],
+					"text" : "Click and show one gesture that will make the sound's current configuration."
 				}
 
 			}
@@ -688,7 +688,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 154.0, 139.5, 126.0, 61.0 ],
 					"rowheight" : 20,
-					"rows" : 1,
+					"rows" : 3,
 					"vscroll" : 0
 				}
 
@@ -1921,8 +1921,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
