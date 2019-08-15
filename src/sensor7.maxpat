@@ -358,7 +358,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 565.5, 90.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 44.0, 71.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 40.0, 71.0, 20.0 ],
 					"text" : "Select Port:"
 				}
 
@@ -388,9 +388,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 34.0, 238.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.0, 69.0, 91.0, 20.0 ],
+					"presentation_rect" : [ 112.0, 59.0, 55.0, 20.0 ],
 					"rounded" : 10.0,
-					"text" : "refresh menu",
+					"text" : "refresh ",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
@@ -414,7 +414,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem1412" ],
+					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem141432" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -422,7 +422,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 457.0, 90.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 68.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 10.0, 58.0, 100.0, 22.0 ]
 				}
 
 			}

@@ -9,22 +9,28 @@ The goal of the Sound Control project is to collaborate with youth with special 
 The Sound Control project is supported by a Paul Hamlyn Foundation “Widening Access and Participation in the Arts” grant. The project is led by the Northamptonshire Music and Performing Arts Trust.
 
 ## General
-* On opening the patch, some standard Max settings may be disabled. This is so that the guts of the patch are hidden from the user in the standalone.
+* On opening the patch in Max, some standard settings may be disabled. This is so that the guts of the patch are hidden from the user in the standalone.
 	* To access full Max menus: File > Max Menus
 	* To enable scrolling and window enlarging: CTRL + F "window flags". This should scope to a message box:[window flags nogrow, window exec]. Connect this message box to the loadbang object above, save the patcher, and re-open it.
-* Building: Connect
+* Building: There is a flag for building for MacOS or Windows – the toggle for this flag can be found at the top of the patch. This affects which sensorlist.json is loaded, the gametrak code, and the running of the CBMicroBit.exe.
 
 ## Externals & 3rd Party Software Used
 
 ### CBMicroBit
 https://github.com/Louismac/CBMicroBit
 
-(Update Microbit Info)
 
-* In order to use the CBMicrobit.exe with Sound Control as sources instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit. The .pkg downloader puts it there for you.
-* To use the Micro:Bit you have to load it with a .hex file. There are currently two different micro:bits in rotation:
-    * New Micro:Bit: If you have a new microbit it probably has a combined accelerometer and magnetometer, in this case you should load the "CBMicroBit-New-Combined-Accelerometer-Compass.hex" onto your Micro:Bit.
-    * Old Micro:Bit: If you have an old microbit it probably has a separated accelerometer and magnetometer, in this case you should load the "CBMicroBit-Old-Separated-Accelerometer-Compass.hex" onto your Micro:Bit.
+* The CBMicroBit allows Micro:Bit Bluetooth communication on MacOS (currently there is no such capability on Windows).
+
+* In order to use the CBMicrobit.exe with Sound Control as sources (i.e. in the Max/MSP environment) instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit. The .pkg downloader puts it there for you.
+
+
+* To use the Micro:Bit you have to load it with a .hex file. The .hex file you select depends on two things:
+	1) The connection you wish to make (USB or Bluetooth)
+	2) The version of your Micro:Bit (v1.0 or v1.5)
+    
+	* New Micro:Bit: If you have a new microbit it probably has a combined accelerometer and magnetometer, in this case you should load the "CBMicroBit-New.hex" onto your Micro:Bit.
+    * Old Micro:Bit: If you have an old microbit it probably has a separated accelerometer and magnetometer, in this case you should load the "CBMicroBit-Old.hex" onto your Micro:Bit.
     * Both can be found in the resources folder.
 
 ### RapidMax
@@ -49,11 +55,6 @@ https://developer.leapmotion.com/get-started/
 
 ### Colour Tracker (original)
 https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
-
-### ak.list.line
-https://cycling74.com/forums/how-to-line-multiple-values-between-succeeding-lists/replies/1
-
-(Ctrl+F "ak.list_.line")
 
 ### loopMIDI
 This is required to enable use of the MIDI Mapper instrument.

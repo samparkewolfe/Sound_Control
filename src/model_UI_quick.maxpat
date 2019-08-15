@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 398.0, 78.0, 306.0, 226.0 ],
+		"rect" : [ 1905.0, 148.0, 628.0, 368.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,65 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"fontname" : "Corsiva Hebrew",
+					"fontsize" : 11.0,
+					"id" : "obj-35",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 137.441537857055664, 37.002976417541504, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 150.533253848552704, 33.556397974491119, 21.205357551574707, 16.120323181152344 ],
+					"rounded" : 6.0,
+					"text" : "Q",
+					"textoncolor" : [ 0.176470588235294, 0.207843137254902, 0.196078431372549, 1.0 ],
+					"varname" : "spacebar_button[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"fontname" : "Courier",
+					"fontsize" : 9.0,
+					"id" : "obj-39",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 378.979588508605957, 78.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 138.222787857055664, 83.877976417541504, 57.142857551574707, 14.557823181152344 ],
+					"rounded" : 10.0,
+					"text" : "SPACEBAR",
+					"textoncolor" : [ 0.176470588235294, 0.207843137254902, 0.196078431372549, 1.0 ],
+					"varname" : "spacebar_button"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 214.0, 202.5, 150.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 83.0, 80.6875, 217.0, 47.0 ],
+					"text" : "Click / hit                   and show one gesture that will make the sound's current configuration."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.305882352941176, 0.254901960784314, 0.27843137254902, 1.0 ],
 					"bgoncolor" : [ 0.305882352941176, 0.254901960784314, 0.27843137254902, 1.0 ],
@@ -465,31 +524,16 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-11",
+					"id" : "obj-4",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 149.5, 150.0, 60.0 ],
+					"patching_rect" : [ 388.0, 99.0, 150.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 83.0, 83.5, 218.5, 33.0 ],
-					"text" : "Click and show one gesture that will make the sounds current configuration."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 99.0, 150.0, 47.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 83.0, 43.5, 218.5, 33.0 ],
-					"text" : "Hold and show many gestures that will make a random mapping."
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 83.0, 31.78125, 218.5, 47.0 ],
+					"text" : "Hold click /          and show many gestures that will make a random mapping."
 				}
 
 			}
@@ -711,7 +755,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 153.0, 140.147369396484464, 126.0, 61.0 ],
 					"rowheight" : 20,
-					"rows" : 3,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
