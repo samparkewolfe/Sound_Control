@@ -24,12 +24,15 @@ https://github.com/Louismac/CBMicroBit
 
 * In order to use the CBMicrobit.exe with Sound Control as sources (i.e. in the Max/MSP environment) instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit. The .pkg downloader puts it there for you.
 
+#### Micro:Bit .hex files
+* In order to use the Micro:Bit, you must first flash it with a .hex file. A range of .hex files are located inside "resources/MB Hex Files"
+* The .hex file you will want to select depends on two things: the connection you wish to make (USB or Bluetooth), and the version of your Micro:Bit hardware (v1.0 or v1.5). 
+##### Bluetooth Connection
+	* If connecting by Bluetooth, first verify the version of your Micro:Bit. Version 1.0 has a separated accelerometer and magnetometer, whereas on a Micro:Bit version 1.5 the accelerometer and magnetometer are combined.
+	* If you
 
-* To use the Micro:Bit you have to load it with a .hex file. The .hex file you select depends on two things:
-	1) The connection you wish to make (USB or Bluetooth)
-	2) The version of your Micro:Bit (v1.0 or v1.5)
     
-	* New Micro:Bit: If you have a new microbit it probably has a combined accelerometer and magnetometer, in this case you should load the "CBMicroBit-New.hex" onto your Micro:Bit.
+	 New Micro:Bit: If you have a new microbit it probably has a combined accelerometer and magnetometer, in this case you should load the "CBMicroBit-New.hex" onto your Micro:Bit.
     * Old Micro:Bit: If you have an old microbit it probably has a separated accelerometer and magnetometer, in this case you should load the "CBMicroBit-Old.hex" onto your Micro:Bit.
     * Both can be found in the resources folder.
 
