@@ -50,7 +50,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1100.5, 561.999817000000007, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.548111676818849, 10.481513361816411, 160.018531323181151, 176.614342138183588 ],
+					"presentation_rect" : [ 78.481422676818852, 43.385657861816384, 160.018531323181151, 176.614342138183588 ],
 					"proportion" : 0.39
 				}
 
@@ -177,13 +177,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 211.592650999999989, 1.0, 82.0078125, 26.1767578125 ],
+					"patching_rect" : [ 211.592650999999989, 1.0, 85.056640625, 26.1767578125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.862807750000002, 14.918033003807068, 82.0078125, 26.1767578125 ],
+					"presentation_rect" : [ 103.366714000000002, 185.377269629638675, 85.056640625, 26.1767578125 ],
 					"rounded" : 10.0,
-					"text" : "randomise",
+					"text" : "Randomise",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
-					"texton" : "randomise",
+					"texton" : "Randomise",
 					"textoncolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
 					"usebgoncolor" : 1
 				}
@@ -541,13 +541,13 @@
 					"presentation_rect" : [ 252.0, 49.137512000000001, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -2505,8 +2505,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
