@@ -34,9 +34,27 @@
 		}
 ,
 		"preset3" : 		{
-			"file1" : "01(120BPM).wav",
-			"file2" : "GC ChugIban120A.wav",
-			"file3" : "GC Riff120A-01.wav"
+			"file1" : "Garage_Bass",
+			"file2" : "Garage_Piano",
+			"file3" : "Garage_Conga",
+			"file4" : "Garage_Strings",
+			"file5" : "Garage_Beat",
+			"file6" : "Garage_Guitar"
+		}
+
+	}
+,
+	"mixer" : 	{
+		"preset1" : 		{
+			"file1" : "mixer_arp1.mp3"
+		}
+,
+		"preset2" : 		{
+			"file1" : "mixer_pad1.mp3"
+		}
+,
+		"preset3" : 		{
+			"file1" : "mixer_shimmer1.mp3"
 		}
 
 	}
