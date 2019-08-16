@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1525.0, -116.0, 2070.0, 1122.0 ],
+		"rect" : [ 394.0, 231.0, 810.0, 412.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -11753,10 +11753,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 219.75, 37.0, 91.0, 20.0 ],
+					"patching_rect" : [ 213.75, 37.0, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 159.0, 38.0, 150.0, 20.0 ],
-					"text" : "Pick Instrument",
+					"text" : "Pick Sound Mode",
 					"textjustification" : 1
 				}
 
@@ -13556,13 +13556,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",
