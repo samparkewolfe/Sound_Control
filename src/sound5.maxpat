@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2142.0, -178.0, 1464.0, 892.0 ],
+		"rect" : [ 34.0, 77.0, 1298.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1100.5, 561.999817000000007, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.481422676818852, 39.628567519973757, 160.018531323181151, 176.614342138183588 ],
+					"presentation_rect" : [ 78.481422676818852, 40.377269629638675, 160.018531323181151, 176.614342138183588 ],
 					"proportion" : 0.39
 				}
 
@@ -177,9 +177,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 211.592650999999989, 1.0, 85.056640625, 26.1767578125 ],
+					"patching_rect" : [ 211.592650999999989, 1.0, 93.041023254394531, 25.0146484375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 103.366714000000002, 185.377269629638675, 85.056640625, 26.1767578125 ],
+					"presentation_rect" : [ 103.366714000000002, 185.377269629638675, 93.041023254394531, 25.0146484375 ],
 					"rounded" : 10.0,
 					"text" : "Randomise",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
@@ -198,9 +198,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 695.0, 154.0, 98.0, 25.0 ],
+					"patching_rect" : [ 695.0, 154.0, 104.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.866714000000002, 157.628567519973757, 106.0, 25.0 ],
+					"presentation_rect" : [ 88.866714000000002, 157.628567519973757, 106.0, 24.0 ],
 					"text" : "strangeness",
 					"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"textjustification" : 1
@@ -216,9 +216,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 552.833435000000009, 154.0, 85.0, 25.0 ],
+					"patching_rect" : [ 552.833435000000009, 154.0, 89.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.366714000000002, 112.275024000000002, 85.0, 25.0 ],
+					"presentation_rect" : [ 74.466720000000009, 112.275024000000002, 134.799987999999985, 24.0 ],
 					"text" : "weirdness",
 					"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"textjustification" : 1
@@ -234,9 +234,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 411.580272854385385, 154.0, 44.0, 25.0 ],
+					"patching_rect" : [ 411.580272854385385, 154.0, 48.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.866714000000002, 65.239757629638675, 60.0, 25.0 ],
+					"presentation_rect" : [ 111.866714000000002, 65.239757629638675, 60.0, 24.0 ],
 					"text" : "pitch",
 					"textcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"textjustification" : 1
@@ -269,7 +269,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 131.0, 1.0, 76.685546875, 21.40625 ],
+					"patching_rect" : [ 131.0, 1.0, 76.685546875, 21.798828125 ],
 					"text" : "randomise",
 					"textcolor" : [ 0.305882352941176, 0.254901960784314, 0.27843137254902, 1.0 ],
 					"texton" : "PLAY SAMPLE",
@@ -541,13 +541,13 @@
 					"presentation_rect" : [ 252.0, 49.137512000000001, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
