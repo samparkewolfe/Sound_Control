@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 151.0, 172.0, 421.0, 153.0 ],
+		"rect" : [ 89.0, 150.0, 1196.0, 640.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -13556,6 +13556,13 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",
