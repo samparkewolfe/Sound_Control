@@ -13,6 +13,7 @@ The Sound Control project is supported by a Paul Hamlyn Foundation “Widening A
 	* To access full Max menus: File > Max Menus
 	* To enable scrolling and window enlarging: CTRL + F "window flags". This should scope to a message box:[window flags nogrow, window exec]. Connect this message box to the loadbang object above, save the patcher, and re-open it.
 * Building: There is a flag for building for MacOS or Windows – the toggle for this flag can be found at the top of the patch. This affects which sensorlist.json is loaded, the gametrak code, and the running of the CBMicroBit.exe.
+* Saving: For the purpose of testing the save function within the max environment, there is a block of code in the [subpatch-construction.js] starting at line 113. It inserts a bang object into the instrument subpatch (the instrument subpatch is the popup patch that is created by the subpatch-construction.js). This bang object is connected to a send, which is received by the save handler in the main patch. What this allows you to do is test the saving function, which ONLY WORKS if the instrument subpatch is active, i.e. at the front of all your windows. This bang should only be present during development, and therefore the block of code in the [subpatch-construction.js] which creates it should be commented out when building the standalone.
 
 ## Externals & 3rd Party Software Used
 
@@ -31,6 +32,7 @@ https://github.com/Louismac/CBMicroBit
 * The CBMicroBit allows Micro:Bit Bluetooth communication on MacOS (currently there is no such capability on Windows).
 
 * In order to use the CBMicrobit.exe with Sound Control as sources (i.e. in the Max/MSP environment) instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit. The .pkg downloader puts it there for you.
+* See "MacOS Package Creation" instructions in this file for how to create the .pkg
 
 #### Micro:Bit .hex files
 * In order to use the Micro:Bit, you must first flash it with a .hex file. A range of .hex files are located inside "resources/MB Hex Files"
@@ -90,6 +92,25 @@ The app automatically sets it’s audio I/O to whatever the I/O settings of the 
 * Click "Include Folder..." and select Sound Control/src folder
 * Click "Build" and select a location. You may want to create a builds folder in your repo that is ignored by git.
 * Make sure to select "Application" from the File Format Menu, and click Save.
+
+### MacOS Pakage Creation:
+NOTE: Must build app before packaging.
+
+In order for Sound Control's Micro:Bit Bluetooth functionality to work on MacOS, the CBMicrobit exe must be in the following directory of the user: /Library/Application Support/Sound_Control/CBMicroBit.
+
+By creating a .pkg installer, you can bundle the Sound Control app and the CBMicroBit into a package, which will automatically place the CBMicroBit in the correct location on the user's machine when the .pkg is run. 
+
+#### Instructions:
+* 1. Download the Packages application here:  http://s.sudre.free.fr/Software/Packages/about.html
+* 2. Once installed, open Packages and select the "Raw Package" template.
+* 3. Enter "Sound Control" in the Project Name field, and hit "Create".
+* 4. Navigate to the Payload tab, and with the Applications folder  highlighted, click the "+" button.
+* 5. This will open a dialog box. Locate the Sound Control build you want to package, and click "Add".
+* 6. Once the app is added, staying in the Payload tab, navigate to Library/Application support.
+* 7. Right-click on Application support and add a new folder. Name this "Sound\_Control".
+* 8. Place the CBMicroBit inside this Sound\_Control by highlighting the folder, clicking "+" and navigating to the CBMicroBit exe.
+* 9. In the Packages menu bar, click Build > Build and Run. You can now test if your package puts the CBMicroBit in the right place on your machine, and if the Sound Control app runs as expected.
+
 
 ![alt text](/logos/NMPAT_long.jpg?raw=true "Logo1")
 ![alt text](/logos/pfh.jpg?raw=true "Logo2")

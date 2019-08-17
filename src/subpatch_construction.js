@@ -110,15 +110,19 @@ function build_subpatch()
 	var dispose_message = subpatch.subpatcher().newdefault(border, 30 + border, "message", "@text", "dispose");
 	var thispatcher_object = subpatch.subpatcher().newdefault(border, 60 + border, "thispatcher");
 	
-	//this button will allow saving from the created instrument patch for testing purposes
-	var button_object = subpatch.subpatcher().newdefault(1250+border, border,"button");
+	//-------------------
+	//the code below  will allow saving from the created instrument patch for testing purposes.
+	//comment them out for building, otherwise they will appear in the standalone app
+		//var button_object = subpatch.subpatcher().newdefault(1250+border, border,"button");
 		
+		//var send_activeBang_object = subpatch.subpatcher().newdefault(1100+border, border, "send", "saveBanger");
+	
+//connect button and send
+		//subpatch.subpatcher().hiddenconnect(button_object, 0, send_activeBang_object, 0);
 	
 	
-	var send_activeBang_object = subpatch.subpatcher().newdefault(1100+border, border, "send", "saveBanger");
+	//-------------------
 	
-	//connect button and send
-	subpatch.subpatcher().hiddenconnect(button_object, 0, send_activeBang_object, 0);
 	
 	
 	subpatch.subpatcher().hiddenconnect(closebang_obj, 0, dispose_message, 0);

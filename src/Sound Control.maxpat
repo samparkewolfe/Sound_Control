@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1525.0, -116.0, 2070.0, 1122.0 ],
+		"rect" : [ 281.0, 201.0, 453.0, 203.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -749,7 +749,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.75, 166.800018000000023, 82.0, 22.0 ],
+					"patching_rect" : [ 255.75, 130.0, 82.0, 22.0 ],
 					"text" : "s selectedInst"
 				}
 
@@ -1045,7 +1045,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 245.666632096977423, -188.70005772234731, 58.0, 22.0 ],
+					"patching_rect" : [ 255.666632096977423, -175.70005772234731, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -3814,7 +3814,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 91.699996999999996, 166.800018000000023, 87.0, 22.0 ],
+					"patching_rect" : [ 91.699996999999996, 130.0, 87.0, 22.0 ],
 					"text" : "s open_record"
 				}
 
@@ -11727,7 +11727,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.699996999999996, -37.000045999999998, 75.0, 22.0 ],
+					"patching_rect" : [ 166.75, 2.0, 75.0, 22.0 ],
 					"text" : "loadmess 0."
 				}
 
@@ -11753,10 +11753,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 219.75, 37.0, 91.0, 20.0 ],
+					"patching_rect" : [ 213.75, 37.0, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 159.0, 38.0, 150.0, 20.0 ],
-					"text" : "Pick Instrument",
+					"text" : "Pick Sound Mode",
 					"textjustification" : 1
 				}
 
@@ -12558,6 +12558,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-167", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"source" : [ "obj-169", 0 ]
 				}
 
 			}
@@ -13556,13 +13563,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",
