@@ -13,6 +13,7 @@ The Sound Control project is supported by a Paul Hamlyn Foundation “Widening A
 	* To access full Max menus: File > Max Menus
 	* To enable scrolling and window enlarging: CTRL + F "window flags". This should scope to a message box:[window flags nogrow, window exec]. Connect this message box to the loadbang object above, save the patcher, and re-open it.
 * Building: There is a flag for building for MacOS or Windows – the toggle for this flag can be found at the top of the patch. This affects which sensorlist.json is loaded, the gametrak code, and the running of the CBMicroBit.exe.
+* Saving: For the purpose of testing the save function within the max environment, there is a block of code in the [subpatch-construction.js] starting at line 113. It inserts a bang object into the instrument subpatch (the instrument subpatch is the popup patch that is created by the subpatch-construction.js). This bang object is connected to a send, which is received by the save handler in the main patch. What this allows you to do is test the saving function, which ONLY WORKS if the instrument subpatch is active, i.e. at the front of all your windows. This bang should only be present during development, and therefore the block of code in the [subpatch-construction.js] which creates it should be commented out when building the standalone.
 
 ## Externals & 3rd Party Software Used
 
