@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 78.0, 1000.0, 788.0 ],
+		"rect" : [ 34.0, 77.0, 1298.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1888.0, 962.0, 118.0, 35.0 ],
+					"patching_rect" : [ 1888.0, 962.0, 118.0, 36.0 ],
 					"text" : "script ignoreclick sound2_text_display"
 				}
 
@@ -100,10 +100,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 383.0, 201.0, 150.0, 33.0 ],
+					"patching_rect" : [ 383.0, 201.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 5.620437979698181, 39.987704453796368, 119.0, 33.0 ],
+					"presentation_rect" : [ 5.620437979698181, 39.987704453796368, 119.0, 34.0 ],
 					"text" : "Select a sound, or drop in your own file."
 				}
 
@@ -355,9 +355,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 603.499720023792293, 1009.0, 44.564455032348633, 23.580078125 ],
+					"patching_rect" : [ 603.499720023792293, 1009.0, 49.328125, 22.583984375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.129292786121368, 151.057943997711163, 44.564455032348633, 23.580078125 ],
+					"presentation_rect" : [ 216.129292786121368, 151.057943997711163, 49.328125, 22.583984375 ],
 					"rounded" : 10.0,
 					"text" : "Reset",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
@@ -383,9 +383,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 385.36691299999984, 1044.0, 75.19140625, 23.580078125 ],
+					"patching_rect" : [ 385.36691299999984, 1044.0, 82.03515625, 22.583984375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 151.057943997711163, 75.19140625, 23.580078125 ],
+					"presentation_rect" : [ 135.0, 151.057943997711163, 82.03515625, 22.583984375 ],
 					"rounded" : 10.0,
 					"text" : "Randomise",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
@@ -403,7 +403,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1146.0, 411.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1146.0, 411.0, 150.0, 34.0 ],
 					"text" : "Keep inputs in the right order!"
 				}
 
@@ -488,7 +488,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1860.568013191223145, 1189.013595581054688, 29.5, 169.0 ],
+					"patching_rect" : [ 1860.568013191223145, 1189.013595581054688, 29.5, 174.0 ],
 					"text" : "script ignoreclick sound2_reset_button"
 				}
 
@@ -501,7 +501,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1860.666626000000178, 1112.533325000000104, 180.0, 35.0 ],
+					"patching_rect" : [ 1860.666626000000178, 1112.533325000000104, 180.0, 36.0 ],
 					"text" : "script ignoreclick sound2_randomise_button"
 				}
 
@@ -572,7 +572,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.0, 434.0, 150.0, 33.0 ],
+					"patching_rect" : [ 377.0, 434.0, 150.0, 34.0 ],
 					"text" : "gets all granulator presets from json"
 				}
 
@@ -626,16 +626,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Tahoma Negreta",
+					"fontname" : "Corbel Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-100",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 477.466346443710336, 248.85369381945037, 109.0, 23.0 ],
+					"patching_rect" : [ 477.466346443710336, 248.85369381945037, 111.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 159.693747818470001, 122.789579717248898, 82.0, 23.0 ],
-					"text" : "Volume",
+					"presentation_rect" : [ 147.811912834644318, 123.057943997711163, 106.0, 24.0 ],
+					"text" : "volume",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.6 ],
 					"textjustification" : 1
 				}
@@ -644,16 +644,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Tahoma Negreta",
+					"fontname" : "Corbel Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-84",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 174.833435000000009, 80.481014966964722, 73.0, 23.0 ],
+					"patching_rect" : [ 174.833435000000009, 80.481014966964722, 76.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.693747818470001, 81.68941804561041, 44.0, 23.0 ],
-					"text" : "Pitch",
+					"presentation_rect" : [ 161.693747818470001, 82.188554582923871, 78.0, 24.0 ],
+					"text" : "pitch",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.6 ],
 					"textjustification" : 1
 				}
@@ -662,16 +662,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Tahoma Negreta",
+					"fontname" : "Corbel Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-55",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.580272854385385, 52.397992229866034, 74.0, 23.0 ],
+					"patching_rect" : [ 173.580272854385385, 52.397992229866034, 74.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.708151400089264, 40.864267555803281, 55.0, 23.0 ],
-					"text" : "Speed",
+					"presentation_rect" : [ 153.896794706583023, 39.987704453796368, 93.0, 24.0 ],
+					"text" : "speed",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.6 ],
 					"textjustification" : 1
 				}
@@ -945,7 +945,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1298.833251999999902, 444.90008499999999, 150.0, 33.0 ],
+					"patching_rect" : [ 1298.833251999999902, 444.90008499999999, 150.0, 34.0 ],
 					"text" : "3. Extra Classification input"
 				}
 
@@ -1428,6 +1428,7 @@
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 					"id" : "obj-74",
+					"ignoreclick" : 1,
 					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
@@ -1646,7 +1647,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2175,7 +2176,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2963,7 +2964,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 101759170045.88018798828125, "ticks" ],
-						"originaltempo" : 3444945926.914122581481934,
+						"originaltempo" : 3444967185.182538509368896,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -5040,8 +5041,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
