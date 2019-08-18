@@ -27,8 +27,9 @@ https://github.com/Louismac/CBMicroBit
 #### Micro:Bit .hex files
 * In order to use the Micro:Bit, you must first flash it with a .hex file. A range of .hex files are located inside "resources/MB Hex Files"
 * The .hex file you will want to select depends on two things: the connection you wish to make (USB or Bluetooth), and the version of your Micro:Bit hardware (v1.0 or v1.5). 
-![alt text](/resources/MB_ID/MicroBitCombined.jpg?raw=true "MBCombined")
-![alt text](/resources/MB_ID/MicroBitSeparate.jpg?raw=true "MBSeparate")
+* Use the image below to ID your Micro:Bit
+![alt text](/logos/resources/MB_ID/MicroID.jpg?raw=true "MicroID")
+
 ##### Bluetooth Connection
 * The CBMicroBit allows Micro:Bit Bluetooth communication on MacOS (currently there is no such capability on Windows).
 * If connecting via Bluetooth, first verify the version of your Micro:Bit. Version 1.0 has a separated accelerometer and magnetometer, whereas on a Micro:Bit version 1.5, the accelerometer and magnetometer are combined.
