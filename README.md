@@ -29,7 +29,7 @@ https://github.com/Louismac/CBMicroBit
 * The .hex file you will want to select depends on two things: the connection you wish to make (USB or Bluetooth), and the version of your Micro:Bit hardware (v1.0 or v1.5). 
 * Use the image below to ID your Micro:Bit.
 
-![alt text](/logos/resources/MB_ID/MicroID.jpg?raw=true "MicroID")
+![alt text](/logos/resources/MB_ID/MicroID.png?raw=true "MicroID")
 
 ##### Bluetooth Connection
 * The CBMicroBit allows Micro:Bit Bluetooth communication on MacOS (currently there is no such capability on Windows).
