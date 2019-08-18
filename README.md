@@ -21,26 +21,20 @@ The Sound Control project is supported by a Paul Hamlyn Foundation “Widening A
 https://github.com/Louismac/CBMicroBit
 
 
-* In order to use the CBMicrobit.exe with Sound Control as sources instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit. The .pkg downloader puts it there for you.
-* To use the Micro:Bit you have to load it with a .hex file. There are currently two different micro:bits in rotation:
-    * New Micro:Bit: If you have a new microbit it probably has a combined accelerometer and magnetometer, in this case you should load the "CBMicroBit-New-Combined-Accelerometer-Compass.hex" onto your Micro:Bit.
-    * Old Micro:Bit: If you have an old microbit it probably has a separated accelerometer and magnetometer, in this case you should load the "CBMicroBit-Old-Separated-Accelerometer-Compass.hex" onto your Micro:Bit.
-    * Both can be found in the resources folder.
-
- 
-
-* The CBMicroBit allows Micro:Bit Bluetooth communication on MacOS (currently there is no such capability on Windows).
-
 * In order to use the CBMicrobit.exe with Sound Control as sources (i.e. in the Max/MSP environment) instead of as a Standalone, CBMicrobit.exe must be at the directory /Library/Application Support/Sound_Control/CBMicroBit. The .pkg downloader puts it there for you.
 * See "MacOS Package Creation" instructions in this file for how to create the .pkg
 
 #### Micro:Bit .hex files
 * In order to use the Micro:Bit, you must first flash it with a .hex file. A range of .hex files are located inside "resources/MB Hex Files"
 * The .hex file you will want to select depends on two things: the connection you wish to make (USB or Bluetooth), and the version of your Micro:Bit hardware (v1.0 or v1.5). 
+![alt text](/resources/MB_ID/MicroBitCombined.jpg?raw=true "MBCombined")
+![alt text](/resources/MB_ID/MicroBitSeparate.jpg?raw=true "MBSeparate")
 ##### Bluetooth Connection
-* If connecting via Bluetooth, first verify the version of your Micro:Bit. Version 1.0 has a separated accelerometer and magnetometer, whereas on a Micro:Bit version 1.5 the accelerometer and magnetometer are combined.
+* The CBMicroBit allows Micro:Bit Bluetooth communication on MacOS (currently there is no such capability on Windows).
+* If connecting via Bluetooth, first verify the version of your Micro:Bit. Version 1.0 has a separated accelerometer and magnetometer, whereas on a Micro:Bit version 1.5, the accelerometer and magnetometer are combined.
 	* For version 1.0, flash the "CBMicroBit-Old.hex"
 	* For version 1.5, flash the "CBMicroBit-New.hex"
+
 ##### USB Connection
 * If connecting via USB, flash the "MicroBit-USB.hex" (regardless of your Micro:Bit hardware version)
 ##### Restore to default
