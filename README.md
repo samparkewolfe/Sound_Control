@@ -27,7 +27,8 @@ https://github.com/Louismac/CBMicroBit
 #### Micro:Bit .hex files
 * In order to use the Micro:Bit, you must first flash it with a .hex file. A range of .hex files are located inside "resources/MB Hex Files"
 * The .hex file you will want to select depends on two things: the connection you wish to make (USB or Bluetooth), and the version of your Micro:Bit hardware (v1.0 or v1.5). 
-* Use the image below to ID your Micro:Bit
+* Use the image below to ID your Micro:Bit.
+
 ![alt text](/logos/resources/MB_ID/MicroID.jpg?raw=true "MicroID")
 
 ##### Bluetooth Connection
