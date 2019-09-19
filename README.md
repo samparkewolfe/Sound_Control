@@ -28,88 +28,84 @@ https://github.com/MartinTownley/RapidMax_Windows
 
 ### To use Sound Control with Micro:Bit (optional)
 
-#### CBMicroBit (Required for Mac)
+#### CBMicroBit (Required for Mac if you want Bluetooth connectivity)
 https://github.com/Louismac/CBMicroBit
 
 * This is required only on Mac and it enables the use of Micro:Bit via Bluetooth.
 * In order to use the CBMicrobit executable with Sound Control running as code in the Max/MSP environment instead of as a Standalone, the CBMicrobit executable must be at the directory /Library/Application Support/Sound_Control/CBMicroBit. (The Sound Control .pkg downloader puts it there for you, so if you've already run the Sound Control installer, you probably have it in the right place already.)
 * See "MacOS Package Creation" instructions in this file for how to create the .pkg
 
-#### Shell.mxo (Required for Mac)
+#### Shell.mxo (Also required for Mac, if using CBMicrobit)
 * This handles the running of the CBMicroBit software (see above)
 https://cycling74.com/forums/chess-for-max/replies/1#reply-596a3e15d5b2a4159a6c7d04 
 
 http://expr-i0.net/shell_170717.zip
 
-#### Micro:Bit .hex files
+#### Micro:Bit .hex files (Required for all users)
 * In order to use the Micro:Bit, you must first flash it with a .hex file. A range of .hex files are located inside "resources/MB Hex Files"
 * The .hex file you will want to select depends on two things: the connection you wish to make (USB or Bluetooth), and the version of your Micro:Bit hardware (v1.0 or v1.5). 
 * Once you know which hex file is appropriate, plug in your Micro:bit to your computer via USB. It will show up as an external USB drive. Drag your chosen hex file from your computer's file system onto this "drive."
 
-##### Bluetooth Connection for Micro:Bit
-* The CBMicroBit allows Micro:Bit Bluetooth communication on MacOS (currently there is no such capability on Windows).
+##### Choosing a hex file for Micro:Bit connected via Bluetooth on Mac
+* CBMicroBit (see above) is required for Micro:Bit Bluetooth communication on MacOS (currently there is no such capability on Windows).
 * If connecting via Bluetooth, first verify the version of your Micro:Bit. Version 1.0 has a separated accelerometer and magnetometer, whereas on a Micro:Bit version 1.5, the accelerometer and magnetometer are combined.
 	* For version 1.0, flash the "CBMicroBit-Old.hex"
 	* For version 1.5, flash the "CBMicroBit-New.hex"
 
-##### USB Connection for Micro:Bit
+##### Choosing a hex file for Micro:bit connected via USB
 * If connecting via USB, flash the "MicroBit-USB.hex" (regardless of your Micro:Bit hardware version)
 
 ##### Restoring your Micro:bit to default
 * If you wish to return the Micro:Bit to its default settings, flash the "OutOfBoxExperience-v2.hex". 
 
+### Leap Motion (Optional)
+The Leap Motion is a hardware device that senses hand position (of one hand at a time, in this implementation of Sound Control). Currently it is only supported on the Mac version of Sound Control. If you want to use Leap Motion, you'll need to download the following:
+* The Leap SDK at https://developer-archive.leapmotion.com/downloads/external/skeletal-beta/osx?version=2.3.1.31549
+* Leap Motion for Max: https://github.com/JulesFrancoise/leapmotion-for-max/releases
 
-### Leap Motion
-https://github.com/JulesFrancoise/leapmotion-for-max/releases
+### Enabling MIDI Routing on Windows (Optional)
+loopMIDI is required to enable MIDI routing on Windows. The MIDI Mapper instrument within Sound Control has the capability of communicating with an external DAW. This relies on virtual MIDI ports, which are not available by default on Windows operating systems. The loopMIDI software allows you to create these ports manually: https://www.tobias-erichsen.de/software/loopmidi.html
 
-https://developer.leapmotion.com/get-started/
-
-In order to run the Leap Object in Max the Leap SDK must be installed as well.
-There is a link in Releases to the Leap SDKs.
-Currently we are having issues getting the LeapMotion to work in Sound Control on Windows (see issues: https://github.com/fiebrink1/Sound_Control/issues/4#issue-465700257)
 
 ### Colour Tracker (original)
+Sound Control's colour tracking uses 
 https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
 
-### loopMIDI
-This is required to enable MIDI routing on Windows. The MIDI Mapper instrument within Sound Control has the capability of communicating with an external DAW. This relies on virtual MIDI ports, which are not inherent on Windows operating systems. The loopMIDI software allows you to create these ports manually: https://www.tobias-erichsen.de/software/loopmidi.html
-
-## Saving Functionality
-* In order to include the saving functionality when building a standalone from sources, read the info.txt file inside resources/Custom Saving Scripts.
-* This process happens after building the standalone so one can not save instruments by just using the scripts.
-
-## Known Bugs
+## Known bugs
 ### Looper
 The Looper instrument has been known to crash on some Windows machines. 
 ### I/O Audio Settings
 The app automatically sets it’s audio I/O to whatever the I/O settings of the Max.app are. If you want to change these you must close the Sound Control app, set the desired audio I/O settings in the Max.app and then reopen Sound Control. However you can then change the audio I/O settings for the Max.app and not change the Sound Control audio I/O settings after the Sound Control app has been opened.
 
-## Build instructions:
+## Building a new standalone from source:
+
+### Make some edits before building:
 * Make sure the correct operating system flag is enabled (1 for Mac, 2 for Windows)
 * Re-connect the loadbang object to the [window flags nogrow, window exec] message at the top of the patch. This will inhibit scrolling and window re-sizing in the standalone. If you wish to keep these enabled to make testing easier, you can do so. 
-###Building:
+* Ensure each patch in the project is saved in Presentation mode before building.
+
+### Building:
 * Click File> Build Collective/Application (if this option is not available, click File> Max Menus).
 * Click "Include Folder..." and select Sound Control/src folder
 * Click "Build" and select a location. You may want to create a builds folder in your repo that is ignored by git.
 * Make sure to select "Application" from the File Format Menu, and click Save.
+* In order to include the saving functionality when building a standalone from source, read the info.txt file inside resources/Custom Saving Scripts. This process happens after building the standalone so one cannot save instruments by just using the scripts.
 
 ### MacOS Pakage Creation:
-NOTE: You must build the Sound Control app before packaging. Ensure each patch in the project is saved in Presentation mode.
+NOTE: You must first build the Sound Control app using the instructions above before creating a package (.pkg) file.
 
-In order for Sound Control's Micro:Bit Bluetooth functionality to work on MacOS, the CBMicrobit executable must be in the following directory of the user: /Library/Application Support/Sound_Control/CBMicroBit.
-
-By creating a .pkg installer, you can bundle the Sound Control app and the CBMicroBit into a package, which will automatically place the CBMicroBit in the correct location on the user's machine when the .pkg is run. 
+In order for Sound Control's Micro:Bit Bluetooth functionality to work on MacOS, the CBMicrobit executable must be in the following directory of the user's machine: /Library/Application Support/Sound_Control/CBMicroBit. By creating a .pkg installer, you can bundle the Sound Control app and the CBMicroBit into a package, which will automatically place the CBMicroBit in the correct location on the user's machine when the .pkg is run. 
 
 #### Instructions:
-* 1. Download the Packages application here:  http://s.sudre.free.fr/Software/Packages/about.html
-* 2. Once installed, open Packages and select the "Raw Package" template.
-* 3. Enter "Sound Control" in the Project Name field, and hit "Create".
-* 4. Navigate to the Payload tab, and with the Applications folder  highlighted, click the "+" button.
-* 5. This will open a dialog box. Locate the Sound Control build you want to package, and click "Add".
-* 6. Once the app is added, staying in the Payload tab, navigate to Library/Application support.
-* 7. Right-click on Application support and add a new folder. Name this "Sound\_Control".
-* 8. Place the CBMicroBit inside this Sound\_Control by highlighting the folder, clicking "+" and navigating to the CBMicroBit exe.
-* 9. In the Packages menu bar, click Build > Build and Run. You can now test if your package puts the CBMicroBit in the right place on your machine, and if the Sound Control app runs as expected.
+1. Download the Packages application here:  http://s.sudre.free.fr/Software/Packages/about.html
+2. Once installed, open Packages and select the "Raw Package" template.
+3. Enter "Sound Control" in the Project Name field, and hit "Create".
+4. Navigate to the Payload tab, and with the Applications folder  highlighted, click the "+" button.
+5. This will open a dialog box. Locate the Sound Control build you want to package, and click "Add".
+6. Once the app is added, staying in the Payload tab, navigate to Library/Application support.
+7. Right-click on Application support and add a new folder. Name this "Sound\_Control".
+8. Place the CBMicroBit inside this Sound\_Control by highlighting the folder, clicking "+" and navigating to the CBMicroBit exe.
+9. In the Packages menu bar, click Build > Build and Run. You can now test if your package puts the CBMicroBit in the right place on your machine, and if the Sound Control app runs as expected.
 
 
 ![alt text](/logos/NMPAT_long.jpg?raw=true "Logo1")
