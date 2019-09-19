@@ -66,8 +66,7 @@ The Leap Motion is a hardware device that senses hand position (of one hand at a
 ### Enabling MIDI Routing on Windows (Optional)
 loopMIDI is required to enable MIDI routing on Windows. The MIDI Mapper instrument within Sound Control has the capability of communicating with an external DAW. This relies on virtual MIDI ports, which are not available by default on Windows operating systems. The loopMIDI software allows you to create these ports manually: https://www.tobias-erichsen.de/software/loopmidi.html
 
-
-### Colour Tracker (original)
+## Acknowledgement of third-party code
 Sound Control's colour tracking uses 
 https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
 
