@@ -5,9 +5,8 @@
 	"3" : "Leap Motion Palm Position",
 	"4" : "Leap Motion Hand Width",
 	"5" : "Micro:Bit Position (Bluetooth)",
-	"6" : "Mirco:Bit Position (USB)",
+	"6" : "Micro:Bit Position (USB)",
 	"7" : "Microphone",
 	"8" : "Mouse",
-	"9" : "Multi-Colour Tracker",
-	"10" : "Micro:Bit Touch"
+	"9" : "Multi-Colour Tracker"
 }

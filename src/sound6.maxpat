@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.870968878269196, 198.387096762657166, 187.125748038291931, 20.0 ],
+					"patching_rect" : [ 121.870968878269196, 202.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 166.365571093357062, 200.0, 109.451612949371338, 20.0 ],
 					"text" : "to route to a DAW)"
@@ -360,7 +360,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 631.033416999999986, 1098.666625999999951, 22.0, 22.0 ],
+					"patching_rect" : [ 631.033416999999986, 1123.666625999999951, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -385,7 +385,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.033416999999986, 966.0, 50.0, 22.0 ],
-					"text" : "100"
+					"text" : "127"
 				}
 
 			}
