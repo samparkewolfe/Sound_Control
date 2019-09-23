@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1298.0, 617.0 ],
+		"rect" : [ 1568.0, -191.0, 1900.0, 1043.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,26 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 726.933350000000019, 126.733292000000006, 102.0, 64.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 1.960784435272217, 300.0, 218.039215564727783 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-50",
 					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1888.0, 962.0, 118.0, 36.0 ],
+					"patching_rect" : [ 1888.0, 962.0, 118.0, 35.0 ],
 					"text" : "script ignoreclick sound2_text_display"
 				}
 
@@ -100,10 +113,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 383.0, 201.0, 150.0, 34.0 ],
+					"patching_rect" : [ 383.0, 201.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 5.620437979698181, 39.987704453796368, 119.0, 34.0 ],
+					"presentation_rect" : [ 5.620437979698181, 39.987704453796368, 119.0, 33.0 ],
 					"text" : "Select a sound, or drop in your own file."
 				}
 
@@ -355,9 +368,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 603.499720023792293, 1009.0, 49.328125, 22.583984375 ],
+					"patching_rect" : [ 603.499720023792293, 1009.0, 44.564455032348633, 23.580078125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.129292786121368, 151.057943997711163, 49.328125, 22.583984375 ],
+					"presentation_rect" : [ 216.129292786121368, 151.057943997711163, 44.564455032348633, 23.580078125 ],
 					"rounded" : 10.0,
 					"text" : "Reset",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
@@ -383,9 +396,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 385.36691299999984, 1044.0, 82.03515625, 22.583984375 ],
+					"patching_rect" : [ 385.36691299999984, 1044.0, 75.19140625, 23.580078125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 151.057943997711163, 82.03515625, 22.583984375 ],
+					"presentation_rect" : [ 135.0, 151.057943997711163, 75.19140625, 23.580078125 ],
 					"rounded" : 10.0,
 					"text" : "Randomise",
 					"textcolor" : [ 0.996078431372549, 0.976470588235294, 0.976470588235294, 1.0 ],
@@ -403,7 +416,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1146.0, 411.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1146.0, 411.0, 150.0, 33.0 ],
 					"text" : "Keep inputs in the right order!"
 				}
 
@@ -488,7 +501,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1860.568013191223145, 1189.013595581054688, 29.5, 174.0 ],
+					"patching_rect" : [ 1860.568013191223145, 1189.013595581054688, 29.5, 169.0 ],
 					"text" : "script ignoreclick sound2_reset_button"
 				}
 
@@ -501,7 +514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1860.666626000000178, 1112.533325000000104, 180.0, 36.0 ],
+					"patching_rect" : [ 1860.666626000000178, 1112.533325000000104, 180.0, 35.0 ],
 					"text" : "script ignoreclick sound2_randomise_button"
 				}
 
@@ -545,7 +558,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 536.499720023792179, 515.0, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.620437979698181, 80.843263057798367, 118.826298087835312, 84.744016259908676 ],
+					"presentation_rect" : [ 5.620437979698181, 75.673982722491246, 118.826298087835312, 84.744016259908676 ],
 					"tabcolor" : [ 0.764705882352941, 0.764705882352941, 0.901960784313726, 1.0 ],
 					"tabs" : [ "Trumpet", "Organ", "Brass", "Custom (drop file)" ],
 					"textcolor" : [ 0.176470588235294, 0.207843137254902, 0.196078431372549, 1.0 ],
@@ -572,7 +585,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.0, 434.0, 150.0, 34.0 ],
+					"patching_rect" : [ 377.0, 434.0, 150.0, 33.0 ],
 					"text" : "gets all granulator presets from json"
 				}
 
@@ -632,9 +645,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 477.466346443710336, 248.85369381945037, 111.0, 24.0 ],
+					"patching_rect" : [ 477.466346443710336, 248.85369381945037, 111.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.811912834644318, 123.057943997711163, 106.0, 24.0 ],
+					"presentation_rect" : [ 147.811912834644318, 123.057943997711163, 106.0, 20.0 ],
 					"text" : "volume",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.6 ],
 					"textjustification" : 1
@@ -650,9 +663,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 174.833435000000009, 80.481014966964722, 76.0, 24.0 ],
+					"patching_rect" : [ 174.833435000000009, 80.481014966964722, 76.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.693747818470001, 82.188554582923871, 78.0, 24.0 ],
+					"presentation_rect" : [ 161.693747818470001, 82.188554582923871, 78.0, 20.0 ],
 					"text" : "pitch",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.6 ],
 					"textjustification" : 1
@@ -668,9 +681,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.580272854385385, 52.397992229866034, 74.0, 24.0 ],
+					"patching_rect" : [ 173.580272854385385, 52.397992229866034, 74.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 153.896794706583023, 39.987704453796368, 93.0, 24.0 ],
+					"presentation_rect" : [ 153.896794706583023, 39.987704453796368, 93.0, 20.0 ],
 					"text" : "speed",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.6 ],
 					"textjustification" : 1
@@ -774,7 +787,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 517.980913065448931, 666.99993900000004, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "3"
 				}
 
 			}
@@ -945,7 +958,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1298.833251999999902, 444.90008499999999, 150.0, 34.0 ],
+					"patching_rect" : [ 1298.833251999999902, 444.90008499999999, 150.0, 33.0 ],
 					"text" : "3. Extra Classification input"
 				}
 
@@ -1440,7 +1453,7 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 0.0, 169.809655056653924, 133.0, 35.321163945861827 ],
 					"readonly" : 1,
-					"text" : "Custom Sound: No Sound",
+					"text" : "Custom Sound: jungle.wav",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "sound2_text_display"
@@ -1647,7 +1660,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2176,7 +2189,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2964,7 +2977,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 101759170045.88018798828125, "ticks" ],
-						"originaltempo" : 3444967185.182538509368896,
+						"originaltempo" : 3444967083.487052917480469,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -3370,22 +3383,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1065.166672000000062, 2614.499756000000161, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1.960784435272217, 300.0, 220.0 ],
+					"presentation_rect" : [ 0.0, -3.83631706237793, 300.0, 220.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "dropfile",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 726.933350000000019, 126.733292000000006, 102.0, 64.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1.960784435272217, 300.0, 218.039215564727783 ]
 				}
 
 			}
