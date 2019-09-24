@@ -524,8 +524,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 33.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 32.0, 159.0, 20.0 ],
-					"text" : "Remeber: turn on bluetooth."
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 10.0, 32.0, 159.0, 33.0 ],
+					"text" : "Remember: turn on bluetooth."
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1498.0, 549.0, 319.0, 232.0 ],
+		"rect" : [ 2042.0, 388.0, 319.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -377,8 +377,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 33.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 32.0, 159.0, 20.0 ],
-					"text" : "Remeber: turn on bluetooth."
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 10.0, 32.0, 159.0, 33.0 ],
+					"text" : "Remember: turn on bluetooth."
 				}
 
 			}
