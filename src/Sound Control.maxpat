@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 281.0, 201.0, 421.0, 153.0 ],
+		"rect" : [ 1610.0, -186.0, 1840.0, 630.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,17 @@
 		"subpatcher_template" : "",
 		"title" : "Sound Control",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-219",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1355.0, 1309.0, 150.0, 20.0 ],
+					"text" : "(ignore this code)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-238",
 					"maxclass" : "newobj",
@@ -117,7 +128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1265.411766529083252, 1286.80403174999924, 58.0, 22.0 ],
+					"patching_rect" : [ 1265.411766529083252, 1307.80403174999924, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -593,7 +604,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1555.0, 19.007980500000372, 209.0, 35.0 ],
-					"text" : "C:/Users/Rebecca/Desktop/mouseGran.json"
+					"text" : "MB:/Users/martintownley/Desktop/half_blue.json"
 				}
 
 			}
@@ -5380,7 +5391,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1849.0, 102.0, 592.0, 476.0 ],
+						"rect" : [ 378.0, 78.0, 907.0, 793.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5408,6 +5419,111 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 298.0, 388.0, 441.0, 60.0 ],
+									"text" : "This is an alias dictionary of one in the sensor3 patch. It stores the last used tolerance and colour settings, even when the sensor3 patch has closed. Logic in the sensor3 patch then calls on this dictionary on open, recalling the last used settings."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "dict.view",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 298.0, 495.0, 100.0, 100.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "dictionary", "", "", "" ],
+									"patching_rect" : [ 298.0, 447.0, 109.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "dict sensor3_recall"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+									"border" : 2,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-1",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 292.0, 377.0, 354.0, 4.0 ],
+									"proportion" : 0.5
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+									"border" : 2,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-137",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 286.0, 383.0, 4.0, 405.0 ],
+									"proportion" : 0.5
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-131",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 23.0, 534.0, 56.0, 22.0 ],
+									"text" : "autopattr",
+									"varname" : "u391001865"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 23.0, 480.0, 195.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"client_rect" : [ 4, 44, 358, 172 ],
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0,
+										"storage_rect" : [ 583, 69, 1034, 197 ]
+									}
+,
+									"text" : "pattrstorage colourz @savemode 0",
+									"varname" : "colourz"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "message",
@@ -5549,6 +5665,32 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -5560,7 +5702,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p colour_tracker"
+					"text" : "p colour_tracker",
+					"varname" : "colour_tracker"
 				}
 
 			}
@@ -11764,7 +11907,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", "Micro:Bit Position (Bluetooth)", ",", "Mirco:Bit Position (USB)", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker", ",", "Micro:Bit Touch" ],
+					"items" : [ "GameTrak", ",", "Dumb Camera", ",", "Colour Tracker", ",", "Leap Motion Palm Position", ",", "Leap Motion Hand Width", ",", "Micro:Bit Position (Bluetooth)", ",", "Micro:Bit Position (USB)", ",", "Microphone", ",", "Mouse", ",", "Multi-Colour Tracker" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13556,13 +13699,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",
