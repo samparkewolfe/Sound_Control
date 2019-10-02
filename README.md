@@ -13,7 +13,7 @@ The Sound Control project is supported by a Paul Hamlyn Foundation “Widening A
 * On opening the patch in Max, some standard settings may be disabled. This is so that the guts of the patch are hidden from the user in the standalone. However, if you want to edit the source code, you'll probably want to do the following:
 	* To access full Max menus: File > Max Menus
 	* To enable scrolling and window enlarging: put the patch in edit mode, then use APPLE + F (or CTRL + F on windows) to search for "window flags". This should scope to a message box:[window flags nogrow, window exec]. Disconnect this object from the loadbang object above it (the one on the right), save the patcher, and re-open it.
-* Operating system: There is a flag for building for MacOS or Windows. The toggle for this flag can be found at the top of the patch (underneath "BUILDING: Mac/Win Flag"). This affects which sensorlist.json is loaded, the gametrak code, and the running of the CBMicroBit.exe.
+* Operating system: There is a flag for building for MacOS or Windows. The toggle for this flag can be found at the top of the patch (underneath "BUILDING: Mac/Win Flag"). This affects which sensorlist.json is loaded, the gametrak code, and the running of the CBMicroBit executable (used for Bluetooth micro:bit connectivity on Mac).
 * Saving: For the purpose of testing the save function within the Max environment, there is a block of code in the [subpatch-construction.js] starting at line 113. It inserts a bang object into the instrument subpatch (the instrument subpatch is the popup patch that is created by the subpatch-construction.js). This bang object is connected to a send, which is received by the save handler in the main patch. What this allows you to do is test the saving function, which ONLY WORKS if the instrument subpatch is active, i.e. at the front of all your windows. This bang should only be present during development, and therefore the block of code in the [subpatch-construction.js] which creates it should be commented out when building the standalone.
 
 ## Externals & 3rd Party Software Used
@@ -44,19 +44,7 @@ http://expr-i0.net/shell_170717.zip
 #### Micro:Bit .hex files (Required for all users)
 * In order to use the Micro:Bit, you must first flash it with a .hex file. A range of .hex files are located inside "resources/MB Hex Files"
 * The .hex file you will want to select depends on two things: the connection you wish to make (USB or Bluetooth), and the version of your Micro:Bit hardware (v1.0 or v1.5). 
-* Once you know which hex file is appropriate, plug in your Micro:bit to your computer via USB. It will show up as an external USB drive. Drag your chosen hex file from your computer's file system onto this "drive."
-
-##### Choosing a hex file for Micro:Bit connected via Bluetooth on Mac
-* CBMicroBit (see above) is required for Micro:Bit Bluetooth communication on MacOS (currently there is no such capability on Windows).
-* If connecting via Bluetooth, first verify the version of your Micro:Bit. Version 1.0 has a separated accelerometer and magnetometer, whereas on a Micro:Bit version 1.5, the accelerometer and magnetometer are combined.
-	* For version 1.0, flash the "CBMicroBit-Old.hex"
-	* For version 1.5, flash the "CBMicroBit-New.hex"
-
-##### Choosing a hex file for Micro:bit connected via USB
-* If connecting via USB, flash the "MicroBit-USB.hex" (regardless of your Micro:Bit hardware version)
-
-##### Restoring your Micro:bit to default
-* If you wish to return the Micro:Bit to its default settings, flash the "OutOfBoxExperience-v2.hex". 
+* Instructions about how to flash your micro:bit with the correct hex file can be found at http://soundcontrolsoftware.com/tutorial/#Setting_up_microbit_optional
 
 ### Leap Motion (Optional)
 The Leap Motion is a hardware device that senses hand position (of one hand at a time, in this implementation of Sound Control). Currently it is only supported on the Mac version of Sound Control. If you want to use Leap Motion, you'll need to download the following:
@@ -66,7 +54,7 @@ The Leap Motion is a hardware device that senses hand position (of one hand at a
 ### Enabling MIDI Routing on Windows (Optional)
 loopMIDI is required to enable MIDI routing on Windows. The MIDI Mapper instrument within Sound Control has the capability of communicating with an external DAW. This relies on virtual MIDI ports, which are not available by default on Windows operating systems. The loopMIDI software allows you to create these ports manually: https://www.tobias-erichsen.de/software/loopmidi.html
 
-## Acknowledgement of third-party code
+## Acknowledgement of other third-party code
 Sound Control's colour tracking uses 
 https://cycling74.com/forums/colour-tracking-with-a-webcam-in-jitter/
 
