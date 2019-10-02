@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 78.0, 1000.0, 788.0 ],
+		"rect" : [ 1526.0, -181.0, 2013.0, 1000.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -173,7 +173,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 320.0, 18.666733000000001, 44.0, 16.0 ],
+					"patching_rect" : [ 306.0, 4.666733000000001, 44.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.712831481430044, 198.0, 39.0, 16.0 ],
 					"rounded" : 10.0,
@@ -189,13 +189,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-98",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.0, 13.0, 375.0, 49.0 ],
-					"text" : ";\rmax launch_browser https://github.com/samparkewolfe/Sound_Control/releases/tag/Loops"
+					"patching_rect" : [ 411.0, 14.0, 346.0, 35.0 ],
+					"text" : ";\rmax launch_browser www.soundcontrolsoftware.com/download"
 				}
 
 			}
@@ -1437,13 +1437,13 @@
 					"presentation_rect" : [ 245.999939000000012, 52.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -2068,7 +2068,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
-					"midpoints" : [ 329.5, 49.0, 405.5, 49.0 ],
+					"midpoints" : [ 315.5, 18.0, 420.5, 18.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 

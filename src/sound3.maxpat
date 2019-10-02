@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 309.0, 78.0, 1097.0, 986.0 ],
+		"rect" : [ 2081.0, -37.0, 1097.0, 986.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -81,13 +81,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-98",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 161.0, 375.0, 49.0 ],
-					"text" : ";\rmax launch_browser https://github.com/samparkewolfe/Sound_Control/releases/tag/Loops"
+					"patching_rect" : [ 144.0, 161.0, 375.0, 35.0 ],
+					"text" : ";\rmax launch_browser www.soundcontrolsoftware.com/download"
 				}
 
 			}
@@ -1741,8 +1741,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "textbutton",
@@ -1779,8 +1778,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-47",
 					"maxclass" : "textbutton",
@@ -1841,8 +1839,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "textbutton",
@@ -1879,8 +1876,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "textbutton",
@@ -1917,8 +1913,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "textbutton",
@@ -1955,8 +1950,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.503906, 0.515625, 0.472656, 1.0 ],
 					"bgoncolor" : [ 0.933333, 0.952941, 0.415686, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "textbutton",
@@ -2187,13 +2181,13 @@
 					"presentation_rect" : [ 251.999939000000012, 41.833373999999999, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -3979,50 +3973,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-31.3::obj-41" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-31.3::obj-46" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-31.4::obj-41" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-31.2::obj-46" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-31.4::obj-46" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-31.5::obj-46" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"obj-75" : [ "live.gain~[2]", "Volume", 0 ],
-			"obj-31.1::obj-41" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-31.1::obj-46" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-31.5::obj-41" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-31.5::obj-46" : [ "live.gain~[10]", "live.gain~", 0 ],
+			"obj-31.3::obj-46" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-31.6::obj-41" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-31.2::obj-41" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-31.4::obj-46" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-31.1::obj-41" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-31.3::obj-41" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-31.5::obj-41" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-31.2::obj-46" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-31.4::obj-41" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"obj-31.6::obj-46" : [ "live.gain~[11]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-31.3::obj-41" : 				{
-					"parameter_longname" : "live.gain~[6]"
-				}
-,
-				"obj-31.3::obj-46" : 				{
-					"parameter_longname" : "live.gain~[5]"
-				}
-,
-				"obj-31.4::obj-41" : 				{
-					"parameter_longname" : "live.gain~[8]"
-				}
-,
-				"obj-31.2::obj-46" : 				{
-					"parameter_longname" : "live.gain~[1]"
-				}
-,
-				"obj-31.4::obj-46" : 				{
-					"parameter_longname" : "live.gain~[7]"
-				}
-,
 				"obj-31.5::obj-46" : 				{
 					"parameter_longname" : "live.gain~[10]"
 				}
 ,
-				"obj-31.5::obj-41" : 				{
-					"parameter_longname" : "live.gain~[9]"
+				"obj-31.3::obj-46" : 				{
+					"parameter_longname" : "live.gain~[5]"
 				}
 ,
 				"obj-31.6::obj-41" : 				{
@@ -4031,6 +4005,26 @@
 ,
 				"obj-31.2::obj-41" : 				{
 					"parameter_longname" : "live.gain~[4]"
+				}
+,
+				"obj-31.4::obj-46" : 				{
+					"parameter_longname" : "live.gain~[7]"
+				}
+,
+				"obj-31.3::obj-41" : 				{
+					"parameter_longname" : "live.gain~[6]"
+				}
+,
+				"obj-31.5::obj-41" : 				{
+					"parameter_longname" : "live.gain~[9]"
+				}
+,
+				"obj-31.2::obj-46" : 				{
+					"parameter_longname" : "live.gain~[1]"
+				}
+,
+				"obj-31.4::obj-41" : 				{
+					"parameter_longname" : "live.gain~[8]"
 				}
 ,
 				"obj-31.6::obj-46" : 				{
