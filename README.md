@@ -1,4 +1,4 @@
-[![Sound Control Video](https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif)](http://www.youtube.com/watch?v=byqQttte1-g "Sound Control video")
+<div style="text-align:center"><a href="http://www.youtube.com/watch?v=byqQttte1-g"><img src="https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif"/></a></div>
 
 
 # Sound Control
