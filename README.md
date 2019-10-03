@@ -3,11 +3,13 @@
 
 # Sound Control
 
-We have created software that can be used by anyone to create new musical instruments using their choice of movements, sensed with a variety of off-the-shelf sensing devices (including webcam, Leap Motion, microbit, GameTrak). These instruments can be used to play and manipulate musical material, which can be either new material recorded by users or taken from third-party sample libraries.
+www.soundcontrolsoftware.com
 
-The goal of the Sound Control project is to collaborate with youth with special needs and disabilities in designing, developing and building bespoke digital musical instruments personalised for their unique needs.
+Sound Control is free software that can be used by anyone to create new musical instruments using their choice of movements, sensed with a variety of off-the-shelf devices (including webcam, Leap Motion, micro:bit, mouse, microphone, etc.). Sound Control uses machine learning to enable users to create new musical instruments by demonstrating examples of motions and sounds, so no programming or musical expertise is necessary! These new instruments can be used to play and manipulate musical material, which can be either new material recorded by users or taken from third-party sample libraries.
 
-The Sound Control project is supported by a Paul Hamlyn Foundation “Widening Access and Participation in the Arts” grant. The project is led by the Northamptonshire Music and Performing Arts Trust.
+Sound Control was created in collaboration with youth with special educational needs and disabilities, as well as their music teachers and therapists. Together, we have aimed to create software that makes it easy to create bespoke digital musical instruments that are tailored to individuals’ abilities and preferences, as well as to create new musical interactions for music therapy and fun.
+
+Sound Control is supported by a Paul Hamlyn Foundation “Widening Access and Participation in the Arts” grant. The project is led by the Northamptonshire Music and Performing Arts Trust. The software development and design research were conducted at Goldsmiths University of London.
 
 ## General: Information for anyone wishing to edit the source code
 * The current version of Sound Control is built with Max/MSP 8. 
