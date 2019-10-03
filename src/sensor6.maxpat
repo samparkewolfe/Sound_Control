@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1498.0, 549.0, 319.0, 232.0 ],
+		"rect" : [ 2105.0, 109.0, 1116.0, 633.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,63 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-36",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 607.0, 87.5, 150.0, 93.0 ],
+					"text" : "The ignoreclick code means that the button won't respond to being clicked, as it is intended for display only."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 607.0, 182.5, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 607.0, 251.5, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 607.0, 217.5, 171.0, 22.0 ],
+					"text" : "script ignoreclick connect_light"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 869.0, 308.5, 150.0, 47.0 ],
+					"patching_rect" : [ 965.0, 300.5, 150.0, 47.0 ],
 					"text" : "(get number at the end of the file name and send to savesensor)"
 				}
 
@@ -56,7 +107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 769.0, 321.0, 29.5, 22.0 ],
+					"patching_rect" : [ 865.0, 313.0, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -69,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 871.0, 253.0, 148.0, 35.0 ],
+					"patching_rect" : [ 967.0, 245.0, 148.0, 35.0 ],
 					"text" : "fromsymbol @separator sensor"
 				}
 
@@ -83,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 871.0, 229.0, 49.0, 20.0 ],
+					"patching_rect" : [ 967.0, 221.0, 49.0, 20.0 ],
 					"text" : "strippath"
 				}
 
@@ -97,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 871.0, 203.0, 60.0, 20.0 ],
+					"patching_rect" : [ 967.0, 195.0, 60.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "namey.js",
 						"parameter_enable" : 0
@@ -114,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1129.0, 253.0, 150.0, 60.0 ],
+					"patching_rect" : [ 1225.0, 245.0, 150.0, 60.0 ],
 					"text" : "this will be sent to the micro_bit patcher and used to switch between bluetooth and serial"
 				}
 
@@ -126,7 +177,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1031.0, 345.0, 96.0, 22.0 ],
+					"patching_rect" : [ 1127.0, 337.0, 96.0, 22.0 ],
 					"text" : "s MB_BT_active"
 				}
 
@@ -148,7 +199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1111.0, 128.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1207.0, 120.0, 150.0, 20.0 ],
 					"text" : "Instrument name"
 				}
 
@@ -162,7 +213,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1079.0, 128.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1175.0, 120.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -173,7 +224,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 769.0, 382.0, 81.0, 22.0 ],
+					"patching_rect" : [ 865.0, 374.0, 81.0, 22.0 ],
 					"text" : "s savesensor"
 				}
 
@@ -185,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 769.0, 253.0, 34.0, 22.0 ],
+					"patching_rect" : [ 865.0, 245.0, 34.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -197,7 +248,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 165.0, 83.0, 22.0 ],
+					"patching_rect" : [ 880.0, 157.0, 83.0, 22.0 ],
 					"text" : "r getsavedata"
 				}
 
@@ -208,7 +259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 801.0, 128.0, 150.0, 20.0 ],
+					"patching_rect" : [ 897.0, 120.0, 150.0, 20.0 ],
 					"text" : "Active"
 				}
 
@@ -222,7 +273,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 769.0, 87.0, 30.0, 30.0 ]
+					"patching_rect" : [ 865.0, 79.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -241,14 +292,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-20",
+					"ignoreclick" : 1,
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 536.0, 194.0, 24.0, 24.0 ],
+					"patching_rect" : [ 473.0, 231.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.5, 32.0, 48.0, 48.0 ]
+					"presentation_rect" : [ 213.5, 32.0, 48.0, 48.0 ],
+					"varname" : "connect_light"
 				}
 
 			}
@@ -377,8 +430,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 33.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 32.0, 159.0, 20.0 ],
-					"text" : "Remeber: turn on bluetooth."
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 10.0, 32.0, 159.0, 33.0 ],
+					"text" : "Remember: turn on bluetooth."
 				}
 
 			}
@@ -608,7 +662,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 778.5, 128.0, 1040.5, 128.0 ],
+					"midpoints" : [ 874.5, 120.0, 1136.5, 120.0 ],
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
@@ -650,6 +704,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
