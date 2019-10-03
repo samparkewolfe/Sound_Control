@@ -10,11 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-<<<<<<< HEAD
-		"rect" : [ 1610.0, -186.0, 879.0, 376.0 ],
-=======
+
 		"rect" : [ 1610.0, -186.0, 421.0, 153.0 ],
->>>>>>> development
+
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -5503,11 +5501,9 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 23.0, 534.0, 56.0, 22.0 ],
 									"text" : "autopattr",
-<<<<<<< HEAD
-									"varname" : "u146003155"
-=======
+
 									"varname" : "u333000886"
->>>>>>> development
+
 								}
 
 							}
