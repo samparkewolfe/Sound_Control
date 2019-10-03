@@ -1,4 +1,5 @@
-![alt text](/logos/gif2.gif?raw=true "Title")
+[![Sound Control Video](https://media.giphy.com/media/H3wKJfIgHZxy62cz0K/giphy.gif)](http://www.youtube.com/watch?v=byqQttte1-g "Sound Control video")
+
 
 # Sound Control
 
