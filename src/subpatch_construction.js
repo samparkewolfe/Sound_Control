@@ -111,16 +111,16 @@ function build_subpatch()
 	var thispatcher_object = subpatch.subpatcher().newdefault(border, 60 + border, "thispatcher");
 	
 	//-------------------
-	//the code below  will allow saving from the created instrument patch for testing purposes. It produces a bang within the constructed subpatch, which 	launches the save dialog box.
-	//comment them out for building, otherwise they will appear in the standalone app
+	//the code below  will allow saving from the created instrument patch for testing purposes. It produces a bang within the constructed subpatch, which can 	be used to  	launch the save dialog box.
+	//comment them out for building, otherwise they will appear in the standalone app!
 		
-		//var button_object = subpatch.subpatcher().newdefault(1250+border, border,"button");
+		var button_object = subpatch.subpatcher().newdefault(1250+border, border,"button");
 		
-		//var send_activeBang_object = subpatch.subpatcher().newdefault(1100+border, border, "send", "saveBanger");
+		var send_activeBang_object = subpatch.subpatcher().newdefault(1100+border, border, "send", "saveBanger");
 	
 //connect button and send
 		
-		//subpatch.subpatcher().hiddenconnect(button_object, 0, send_activeBang_object, 0);
+		subpatch.subpatcher().hiddenconnect(button_object, 0, send_activeBang_object, 0);
 	
 	
 	//-------------------
