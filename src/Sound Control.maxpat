@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 45.0, 94.0, 1293.0, 772.0 ],
+		"rect" : [ 38.0, 80.0, 421.0, 153.0 ],
 		"openrect" : [ 0.0, 0.0, 421.0, 153.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 514.083344000000125, 363.454545497894287, 150.0, 74.0 ],
+					"patching_rect" : [ 514.083344000000125, 363.454545497894287, 152.0, 74.0 ],
 					"text" : "Edits the umenu number if needed, to correspond to the correct sensor patch (see inside for more details)"
 				}
 
@@ -69,7 +69,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 782.0, 236.0, 640.0, 480.0 ],
+						"rect" : [ 766.0, 236.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -104,7 +104,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 289.416656000000103, 134.00894399578857, 150.0, 47.0 ],
-									"presentation_linecount" : 3,
 									"text" : "Checks the number, if it's 3 or above then it adds 3 to it."
 								}
 
@@ -2871,7 +2870,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1614.0, -464.0, 2115.0, 968.0 ],
+						"rect" : [ 38.0, 212.0, 1092.0, 788.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5804,7 +5803,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 23.0, 534.0, 56.0, 22.0 ],
 									"text" : "autopattr",
-									"varname" : "u227000894"
+									"varname" : "u066000895"
 								}
 
 							}
@@ -14018,6 +14017,13 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "subpatch_construction.js",
 				"bootpath" : "~/Sound_Control/src",
