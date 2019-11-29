@@ -718,7 +718,7 @@
 			"message" : "customsaveas",
 			"label" : "Save As...",
 			"navkey" : "a",
-			"target" : "menubar",
+			"target" : "saveHandler",
 			"shortcut" : "shift+S"
 		},
 		{

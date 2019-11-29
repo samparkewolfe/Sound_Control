@@ -72,7 +72,12 @@ function build_subpatch()
 	
 	var subpatch = this.patcher.newdefault(760 + 102*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
 	
+	
+	//var subpatch = this.patcher.newdefault(1000 + 200*Math.floor(no_instruments/4), 5+(23*(no_instruments%4)), "p", localname);
+	
+	
 	subpatch.subpatcher().wind.size = [960, 240]
+	//originally 960 by 240
 	
 	this.patcher.bringtofront(subpatch);
 	
@@ -104,8 +109,28 @@ function build_subpatch()
 	var closebang_obj = subpatch.subpatcher().newdefault(border, border,"closebang");
 	var dispose_message = subpatch.subpatcher().newdefault(border, 30 + border, "message", "@text", "dispose");
 	var thispatcher_object = subpatch.subpatcher().newdefault(border, 60 + border, "thispatcher");
+	
+	//-------------------
+	//the code below  will allow saving from the created instrument patch for testing purposes. It produces a bang within the constructed subpatch, which can 	be used to  	launch the save dialog box.
+	//comment them out for building, otherwise they will appear in the standalone app!
+		
+		//var button_object = subpatch.subpatcher().newdefault(1250+border, border,"button");
+		
+		//var send_activeBang_object = subpatch.subpatcher().newdefault(1100+border, border, "send", "saveBanger");
+	
+//connect button and send
+		
+		//subpatch.subpatcher().hiddenconnect(button_object, 0, send_activeBang_object, 0);
+	
+	
+	//-------------------
+	
+	
+	
 	subpatch.subpatcher().hiddenconnect(closebang_obj, 0, dispose_message, 0);
+	
 	subpatch.subpatcher().hiddenconnect(dispose_message, 0, thispatcher_object, 0);
+	
 	closebang_obj.hidden = true;
 	dispose_message.hidden = true;
 	thispatcher_object.hidden = true;
@@ -116,7 +141,15 @@ function build_subpatch()
 	subpatch.subpatcher().hiddenconnect(active_obj, 0, sensor, 0);
 	subpatch.subpatcher().hiddenconnect(active_obj, 0, sound, 3);
 	subpatch.subpatcher().hiddenconnect(active_obj, 0, model, 3);
+	
+	
+	
 	active_obj.hidden = true;
+	
+	//var button_obj = subpatch.subpatcher().newdefault(800+border, border, "button");
+	
+	
+	
 	
 	var localname_message = subpatch.subpatcher().newdefault(120, border, "message", "@text", localname);
 	subpatch.subpatcher().hiddenconnect(localname_message, 0, sensor, 1);
@@ -126,7 +159,7 @@ function build_subpatch()
 	localname_message.hidden = true;
 
 	subpatch.subpatcher().locked = 1;
-	subpatch.subpatcher().wind.hasgrow = 0;
+	subpatch.subpatcher().wind.hasgrow = 1;
 	
 	outlet(0, "myinstrument "+no_instruments);
 	
